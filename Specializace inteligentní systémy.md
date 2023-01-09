@@ -5,6 +5,7 @@
 ### Specializace: Inteligentní systémy
 
 **Matematika:**
+
 1. Derivace, diferenciál a integrál (definice, výpočty, praktický význam).
 2. Soustava lineárních rovnic a metody jejich řešení.
 3. Maticová algebra, typy matic, inverzní matice, determinant.
@@ -13,14 +14,16 @@
 6. Pojem pravděpodobnost, náhodný jev. Podmíněná pravděpodobnost, nezávislost. Náhodná
 veličina – diskrétní, spojitá a jejich použití. Střední hodnota, kvantily, rozptyl.
 
-**Signály, zpracování informace**
+**Signály, zpracování informace:**  
+
 7. Signály a systémy. LTI systémy. Přenosová funkce, impulsní odezva. Konvoluce u číslicových
-signálů.
-8. Fourierovy řady. Diskrétní Fourierova transformace, její použití a interpretace. Spektrum
-signálu, FFT. Číslicové filtry FIR a IIR. Filtrace v čase nebo prostoru.
+signálů.  
+8. Fourierovy řady. Diskrétní Fourierova transformace, její použití a interpretace. Spektrum  
+signálu, FFT. Číslicové filtry FIR a IIR. Filtrace v čase nebo prostoru.  
 9. Vzorkování, kvantování. Vzorkovací teorém. Aliasing.
 
 **Strojové učení a vytěžování dat**
+
 10. Základní typy úloh strojového učení a rozdělení dat. Základy klasifikace, vyhodnocování
 výsledků, matice záměn.
 11. Regrese, analytické řešení metodou nejmenších čtverců, numerické řešení metodou největšího
@@ -35,7 +38,8 @@ modely typu LSTM a GRU.
 17. Vektorová reprezentace slov a její aplikace, Word2Vec a GloVe.
 18. Metody učení bez učitele, shlukování - algoritmus K-means a LGB, hierarchické shlukování.
 
-**Algoritmy a programování**
+**Algoritmy a programování:**
+
 19. Číselné soustavy a převody mezi nimi. Způsoby kódování čísel s pevnou a s pohyblivou
 řádovou tečkou. Kódování záporných čísel.
 20. Jazyk C: základní datové typy a strukturovaný datový typ. Pole a ukazatele, dynamická alokace
@@ -49,14 +53,16 @@ procedur a funkcí a způsoby jejich předávání. Globální a lokální prom�
 polymorfismus, správa přístupu.. Abstraktní třídy a rozhraní. Genericita a její využití.25. Operační systém, vysvětlení pojmu, typy, poskytované funkce. Správa procesů v operačním
 systému, vztah programu a procesu, životní cyklus procesu.
 
-**Počítačové sítě a Internet**
+**Počítačové sítě a Internet:**
+
 26. Principy vrstvené architektury počítačových sítí, referenční model OSI. Charakteristika
 lokálních počítačových sítí. Technologie Ethernet, její principy a vývoj, algoritmus CSMA/CD.
 Bezdrátové lokální sítě standardu IEEE 802.11.
 27. Základní principy činnosti protokolů sítě Internet – IP, TCP, UDP. Domain Name System, jeho
 role a činnost, DNS servery, postup řešení dotazu, reverzní DNS.
 
-**Databázové systémy a technologie pro BigData**
+**Databázové systémy a technologie pro BigData:**
+
 28. Architektura relačních databázových systémů, datový model, konceptuální modelování.
 29. Relační model, základní konstrukty, realizace vztahů v relačním modelu, integritní omezení.
 Normalizace, normální formy, funkční závislosti, aktualizační anomálie.
@@ -74,7 +80,7 @@ prohledávání vs. analýza, invertovaný index.
 36. Sloupcové databáze - koncept, sloupcově orientovaný model, výhody a nevýhody. Cassandra -
 architektura, distribuce dat a replikace, sekundární index.
 37. Dávkové zpracování dat – MapReduce (princip, fáze mapování a redukování). Apache Hadoop
-- popis, důvod vzniku, ekosystém, komponenty a jejich význam (HDFS, YARN, MapReduce).
+	- popis, důvod vzniku, ekosystém, komponenty a jejich význam (HDFS, YARN, MapReduce).
 38. Apache Spark – popis a srovnání s Apache Hadoop, jednotlivé komponenty a jejich význam.
 Koncepty RDD a DataFrame - princip, popis a rozdíly. Transformace vs. akce.
 39. Proudové (streamové) zpracování dat - Spark Streaming a Structured Streaming - popis,
