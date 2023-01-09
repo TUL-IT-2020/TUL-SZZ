@@ -50,7 +50,8 @@ zásobníku programu.
 23. Členění programu v jazyce vyšší úrovně. Metody, funkce, procedury, makra. Parametry metod,
 procedur a funkcí a způsoby jejich předávání. Globální a lokální proměnné.
 24. Objektově orientované programování, význam a základní principy: zapouzdření, dědičnost a
-polymorfismus, správa přístupu.. Abstraktní třídy a rozhraní. Genericita a její využití.25. Operační systém, vysvětlení pojmu, typy, poskytované funkce. Správa procesů v operačním
+polymorfismus, správa přístupu.. Abstraktní třídy a rozhraní. Genericita a její využití.
+25. Operační systém, vysvětlení pojmu, typy, poskytované funkce. Správa procesů v operačním
 systému, vztah programu a procesu, životní cyklus procesu.
 
 **Počítačové sítě a Internet:**
