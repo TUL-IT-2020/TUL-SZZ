@@ -5,7 +5,7 @@ Poznámky jsou napsané pomocí programu [Obsidian](https://obsidian.md/), kter�
 ![Obsidian](https://avatars.githubusercontent.com/u/65011256?s=200&v=4)
 
 Jak na:
-- [Markdown](https://www.markdownguide.org)?
+- [Markdown](https://www.markdownguide.org)
 - [Obsidian](https://help.obsidian.md/Obsidian/Index)
 
 ## Studijní obory:

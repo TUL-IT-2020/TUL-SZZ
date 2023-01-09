@@ -1,0 +1,11 @@
+#MVD
+- Shlukování dokumentů 
+	- Doporučení podobných, shlukování do kategorií 
+- Segmentace zákazníků 
+	- Vytvoření skupin na základě jejich nákupů 
+- Detekce pojistných podvodů 
+	- Včasná detekce podvodných vzorů 
+- Shlukování akcií 
+	- Vytvoření shluků vysoce korelovaných akcií 
+- Pomůže diversifikovat portfolio 
+	- Komprese obrazu

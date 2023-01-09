@@ -35,8 +35,8 @@ algoritmus zpětné propagace.
 15. Konvoluční neuronové sítě a jejich aplikace. Rekurentní neuronové sítě a jejich aplikace,
 modely typu LSTM a GRU.
 16. Attention mechanismus v umělých neuronových sítích a jeho aplikace.
-17. Vektorová reprezentace slov a její aplikace, Word2Vec a GloVe.
-18. Metody učení bez učitele, shlukování - algoritmus K-means a LGB, hierarchické shlukování.
+17. [[Vector Space Model|Vektorová reprezentace slov]] a její [[Word2Vec retrieval model|aplikace]], [[Word2Vec|Word2Vec]] a [[GloVe|GloVe]].
+18. Metody učení bez učitele, shlukování - algoritmus [[K-means|K-means]] a [[LBG|LGB]], [[Hierarchické shlukování|hierarchické shlukování]].
 
 **Algoritmy a programování:**
 
