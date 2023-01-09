@@ -11,7 +11,8 @@ SQL příkazy se dělí na čtyři základní skupiny:
 - **DCL** (data control language) - příkazy pro řízení přístupových práv (GRANT, REVOKE),
 - příkazy pro řízení transakcí (START TRANSACTION, COMMIT, ROLLBACK).
 
-![[Množinové operace]]
+### Množionvé oparace
+![[SQL - Množinové operace]]
 
 ### Typy dat v SQL (SQL92)
 **Numerické typy** - INTEGER, SMALLINT, NUMERIC, DECIMAL, FLOAT, REAL, DOUBLE  PRECISION
@@ -229,30 +230,8 @@ ALTER TABLE example ADD column4 NUMBER(3) NOT NULL;
 DROP TABLE example;
 ```
 
-## Uložené procedury a spouště (od SQL3)
-**Trigger** (= spoušť) je procedura, která je automaticky spuštěna jako reakce na specifikovanou akci v databázi; trigger se vykoná, pokud nějakou hodnotu ve sloupci budeme přidávat, nebo modifikovat a nebo mazat; u všech tří akcí můžeme specifikovat, zdali se trigger vyvolá před vlastním příkazem, nebo až po vlastním příkazu >> **before triggery** a **after triggery**; lze kombinovat akce, při kterých se má trigger spustit - trigger reagující na UPDATE nebo DELETE 
-
-*Příklad triggeru - automaticky odstranit záznam pracovníka, jehož záznam v tabulce LIDÉ mažeme*
-``` sql
-CREATE TRIGGER aktualizuj_platy
-ON lidé
-FOR DELETE
-AS 
-	DELETE FROM platy
-	WHERE platy.osoba_id = lidé.id 
-```
-
-**Uložená procedura**  je databázový objekt, který neobsahuje data, ale část programu, který se nad daty v databázi má vykonávat. Lze se k ní chovat stejně jako ke každému jinému objektu databáze (založit, upravovat a smazat) pomocí příkazů dotazovacího jazyka databáze. Uložené procedury jsou vykonávány přímo databázovým serverem. Je to vlastně jakýsi skript - přesněji řečeno dávka - která je uložena přímo v databázi. Procedury mohou obsahovat vstupní parametry, výstupní parametry a návratové hodnoty.
-
-*Příklad uložené procedury - vytvoření procedury vracející string a její následné volání*
-``` sql
-CREATE PROCEDURE my_hello_world
-AS
-	SELECT 'Hello, World!';
-GO
-
-my_hello_world;
-```
+## Uložené procedury a spouště
+![[Uložené procedury a spouště (od SQL3)]]
 ## Pohledy
 **Pohledy** (views) = virtuální tabulky. Slouží především pro dotazování. Umožňují značné zjednodušení zápisu dotazů (obdobně jako rozčlenění programu do procedur).
 
@@ -269,66 +248,7 @@ DROP VIEW Prazaci;
 ```
 
 ## Transakce
-**transakce** = je série příkazů čtení či zápisu na databázových objektech; základní vlastností transakce je ACID
-
-- čtení - db objekt se přenese do paměti z HDD a následně je pak do proměnné programu
-- zápis - db objekt je modifikován v paměti a následně zapsán na disk
-- db objekt - jednotky se kterými pracují programy
-
-*Příklad transakce*
-``` sql
-START TRANSACTION;
- UPDATE Account SET amount=amount-200 WHERE account_number=1234;
- UPDATE Account SET amount=amount+200 WHERE account_number=2345;
-
-IF ERRORS=0 COMMIT;
-IF ERRORS<>0 ROLLBACK;
-```
-
-### ACID
-- **Atomicity** - buď proběhnout všechny operace transakce nebo neproběhnou žádné; uživatel se nemusí starat o výsledek nekompletní transakce
-- **Consistency** - transakce musí zachovávat konzistentní stav databáze; při spuštění transakce v db, která je v konzistentním stavu, ji tato transakce musí po svém ukončení opustit v konzistentním stavu; konzistenci musí zaručit uživatel; SŘBD se stará o to, aby to platilo i u paralelně pobíhajících transakcí
-- **Isolation** - v případě že v systému probíhá více transakcí paralelně, SŘBD zaručí, že transakce jsou izolované jedna od druhé, tedy že jedna nebude ovlivňovat druhou; pro uživatele to znamená, že pro něj DB vypadá jako, že aktuálně probíhá pouze jedna (jeho) transakce
-- **Durability** - pokud byla transakce jednou dokončena a potvrzena, pak SŘBD zaručí, že všechny změny provedené transakcemi zůstanou zachovány v db i při případném selhání systému
-
-### Typy konfliktů
-- **WR konflikt** - čtení dat, která nebyla potvrzena (commit)
-- **RW konflikt** - neopakovatelné čtení dat; čteme 2x, ale po prvním čtení se data změní = výsledkem jsou dvě rozdílné sady dat
-- **WW konflikt** - přepsání nepotvrzených dat
-
-K eliminaci konfliktů se používá *přidělování sdílených zámků - 2PL a Strict 2PL*. Je třeba zaručit, že příkazy lock a unlock budou atomické operace - semafory.
-
-**Strict 2PL**
-
-Pravidla pro přidělování zámků transakcím:
-
-1. Pokud chce transakce číst (modifikovat) objekt db, musí nejprve požádat o sdílený (exklusivní) zámek.
-2. Všechny zámky držené transakcí jsou uvolněny po jejím skončení.
-
-**2PL**
-
-1. Pokud transakce chce číst (modifikovat) objekt db, nejprve musí požádat o sdílený (exklusivní) zámek.
-2. Transakce nemůže požádat o nový zámek, pokud již nějaký neuvolnila.
-
-### Stupně izolace
-- **READ UNCOMMITTED** - čtení záznamů, které ještě nejsou potvrzeny (commit); nevyužívají zámky a tím nedokážou zabránit jiné transakci v modifikaci dat které zrovna čte současná transakce; označují se také jako "dirty reads"
-- **READ COMMITTED** - čtení záznamů, které byly potvrzeny (commit); vylepšení oproti předchozímu "dirty reads"
-- **REPEATABLE READ** - čtení záznamů, které byly potvrzeny (commit) a zároveň jsou čtené záznamy zablokovány proti dalším modifikacím do skončení čtecí transakce 
-- **SERIALIZABLE** - čtení záznamů, které byly potvrzeny (commit) a zároveň jsou čtené záznamy zablokovány proti dalším modifikacím do skončení čtecí transakce; zároveň jiné transakce nemohou vkládat data, která by mohla ovlivnit současné čtení (že by se nově vkládaná data mohla objevit ve čtecí transakci); jedná se o nejvíce restriktivní stupeň izolace
-
-**Příklad Dirty Reads**
-
-Dirty read nastává, pokud transakce čte data, která byla modifikována jinou transakcí, která není potvrzena. Transakce B vidí data, která jsou upravena transakcí A. Tyto změny však nejsou potvrzeny.
-
-*Transakce A*
-``` sql
-UPDATE employee SET salary = 31650 WHERE empno = '000090'
-```
-
-*Transakce B*
-``` sql
-SELECT * FROM employee
-```
+![[SQL - Transakce]]
 
 ## Zdroje:
 - [tkrizek/tul-szz-it-nv](https://github.com/tkrizek/tul-szz-it-nv/blob/master/16_jazyk_sql/16_jazyk_sql.md)

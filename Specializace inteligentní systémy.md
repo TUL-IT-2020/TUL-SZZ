@@ -67,9 +67,9 @@ role a činnost, DNS servery, postup řešení dotazu, reverzní DNS.
 28. Architektura relačních databázových systémů, datový model, konceptuální modelování.
 29. Relační model, základní konstrukty, realizace vztahů v relačním modelu, integritní omezení.
 Normalizace, normální formy, funkční závislosti, aktualizační anomálie.
-30. [[Jazyk SQL|Jazyk SQL]] - selekce, projekce, agregační funkce, [[Množinové operace|množinové operace]], typy spojení, vnořené
-dotazy, spouště a uložené procedury.
-31. Transakce – koncept a vlastnosti transakcí (ACID).
+30. [[Jazyk SQL|Jazyk SQL]] - selekce, projekce, agregační funkce, [[SQL - Množinové operace|množinové operace]], typy spojení, vnořené
+dotazy, [[Uložené procedury a spouště (od SQL3)|spouště a uložené procedury]].
+31. [[SQL - Transakce|Transakce]] – koncept a vlastnosti transakcí ([[SQL - ACID|ACID]]).
 32. BigData - definice, dělení podle struktury a původu, charakteristika, aplikace. Analýza velkých
 dat - jednotlivé kroky, typy, výhody a výzvy.
 33. NoSQL databáze - koncept, vlastnosti, dělení, srovnání s relačními databázemi. Pojmy: volné
