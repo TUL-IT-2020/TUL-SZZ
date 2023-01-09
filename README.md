@@ -8,8 +8,8 @@ Jak na:
 - [Markdown](https://www.markdownguide.org)
 - [Obsidian](https://help.obsidian.md/Obsidian/Index)
 
-## Studijní obory:
-- [[Specializace inteligentní systémy]]
+## Studijní obory a specializace:
+- [[Specializace inteligentní systémy|Inteligentní systémy - 2023]]
 
 ## Zdroje:
 Jak říká jedno rčení:
