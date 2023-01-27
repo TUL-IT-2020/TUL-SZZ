@@ -11,7 +11,7 @@ SQL příkazy se dělí na čtyři základní skupiny:
 - **DCL** (data control language) - příkazy pro řízení přístupových práv (GRANT, REVOKE),
 - příkazy pro řízení transakcí (START TRANSACTION, COMMIT, ROLLBACK).
 
-### Množionvé oparace
+### Množinové oparace
 ![[SQL - Množinové operace]]
 
 ### Typy dat v SQL (SQL92)

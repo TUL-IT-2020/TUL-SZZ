@@ -11,8 +11,7 @@
 3. Maticová algebra, typy matic, inverzní matice, determinant.
 4. Vlastní čísla a vlastní vektory matic. Způsob výpočtu a praktická interpretace.
 5. Soustavy lineárních rovnic a metody jejich řešení.
-6. Pojem pravděpodobnost, náhodný jev. Podmíněná pravděpodobnost, nezávislost. Náhodná
-veličina – diskrétní, spojitá a jejich použití. Střední hodnota, kvantily, rozptyl.
+6. Pojem [[pravděpodobnost|pravděpodobnost]], [[náhodný jev|náhodný jev]]. [[Podmíněná pravděpodobnost|Podmíněná pravděpodobnost]], [[Statistická závislost a nezávislost|nezávislost]]. [[Náhodná veličina|Náhodná veličina]] – [[Diskrétní náhodné veličiny|diskrétní]], [[Hustota pravděpodobnosti|spojitá]] a jejich použití. [[Střední hodnota a rozptyl#STŘEDNÍ HODNOTA|Střední hodnota]], [[kvantil|kvantily]], [[Střední hodnota a rozptyl#Rozptyl|rozptyl]].
 
 **Signály, zpracování informace:**  
 
