@@ -4,7 +4,14 @@ $$𝑓_𝑋(𝑥) = \frac{1}{𝑏−𝑎}$$
 - pro $x \in (a, b)$
 - a $f_X(x) = 0$ jinak. 
 
-Značíme: $X\sim U(a, b)$ .
+Značíme: 
+$$X\sim U(a, b)$$
+Střední hodnota:
+$$E[X] = \frac {a+b}{2}$$
+Rozptyl:
+$$
+Var(X) = \sigma^2_X = \frac {(b-a)^2}{12}
+$$
 
 ## PDF
 ![PDF](https://upload.wikimedia.org/wikipedia/commons/thumb/9/96/Uniform_Distribution_PDF_SVG.svg/640px-Uniform_Distribution_PDF_SVG.svg.png)

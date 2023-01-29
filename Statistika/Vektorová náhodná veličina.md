@@ -1,5 +1,6 @@
 # Vektorová náhodná veličina
 Vektorová náhodná veličina: $X = (X_1, ..., X_n)^T$
+
 ## Sdružená distribuční funkce
 $$
 F_X(x) = F_{X_1, ..., X_n}(X_1, ..., X_n) = P([X_1 \le x_1] \; \cap \; ... \; \cap \; [X_n \le x_n])
