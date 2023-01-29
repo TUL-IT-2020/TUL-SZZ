@@ -6,26 +6,26 @@ Parametr $\theta$ je náhodná veličina -> má [[Hustota pravděpodobnosti|hust
 • Tu v klasických odhadech nelze využít
 • Odvozujeme aposteriorní pdf na základě Bayesovy věty
 • Odhad parametru odvozujeme z jeho aposteriorního rozdělení
-• V případě, že neexistuje MVUE (nestranný odhad s minimální variancí), může Bayesovský odhad být odhadem, jehož MSE (mean square error) je menší než u ostatních odhadů.
+• V případě, že neexistuje [[Teorie odhadů#MVUE (= minimum variance unbiased estimator)|MVUE]] (nestranný odhad s minimální variancí), může Bayesovský odhad být odhadem, jehož MSE (mean square error) je menší než u ostatních odhadů.
 
 ## Bayesova věta
 Bayesův vzorec:
 $$
-p(x,\theta) = p(x,\theta)p(\theta) = p(\theta, x)p(x)
+p(x,\theta) = p(x|\theta)p(\theta) = p(\theta| x)p(x)
 $$
 
 Bayesova věta:
 $$
 p(\theta|x) = \frac
-	{p(x,\theta)p(\theta)}
+	{p(x|\theta)p(\theta)}
 	{p(x)}
 = \frac
-	{p(x,\theta)p(\theta)}
-	{\int p(x, \theta)p(\theta) d\theta}
+	{p(x|\theta)p(\theta)}
+	{\int p(x| \theta)p(\theta) d\theta}
 $$
-Hustotu $p(\theta)$ je apriorní hustota pravděpodobnosti $\theta$, zatímco $p(\theta, x)$ je aposteriorní hustota. 
+Hustotu $p(\theta)$ je apriorní hustota pravděpodobnosti $\theta$, zatímco $p(\theta| x)$ je aposteriorní hustota. 
 Dále platí: 
-$p(y,x) = p(y) ⇔ y,x$ 𝑗𝑠𝑜𝑢 𝑛𝑒𝑧á𝑣𝑖𝑠𝑙é.
+$p(y|x) = p(y) ⇔ y,x$ 𝑗𝑠𝑜𝑢 𝑛𝑒𝑧á𝑣𝑖𝑠𝑙é.
 
 ## Bayesovský odhad s nejmenší kvadratickou chybou
 Odhad minimalizující střední kvadratickou chybu (MSE)

@@ -9,9 +9,7 @@ Maximalizovat věrohodnost = odhadnout neznámý parametr tak, aby „co nejlép
 1. Často se opět využívá místo věrohodnostní funkce její logaritmus, tzv. log-likelihood function (označme symbolem ℒ).
 2. Derivace ℒ → používá se pro nalezení maxima, tedy:
 $$
-\left[ 
-	\frac{\partial\ln p(\theta|x)}{\partial\theta} 
-\right] = 0
+\frac{\partial\ln p(\theta|x)}{\partial\theta} = 0
 $$
 
 ## Vlastnosti

@@ -23,7 +23,8 @@ $$
 - $w_i \sim N(0, \sigma^2)$
 
 ### Odhady parametrů základního lineárního modelu
-Best linear unbiased estimator.
+**BLUE** = Best linear unbiased estimator
+
 Mějme model náhodné veličiny:
 $$
 x = H\theta + w
@@ -34,6 +35,8 @@ Pak odhad s minimálním rozptylem je:
 $$
 \hat \theta = \left( H^TH \right)^{-1} H^Tx
 $$
+- Odvozeno pomocí metody nejmenších čtverců.
+
 a navíc kovarianční matice odhadu $\hat \theta$: 
 $$
 cov(\hat \theta) = \sigma^2 \left( H^TH \right)^{-1}
