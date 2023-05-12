@@ -1,0 +1,3 @@
+#CTC 
+# DaaS
+V anglickém jazyce DaaS znamená Data as a Service (DaaS). Do češtiny se toto pojmenování překládá Data jako služba. Data jako služba je distribuční model, ve kterém jsou datové soubory (text, videa, zvuk a obrázky) k dispozici zákazníkům přes síť, obvykle se jedná o internet. Výhody DaaS jsou ty, že je velice snadné přenášet data z jedné platformy na druhou a díky tomu se zamezuje zmatku, který může nastat, jestliže existuje více „verzí“ stejných dat na více místech. Navíc poskytuje kompatibilitu mezi různými platformami, je globálně dostupný a je neustále automaticky aktualizován.

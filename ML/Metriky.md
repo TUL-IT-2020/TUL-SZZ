@@ -27,7 +27,7 @@ měřená po přeponě.
 ## Šachovnicová vzdálenost
 Šachovnicová vzdálenost (D8) je založena na principu osmisousedství. Pixely spojené úsečkou jsou tak od sebe vzdáleny dva pixely. Této metriky lze využít při výpočtu diagonální vzdálenosti. Pro šachovnicovou vzdálenost platí vztah:
 $$
-D_8(p,q) = max(|x_1-y_1| + |x_2-y_2|)
+D_8(x,z) = max(|x_1-z_1| + |x_2-z_2|)
 $$
 
 ## Zdroje:
