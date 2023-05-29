@@ -5,6 +5,8 @@ Stránky:
 - [go.dev](https://go.dev/)
 - [geting started](https://go.dev/doc/tutorial/getting-started)
 - [naming conventions](https://betterprogramming.pub/naming-conventions-in-go-short-but-descriptive-1fa7c6d2f32a)
+- https://go.dev/tour/moretypes/26
+- https://go.dev/doc/tutorial/create-module
 ## Go Tour na vašem počítači
 ```Bash
 go tool tour

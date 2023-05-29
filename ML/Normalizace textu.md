@@ -31,4 +31,3 @@ Stemming (kořen slova) může redukovat token na slovo, které neodpovídá gra
 ## Lematizace
 Lematizace převádí token do základního gramatického tvaru 
 - am, are, is -> be
-
