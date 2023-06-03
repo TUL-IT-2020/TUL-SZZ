@@ -25,6 +25,8 @@ Agreguje seznam hodnot, který jí je poskytnut, do menšího množství (např�
 3. **Shuffle & sort** - třídění dat podle klíče a rozesílání reducerům, 
 4. **Redukce** - agregace párů se stejným klíčem.
 
+![[MapReduce.png]]
+
 ## Využití
 - Analytické úlohy
 - Klasifikace

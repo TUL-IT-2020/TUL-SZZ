@@ -15,6 +15,6 @@ Jak na:
 Jak říká jedno rčení:
 > Stojíme na ramenech [obrů](https://github.com/tkrizek/tul-szz-it-nv).
 
-[cvut-fit-szz](https://gitlab.fit.cvut.cz/sutymate/szz-okruhy-2020)
-[hk-fim-szz](http://michaelkuty.github.io/ssz-ai-hk-3/index.html)
+- [cvut-fit-szz](https://gitlab.fit.cvut.cz/sutymate/szz-okruhy-2020)
+- [hk-fim-szz](http://michaelkuty.github.io/ssz-ai-hk-3/index.html)
 

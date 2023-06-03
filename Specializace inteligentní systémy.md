@@ -65,7 +65,7 @@ role a činnost, DNS servery, postup řešení dotazu, reverzní DNS.
 27. Architektura relačních [[Databazove_systemy|databázových systémů]], datový model, konceptuální modelování.
 28. [[RMD - Relační model dat|Relační model]], [[RMD - Relační model dat#Základní pojmy|základní konstrukty]], realizace vztahů v relačním modelu, [[RMD - Relační model dat#Integrita databáze a integritní omezení|integritní omezení]].
 [[Mormalizace_BDS|Normalizace]], [[RMD - Normalizace|normální formy]], funkční závislosti, aktualizační anomálie.
-29. [[Jazyk SQL|Jazyk SQL]] - selekce, projekce, agregační funkce, [[SQL - Množinové operace|množinové operace]], typy spojení, vnořené
+29. [[Jazyk SQL|Jazyk SQL]] - [[Jazyk SQL#DML / [SELECT](https //cs.wikipedia.org/wiki/SELECT)|selekce]], projekce, agregační funkce, [[SQL - Množinové operace|množinové operace]], [[SQL - Spojení tabulek|typy spojení]], vnořené
 dotazy, [[Uložené procedury a spouště (od SQL3)|spouště a uložené procedury]].
 30. [[SQL - Transakce|Transakce]] – koncept a vlastnosti transakcí ([[SQL - ACID|ACID]]).
 31. [[BigData|BigData]] - definice, dělení podle struktury a původu, charakteristika, aplikace. Analýza velkých

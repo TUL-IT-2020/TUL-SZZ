@@ -45,28 +45,10 @@ Základním konstruktem pro výběr dat je **SELECT**-**FROM**-**WHERE** blok. K
 
 **UNION, INTERSECT, EXCEPT**: množinové operace; tabulky musejí být kompatibilní (stejný počet sloupců, stejný typy dat odpovídajících si sloupců)
 
+![[SQL_commands.jpeg]]
+
 #### Spojení tabulek
-**přirozené spojení**
-``` sql
-SELECT * FROM R NATURAL JOIN S;
-```
-**spojení křížem (kartézský součin)**
-``` sql
-SELECT * FROM R CROSS JOIN S;
-```
-**spojení přes podmínku**
-``` sql
-SELECT * FROM R JOIN S ON A > B;
-```
-**spojení přes vyjmenované sloupce**
-``` sql
-SELECT * FROM R JOIN S USING (A, B);
-```
-**vnitřní vs. vnější spojení**
-Vnější spojení slouží k přidání některých řádků, které se s ničím nespojily, do výsledku.
-``` sql
-SELECT * FROM R INNER(LEFT, RIGHT) JOIN S USING (A, B);
-```
+![[SQL - Spojení tabulek]]
 
 #### Příklady
 
@@ -232,6 +214,7 @@ DROP TABLE example;
 
 ## Uložené procedury a spouště
 ![[Uložené procedury a spouště (od SQL3)]]
+
 ## Pohledy
 **Pohledy** (views) = virtuální tabulky. Slouží především pro dotazování. Umožňují značné zjednodušení zápisu dotazů (obdobně jako rozčlenění programu do procedur).
 
