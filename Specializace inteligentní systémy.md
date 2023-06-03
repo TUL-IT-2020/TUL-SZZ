@@ -62,23 +62,23 @@ role a činnost, DNS servery, postup řešení dotazu, reverzní DNS.
 
 **Databázové systémy a technologie pro BigData:**
 
-27. Architektura relačních databázových systémů, datový model, konceptuální modelování.
-28. Relační model, základní konstrukty, realizace vztahů v relačním modelu, integritní omezení.
-Normalizace, normální formy, funkční závislosti, aktualizační anomálie.
+27. Architektura relačních [[Databazove_systemy|databázových systémů]], datový model, konceptuální modelování.
+28. [[RMD - Relační model dat|Relační model]], [[RMD - Relační model dat#Základní pojmy|základní konstrukty]], realizace vztahů v relačním modelu, [[RMD - Relační model dat#Integrita databáze a integritní omezení|integritní omezení]].
+[[Mormalizace_BDS|Normalizace]], [[RMD - Normalizace|normální formy]], funkční závislosti, aktualizační anomálie.
 29. [[Jazyk SQL|Jazyk SQL]] - selekce, projekce, agregační funkce, [[SQL - Množinové operace|množinové operace]], typy spojení, vnořené
 dotazy, [[Uložené procedury a spouště (od SQL3)|spouště a uložené procedury]].
 30. [[SQL - Transakce|Transakce]] – koncept a vlastnosti transakcí ([[SQL - ACID|ACID]]).
-31. BigData - definice, dělení podle struktury a původu, charakteristika, aplikace. Analýza velkých
+31. [[BigData|BigData]] - definice, dělení podle struktury a původu, charakteristika, aplikace. Analýza velkých
 dat - jednotlivé kroky, typy, výhody a výzvy.
-32. NoSQL databáze - koncept, vlastnosti, dělení, srovnání s relačními databázemi. Pojmy: volné
-schéma, CAP teorém, indexování, agregace, replikace, škálování, sharding.
+32. [[NoSQL databáze|NoSQL databáze]] - koncept, vlastnosti, dělení, srovnání s relačními databázemi. Pojmy: volné
+schéma, [[CAP teorém|CAP teorém]], indexování, agregace, replikace, škálování, sharding.
 33. Dokumentové databáze - koncept, srovnání s key-value úložišti, pojem dokument, výhody a
-nevýhody. MongoDB - charakteristika a architektura.
-34. Databáze pro prohledávání a analýzu textu - princip, vlastnosti. Elasticsearch - architektura,
+nevýhody. [[MongoDB|MongoDB]] - charakteristika a architektura.
+34. Databáze pro prohledávání a analýzu textu - princip, vlastnosti. [[Elasticsearch|Elasticsearch]] - architektura,
 prohledávání vs. analýza, invertovaný index.
-35. Sloupcové databáze - koncept, sloupcově orientovaný model, výhody a nevýhody. Cassandra -
+35. Sloupcové databáze - koncept, sloupcově orientovaný model, výhody a nevýhody. [[Cassandra|Cassandra]] -
 architektura, distribuce dat a replikace, sekundární index.
-36. Dávkové zpracování dat – MapReduce (princip, fáze mapování a redukování). Apache Hadoop
+36. Dávkové zpracování dat – [[MapReduce|MapReduce]] (princip, fáze [[MapReduce#Mapovací funkce|mapování]] a [[MapReduce#Redukční funkce|redukování]]). [[Apache Hadoop|Apache Hadoop]]
 	- popis, důvod vzniku, ekosystém, komponenty a jejich význam (HDFS, YARN, MapReduce).
 37. Apache Spark – popis a srovnání s Apache Hadoop, jednotlivé komponenty a jejich význam.
 Koncepty RDD a DataFrame - princip, popis a rozdíly. Transformace vs. akce.
