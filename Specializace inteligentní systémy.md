@@ -49,7 +49,7 @@
 
 **Databázové systémy a technologie pro BigData:**
 
-27. Architektura relačních [[Databazove_systemy|databázových systémů]], datový model, konceptuální modelování.
+27. Architektura relačních [[Databazove_systemy#Databázové systémy|databázových systémů]], [[Databazove_systemy#Konceptuální model|datový model]], [[RMD - Modelování relačního modelu pomocí UML digramu|konceptuální modelování]].
 28. [[RMD - Relační model dat|Relační model]], [[RMD - Relační model dat#Základní pojmy|základní konstrukty]], realizace vztahů v relačním modelu, [[RMD - Relační model dat#Integrita databáze a integritní omezení|integritní omezení]]. 
 	- [[Mormalizace_BDS|Normalizace]], [[RMD - Normalizace|normální formy]], funkční závislosti, aktualizační anomálie.
 29. [[Jazyk SQL|Jazyk SQL]] - [[Jazyk SQL#DML / [SELECT](https //cs.wikipedia.org/wiki/SELECT)|selekce]], projekce, agregační funkce, [[SQL - Množinové operace|množinové operace]], [[SQL - Spojení tabulek|typy spojení]], vnořené dotazy, [[Uložené procedury a spouště (od SQL3)|spouště a uložené procedury]].
@@ -62,7 +62,7 @@
 34. Databáze pro prohledávání a analýzu textu - princip, vlastnosti. 
 	- [[Elasticsearch|Elasticsearch]] - architektura, prohledávání vs. analýza, invertovaný index.
 35. Sloupcové databáze - koncept, sloupcově orientovaný model, výhody a nevýhody. 
-	- [[Cassandra|Cassandra]] - architektura, distribuce dat a replikace, sekundární index.
+	- [[Cassandra|Cassandra]] - [[Cassandra#Architektura|architektura]], distribuce dat a replikace, sekundární index.
 36. Dávkové zpracování dat – [[MapReduce|MapReduce]] (princip, fáze [[MapReduce#Mapovací funkce|mapování]] a [[MapReduce#Redukční funkce|redukování]]). 
 	- [[Apache Hadoop|Apache Hadoop]] popis, důvod vzniku, ekosystém, komponenty a jejich význam (HDFS, YARN, MapReduce).
 37. [[Apache Spark|Apache Spark]] – popis a srovnání s [[Apache Hadoop|Apache Hadoop]], jednotlivé komponenty a jejich význam. Koncepty RDD a DataFrame - princip, popis a rozdíly. Transformace vs. akce.

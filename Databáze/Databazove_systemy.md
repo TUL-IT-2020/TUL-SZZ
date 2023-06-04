@@ -21,20 +21,22 @@ SŘBD typicky obsahuje:
 - [Objektový model](https://en.wikipedia.org/wiki/Object_database)
 - [Dokumentový model](https://en.wikipedia.org/wiki/Document-oriented_database)
 
-## Relační model dat - RMD
+## Konceptuální model
+Koncepce návrhu databáze. Formalizuje požadavek zákazníka na formu použitelnou při návrhu. Výsledkem modelování DB je schéma ve formě diagramu (UML).
+Na konceptuální úrovni je možné při modelování reality využít k vyjádření konceptuálního schématu konceptuální modely. Ty jsou 4:
+- Hierarchický, 
+- Síťový, 
+- Entitně-relační,
+- Objektový.
+
+### Relační model dat - RMD
 ![[RMD - Relační model dat]]
 
-## Objektový model dat - OMD
-Objektová databáze je systém správy databází, ve kterém je informace reprezentována formou objektů. To by mělo přirozeněji a věrněji popisovat
-skutečný svět a entity modelované v databázi. Lze je rozdělit na **objektově orientované** a **objektově relační**. Objektově orientované jsou si podobné s objekty v objektově orientovaných programovacích jazycích. Pro obě skupiny neexistuje žádný standard. V praktickém využití jej nalezneme minimálně oproti relačnímu modelu.
+### Modelování relačního modelu pomocí UML
+![[RMD - Modelování relačního modelu pomocí UML digramu]]
 
-### Objektově orientovaný datový model
-OOSŘBD využívají datového modelu, který má objektově orientované aspekty jako třídy s atributy a metodami a integritními omezeními; poskytují objektové identifikátory (OID) pro každou trvalou instanci třídy; podporují zapouzdření (encapsulation); násobnou dědičnost (multiple inheritance) a podporují abstraktní datové typy.
-
-Kombinují prvky objektově orientovaného programování s databázovými schopnostmi. Rozšiřují funkčnost objektových programovacích jazyků (C++, Java) a poskytují plnou schopnost programování databáze. Datový model aplikace a datový model databáze se ve výsledku hodně shodují a výsledný kód se dá mnohem efektivněji udržovat. Objektově orientovaný jazyk (C++, Java) je jazykem jak pro aplikaci, tak i pro databázi. Poskytuje těsný vztah mezi objektem aplikace a uloženým objektem.
-
-### Objektově relační datový model
-ORSŘBD využívají datový model tak, že "přidávají objektovost do tabulek". Všechny trvalé informace jsou stále v tabulkách, ale některé položky mohou mít bohatší datovou strukturu, nazývanou abstraktní datové typy (ADT). ADT je datový typ, který vznikne zkombinováním základních datových typů. Podpora ADT je atraktivní, protože operace a funkce asociované s novými datovými typy mohou být použity k indexování, ukládání a získávání záznamů na základě obsahu nového datového typu.
+### Objektový model dat - OMD
+![[OMD - Objektový model dat]]
 
 ## Srovnání RMD a OMD
 Relační model je jednoduchý a elegantní, ale je naprosto rozdílný od objektového modelu. Relační databáze nejsou navrhovány pro ukládání objektů a naprogramování rozhraní pro ukládání objektů v databázi je velmi složité. Relační databázové systémy jsou dobré pro řízení velkého množství dat, vyhledávání dat, ale poskytují nízkou podporu pro manipulaci s nimi. Jsou založeny na dvourozměrných tabulkách a vztahy mezi daty jsou vyjadřovány porovnáváním hodnot v nich uložených. Jazyky jako SQL umožňují tabulky propojit za běhu, aby vyjádřily vztah mezi daty.
@@ -45,12 +47,12 @@ Naproti tomu objektové modely jsou založeny na objektech, což jsou struktury,
 ![[NoSQL databáze]]
 
 ## SŘBD vs. NoSQL
-SŘBD
+**SŘBD**
 - strukturovaná a organizovaná data
 - SQL, DML, DDL, ACID
 - transakce, konzistence
 
-NoSQL
+**NoSQL**
 - nemá deklarativní dotazovací jazyk
 - nemá definované schéma
 - ukládá dvojice klíč-hodnota; Uložení sloupců, dokumentů, grafů
@@ -58,3 +60,6 @@ NoSQL
 - podpora nestrukturovaných a nepředvídatelných dat
 - CAP teorém
 - upřednostňují vysoký výkon, dostupnost a rozšiřitelnost
+
+## Zdroje:
+https://projekty.fs.vsb.cz/463/edubase/VY_01_044/Databázové%20systémy.pdf
