@@ -33,11 +33,11 @@
 **Algoritmy a programování:**
 
 18. Číselné soustavy a převody mezi nimi. Způsoby kódování čísel s pevnou a s pohyblivou řádovou tečkou. Kódování záporných čísel.
-19. Jazyk C: základní datové typy a strukturovaný datový typ. Pole a ukazatele, dynamická alokace paměti.
+19. Jazyk C. Základní datové typy a strukturovaný datový typ. Pole a ukazatele, dynamická alokace [[Rozdělení paměti|paměti]].
 20. Algoritmy pro vyhledávání a řazení, složitost algoritmů.
 21. Rekurze a její použití. Rekurzivní a nerekurzivní realizace vybraných algoritmů. Využití zásobníku programu.
 22. Členění programu v jazyce vyšší úrovně. Metody, funkce, procedury, makra. Parametry metod, procedur a funkcí a způsoby jejich předávání. Globální a lokální proměnné.
-23. Objektově orientované programování, význam a základní principy: zapouzdření, dědičnost a polymorfismus, správa přístupu.. Abstraktní třídy a rozhraní. Genericita a její využití.
+23. Objektově orientované programování, význam a základní principy: zapouzdření, dědičnost a polymorfismus, správa přístupu... Abstraktní třídy a rozhraní. Genericita a její využití.
 24. Operační systém, vysvětlení pojmu, typy, poskytované funkce. Správa procesů v operačním systému, vztah programu a procesu, životní cyklus procesu.
 
 **Počítačové sítě a Internet:**
@@ -65,5 +65,5 @@
 	- [[Cassandra|Cassandra]] - architektura, distribuce dat a replikace, sekundární index.
 36. Dávkové zpracování dat – [[MapReduce|MapReduce]] (princip, fáze [[MapReduce#Mapovací funkce|mapování]] a [[MapReduce#Redukční funkce|redukování]]). 
 	- [[Apache Hadoop|Apache Hadoop]] popis, důvod vzniku, ekosystém, komponenty a jejich význam (HDFS, YARN, MapReduce).
-37. Apache Spark – popis a srovnání s Apache Hadoop, jednotlivé komponenty a jejich význam. Koncepty RDD a DataFrame - princip, popis a rozdíly. Transformace vs. akce.
+37. [[Apache Spark|Apache Spark]] – popis a srovnání s [[Apache Hadoop|Apache Hadoop]], jednotlivé komponenty a jejich význam. Koncepty RDD a DataFrame - princip, popis a rozdíly. Transformace vs. akce.
 38. Proudové (streamové) zpracování dat - Spark Streaming a Structured Streaming - popis, rozdíly, výhody a nevýhody. Okna a práce s nimi.
