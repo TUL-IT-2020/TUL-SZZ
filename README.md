@@ -17,4 +17,4 @@ Jak říká jedno rčení:
 
 - [cvut-fit-szz](https://gitlab.fit.cvut.cz/sutymate/szz-okruhy-2020)
 - [hk-fim-szz](http://michaelkuty.github.io/ssz-ai-hk-3/index.html)
-
+- [VŠB-Ostrava](http://lucie.zolta.cz/index.php/okruhy-szz-povinne)

@@ -1,16 +1,13 @@
-## Normalizace v RMD
-Normalizace je sada pravidel, jak postupovat při transformaci struktury entit a relací ER modelu na strukturu fyzického uspořádání tabulek a relací v databázi. Dojde tím k odstranění redundantních dat, omezení složitosti a zabránění tzv. aktualizačních anomálií. Provedení normalizace by mělo vést k přehlednější, rozšiřitelnější a výkonnější databázi. Normalizované schema **musí zachovat všechny závislosti** původního schematu a relací. To znamená, že se musíme pomocí přirozeného spojení dostat k původním datům.
+# Normalizace v RMD
+Normalizace je sada pravidel, jak postupovat při transformaci struktury entit a relací ER modelu na strukturu fyzického uspořádání tabulek a relací v databázi. Dojde tím k odstranění redundantních dat, omezení složitosti a zabránění tzv. [[RMD - Návrhové anomálie|aktualizačních anomálií]]. Provedení normalizace by mělo vést k přehlednější, rozšiřitelnější a výkonnější databázi. Normalizované schema **musí zachovat všechny závislosti** původního schematu a relací. To znamená, že se musíme pomocí přirozeného spojení dostat k původním datům.
 
-**Aktualizacní anomálie (Codd):**
+## Aktualizační anomálie
+![[RMD - Návrhové anomálie]]
 
-*Aktualizační anomálie je nechtěný vedlejší efekt operace nad databází, při kterém dojde ke ztrátě nebo nekonzistenci dat.*
+## Funkční závislosti
+![[RMD - Funkční závislosti]]
 
-Relace: *PROGRAM_KINA(PK: JMENO_KINA, PK: JMENO_FILMU, ADRESA, DATUM, CAS)*
-
-- INSERT (chceme-li přidat nové kino s adresou, lze to jen když se tam hraje nejaký film)
-- UPDATE (zmení-li se adresa kina, je nutné ji měnit vícekrát)
-- DELETE (nehraje-li kino zrovna nic, ztrácíme jeho adresu)
-
+## Normální formy
 Normalizace se provádí za pomoci **normálních forem** (NF). Mezi ně patří:
 
 ![http://programujte.com/galerie/2008/07/200807191347_formy.png](http://programujte.com/galerie/2008/07/200807191347_formy.png)

@@ -1,16 +1,25 @@
 # Modelování relačního modelu pomocí UML
-Taktéž E-R (entitně relační) model.
+**ER diagram** = **ERD** = vztahový model (entity relationship diagram), nebo E-R (entitně relační) model, používaný v softwarovém inženýrství i pro modelování databází; konceptuální zobrazení dat; obrázek je podobný vývojovému diagramu. 
+
+![Ukázka ERD](15_erd.png)
+
 Blíže o [[RMD - Relační model dat|relačním modelu dat]]. 
 
+![[Přehled notací konceptuality.PNG]]
+
 ## Modelování entit a relací
-[[RMD - Relační model dat#Základní pojmy|Základní pojmy]] k modelování entit. 
+[[RMD - Relační model dat#Základní pojmy|Základní pojmy]]:
+- **entita**  - věc která je středem zájmu, ke které chceme sbírat data,
+- **entitní množina** - množina entit téhož typu, které sdílí stejné vlastnosti či atributy,
+- **atribut** - vlastnost entity, která nás v daném kontextu zajímá a jejíž hodnotu chceme znát,
+- **doména atributu** - množina přípustných hodnot atributu.
 
 ### Atributy 
 Každý [[RMD - Relační model dat#Atribut|atribut]] leží na svém řádku. Popisuje určuje jej:
 - datový typ,
 - název,
 - "klíčovost" atributu,
-- případně povinnost vyplnění.
+- případně povinnost vyplnění (NULL/NN).
 
 ### Relace 
 Relace neboli [[RMD - Relační model dat#Vztah|vazby]] jsou běžně značená slovesem nad čárou propojující tabulky. Relaci zaznamenáváme do modelu pomocí klíčů. Klíče se dělí na:
@@ -56,8 +65,8 @@ Pokud tvoříme vazbu M:N, tak potřebujeme vytvořit ještě jednu vazební tab
 
 #### Parcialita
 Vyjadřuje povinnost či nepovinnost existence role příslušné entity ve vztahu. V UML digramech se parcialita značí buď: 
-- `o` - kolečkem jako nepovinný vztah,
-- `|` - svyslítkem jako povinný vztah.
+- `o` - kolečkem jako nepovinný vztah, ani jeden prvek nemusí být (O).
+- `|` - svyslítkem jako povinný vztah, alespoň jeden prvek musí být (1).
 
 ### Kardinalita a parcialita vykreslená pomocí Mermaid
 
@@ -69,4 +78,4 @@ Vyjadřuje povinnost či nepovinnost existence role příslušné entity ve vzta
 | `}\|`            | `\|{`             | Jeden nebo více |
 
 ## Zdroje:
-https://mermaid.js.org/syntax/entityRelationshipDiagram.html
+- https://mermaid.js.org/syntax/entityRelationshipDiagram.html

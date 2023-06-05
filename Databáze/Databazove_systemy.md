@@ -29,6 +29,17 @@ Na konceptuální úrovni je možné při modelování reality využít k vyjád
 - Entitně-relační,
 - Objektový.
 
+### Konceptuální návrh databáze 
+1. Identifikovat entity 
+2. Identifikovat vztahy (využití matice každý s každým) 
+3. Určit kardinalitu, členství a identifikační závislosti vztahů 
+4. Identifikovat atributy a přiřadit je k entitám a vztahům 
+5. Určit domény atributů 
+6. Identifikovat identifikační klíče 
+7. Identifikovat hierarchii v rozšířeném modelu ISA ER 
+8. Nakreslit ER diagram 
+9. Zkonzultovat navržený diagram se zákazníkem
+
 ### Relační model dat - RMD
 ![[RMD - Relační model dat]]
 
@@ -62,4 +73,5 @@ Naproti tomu objektové modely jsou založeny na objektech, což jsou struktury,
 - upřednostňují vysoký výkon, dostupnost a rozšiřitelnost
 
 ## Zdroje:
-https://projekty.fs.vsb.cz/463/edubase/VY_01_044/Databázové%20systémy.pdf
+- https://projekty.fs.vsb.cz/463/edubase/VY_01_044/Databázové%20systémy.pdf
+- prezentace z předmětu DBS

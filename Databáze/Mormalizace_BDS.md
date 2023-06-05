@@ -13,25 +13,7 @@
 S dekompozicí se setkáme při normalizování jednotlivých entit.
 
 ## Datové modelování (ER diagramy)
-**ER diagram** = **ERD** = vztahový model (entity relationship diagram) používaný v softwarovém inženýrství i pro modelování databází; konceptuální zobrazení dat; obrázek je podobný vývojovému diagramu.
-
-Základní pojmy:
-- **entita**  - věc která je středem zájmu, ke které chceme sbírat data,
-- **entitní množina** - množina entit téhož typu, které sdílí stejné vlastnosti či atributy,
-- **atribut** - vlastnost entity, která nás v daném kontextu zajímá a jejíž hodnotu chceme znát,
-- **doména atributu** - množina přípustných hodnot atributu.
-
-**Parcialita vztahu**:
-- alespoň jeden prvek musí být (1),
-- ani jeden prvek nemusí být (O).
-
-**Kardinalita vztahu**:
-- 0:0,
-- 1:1,
-- 1:N,
-- M:N.
-
-![Ukázka ERD](15_erd.png)
+![[RMD - Modelování relačního modelu pomocí UML digramu]]
 
 ## Funkční analýza (DFD diagramy)
 **DFD diagram** = diagram datových toků (data flow diagram) používaný v softwarovém inženýrství pro modelování funkcí systému.

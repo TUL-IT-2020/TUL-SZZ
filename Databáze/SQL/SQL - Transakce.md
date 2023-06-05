@@ -1,5 +1,5 @@
 ## Transakce
-**transakce** = je série příkazů čtení či zápisu na databázových objektech; základní vlastností transakce je ACID
+**transakce** = je série příkazů čtení či zápisu na databázových objektech; základní vlastností transakce je [[SQL - ACID|ACID]]. 
 
 - čtení - db objekt se přenese do paměti z HDD a následně je pak do proměnné programu
 - zápis - db objekt je modifikován v paměti a následně zapsán na disk
@@ -14,6 +14,9 @@ START TRANSACTION;
 IF ERRORS=0 COMMIT;
 IF ERRORS<>0 ROLLBACK;
 ```
+
+Databáze je v konzistentním stavu, když splňuje všechny [[RMD - Relační model dat#Integrita databáze a integritní omezení|IO definované]] ve schématu databáze.
+
 ### ACID
 ![[SQL - ACID]]
 

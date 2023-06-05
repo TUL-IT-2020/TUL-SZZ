@@ -10,11 +10,22 @@ Založen na pevném matematickém základu roku 1970 panem E. F. Coddem.
 	- **relační kalkul**
 	- **relační algebra** 
 
+## Relační návrh databáze 
+Vychází z [[RMD - Modelování relačního modelu pomocí UML digramu|konceptuálního schématu]] a vytvořené dokumentace. 
+1. Přizpůsobit konceptuální schéma 
+2. Transformovat na relační schéma 
+3. Validovat relační schéma normalizací 
+4. Validovat relační schéma vůči požadovaným transakcím 
+5. Zkonzultovat navržený diagram se zákazníkem
+
 ## Základní pojmy
 - **databázová relace** - množina (výsledek dotazu, tabulka, aj.); nesmí obsahovat duplicitní prvky
 - **entita** - definovaná množina dat (např. tabulka)
 	- **atribut** - An; jméno atributu
 	- **doména atributu** - Dn; definiční množina hodnot atributu
+		- rozsahy, kusovníky 
+		- datový typ a délka atributu 
+		- defaultní hodnota
 - **schema relace** - je R(An:Dn); říká nám to, jaký je název relace, kolik má sloupců a jaké jsou jejich názvy a domény = definice databázové tabulky
 - **atribut relace** - je dvojice An:Dn
 - **n-tice** - jsou prvky relace
@@ -39,6 +50,8 @@ Je vazba, asociace mezi entitami. Příklad: Student se hlásí na školu.
 stupeň vztahu = počet entit ve vztahu (binární, ternární, vazba sama na sebe (rekurzivní))
 Instance vztahu, příklad: Alice se hlásí na TUL.
 
+Vztahy realizujeme pomocí klíčů.
+
 ## Integrita databáze a integritní omezení
 Integrita databáze znamená, že databáze vyhovuje zadaným pravidlům – integritním omezením. Tato integritní omezení jsou součástí definice databáze, a za jejich splnění zodpovídá SŘBD.
 
@@ -49,11 +62,39 @@ Mezi integritní omezení patří:
 - **neklíčový atribut** - atribut, který není součástí žádného klíče,
 - **referenční integrita** - popisuje vztahy mezi daty ve dvou relacích,
 - **cizí klíč** - atribut, kterého se týká referenční integrita (foreign key).
-- **kardinalita** - vlastnost binárních vztahů která určuje kolik instancí entit vstupuje do vztahu (např. 1:1, 1:N, M:N),
+- **kardinalita** - vlastnost binárních vztahů která určuje kolik instancí entit vstupuje do vztahu 
+	- 1:1 
+	- 1:N 
+	- M:N
 - **parcialita** - vyjadřuje, zda je účast ve vztahu povinná nebo volitelná,
-- silné entitní typy - součástí klíče jsou atributy pouze z dané entity (nikoli z jiných)
-- slabé entitní typy - součástí klíče je atribut z jiné entity,
+	- totální (povinný) musí 
+	- parciální (nepovinný) může
+- Silná/slabá entita:
+	- Silná entita – je identifikačně a existenčně nezávislá, 
+	- Slabá entita – je identifikačně a existenčně závislá na jiné entitě.
 - duplicitní prvek - relace nesmí obsahovat duplicitní prvky.
+
+### Silná/slabá entita
+Pokud máme slabou entitu, nelze její instance rozlišit pouze podle vlastních atributů. Identifikujeme jí tedy pomocí toho, že je v povinném tzv. identifikačním vztahu k jiné rodičovské entitě. Její primární klíč bude složený a bude obsahovat i primární klíč rodičovské entity. 
+Příklad: kopie-kniha, sál-kino
+
+### Klíče
+#### Kandidátní klíč 
+je atribut nebo kombinace atributů, které jednoznačně identifikují n-tice a žádný atribut v nich není nadbytečný. 
+
+#### Primární klíč 
+Je nejvhodnější kandidátní klíč (preferujeme číslo před textovým řetězcem), může být uměle vytvořený. Podtrháváme jej. Je to atribut nebo kombinace atributů, jejichž hodnoty jednoznačné odliší jednu instanci dané entity od druhé.
+
+#### Cizí klíč 
+Je atribut, který reprezentuje primární klíč jiné relace, reprezentuje vztah k jiné relaci.
+
+### Zabezpečení integrity
+Strategie když existuje dítě, kterého hodnota cizího klíče odkazuje na primární klíč, který má být změněn, nebo vymazán. 
+1. NO ACTION – nemůžeš smazat, existují na něj odkazy 
+2. CASCADE – vymaž i záznamy, které na něj odkazují 
+3. SET NULL – vymaž a odkaz nastav na NULL 
+4. SET DEFAULT – vymaž a odkaz nastav na defaultní hodnotu 
+5. NO CHECK – bez kontroly
 
 ## Relační tabulka
 Každá relační tabulka musí splňovat následující podmínky:

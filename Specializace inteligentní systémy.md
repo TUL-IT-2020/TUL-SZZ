@@ -45,15 +45,15 @@
 25. Principy vrstvené architektury počítačových sítí, referenční model OSI. 
 	- Charakteristika lokálních počítačových sítí. Technologie Ethernet, její principy a vývoj, algoritmus CSMA/CD. 
 	- Bezdrátové lokální sítě standardu IEEE 802.11.
-26. Základní principy činnosti protokolů sítě Internet – IP, TCP, UDP. Domain Name System, jeho role a činnost, DNS servery, postup řešení dotazu, reverzní DNS.
+26. Základní principy činnosti protokolů sítě Internet - IP, TCP, UDP. Domain Name System, jeho role a činnost, DNS servery, postup řešení dotazu, reverzní DNS.
 
 **Databázové systémy a technologie pro BigData:**
 
 27. Architektura relačních [[Databazove_systemy#Databázové systémy|databázových systémů]], [[Databazove_systemy#Konceptuální model|datový model]], [[RMD - Modelování relačního modelu pomocí UML digramu|konceptuální modelování]].
-28. [[RMD - Relační model dat|Relační model]], [[RMD - Relační model dat#Základní pojmy|základní konstrukty]], realizace vztahů v relačním modelu, [[RMD - Relační model dat#Integrita databáze a integritní omezení|integritní omezení]]. 
-	- [[Mormalizace_BDS|Normalizace]], [[RMD - Normalizace|normální formy]], funkční závislosti, aktualizační anomálie.
+28. [[RMD - Relační model dat|Relační model]], [[RMD - Relační model dat#Základní pojmy|základní konstrukty]], [[RMD - Relační model dat#Vztah|realizace vztahů v relačním modelu]], [[RMD - Relační model dat#Integrita databáze a integritní omezení|integritní omezení]]. 
+	- [[Mormalizace_BDS|Normalizace]], [[RMD - Normalizace|normální formy]], [[RMD - Funkční závislosti|funkční závislosti]], [[RMD - Návrhové anomálie|aktualizační anomálie]].
 29. [[Jazyk SQL|Jazyk SQL]] - [[Jazyk SQL#DML / [SELECT](https //cs.wikipedia.org/wiki/SELECT)|selekce]], projekce, agregační funkce, [[SQL - Množinové operace|množinové operace]], [[SQL - Spojení tabulek|typy spojení]], vnořené dotazy, [[Uložené procedury a spouště (od SQL3)|spouště a uložené procedury]].
-30. [[SQL - Transakce|Transakce]] – koncept a vlastnosti transakcí ([[SQL - ACID|ACID]]).
+30. [[SQL - Transakce|Transakce]] - koncept a vlastnosti transakcí ([[SQL - ACID|ACID]]).
 31. [[BigData|BigData]] - definice, dělení podle struktury a původu, charakteristika, aplikace. 
 	- Analýza velkých dat - jednotlivé kroky, typy, výhody a výzvy.
 32. [[NoSQL databáze|NoSQL databáze]] - koncept, vlastnosti, dělení, srovnání s relačními databázemi. Pojmy: volné schéma, [[CAP teorém|CAP teorém]], indexování, agregace, replikace, škálování, sharding.
@@ -63,7 +63,7 @@
 	- [[Elasticsearch|Elasticsearch]] - architektura, prohledávání vs. analýza, invertovaný index.
 35. Sloupcové databáze - koncept, sloupcově orientovaný model, výhody a nevýhody. 
 	- [[Cassandra|Cassandra]] - [[Cassandra#Architektura|architektura]], distribuce dat a replikace, sekundární index.
-36. Dávkové zpracování dat – [[MapReduce|MapReduce]] (princip, fáze [[MapReduce#Mapovací funkce|mapování]] a [[MapReduce#Redukční funkce|redukování]]). 
+36. Dávkové zpracování dat - [[MapReduce|MapReduce]] (princip, fáze [[MapReduce#Mapovací funkce|mapování]] a [[MapReduce#Redukční funkce|redukování]]). 
 	- [[Apache Hadoop|Apache Hadoop]] popis, důvod vzniku, ekosystém, komponenty a jejich význam (HDFS, YARN, MapReduce).
-37. [[Apache Spark|Apache Spark]] – popis a srovnání s [[Apache Hadoop|Apache Hadoop]], jednotlivé komponenty a jejich význam. Koncepty RDD a DataFrame - princip, popis a rozdíly. Transformace vs. akce.
+37. [[Apache Spark|Apache Spark]] - popis a srovnání s [[Apache Hadoop|Apache Hadoop]], jednotlivé komponenty a jejich význam. Koncepty RDD a DataFrame - princip, popis a rozdíly. Transformace vs. akce.
 38. Proudové (streamové) zpracování dat - Spark Streaming a Structured Streaming - popis, rozdíly, výhody a nevýhody. Okna a práce s nimi.
