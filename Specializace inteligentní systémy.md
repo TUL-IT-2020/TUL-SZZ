@@ -33,10 +33,10 @@
 **Algoritmy a programování:**
 
 18. Číselné soustavy a převody mezi nimi. Způsoby kódování čísel s pevnou a s pohyblivou řádovou tečkou. Kódování záporných čísel.
-19. Jazyk [[C|C]]. Základní datové typy a [[C#Strukturovaný datový typ|strukturovaný datový typ]]. [[C#pole|Pole]] a [[C#pointery|ukazatele]], [[C#dynamická alokace pole|dynamická alokace]] [[Rozdělení paměti|paměti]].
+19. Jazyk [[C|C]]. [[C#Základní datové typy|Základní datové typy]] a [[C#Strukturovaný datový typ|strukturovaný datový typ]]. [[C#pole|Pole]] a [[C#Ukazatele (pointery)|ukazatele]], [[C#dynamická alokace pole|dynamická alokace]] [[Rozdělení paměti|paměti]].
 20. Algoritmy pro vyhledávání a řazení, složitost algoritmů.
-21. Rekurze a její použití. Rekurzivní a nerekurzivní realizace vybraných algoritmů. Využití zásobníku programu.
-22. Členění programu v jazyce vyšší úrovně. Metody, funkce, procedury, makra. Parametry metod, procedur a funkcí a způsoby jejich předávání. Globální a lokální proměnné.
+21. [[C#Rekurzivní funkce|Rekurze]] a její použití. Rekurzivní a nerekurzivní realizace [[Rekurze|vybraných algoritmů]]. Využití [[Rozdělení paměti#Zásobník|zásobníku programu]].
+22. Členění programu v jazyce vyšší úrovně. Metody, [[C#Funkce|funkce]], procedury, [[C#Makra|makra]]. Parametry metod, procedur a funkcí a způsoby jejich předávání. Globální a lokální proměnné.
 23. [[OOP|Objektově orientované programování]], význam a základní principy: zapouzdření, [[OOP#Dědičnost|dědičnost]] a polymorfismus, správa přístupu... [[OOP#Abstraktní třída|Abstraktní třídy]] a [[OOP#Rozhraní (inteface)|rozhraní]]. Genericita a její využití.
 24. Operační systém, vysvětlení pojmu, typy, poskytované funkce. Správa procesů v operačním systému, vztah programu a procesu, životní cyklus procesu.
 
