@@ -7,6 +7,10 @@
 
 **DBS** (databázový systém) = **SŘBD** (systém řízení báze dat; nebo anglicky DBMS - database management system) + **DB** (databáze; data)
 
+**DBS** poskytuje efektivní, spolehlivé, praktické a bezpečné úložiště a přístup k obrovskému množství perzistentních dat pro více uživatelů.
+
+![[Architektrua DBS.PNG]]
+
 SŘBD typicky obsahuje:
 - parser - převod dotazovacího jazyka (např. SQL) do strojové podoby
 - optimalizátor - optimalizace výrazu z pohledu výkonu

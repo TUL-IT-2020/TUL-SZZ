@@ -79,6 +79,13 @@ Pokud máme slabou entitu, nelze její instance rozlišit pouze podle vlastních
 Příklad: kopie-kniha, sál-kino
 
 ### Klíče
+X je klíč relace R pokud:
+- všechny atributy R jsou funkčně závislé na X tj. v uzávěru Xᐩ jsou všechny atributy relace R
+- neexistuje podmnožina X, na které jsou funkčně závislé všechny atributy R. (minimální)
+
+V klíči musí být všechny atributy, které nejsou v žádný FZ. Klíčů může být víc.
+
+
 #### Kandidátní klíč 
 je atribut nebo kombinace atributů, které jednoznačně identifikují n-tice a žádný atribut v nich není nadbytečný. 
 

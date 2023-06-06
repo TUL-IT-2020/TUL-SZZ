@@ -194,6 +194,16 @@ UPDATE example SET field1 = 'updated value' WHERE field2 = 'N';
 DELETE FROM example WHERE field2 = 'N';
 ```
 ### DDL
+Definování databázového schéma – datové typy, struktury. Vytváření, odstraňování, modifikace definic relací a pohledů (virtuální relace), definování integritních omezení.
+
+[[RMD - Relační model dat#Integrita databáze a integritní omezení|Integritní omezení]]:
+- NOT NULL – žádná hodnota v daném sloupci nesmí být NULL vždy musí být vyplněna datami. implicitně je nastavení NULL (není to však ani 0 ani mezera). 
+- UNIQUE – všechny hodnoty v sloupci musí být unikátní, je přípustná jedna hodnota NULL. Vhodné pro kandidátní klíče, kombinace více atributů může být UNIQUE.
+- PRIMARY KEY – sloupec je primárním klíčem. 
+- REFERENCES – sloupec je cizím klíčem, definuje referenční integritu vzhledem k jiné tabulce.
+- CHECK – IO zadané logickým výrazem. 
+- DEFAULT – slouží k určení implicitní hodnoty sloupce: NULL nebo hodnota.
+
 *Příklad na vytvoření entity*
 ``` sql
 CREATE TABLE example(

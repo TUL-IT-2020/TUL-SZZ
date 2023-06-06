@@ -14,6 +14,8 @@ Normalizace se provádí za pomoci **normálních forem** (NF). Mezi ně patří
 
 Pozn.: Obecně lze říci, že u každé databáze není nutné aplikovat všechny zde uvedené NF. Vždy záleží na konkrétním uvážení. Nicméně z praktických důvodů se v mnoha případech provádí normalizace alespoň do 3NF.
 
+5NF ∋ 4NF ∋ BCNF ∋ 3NF ∋ 2NF ∋ 1NF
+
 ### 1. normální forma
 Relace je v první normální formě, pokud každý její atribut obsahuje jen atomické hodnoty. Tedy hodnoty z pohledu databáze již dále nedělitelné.
 

@@ -33,15 +33,15 @@
 **Algoritmy a programování:**
 
 18. Číselné soustavy a převody mezi nimi. Způsoby kódování čísel s pevnou a s pohyblivou řádovou tečkou. Kódování záporných čísel.
-19. Jazyk C. Základní datové typy a strukturovaný datový typ. Pole a ukazatele, dynamická alokace [[Rozdělení paměti|paměti]].
+19. Jazyk [[C|C]]. Základní datové typy a [[C#Strukturovaný datový typ|strukturovaný datový typ]]. [[C#pole|Pole]] a [[C#pointery|ukazatele]], [[C#dynamická alokace pole|dynamická alokace]] [[Rozdělení paměti|paměti]].
 20. Algoritmy pro vyhledávání a řazení, složitost algoritmů.
 21. Rekurze a její použití. Rekurzivní a nerekurzivní realizace vybraných algoritmů. Využití zásobníku programu.
 22. Členění programu v jazyce vyšší úrovně. Metody, funkce, procedury, makra. Parametry metod, procedur a funkcí a způsoby jejich předávání. Globální a lokální proměnné.
-23. Objektově orientované programování, význam a základní principy: zapouzdření, dědičnost a polymorfismus, správa přístupu... Abstraktní třídy a rozhraní. Genericita a její využití.
+23. [[OOP|Objektově orientované programování]], význam a základní principy: zapouzdření, [[OOP#Dědičnost|dědičnost]] a polymorfismus, správa přístupu... [[OOP#Abstraktní třída|Abstraktní třídy]] a [[OOP#Rozhraní (inteface)|rozhraní]]. Genericita a její využití.
 24. Operační systém, vysvětlení pojmu, typy, poskytované funkce. Správa procesů v operačním systému, vztah programu a procesu, životní cyklus procesu.
 
 **Počítačové sítě a Internet:**
-
+ 
 25. Principy vrstvené architektury počítačových sítí, referenční model OSI. 
 	- Charakteristika lokálních počítačových sítí. Technologie Ethernet, její principy a vývoj, algoritmus CSMA/CD. 
 	- Bezdrátové lokální sítě standardu IEEE 802.11.
