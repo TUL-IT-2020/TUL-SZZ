@@ -1,4 +1,4 @@
-# OOP - Oběktově orentované programování
+# OOP - Objektově orientované programování
 Z pohledu například jazyka Java.
 
 Objektový přístup modeluje entity reálného světa:

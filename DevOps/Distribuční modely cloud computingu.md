@@ -8,6 +8,10 @@ Distribuční modely (Service Models) reprezentují pohled na cloud computing z 
 - IaaS (Infrastruktura) - AWS, Azure 
 - PaaS (Platforma) - Centos 7 + JRE 10 
 - SaaS (Služba) - Gmail, Office 365
+- DBaaS (Database)
+- BDaaS (Big Data)
+
+![[what-is-iaas_iaas-paas-saas.PNG]]
 
 ## IaaS
 ![[IaaS]]
@@ -22,4 +26,5 @@ Distribuční modely (Service Models) reprezentují pohled na cloud computing z 
 ![[DaaS]]
 
 ## Zdroje:
-https://www.google.com/url?sa=t&rct=j&q=&esrc=s&source=web&cd=&ved=2ahUKEwidksCThOv-AhW3gf0HHfJwAnEQFnoECAYQAQ&url=https%3A%2F%2Fis.ambis.cz%2Fth%2Ffv26q%2FBakalarska_prace_-_Hrncir.docx&usg=AOvVaw3ceOZoYkILij6Ky2INoU5c
+- https://www.google.com/url?sa=t&rct=j&q=&esrc=s&source=web&cd=&ved=2ahUKEwidksCThOv-AhW3gf0HHfJwAnEQFnoECAYQAQ&url=https%3A%2F%2Fis.ambis.cz%2Fth%2Ffv26q%2FBakalarska_prace_-_Hrncir.docx&usg=AOvVaw3ceOZoYkILij6Ky2INoU5c
+- https://azure.microsoft.com/cs-cz/resources/cloud-computing-dictionary/what-is-iaas/

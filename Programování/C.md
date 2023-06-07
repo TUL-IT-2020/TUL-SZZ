@@ -293,7 +293,7 @@ int main (int atgc, char *argc[]) {
 ```
 
 ### Rekurzivní funkce
-Funkce volající sama sebe.
+[[Rekurze|Rekurzivní]] funkce volající sama sebe.
 ```C
 int faktorial(int n){ 
 	return ((n<=0)? 1 : n*faktorial(n-1)); 
