@@ -23,13 +23,13 @@ Reálně by každý systém měl zajišťovat partition tolerance, proto jde o t
 
 ![CAP distribuovaná aplikace](14_cap2.png)
 
-### C + A  (relační DB)
+### C + A  ([[RMD - Relační model dat|relační DB]])
 Výpadek části sítě je problém. Než aby systém vrátil nekonzistentní výsledky, neodpoví vůbec. Data jsou konzistentní mezi všemi uzly, pokud jsou všechny uzly online. Můžeme číst/zapisovat z kteréhokoli uzlu a být si zároveň jisti, že data jsou stejná. 
 
-### C + P (Mongo)
+### C + P ([[MongoDB|Mongo]])
 Data jsou konzistentní mezi všemi uzly a zachovávají partition tolerance (zamezují desychroznizaci) tím, že pokud je uzel offline data jsou nedostupná. Pokud systém nedokáže vrátit aktuální data, vrátí chybu.
 
-### A + P (Cassandra)
+### A + P ([[Cassandra|Cassandra]])
 Tolerantní vůči výpadku části služby. Systém je dostupný díky replikaci, k synchronizaci dojde hned jak bude partition znovu dostupná. Nicméně není garantováno, že všechny uzly budou mít stejná data. Neexistuje záruka, že data jsou aktuální. 
 
 ## Segmentovaná konzistence a dostupnost

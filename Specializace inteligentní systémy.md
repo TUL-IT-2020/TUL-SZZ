@@ -55,14 +55,14 @@
 29. [[Jazyk SQL|Jazyk SQL]] - [[Jazyk SQL#DML / [SELECT](https //cs.wikipedia.org/wiki/SELECT)|selekce]], projekce, agregační funkce, [[SQL - Množinové operace|množinové operace]], [[SQL - Spojení tabulek|typy spojení]], vnořené dotazy, [[Uložené procedury a spouště (od SQL3)|spouště a uložené procedury]].
 30. [[SQL - Transakce|Transakce]] - koncept a vlastnosti transakcí ([[SQL - ACID|ACID]]).
 31. [[BigData|BigData]] - definice, dělení podle [[BigData#Struktura Dat|struktury]] a [[BigData#Odkud Big Data pochází?|původu]], [[BigData#Charakteristiky Big Data|charakteristika]], [[BigData#Aplikace Big Data|aplikace]]. 
-	- Analýza velkých dat - jednotlivé kroky, typy, výhody a výzvy.
+	- [[BigData#Analýza velkých dat|Analýza velkých dat]] - jednotlivé kroky, typy, výhody a výzvy.
 32. [[NoSQL databáze|NoSQL databáze]] - koncept, vlastnosti, dělení, srovnání s relačními databázemi. Pojmy: volné schéma, [[CAP teorém|CAP teorém]], indexování, agregace, replikace, škálování, sharding.
 33. Dokumentové databáze - koncept, srovnání s key-value úložišti, pojem dokument, výhody a nevýhody. 
 	- [[MongoDB|MongoDB]] - charakteristika a architektura.
 34. Databáze pro prohledávání a analýzu textu - princip, vlastnosti. 
-	- [[Elasticsearch|Elasticsearch]] - architektura, prohledávání vs. analýza, invertovaný index.
+	- [[Elasticsearch|Elasticsearch]] - [[Elasticsearch#Architektura|architektura]], prohledávání vs. analýza, invertovaný index.
 35. Sloupcové databáze - koncept, sloupcově orientovaný model, výhody a nevýhody. 
-	- [[Cassandra|Cassandra]] - [[Cassandra#Architektura|architektura]], distribuce dat a replikace, sekundární index.
+	- [[Cassandra|Cassandra]] - [[Cassandra#Architektura|architektura]], [[Cassandra#Distribuce dat|distribuce dat a replikace]], sekundární index.
 36. Dávkové zpracování dat - [[MapReduce|MapReduce]] (princip, fáze [[MapReduce#Mapovací funkce|mapování]] a [[MapReduce#Redukční funkce|redukování]]). 
 	- [[Apache Hadoop|Apache Hadoop]] popis, důvod vzniku, ekosystém, komponenty a jejich význam (HDFS, YARN, MapReduce).
 37. [[Apache Spark|Apache Spark]] - popis a srovnání s [[Apache Hadoop|Apache Hadoop]], jednotlivé komponenty a jejich význam. Koncepty RDD a DataFrame - princip, popis a rozdíly. Transformace vs. akce.
