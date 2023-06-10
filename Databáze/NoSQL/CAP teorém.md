@@ -2,6 +2,7 @@
 3 základní vlastnosti distribuovaných systémů. Systém může splňovat nejvýše 2 z nich najednou. 
 Slouží návrhářům k ujasnění priorit.
 
+![[CAP teorém.PNG]]
 ## CAP význam zkratek
 Při návrhu distribuované aplikace je nutné brát v potaz následující požadavky:
 ### Consistency

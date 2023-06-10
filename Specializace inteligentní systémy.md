@@ -56,8 +56,8 @@
 30. [[SQL - Transakce|Transakce]] - koncept a vlastnosti transakcí ([[SQL - ACID|ACID]]).
 31. [[BigData|BigData]] - definice, dělení podle [[BigData#Struktura Dat|struktury]] a [[BigData#Odkud Big Data pochází?|původu]], [[BigData#Charakteristiky Big Data|charakteristika]], [[BigData#Aplikace Big Data|aplikace]]. 
 	- [[BigData#Analýza velkých dat|Analýza velkých dat]] - jednotlivé kroky, typy, výhody a výzvy.
-32. [[NoSQL databáze|NoSQL databáze]] - koncept, vlastnosti, dělení, srovnání s relačními databázemi. Pojmy: volné schéma, [[CAP teorém|CAP teorém]], indexování, agregace, replikace, škálování, sharding.
-33. Dokumentové databáze - koncept, srovnání s key-value úložišti, pojem dokument, výhody a nevýhody. 
+32. [[NoSQL databáze|NoSQL databáze]] - koncept, vlastnosti, [[NoSQL databáze#Typy NoSQL databází|dělení]], [[NoSQL databáze#Srovnání s relačními databázemi|srovnání]] s relačními databázemi. Pojmy: [[NoSQL databáze#Volné schéma|volné schéma]], [[CAP teorém|CAP teorém]], [[NoSQL databáze#Indexování|indexování]], agregace, [[NoSQL databáze#Replikace|replikace]], [[Škálování|škálování]], [[Sharding|sharding]].
+33. [[Dokumentové databáze|Dokumentové databáze]] - koncept, srovnání s [[Key-value uložiště|key-value úložišti]], pojem [[Dokumentové databáze#Dokument|dokument]], výhody a nevýhody. 
 	- [[MongoDB|MongoDB]] - charakteristika a architektura.
 34. Databáze pro prohledávání a analýzu textu - princip, vlastnosti. 
 	- [[Elasticsearch|Elasticsearch]] - [[Elasticsearch#Architektura|architektura]], prohledávání vs. analýza, invertovaný index.

@@ -180,7 +180,7 @@ UNION
 WHERE datum = ‘2.4.2002’);
 ```
 
-### DML / CRUD bez R
+### DML / [[CRUD]] bez R
 *Příklad na vložení záznamu*
 ``` sql
 INSERT INTO example (field1, field2, field3) VALUES ('test', 'N', NULL);
