@@ -61,20 +61,8 @@ Naproti tomu objektové modely jsou založeny na objektech, což jsou struktury,
 ## NoSQL databáze
 ![[NoSQL databáze]]
 
-## SŘBD vs. NoSQL
-**SŘBD**
-- strukturovaná a organizovaná data
-- SQL, DML, DDL, ACID
-- transakce, konzistence
-
-**NoSQL**
-- nemá deklarativní dotazovací jazyk
-- nemá definované schéma
-- ukládá dvojice klíč-hodnota; Uložení sloupců, dokumentů, grafů
-- případná konzistence upřednostněna před ACID
-- podpora nestrukturovaných a nepředvídatelných dat
-- CAP teorém
-- upřednostňují vysoký výkon, dostupnost a rozšiřitelnost
+## SŘBD vs NoSQL
+![[Relační vs. NoSQL databáze]]
 
 ## Zdroje:
 - https://projekty.fs.vsb.cz/463/edubase/VY_01_044/Databázové%20systémy.pdf

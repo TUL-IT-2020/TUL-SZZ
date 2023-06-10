@@ -1,7 +1,7 @@
 #MVD 
 # TF-IDF
 V praxi potřebujeme použít počet výskytů. 
-TF = **term frequency**, kolikrát se výraz vyskytuje v dokumentu. Problém s TF , pokud se slovo vyskytuje často v každém dokumentu (spojky, předložky, …)
+TF = **term frequency**, kolikrát se výraz vyskytuje v dokumentu. Problém s TF, pokud se slovo vyskytuje často v každém dokumentu (spojky, předložky, …)
 IDF = **inverse document frequency**, v jaké míře se slovo vyskytuje v celé kolekci. Využito k penalizaci častých slov.
 
 P𝑜č𝑒𝑡 𝑠𝑙𝑜𝑣 $𝑊_𝑖$ 𝑣 𝑑𝑜𝑡𝑎𝑧𝑢 $𝑞$:

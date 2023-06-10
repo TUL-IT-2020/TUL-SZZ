@@ -31,3 +31,10 @@ Operace [[CRUD]], mohou také podporovat transakce [[SQL - ACID|ACID]].
 
 ## Kolekce
 Skupiny dokumentů. Jeden dokument může být ve více kolekcích. 
+
+
+## Použití
+Ukládání dat pro:
+- webové aplikace
+- uživatelská data
+- katalogy

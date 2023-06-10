@@ -41,52 +41,21 @@ Nevýhody:
 Žádné předdefinované nastavení -> flexibilita.
 
 ## Indexování
-Vylepšuje rychlost vyhledávání. Bez indexování se provádí sken celé databáze. Vhodný index výrazně omezuje rozsah, který je potřeba skenovat. 
-
-### Index
-Speciální datová struktura definovaná na úrovni setů, polí, kolekcí. Obsahují ukazatel na data. Ukládá hodnotu specifického pole v seřazené formě. Využití i pro rychlé řazení. Základ pro 
-[[Sharding|sharding]].
-
-Vylepšuje rychlost vyhledávání. 
-Vkládání prvků vynutí aktualizaci indexu a ta je pomalá, proto není vhodné mít mnoho indexů. 
+![[DBS - Indexování]]
 
 ## Replikace
-Automatická distribuce změn v originále do jeho kopií. 
-Zajištuje vysokou dostupnost.
+Repliky nejsou na stejném uzlu jako primární [[Sharding|shard]]. Zajištuje vysokou dostupnost.
 
-## Srovnání s relačními databázemi
-NoSQL se nesnaží nahradit ralační DBS. 
+Pro synchronizaci se využívá modelu primary-backup. Automatická distribuce změn v originále do jeho kopií. 
 
-![[SQL vs NoSQL.PNG]]
+Repliky plně obsluhují dotazy. Zvyšuje se tak propustnost. 
 
-### NoSQL
-Zpracování velkých objemů vzájemně nesouvisejících nebo rychle se měněních dat. Data nezávislá na schématu. Aplikace preferující výkon a dostupnost před silnou konzistencí. Neustále přístupné aplikace slouží uživatelům po celém světě. 
+Snapshot - umožnuje obnovu databáze. 
 
-Nerelační databáze (žádné relace). Vyhýbají se vazbám mezi daty. Distribuované databáze.
+## Agregace
+Dávkové zpracování dokumentů vracející kompaktní výsledky i po provedení celé řady operací. 
 
-Hierarchické ukládání dat (klíč-hodnota).
+První fáze: Shlukování hodnot z různých dokumentů.
+Druhá fáze: provedení operace na shluknutých datech a vrácení výsledku.
 
-Nemají jednotný jazyk. Realizace složitějších dotazů je velice obtížná.
 
-#### Použití:
-- mobilní aplikace
-- analýza v reálném čase
-- správa obsahu
-- IoT
-
-### Relační DBS
-Zpracování relačních dat mající logické a diskrétní požadavky určené předem. Starší systémy pro relační struktury. Aplikace vyžadující komplexní dotazování nebo transakce s více řádky. Staví na [[SQL - ACID|ACID]] vlastnostech transakcí. 
-
-- definované relace (tabulky)
-- atributy (sloupce)
-- vazby mezi relacemi
-
-Data ukládaná ve formě záznamu (řádků) v relacích. Související data jsou mnohdy uložená odděleně. Pomocí dotazů je spojujeme. Modelují vztahy mezi daty.
-
-Využívá se jazyka [[Jazyk SQL|SQL]].
-
-Relační databáze jsou dlouhodobě zažitá a používaná technologie.
-
-#### Použití:
-- účetnictví, bankovnictví
-- řízení zásob
