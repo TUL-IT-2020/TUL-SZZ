@@ -1,6 +1,17 @@
 #ALD 
 # Řadící algoritmy
 
+## Vlastnosti
+
+- *na místě* - pro řazení se nepoužívá žádná další datová struktura (např. další pole)
+- *stabilní* - v seřazené posloupnosti je zachováno pořadí rovnocenných prvků
+- *přirozený* - rychleji zpracuje (částečně) seřazenou množinu, u nepřirozeného to nehraje roli
+- [*interní*](https://en.wikipedia.org/wiki/Internal_sort) - všechna data jsou k dispozici v paměti
+- [*externí*](https://en.wikipedia.org/wiki/External_sorting) - další prvky přichází v průběhu řazení
+- složitost 
+ - [*časová složitost*](https://cs.wikipedia.org/wiki/Asymptotick%C3%A1_slo%C5%BEitost) 
+ - *paměťová složitost*
+
 ## Bubble sort (bublinkové řazení, řazení záměnou)
 Název od „probublávání“ větších prvků/bublinek na konec (začátek) tříděné množiny.
 [[Složitost algoritmů|Složitost]]:
@@ -127,3 +138,15 @@ Pracuje na principu rozdělení pole řazených prvků na dvě části a tyto po
 |CombSort|Hřebenové řazení|Záměna|Ne|Ano|O(N2)|
 |ShakerSort|Koktejlové řazení|Záměna|Ano|Ano|O(N2)|
 
+
+| Anglicky       | Česky             | Nejlepší   | Průměrně   | Nejhorší   | Dodatečná pamět | Stabilní  | Přirozené | Metoda    |
+|----------------|-------------------|------------|------------|------------|-----------------|-----------|-----------|-----------|
+| Selection sort | Řazení výběrem    | O(n²)      | O(n²)      | O(n²)      | O(1)            | zprav. ne | ne        | výběr     |
+| Insertion sort | Řazení vkládáním  | O(n)       | O(n²)      | O(n²)      | O(1)            | ano       | ano       | vkládání  |
+| Bubble sort    | Bublinkové řazení | O(n)       | O(n²)      | O(n²)      | O(1)            | ano       | ano       | záměna    |
+| Merge sort     | Řazení slučováním | O(n log n) | O(n log n) | O(n log n) | O(log n)        | ano       | ano       | slučování |
+| Quicksort      | Rychlé řazení     | O(n log n) | O(n log n) | O(n²)      | O(log n)        | ne        | ne        | záměna    |
+
+
+[Sorting Algorhitm Animations](http://www.sorting-algorithms.com/)
+[Rozbor mnoha algoritmu](https://www.algoritmy.net/article/75/Porovnani-algoritmu)

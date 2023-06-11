@@ -1,3 +1,4 @@
+#ALD
 # Halda
 Halda – strom (ADT), který splňuje vlastnost haldy – pokud B je potomek A, pak platí že:
 h(A) >= h(B) max-heap
@@ -11,7 +12,7 @@ Binární strom, pro který platí:
 - Každý uzel je větší nebo roven svým potomkům
 
 Konstrukce binární haldy je následující:
-1. řidáme uzel na spodní úroveň haldy
+1. přidáme uzel na spodní úroveň haldy
 2. porovnáme přidaný uzel s rodičem, pokud je ve správném vztahu, končíme
 3. pokud ne, prohodíme uzel s rodičem a opakujeme předešlý krok.
 

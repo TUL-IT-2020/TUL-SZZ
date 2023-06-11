@@ -11,10 +11,17 @@ Jak na:
 ## Studijní obory a specializace:
 - [[Specializace inteligentní systémy|Inteligentní systémy - 2023]]
 
+## Převzaté materiály
+Některé obrázky nebo materiály nemusí být naše vlastní a mohou být odněkud přejaté. Vzhledem k tomu, že je někdy obtížné dohledat licenční podmínky užití obrázku, mohlo se stát, že jsme něco použili neoprávněně. Pokud nararazíte na nějaký obrázek či materiál, k němuž máte práva, a nesouhlasíte s jeho použitím v těchto materiálech, dejte nám prosím vědět, abychom ho mohli odstranit.
+
+## Used content
+Please note that some content may not be ours. If you are the owner of an content we have used without your permission and you do not agree with its use as a part of this educational material, please contact us so we may remove it.
+
 ## Zdroje:
 Jak říká jedno rčení:
-> Stojíme na ramenech [obrů](https://github.com/tkrizek/tul-szz-it-nv).
+> Stojíme na ramenech obrů.
 
+- [tul-szz-it-nv](https://github.com/tkrizek/tul-szz-it-nv)
 - [cvut-fit-szz](https://gitlab.fit.cvut.cz/sutymate/szz-okruhy-2020)
 - [hk-fim-szz](http://michaelkuty.github.io/ssz-ai-hk-3/index.html)
 - [VŠB-Ostrava](http://lucie.zolta.cz/index.php/okruhy-szz-povinne)
