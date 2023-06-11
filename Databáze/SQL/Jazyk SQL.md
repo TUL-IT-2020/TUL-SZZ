@@ -27,7 +27,8 @@ SQL příkazy se dělí na čtyři základní skupiny:
 Základním konstruktem pro výběr dat je **SELECT**-**FROM**-**WHERE** blok. Klauzule **SELECT** obsahuje seznam sloupců vytvářejících schéma tabulky. Klauzule **FROM** obsahuje seznam tabulek, nad kterými je dotaz definován a klauzule **WHERE** obsahuje podmínku, kterou musí splňovat vyhledávaná data. **Select** neeliminuje z výsledku duplicitní hodnoty (k tomu slouží další operátory).
 
 #### Základní pojmy a klíčová slova
-**Agregační funkce**: SUM, AVG, MIN, MAX, COUNT
+
+![[Agregační funkce]]
 
 **Predikáty**: IN, ANY, ALL, SOME, EXISTS
 

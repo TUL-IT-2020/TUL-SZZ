@@ -17,7 +17,6 @@ XML, YAML, JSON
 Binární froma:
 BSON, PDF, MS office dokumenty
 
-
 Koncepčně odpovídají objektům v OOP.  Dokumenty mají [[NoSQL databáze#NoSQL databáze#Volné schéma|volné schéma]]. K dokumentům jsou často přidružena i metadata. 
 
 Jsou zpravidla identifikovány cestou k souboru.
@@ -31,7 +30,6 @@ Operace [[CRUD]], mohou také podporovat transakce [[SQL - ACID|ACID]].
 
 ## Kolekce
 Skupiny dokumentů. Jeden dokument může být ve více kolekcích. 
-
 
 ## Použití
 Ukládání dat pro:

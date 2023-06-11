@@ -42,21 +42,21 @@
 
 **Počítačové sítě a Internet:**
  
-25. Principy vrstvené architektury počítačových sítí, referenční model OSI. 
+25. Principy vrstvené architektury [[Počítačové sítě|počítačových sítí]], referenční model OSI. 
 	- Charakteristika lokálních počítačových sítí. Technologie Ethernet, její principy a vývoj, algoritmus CSMA/CD. 
 	- Bezdrátové lokální sítě standardu IEEE 802.11.
-26. Základní principy činnosti protokolů sítě Internet - IP, TCP, UDP. Domain Name System, jeho role a činnost, DNS servery, postup řešení dotazu, reverzní DNS.
+26. Základní principy činnosti protokolů sítě Internet - [[Protokol IP (Internet Protocol)|IP]], [[TCP (Transmisson Control Protocol)|TCP]], [[UDP (User Datagram Protocol)|UDP]]. [[DNS (Domain Name System)|Domain Name System]], jeho role a činnost, [[DNS (Domain Name System)#DNS server|DNS servery]], postup řešení dotazu, reverzní DNS.
 
 **Databázové systémy a technologie pro BigData:**
 
 27. Architektura relačních [[Databazove_systemy#Databázové systémy|databázových systémů]], [[Databazove_systemy#Konceptuální model|datový model]], [[RMD - Modelování relačního modelu pomocí UML digramu|konceptuální modelování]].
 28. [[RMD - Relační model dat|Relační model]], [[RMD - Relační model dat#Základní pojmy|základní konstrukty]], [[RMD - Relační model dat#Vztah|realizace vztahů v relačním modelu]], [[RMD - Relační model dat#Integrita databáze a integritní omezení|integritní omezení]]. 
 	- [[Mormalizace_BDS|Normalizace]], [[RMD - Normalizace|normální formy]], [[RMD - Funkční závislosti|funkční závislosti]], [[RMD - Návrhové anomálie|aktualizační anomálie]].
-29. [[Jazyk SQL|Jazyk SQL]] - [[Jazyk SQL#DML / [SELECT](https //cs.wikipedia.org/wiki/SELECT)|selekce]], projekce, agregační funkce, [[SQL - Množinové operace|množinové operace]], [[SQL - Spojení tabulek|typy spojení]], vnořené dotazy, [[Uložené procedury a spouště (od SQL3)|spouště a uložené procedury]].
+29. [[Jazyk SQL|Jazyk SQL]] - [[Jazyk SQL#DML / [SELECT](https //cs.wikipedia.org/wiki/SELECT)|selekce]], projekce, [[Agregační funkce|agregační funkce]], [[SQL - Množinové operace|množinové operace]], [[SQL - Spojení tabulek|typy spojení]], vnořené dotazy, [[Uložené procedury a spouště (od SQL3)|spouště a uložené procedury]].
 30. [[SQL - Transakce|Transakce]] - koncept a vlastnosti transakcí ([[SQL - ACID|ACID]]). 
 31. [[BigData|BigData]] - definice, dělení podle [[BigData#Struktura Dat|struktury]] a [[BigData#Odkud Big Data pochází?|původu]], [[BigData#Charakteristiky Big Data|charakteristika]], [[BigData#Aplikace Big Data|aplikace]]. 
 	- [[BigData#Analýza velkých dat|Analýza velkých dat]] - jednotlivé kroky, typy, výhody a výzvy. 
-32. [[NoSQL databáze|NoSQL databáze]] - koncept, vlastnosti, [[NoSQL databáze#Typy NoSQL databází|dělení]], [[Relační vs. NoSQL databáze|srovnání]] s relačními databázemi. Pojmy: [[NoSQL databáze#Volné schéma|volné schéma]], [[CAP teorém|CAP teorém]], [[DBS - Indexování|indexování]], [[NoSQL databáze#Agregace|agregace]], [[NoSQL databáze#Replikace|replikace]], [[Škálování|škálování]], [[Sharding|sharding]]. 
+32. [[NoSQL databáze|NoSQL databáze]] - koncept, vlastnosti, [[NoSQL databáze#Typy NoSQL databází|dělení]], [[Relační vs. NoSQL databáze|srovnání]] s relačními databázemi. Pojmy: [[NoSQL databáze#Volné schéma|volné schéma]], [[CAP teorém|CAP teorém]], [[DBS - Indexování|indexování]], [[NoSQL databáze#Agregace|agregace]], [[Replikace|replikace]], [[Škálování|škálování]], [[Sharding|sharding]]. 
 33. [[Dokumentové databáze|Dokumentové databáze]] - koncept, srovnání s [[Key-value uložiště|key-value úložišti]], pojem [[Dokumentové databáze#Dokument|dokument]], výhody a nevýhody. 
 	- [[MongoDB|MongoDB]] - [[MongoDB#Charakteristika|charakteristika]] a [[MongoDB#Architektura|architektura]]. 
 34. [[Databáze pro prohledávání|Databáze pro prohledávání]] a analýzu textu - princip, vlastnosti. 

@@ -26,7 +26,10 @@ Nevýhody:
 ### Dokument
 Volné schéma
 Max velikost: 16MB
-Data patřící k sobě uložená v jednom dokumentu. 
+Data patřící k sobě jsou uložena v jenom dokumentu. 
+
+### Kolekce
+Seznam dokumentů, odpovídá relaci (tabulce). 
 
 ### Operace
 Přístup podle schéma [[CRUD]].
