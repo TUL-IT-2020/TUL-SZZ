@@ -24,7 +24,7 @@ Nevýhody:
 ## Typy NoSQL databází:
 - [[Key-value uložiště|key-value uložiště]]
 - [[Dokumentové databáze|dokumentové databáze]] ([[MongoDB]], [[Elasticsearch]])
-- sloupcová uložiště ([[Cassandra]])
+- [[Sloupcové databáze|sloupcová uložiště]] ([[Cassandra]])
 - grafová uložiště
 - databáze časových řad
 
@@ -44,13 +44,7 @@ Nevýhody:
 ![[DBS - Indexování]]
 
 ## Replikace
-Repliky nejsou na stejném uzlu jako primární [[Sharding|shard]]. Zajištuje vysokou dostupnost.
-
-Pro synchronizaci se využívá modelu primary-backup. Automatická distribuce změn v originále do jeho kopií. 
-
-Repliky plně obsluhují dotazy. Zvyšuje se tak propustnost. 
-
-Snapshot - umožnuje obnovu databáze. 
+![[Replikace]]
 
 ## Agregace
 Dávkové zpracování dokumentů vracející kompaktní výsledky i po provedení celé řady operací. 
