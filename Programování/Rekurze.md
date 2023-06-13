@@ -5,12 +5,12 @@ Při použití rekurze je důležité stanovit podmínku ukončení, která zast
 
 ## Algoritmy
 
-1. Vyhledávání v adresářové struktuře: Rekurze může být použita k procházení složek a souborů v adresářové struktuře. Funkce se volá sama pro každou podadresář a umožňuje tak prohledávání všech úrovní složek.
-2. Binární stromy: Rekurze se často používá při práci s binárními stromy, které mají hierarchickou strukturu. Rekurzivní funkce může být použita k procházení stromu, vyhledávání konkrétního uzlu nebo provádění různých operací na jednotlivých uzlech.
-3. Řazení: Některé algoritmy řazení, jako například quicksort nebo mergesort, jsou implementovány rekurzivně. Tyto algoritmy rozdělují problém na menší části, řadí je a následně je spojují do výsledného řazeného pole.
-4. Vyhledávání v grafu: Při prohledávání grafu (např. algoritmy DFS - hloubkové prohledávání nebo BFS - prohledávání do šířky) se často používá rekurze. Funkce může volat sama sebe pro každý sousední vrchol a tak procházet celý graf.
-5. Fraktály: Rekurze se používá pro generování fraktálů, jako je například Mandelbrotova množina. V případě fraktálů se rekurzivní volání opakuje pro každý bod v komplexní rovině.
-6. Backtracking: Algoritmy backtrackingu, jako například řešení problému osmibajtové dámy, používají rekurzi k systematickému procházení možných kombinací řešení.
+1. **Vyhledávání v adresářové struktuře**: Rekurze může být použita k procházení složek a souborů v adresářové struktuře. Funkce se volá sama pro každou podadresář a umožňuje tak prohledávání všech úrovní složek.
+2. **Binární stromy**: Rekurze se často používá při práci s binárními stromy, které mají hierarchickou strukturu. Rekurzivní funkce může být použita k procházení stromu, vyhledávání konkrétního uzlu nebo provádění různých operací na jednotlivých uzlech.
+3. **Řazení**: Některé algoritmy řazení, jako například quicksort nebo mergesort, jsou implementovány rekurzivně. Tyto algoritmy rozdělují problém na menší části, řadí je a následně je spojují do výsledného řazeného pole.
+4. **Vyhledávání v grafu**: Při prohledávání grafu (např. algoritmy DFS - hloubkové prohledávání nebo BFS - prohledávání do šířky) se často používá rekurze. Funkce může volat sama sebe pro každý sousední vrchol a tak procházet celý graf.
+5. **Fraktály**: Rekurze se používá pro generování fraktálů, jako je například Mandelbrotova množina. V případě fraktálů se rekurzivní volání opakuje pro každý bod v komplexní rovině.
+6. **Backtracking**: Algoritmy backtrackingu, jako například řešení problému osmibajtové dámy, používají rekurzi k systematickému procházení možných kombinací řešení.
 
 ## Faktoriál
 Příklad jednoduché rekurzivní funkce v Pythonu, která vypočítá faktoriál čísla:

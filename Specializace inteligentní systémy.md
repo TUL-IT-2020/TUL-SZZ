@@ -35,14 +35,14 @@
 18. Číselné soustavy a převody mezi nimi. Způsoby kódování čísel s pevnou a s pohyblivou řádovou tečkou. Kódování záporných čísel.
 19. Jazyk [[C|C]]. [[C#Základní datové typy|Základní datové typy]] a [[C#Strukturovaný datový typ|strukturovaný datový typ]]. [[C#pole|Pole]] a [[C#Ukazatele (pointery)|ukazatele]], [[C#dynamická alokace pole|dynamická alokace]] [[Rozdělení paměti|paměti]].
 20. Algoritmy pro [[Vyhedávání|vyhledávání]] a [[Řadící algoritmy|řazení]], [[Složitost algoritmů|složitost algoritmů]].
-21. [[C#Rekurzivní funkce|Rekurze]] a její použití. Rekurzivní a nerekurzivní realizace [[Rekurze|vybraných algoritmů]]. Využití [[Rozdělení paměti#Zásobník|zásobníku programu]].
-22. Členění programu v jazyce vyšší úrovně. Metody, [[C#Funkce|funkce]], procedury, [[C#Makra|makra]]. Parametry metod, procedur a funkcí a způsoby jejich předávání. Globální a lokální proměnné.
+21. [[C#Rekurzivní funkce|Rekurze]] a její použití. Rekurzivní a nerekurzivní realizace [[Rekurze|vybraných algoritmů]]. Využití [[Rozdělení paměti#Zásobník|zásobníku programu]]. 
+22. [[Členění programu|Členění programu]] v jazyce vyšší úrovně. [[Členění programu#1. Metoda|Metody]], [[Členění programu#2. Funkce|funkce]], [[Členění programu#3. Procedura|procedury]], [[C#Makra|makra]]. [[Předávání parametrů|Parametry]] metod, procedur a funkcí a způsoby jejich předávání. Globální a lokální proměnné.
 23. [[OOP|Objektově orientované programování]], význam a základní principy: zapouzdření, [[OOP#Dědičnost|dědičnost]] a polymorfismus, správa přístupu... [[OOP#Abstraktní třída|Abstraktní třídy]] a [[OOP#Rozhraní (inteface)|rozhraní]]. Genericita a její využití.
 24. [[Operační systém|Operační systém]], [[Operační systém#Vysvětlení pojmu|vysvětlení pojmu]], [[Operační systém#Typy operačních systémů|typy]], [[Operační systém#Poskytované funkce operačním systémem|poskytované funkce]]. [[Operační systém#Správa procesů|Správa procesů]] v operačním systému, vztah [[Operační systém#Program, proces|programu a procesu]], [[Operační systém#Životní cyklus procesu|životní cyklus procesu]]. 
 
 **Počítačové sítě a Internet:**
  
-25. Principy vrstvené architektury [[Počítačové sítě|počítačových sítí]], referenční model OSI. 
+25. Principy vrstvené architektury [[Počítačové sítě|počítačových sítí]], referenční model [[Počítačové sítě#Referenční model OSI|OSI]]. 
 	- Charakteristika lokálních počítačových sítí. Technologie Ethernet, její principy a vývoj, algoritmus CSMA/CD. 
 	- Bezdrátové lokální sítě standardu IEEE 802.11.
 26. Základní principy činnosti protokolů sítě Internet - [[Protokol IP (Internet Protocol)|IP]], [[TCP (Transmisson Control Protocol)|TCP]], [[UDP (User Datagram Protocol)|UDP]]. [[DNS (Domain Name System)|Domain Name System]], jeho role a činnost, [[DNS (Domain Name System)#DNS server|DNS servery]], postup řešení dotazu, reverzní DNS.

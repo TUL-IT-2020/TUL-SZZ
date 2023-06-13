@@ -44,5 +44,5 @@ Hlavní funkce poskytované fyzickou vrstvou jsou:
 - nezachovává pořadí – Při odeslání dvou zpráv jednomu příjemci nelze předvídat, v jakém pořadí budou doručeny. 
 - jednoduchost – Nižší režie než u TCP (není zde řazení, žádné sledování spojení atd.).
 
-
+## DNS
 [[DNS (Domain Name System)]]
