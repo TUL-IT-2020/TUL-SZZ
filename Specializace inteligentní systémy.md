@@ -16,7 +16,7 @@
 
 6. Signály a systémy. LTI systémy. Přenosová funkce, impulsní odezva. Konvoluce u číslicových signálů.  
 7. Fourierovy řady. Diskrétní Fourierova transformace, její použití a interpretace. Spektrum signálu, FFT. Číslicové filtry FIR a IIR. Filtrace v čase nebo prostoru.  
-8. Vzorkování, kvantování. Vzorkovací teorém. Aliasing.
+8. Vzorkování, kvantování. Vzorkovací teorém. Aliasing. 
 
 **Strojové učení a vytěžování dat**
 
@@ -43,7 +43,8 @@
 **Počítačové sítě a Internet:**
  
 25. Principy vrstvené architektury [[Počítačové sítě|počítačových sítí]], referenční model [[Počítačové sítě#Referenční model OSI|OSI]]. 
-	- Charakteristika lokálních počítačových sítí. Technologie Ethernet, její principy a vývoj, algoritmus CSMA/CD. 
+	- Charakteristika lokálních počítačových sítí. 
+	- Technologie Ethernet, její principy a vývoj, algoritmus [[CSMA-CD|CSMA/CD]]. 
 	- Bezdrátové lokální sítě standardu IEEE 802.11.
 26. Základní principy činnosti protokolů sítě Internet - [[Protokol IP (Internet Protocol)|IP]], [[TCP (Transmisson Control Protocol)|TCP]], [[UDP (User Datagram Protocol)|UDP]]. [[DNS (Domain Name System)|Domain Name System]], jeho role a činnost, [[DNS (Domain Name System)#DNS server|DNS servery]], postup řešení dotazu, reverzní DNS.
 
@@ -51,8 +52,8 @@
 
 27. Architektura relačních [[Databazove_systemy#Databázové systémy|databázových systémů]], [[Databazove_systemy#Konceptuální model|datový model]], [[RMD - Modelování relačního modelu pomocí UML digramu|konceptuální modelování]].
 28. [[RMD - Relační model dat|Relační model]], [[RMD - Relační model dat#Základní pojmy|základní konstrukty]], [[RMD - Relační model dat#Vztah|realizace vztahů v relačním modelu]], [[RMD - Relační model dat#Integrita databáze a integritní omezení|integritní omezení]]. 
-	- [[Mormalizace_BDS|Normalizace]], [[RMD - Normalizace|normální formy]], [[RMD - Funkční závislosti|funkční závislosti]], [[RMD - Návrhové anomálie|aktualizační anomálie]].
-29. [[Jazyk SQL|Jazyk SQL]] - [[Jazyk SQL#DML / [SELECT](https //cs.wikipedia.org/wiki/SELECT)|selekce]], projekce, [[Agregační funkce|agregační funkce]], [[SQL - Množinové operace|množinové operace]], [[SQL - Spojení tabulek|typy spojení]], vnořené dotazy, [[Uložené procedury a spouště (od SQL3)|spouště a uložené procedury]].
+	- [[Mormalizace_BDS|Normalizace]], [[RMD - Normalizace|normální formy]], [[RMD - Funkční závislosti|funkční závislosti]], [[RMD - Návrhové anomálie|aktualizační anomálie]]. 
+29. [[Jazyk SQL|Jazyk SQL]] - [[Jazyk SQL#DML / [SELECT](https //cs.wikipedia.org/wiki/SELECT)|selekce]], projekce, [[Agregační funkce|agregační funkce]], [[SQL - Množinové operace|množinové operace]], [[SQL - Spojení tabulek|typy spojení]], vnořené dotazy, [[Uložené procedury a spouště (od SQL3)|spouště a uložené procedury]]. 
 30. [[SQL - Transakce|Transakce]] - koncept a vlastnosti transakcí ([[SQL - ACID|ACID]]). 
 31. [[BigData|BigData]] - definice, dělení podle [[BigData#Struktura Dat|struktury]] a [[BigData#Odkud Big Data pochází?|původu]], [[BigData#Charakteristiky Big Data|charakteristika]], [[BigData#Aplikace Big Data|aplikace]]. 
 	- [[BigData#Analýza velkých dat|Analýza velkých dat]] - jednotlivé kroky, typy, výhody a výzvy. 

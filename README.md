@@ -21,6 +21,7 @@ Please note that some content may not be ours. If you are the owner of an conten
 Jak říká jedno rčení:
 > Stojíme na ramenech obrů.
 
+- [tul-szz-it-2015](https://github.com/ludekvesely/szz-2015/wiki)
 - [tul-szz-it-nv](https://github.com/tkrizek/tul-szz-it-nv)
 - [cvut-fit-szz](https://gitlab.fit.cvut.cz/sutymate/szz-okruhy-2020)
 - [hk-fim-szz](http://michaelkuty.github.io/ssz-ai-hk-3/index.html)

@@ -44,7 +44,7 @@ Základním konstruktem pro výběr dat je **SELECT**-**FROM**-**WHERE** blok. K
 
 **DISTINCT**: z výpisu odstraní záznamy, které se v dané hodnotě pole opakují
 
-**UNION, INTERSECT, EXCEPT**: množinové operace; tabulky musejí být kompatibilní (stejný počet sloupců, stejný typy dat odpovídajících si sloupců)
+**UNION, INTERSECT, EXCEPT**: množinové operace; tabulky musejí být kompatibilní (stejný počet sloupců, stejný typy dat odpovídajících si sloupců). Slučujeme řádky.
 
 ![[SQL_commands.jpeg]]
 

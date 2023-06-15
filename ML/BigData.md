@@ -96,7 +96,7 @@ Například digitální fotografie a metadaty jako jsou například typu datum m
 ## Analýza velkých dat
 
 Integrace
-Hlavní přínos Big Data je v integraci rozličných dat. Přeměna dat r zůrných zdrojů na jednoutnou a užitečnou informaci. 
+Hlavní přínos Big Data je v integraci rozličných dat. Přeměna dat z různých zdrojů na jednoutnou a užitečnou informaci. 
 - Snížení komplexity dat,
 - zvýšení dostupnosti,
 - sjednocený datový systém.
