@@ -6,6 +6,11 @@ p(x) = \int^\infty_{-\infty} p(x,y) \; dy
 $$
 - $p(x,y)$ ... nastane $x$ a zároveň $y$
 
+### Nezávislý jev
+Jevy A a B nazýváme nezávislé, jestliže pravděpodobnost průniku těchto jevů je rovna součinu pravděpodobností jednotlivých jevů, neboli $P(A \cap B)=P(A)⋅P(B)$.
+
+Důsledek: Pro nezávislé jevy platí $P(A∣B)=P(A)$.
+
 ### I.I.D. (independent identically distributed)
 Nezávislé veličiny, které mají stejnou hustotu pravděpodobnosti (=stejné rozdělení / distribuční funkci) nazveme nezávislé stejně rozdělené a značíme i.i.d. (independent identically distributed).
 

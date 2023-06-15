@@ -9,7 +9,8 @@ $$ \mu = \frac{1}{n}\sum^n_i{x_i}$$
 $$
 V[X] = \sum^n_{i=1}{\left( x_i - E[X] \right)^2 P[X=x_i]}
 $$
-$$ Var(X) = \sum^n_{i=1}{(x_i - \mu)^2} $$
+$$ Var(X) = E\left[{(x_i - \mu)^2}\right] $$
+$$ Var(X) = \frac{1}{n}\sum^n_{i=1}{(x_i - \mu)^2} $$
 
 ## ABSOLUTNĚ SPOJITÁ NÁHODNÁ VELIČINA
 ### Střední hodnota

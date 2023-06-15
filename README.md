@@ -22,7 +22,7 @@ Jak říká jedno rčení:
 > Stojíme na ramenech obrů.
 
 - [tul-szz-it-2015](https://github.com/ludekvesely/szz-2015/wiki)
-- [tul-szz-it-nv](https://github.com/tkrizek/tul-szz-it-nv)
-- [cvut-fit-szz](https://gitlab.fit.cvut.cz/sutymate/szz-okruhy-2020)
+- [tul-szz-it-2016](https://github.com/tkrizek/tul-szz-it-nv)
+- [cvut-fit-szz-2020](https://gitlab.fit.cvut.cz/sutymate/szz-okruhy-2020)
 - [hk-fim-szz](http://michaelkuty.github.io/ssz-ai-hk-3/index.html)
 - [VŠB-Ostrava](http://lucie.zolta.cz/index.php/okruhy-szz-povinne)

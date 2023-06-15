@@ -1,7 +1,7 @@
 # Sdružená hustota pravděpodobnosti
 
 ## Definice:
-[[pravděpodobnost|Pravděpodobnost]], že nastane jev „$A$“, a zároveň jev „$B$“, nazveme **sdružená pravděpodobnost** jevů $A$ a $B$. Značíme $𝑃(𝐴 \cap 𝐵)$. 
+[[Pravděpodobnost|Pravděpodobnost]], že nastane jev „$A$“, a zároveň jev „$B$“, nazveme **sdružená pravděpodobnost** jevů $A$ a $B$. Značíme $𝑃(𝐴 \cap 𝐵)$. 
 Sdruženou hustotu pravděpodobnosti náhodných veličin $X$ a $Y$ pak značíme $p(x, y)$.
 
 ## Definice:

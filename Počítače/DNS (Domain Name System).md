@@ -3,7 +3,7 @@ Hiearchický systém pro převod doménového jména na IP adresu a opačně. Pr
 
 **Doménové jméno**: 
 Celé jméno se skládá z několika částí oddělených tečkami. Na jeho konci se nacházejí domény nejobecnější, směrem doleva se postupně konkretizuje. 
-- část nejvíce vpravo je doména nejvyšší úrovně, např. wikipedia.org má nejvýšší org. 
+- část nejvíce vpravo je doména nejvyšší úrovně, např. wikipedia.org má nejvyšší org. 
 - jednotlivé části (subdomény) mohou mít až 63 znaků a skládat se mohou až do celkové délky doménového jména 255 znaků. 
 
 ## DNS server 
