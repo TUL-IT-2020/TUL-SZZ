@@ -19,7 +19,7 @@ Jsou rozsahy adres, které jsou rezervovány pro použití v soukromých sítíc
 
 ### IPv6 
 128 bitů dlouhé adresy, zápis v šestnáctkové soustavě výhody:
--  dostatečně bohatý adresní prostor
+- dostatečně bohatý adresní prostor
 - podpora služeb se zaručenou kvalitou
 - design odpovídající vysokorychlostním sítím
 - bezpečnostní mechanismy přímo v IP

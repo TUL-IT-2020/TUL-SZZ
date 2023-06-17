@@ -4,9 +4,9 @@ Cloud: Atlas
 mají free verzi
 
 ## Charakteristika
-Dokumenty ukládány ve formátu BSON. Mongo je CP podle [[CAP teorém|CAP]]. Nemá A - selhání mastera způsobí chvilkový vypadek. P zajišťuje [[Replikace|replikace]] databáze. Při výpadku mastera nejsou možné operace zápisu, než se zvolí nový. Databáze využívá pro horizontální škálování [[Sharding]].
+Dokumenty ukládány ve formátu BSON. Mongo je CP podle [[CAP teorém|CAP]]. Nemá A - selhání mastera způsobí chvilkový výpadek. P zajišťuje [[Replikace|replikace]] databáze. Při výpadku mastera nejsou možné operace zápisu, než se zvolí nový. Databáze využívá pro horizontální škálování [[Sharding]].
 
-Výhody:
+### Výhody:
 - flexibilní databáze
 - ad-hoc dotazování
 - vestavěné agregace
@@ -14,10 +14,10 @@ Výhody:
 - vysoká dostupnost
 - rychlost
 
-Nevýhody:
-- join není podporován
+### Nevýhody:
+- JOIN není podporován
 - rychlost (špatně zvolené indexy)
-- pamětová náročnost
+- paměťová náročnost
 - max velikost dokumentu: 16MB
 - max vnoření dokumentů: 100
 

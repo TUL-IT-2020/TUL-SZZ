@@ -53,7 +53,6 @@ komunikujících systémech, navíc dochází k transformaci pro účel přenosu
 ### Aplikační vrstva
 Vrstva č. 7, anglicky application layer. Účelem vrstvy je poskytnout aplikacím přístup ke komunikačnímu systému a umožnit tak jejich spolupráci. Do této vrstvy se řadí například tyto služby a protokoly: FTP, DNS, DHCP, POP3,SMTP, SSH, Telnet, TFTP.
 
-
 ## Charakteristika lokálních bezdrátových sítí
 Local Area Network (též LAN, lokální síť, místní síť) označuje počítačovou síť, která pokrývá malé geografické území (např. domácnosti, malé firmy). Přenosové rychlosti jsou vysoké, řádově Gb/s. Nejrozšířenějšími technologiemi v dnešních LAN sítích jsou Ethernet a Wi-Fi (nebo také WLAN), v minulosti byly používány např. ARCNET a Token Ring. 
 

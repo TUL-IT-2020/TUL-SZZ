@@ -6,8 +6,8 @@
 
 - Rychlá Fourierova Transformace (Fast Fourier Transform) je skupina algoritmů umožňující výpočetně optimalizovaný výpočet DFT a IDFT
 - DFT se používá pro transformaci nekonečné (periodické) řady čísel na nekonečný (periodický) vektor frekvenčních komponent
-- Výpočetní náročnost DFT vypočtené podle deﬁnice je ![O(N^{2})](https://latex.codecogs.com/svg.latex?O%28N%5E%7B2%7D%29) aritmetických operací
-	- FFT je schopna spočítat stejný výsledek v ![O(N \cdot log(N))](https://latex.codecogs.com/svg.latex?O%28N%20%5Ccdot%20log%28N%29%29)operacích
+- Výpočetní náročnost DFT vypočtené podle deﬁnice je $O(N^{2})$ aritmetických operací
+	- FFT je schopna spočítat stejný výsledek v $O(N \cdot log(N))$ operacích
 **Vlastnosti**
 
 ![](vlastnosti.png)
@@ -34,17 +34,17 @@
 	- Kompozice posunutých impulzních odezev
 - **Vlastnosti konvoluce**:
 	- Komutativita: (Commutative property)
-		-	x[n] ∗h[n] = h[n] ∗x[n]
+		- $x[n] ∗h[n] = h[n] ∗x[n]$
 	- Asociativita: (Associative property)
-		- {x[n] ∗h1[n]}∗h2[n] = x[n] ∗{h1[n] ∗h2[n]}
-		- Sériové zapojení systémů h1[n],h2[n] lze nahradit systémem s impulsní odezvou heq = h1[n] ∗h2[n]
+		- ${x[n] ∗h1[n]}∗h2[n] = x[n] ∗{h1[n] ∗h2[n]}$
+		- Sériové zapojení systémů  $h1[n]$, $h2[n]$ lze nahradit systémem s impulsní odezvou $heq = h1[n] ∗h2[n]$
 	- Distributivita: (Distributive property)
-		- x[n] ∗{h1[n] + h2[n]}= x[n] ∗h1[n] + x[n] ∗h2[n]
-		- Paralelní zapojení systémů h1[n],h2[n] lze nahradit systémem s impulsní odezvou heq = h1[n] + h2[n]
+		- $x[n] ∗{h1[n] + h2[n]}= x[n] ∗h1[n] + x[n] ∗h2[n]$
+		- Paralelní zapojení systémů $h1[n], h2[n]$ lze nahradit systémem s impulsní odezvou $heq = h1[n] + h2[n]$
 
 ![](lin_konv.png)
 
-Vysledek konvoluce = [1 3 6 10 9 7 4]
+Vysledek konvoluce = $[1, 3, 6, 10, 9, 7, 4]$
 
 ### Kruhová konvoluce
 

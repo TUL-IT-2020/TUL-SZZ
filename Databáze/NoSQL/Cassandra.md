@@ -37,9 +37,9 @@ Postavené na [[MapReduce|MapReduce]]: podpora Hadoop MapReduce.
 ## Databázový model
 ![[Casandra.png]]
 
-Keyspace:: udržuje Column families a replikační faktor (databáze v RDBMS)
+Keyspace: udržuje Column families a replikační faktor (databáze v RDBMS)
 
-Column family:: sdružuje řádky obsahující sloupce (tabulka  v RDBMS)
+Column family: sdružuje řádky obsahující sloupce (tabulka  v RDBMS)
 - Dvouúrovňové key-value úložiště bez nutného schématu
 - “Mapa map”:
 	- Vnější mapa:: Row key, určuje místo na uzlu
@@ -47,15 +47,15 @@ Column family:: sdružuje řádky obsahující sloupce (tabulka  v RDBMS)
 
 ![[Cassandra row.png]]
 
-Row:: řádka definovaná pomocí Row key bez nutně dané struktury (řádek v RDBMS)
-Column:: hodnota s názvem a timestamp (hodnota v RDBMS)
-- Standard:: s jednou hodnotou
-- Composite:: pro složené primární klíče
-- Expiring:: s omezenou platností, po vypršení je hodnota vymazána
-- Counter:: inkrementační čítač
+Row: řádka definovaná pomocí Row key bez nutně dané struktury (řádek v RDBMS)
+Column: hodnota s názvem a timestamp (hodnota v RDBMS)
+- Standard: s jednou hodnotou
+- Composite: pro složené primární klíče
+- Expiring: s omezenou platností, po vypršení je hodnota vymazána
+- Counter: inkrementační čítač
 
 ## Distribuce dat
-Replikace:
+[[Replikace|Replikace]]:
 - Replikace se nastavuje na úrovni Keyspace
 - Každý uzel spravuje část token ring (partition)
 - Při zápisu určí partitioner hodnotu tokenu hashovací funkcí
