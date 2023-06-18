@@ -1,4 +1,5 @@
-### KNN
+#ML
+# KNN
 K nejbližších sousedů
 Etalony - centroidy
 Prahy - nejvzdálenější body (okraj pro odmítnutí)
