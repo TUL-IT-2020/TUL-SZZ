@@ -30,3 +30,6 @@ L(𝜃) = sum((yn - 𝜃^T*~xn)^2)
 # Algoritmus:
 𝜃[t+1] = 𝜃[t] - alfa * sum((yn - 𝜃^T*~xn)*~xn)
 ```
+
+## Zdroje:
+- [Gradient descent, how neural networks learn | Chapter 2, Deep learning](https://www.youtube.com/watch?v=IHZwWFHWa-w)
