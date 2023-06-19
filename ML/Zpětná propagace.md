@@ -5,3 +5,4 @@ Ve spojitosti se složenou derivací platí řetízkové pravidlo (chain rule).
 
 ## Zdroje:
 - [What is backpropagation really doing? | Chapter 3, Deep learning](https://www.youtube.com/watch?v=Ilg3gGewQ5U)
+- [Backpropagation calculus | Chapter 4, Deep learning](https://www.youtube.com/watch?v=tIeHLnjs5U8)
