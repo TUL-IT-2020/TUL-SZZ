@@ -3,7 +3,7 @@
 27. Architektura relačních [[Databazove_systemy#Databázové systémy|databázových systémů]], [[Databazove_systemy#Konceptuální model|datový model]], [[RMD - Modelování relačního modelu pomocí UML digramu|konceptuální modelování]].
 28. [[RMD - Relační model dat|Relační model]], [[RMD - Relační model dat#Základní pojmy|základní konstrukty]], [[RMD - Relační model dat#Vztah|realizace vztahů v relačním modelu]], [[RMD - Relační model dat#Integrita databáze a integritní omezení|integritní omezení]]. 
 	- [[Mormalizace_BDS|Normalizace]], [[RMD - Normalizace|normální formy]], [[RMD - Funkční závislosti|funkční závislosti]], [[RMD - Návrhové anomálie|aktualizační anomálie]]. 
-29. [[Jazyk SQL|Jazyk SQL]] - [[Jazyk SQL#DML / [SELECT](https //cs.wikipedia.org/wiki/SELECT)|selekce]], projekce, [[Agregační funkce|agregační funkce]], [[SQL - Množinové operace|množinové operace]], [[SQL - Spojení tabulek|typy spojení]], vnořené dotazy, [[Uložené procedury a spouště (od SQL3)|spouště a uložené procedury]]. 
+29. [[Jazyk SQL|Jazyk SQL]] - [[Jazyk SQL#DML / [SELECT](https //cs.wikipedia.org/wiki/SELECT)|selekce]], projekce, [[Agregační funkce|agregační funkce]], [[SQL - Množinové operace|množinové operace]], [[SQL - Spojení tabulek|typy spojení]], vnořené dotazy, [[Uložené procedury a spouště|spouště a uložené procedury]]. 
 30. [[SQL - Transakce|Transakce]] - koncept a vlastnosti transakcí ([[SQL - ACID|ACID]]). 
 31. [[BigData|BigData]] - definice, dělení podle [[BigData#Struktura Dat|struktury]] a [[BigData#Odkud Big Data pochází?|původu]], [[BigData#Charakteristiky Big Data|charakteristika]], [[BigData#Aplikace Big Data|aplikace]]. 
 	- [[BigData#Analýza velkých dat|Analýza velkých dat]] - jednotlivé kroky, typy, výhody a výzvy. 
