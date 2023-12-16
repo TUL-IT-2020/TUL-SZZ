@@ -13,7 +13,7 @@ $$
 x = H\theta + w
 $$
 - $\theta = [A,B]^T$
-- $$
+$$
 H = \begin{bmatrix}  
 1 & 1 \\   
 ... & ...\\  
