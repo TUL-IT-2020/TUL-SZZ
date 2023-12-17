@@ -10,6 +10,7 @@ Jak na:
 
 ## Studijní obory a specializace:
 - [[Specializace inteligentní systémy|Inteligentní systémy - 2023]]
+- [[Specializace výpočetní systémy|Výpočetní systémy - 2025]]
 
 ## Převzaté materiály
 Některé obrázky nebo materiály nemusí být naše vlastní a mohou být odněkud přejaté. Vzhledem k tomu, že je někdy obtížné dohledat licenční podmínky užití obrázku, mohlo se stát, že jsme něco použili neoprávněně. Pokud nararazíte na nějaký obrázek či materiál, k němuž máte práva, a nesouhlasíte s jeho použitím v těchto materiálech, dejte nám prosím vědět, abychom ho mohli odstranit.

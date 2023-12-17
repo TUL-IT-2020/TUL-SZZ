@@ -66,7 +66,7 @@ Pro zajištění bezpečnosti operačního systému je nutné, aby procesor podp
 Typy jader OS:
 ● **monolitické jádro** – jádro je jedním funkčním celkem (Linux)
 ● **mikrojádro** – jádro je velmi malé a všechny oddělitelné části pracují samostatně jako běžné procesy
-● **hybridní jádro** – kombinuje vlastnosti monolitického jádra i mikrojádra (Windows)
+● **hybridní jádro** – kombinuje vlastnosti monolitického jádra i mikrojádra ([[Windows|Windows]])
 
 ## Poskytované funkce operačním systémem
 Operační systém plní tři základní funkce:
