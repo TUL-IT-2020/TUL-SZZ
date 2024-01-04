@@ -2,12 +2,16 @@
 Spíše Byte než bity.
 Zpráva 3, -1, -2
 $y = 3x^2-x-2$
-Parabola
+Funkce tvoří parabolu.
 
-Vyhodnotíme v bodech (např: x=0,1,2)
+Vyhodnotíme v bodech (např: x=0,1,2) a vyjde nám:
+$f_y(0) = -2$
+$f_y(1) = 0$
+$f_y(2) = 8$
+
 -2, 0, 8 -> odešleme
 
-případě další body (22,42)
+Případně přidáme ke zprávě další body pro redundanci (22,42)
 
 Příjemce hledá polynom 2 stupně, který prochází $[0,-2],[1,0],[2,8]$
 S celočíselnými koeficienty. 

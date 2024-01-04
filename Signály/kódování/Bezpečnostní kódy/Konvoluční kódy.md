@@ -22,3 +22,5 @@ Má zpětnou vazbu?
 
 Systematické / nesystematické
 
+## Zdroje:
+- https://cs.wikipedia.org/wiki/Konvoluční_kód

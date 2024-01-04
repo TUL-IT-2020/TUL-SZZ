@@ -38,7 +38,7 @@ $K_3,K_4,K_5$ - jsou instantní kódy (okamžité), lze je dekódovat jak postup
 
 - [[Bezpečnostní kódy]]
 	- [[Reed Solomonovy kódy]]
+	- [[Konvoluční kódy]]
 
 ## Další
 [[Grayovy kódy]]
-[[Konvoluční kódy]]

@@ -22,10 +22,11 @@ Součet kódových slov je kódové slovo. 0 je vždy kódové slovo.
 Kódy blokové.
 
 ## Terminologie lineárních kódů
-[[Kód(3,1)]]
-kód(7,4)
+Například kódy:
+- [[Kód(3,1)]]
+- [[Kód(7,4)]]
 
-Kód(n,k)
+Značení: $Kód(n,k)$
 - $n$ - délka kódového slova
 - $k$ - počet informačních bitů
 - $n-k$ - počet zabezpečovacích bitů
@@ -74,17 +75,21 @@ $H*G^T = 0$
 $G = (E_k - B^T)$
 $H = (B*E_{n-k})$
 
-### Příklad
+### Příklad 1:
+#příklad 
 Zpráva: 110 001 111
 $\vec s_1 = 110$
 $\vec s_2= 001$
 $\vec s_3 = 111$
 
+$$
 G = 
-1001
-0101
-0011
-
+\begin{pmatrix}  
+1 & 0 & 0 & 1\\  
+0 & 1 & 0 & 1\\
+0 & 0 & 1 & 1\\
+\end{pmatrix}
+$$
 $$
 \vec x = \vec s_1 * G = (110) (...) = (1100)
 $$
@@ -99,6 +104,7 @@ $\vec y_2 = (1011)$
 $$H * \vec y_1 = (1111)*(1100)^T = 2 \pmod 2 =0$$
 $$H * \vec y_2 = (1111)*(1011)^T = 3 \pmod 2 = 1 \rightarrow chyba$$
 ### Příklad 2:
+#příklad 
 Volební [[Kód(3,1)]]
 G = (111)
 
@@ -135,6 +141,3 @@ $$
 
 ## Hammingovská vzdálenost
 ![[Hammingovská vzdálenost]]
-
-## Lineární kódy se schopností opravy chyb
-![[Lineární kódy se schopností opravy chyb]]

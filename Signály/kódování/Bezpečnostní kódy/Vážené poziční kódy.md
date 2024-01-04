@@ -1,8 +1,13 @@
 # Vážené poziční kódy
-čísla bankovních účtů, platebních karet, ISBN, rodné číslo
+Používá se například u:
+ - čísla bankovních účtů, 
+ - platebních karet, 
+ - ISBN, 
+ - rodné číslo.
 
 Přidání kontrolní číslice
-příklady
+
+## ISBN
 
 | ISBN-10                               |     |     |     |     |     |     |     |     |     |  kontrolní číslice   |
 | ------------------------------------- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
@@ -14,12 +19,12 @@ příklady
 (202 + n) % 11 = 0
 n = 7
 
-U bankovních účtů
+## U bankovních účtů
 Váhy: 6|3|7|9|10|8|4|2|1|
 
 Detekují 1 chybu: 
-- překlep v číslici
-- výměnu číslic
-- vynechanou číslici
+- překlep v číslici,
+- výměnu číslic,
+- vynechanou číslici.
 
 Detekce 2 chyb na 90%.
