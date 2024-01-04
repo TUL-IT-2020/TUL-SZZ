@@ -5,7 +5,7 @@ $t = \lfloor\frac{d-1}{2}\rfloor$
 ## Počet kontrolních bitů
 
 ### 1 kontrolní bit 
-Žádní schopnost opravy
+Žádná schopnost opravy, ale mají možnost detekce chyby.
 ### 2 kontrolní bity 
 Například: [[Kód(3,1)]]
 
@@ -36,7 +36,9 @@ $H_{c^\perp}= G_c$
 
 #### Příklad:
 Parita (8,7)
-H = (1,1,1,1,1,1,1,1)
-Duální bude (8,1)
-G = (1,1,1,1,1,1,1,1)
 - vysíláme bity po 8 a jeden je kontrolní
+$H = (1,1,1,1,1,1,1,1)$
+
+Duální bude (8,1)
+$G = (1,1,1,1,1,1,1,1)$
+

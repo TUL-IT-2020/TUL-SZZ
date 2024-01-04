@@ -42,3 +42,6 @@ Kódovaná zpráva: 1122362
 
 Stačí přenést jen zdrojovou abecedy.
 Slovník obvykle končí na 4096 pozicích ($2^{12}$).
+
+## Příklady
+- [[LZW příklad]]

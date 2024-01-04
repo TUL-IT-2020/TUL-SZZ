@@ -76,68 +76,9 @@ $G = (E_k - B^T)$
 $H = (B*E_{n-k})$
 
 ### Příklad 1:
-#příklad 
-Zpráva: 110 001 111
-$\vec s_1 = 110$
-$\vec s_2= 001$
-$\vec s_3 = 111$
-
-$$
-G = 
-\begin{pmatrix}  
-1 & 0 & 0 & 1\\  
-0 & 1 & 0 & 1\\
-0 & 0 & 1 & 1\\
-\end{pmatrix}
-$$
-$$
-\vec x = \vec s_1 * G = (110) (...) = (1100)
-$$
-$$
-\vec x = \vec s_2 * G = (001) (...) = (0011)
-$$
-$H = (1111)$
-
-$\vec y_1 = (1100)$
-$\vec y_2 = (1011)$
-
-$$H * \vec y_1 = (1111)*(1100)^T = 2 \pmod 2 =0$$
-$$H * \vec y_2 = (1111)*(1011)^T = 3 \pmod 2 = 1 \rightarrow chyba$$
+![[Lineární kódy příklad]]
 ### Příklad 2:
-#příklad 
-Volební [[Kód(3,1)]]
-G = (111)
-
-$$
-H = 
-\begin{pmatrix}  
-1 & 1 & 0\\  
-1 & 0 & 1  
-\end{pmatrix}
-$$
-
-$$\vec s_1 = 0 ; x_1 = 0*(111) = (000)$$
-$$\vec s_2 = 1 ; x_2 = 1*(111) = (111)$$
-
-$\vec y_1 = (000)$
-$\vec y_2 = (101)$
-
-$$
-\begin{pmatrix}  
-1 & 1 & 0\\  
-1 & 0 & 1  
-\end{pmatrix}
-* (000) = \vec 0
-$$
-$$
-\begin{pmatrix}  
-1 & 1 & 0\\  
-1 & 0 & 1  
-\end{pmatrix}
-* (101) = (1,0) \neq \vec 0
-$$
-
-
+![[Kód(3,1) příklad]]
 
 ## Hammingovská vzdálenost
 ![[Hammingovská vzdálenost]]
