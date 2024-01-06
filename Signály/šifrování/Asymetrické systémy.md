@@ -40,3 +40,6 @@ Alice zašifruje zprávu $A_s$.
 Pokud chceme posílat velké sobory, tak můžeme podepisovat jen jejich [[Hashovací funkce|hashe]].
 
 Problém 2: Pravdivost veřejného klíče -> řeší [[Elektronický podpis#Certifikáty|certifikáty]]
+
+## Diffie - Hellmanova funkce
+![[Diffie - Hellmanova funkce]]
