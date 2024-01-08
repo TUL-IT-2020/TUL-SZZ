@@ -9,8 +9,8 @@ Tematické okruhy pro státní závěrečné zkoušky navazujícího magistersk�
 7. Regulární výrazy a rovnice, jejich význam a způsoby řešení. 
 8. Standardní uzávěrové vlastnosti na třídě regulárních jazyků, jejich využití. 
 9. [[Chomského hierarchie gramatik a jazyků|Chomského hierarchie gramatik a jazyků]], význam, návrh gramatiky pro jednoduchý konečný automat. 
-10. Jazyk XML – základní principy a pravidla. Definice jazyka a validace dokumentu. 
-11. Strom dokumentu, XPath a jeho základní konstrukce (cesta, krok, osa, podmínka). 
+10. Jazyk [[XML|XML]] – základní principy a pravidla. [[DTD|Definice jazyka]] a [[Schema|validace dokumentu]]. 
+11. Strom dokumentu, [[XPath|XPath]] a jeho základní konstrukce (cesta, krok, osa, podmínka). 
 12. Principy transformace pomocí XSLT, šablony, vytváření prvků a atributů, využívání hodnot z dokumentu. 
 13. [[Bezpečnostní kódy|Bezpečnostní kódy]]: [[Lineární kódy|Lineární kódy]], jejich základní vlastnosti. Generující a kontrolní matice. [[Hammingovská vzdálenost|Hammingovská vzdálenost]], [[Lineární kódy se schopností opravy chyb|schopnost detekce a opravy chyb]]. [[Obecné Hammingovy kódy|Hammingovy kódy]], [[Hammingův kód|kód (7,4)]]. 
 14. [[AES - Advanced Encryption System|Symetrické]] a [[Asymetrické systémy|asymetrické]] kryptosystémy – základní principy, vlastnosti. [[Hybridní kryptosystém|Hybridní kryptosystémy]]. [[Elektronický podpis|Elektronický podpis]], [[Elektronický podpis#Certifikáty|certifikáty]]. [[Hashovací funkce|Hashovací funkce]] pro kryptografii. 
