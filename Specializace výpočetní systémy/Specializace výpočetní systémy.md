@@ -1,7 +1,7 @@
 Tematické okruhy pro státní závěrečné zkoušky navazujícího magisterského studijního programu Informační technologie, specializace:
 # Výpočetní systémy 
 1. Základní architektury počítačů, architektury mikroprocesorů, architektury signálových a grafických procesorů, architektury mikrořadičů. Principy činnosti významných funkčních bloků v jednotlivých architekturách. 
-2. [[Hodnocení výkonnosti počítačů|Hodnocení výkonnosti počítačů]], [[Amdahlův zákon|Amdahlův zákon]], výkonnostní rovnice procesoru. Srovnání systémů CISC a RISC. 
+2. [[Hodnocení výkonnosti počítačů|Hodnocení výkonnosti počítačů]], [[Amdahlův zákon|Amdahlův zákon]], výkonnostní rovnice procesoru. Srovnání systémů [[CISC|CISC]] a [[RISC|RISC]]. 
 3. Základy teorie dělitelnosti, základní pojmy (relace [[Dělitelnost#Definice Být dělitelem|býti dělitelem]] a její vlastnosti, [[Dělitelnost#Věta o dělení se zbytkem|věta o dělení se zbytkem]]), [[Euklidův algoritmus|eukleidův algoritmus]], využití. [[Řetězové zlomky|Řetězové zlomky]] (konstrukce, vlastnosti), řešení [[Kongruence|kongruencí]] 1. stupně a jejich soustav. 
 4. Elementární algebra – cyklická grupa, symetrická grupa. Polynomy nad tělesem (základní pojmy, operace s polynomy), ireducibilita nad R, C, Zp. Konečná tělesa. 
 5. Minimální kódy – základní pojmy (Kraftova nerovnost, nejkratší kód), [[Huffmanovo kódování|Huffmanova konstrukce]], [[Aritmetické kódování|aritmetické kódy]]. Adaptivní metody (Huffman). 
@@ -11,7 +11,7 @@ Tematické okruhy pro státní závěrečné zkoušky navazujícího magistersk�
 9. [[Chomského hierarchie gramatik a jazyků|Chomského hierarchie gramatik a jazyků]], význam, návrh gramatiky pro jednoduchý konečný automat. 
 10. Jazyk [[XML|XML]] – základní principy a pravidla. [[DTD|Definice jazyka]] a [[Schema|validace dokumentu]]. 
 11. Strom dokumentu, [[XPath|XPath]] a jeho základní konstrukce (cesta, krok, osa, podmínka). 
-12. Principy transformace pomocí XSLT, šablony, vytváření prvků a atributů, využívání hodnot z dokumentu. 
+12. Principy transformace pomocí [[XSLT|XSLT]], šablony, vytváření prvků a atributů, využívání hodnot z dokumentu. 
 13. [[Bezpečnostní kódy|Bezpečnostní kódy]]: [[Lineární kódy|Lineární kódy]], jejich základní vlastnosti. Generující a kontrolní matice. [[Hammingovská vzdálenost|Hammingovská vzdálenost]], [[Lineární kódy se schopností opravy chyb|schopnost detekce a opravy chyb]]. [[Obecné Hammingovy kódy|Hammingovy kódy]], [[Hammingův kód|kód (7,4)]]. 
 14. [[AES - Advanced Encryption System|Symetrické]] a [[Asymetrické systémy|asymetrické]] kryptosystémy – základní principy, vlastnosti. [[Hybridní kryptosystém|Hybridní kryptosystémy]]. [[Elektronický podpis|Elektronický podpis]], [[Elektronický podpis#Certifikáty|certifikáty]]. [[Hashovací funkce|Hashovací funkce]] pro kryptografii. 
 15. [[Platforma Android|Platforma Android]], [[Základní komponenty aplikace|základní komponenty aplikace]], [[Základní komponenty aplikace#Životní cykly aktivit|životní cykly]], [[Intent|intenty]], [[Persistentní ukládání dat|persistentní ukládání dat]], [[Práce s vlákny|práce s vlákny]], [[Výměna dat|výměna dat]], [[Services|services]], [[Notifikace|notifikace]], [[Broadcasting|broadcasting]]. 
