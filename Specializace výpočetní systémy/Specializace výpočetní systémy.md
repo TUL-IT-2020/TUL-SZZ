@@ -1,7 +1,7 @@
 Tematické okruhy pro státní závěrečné zkoušky navazujícího magisterského studijního programu Informační technologie, specializace:
 # Výpočetní systémy 
-1. Základní architektury počítačů, architektury mikroprocesorů, architektury signálových a grafických procesorů, architektury mikrořadičů. Principy činnosti významných funkčních bloků v jednotlivých architekturách. 
-2. [[Hodnocení výkonnosti počítačů|Hodnocení výkonnosti počítačů]], [[Amdahlův zákon|Amdahlův zákon]], výkonnostní rovnice procesoru. Srovnání systémů [[CISC|CISC]] a [[RISC|RISC]]. 
+1. Základní [[Architektury počítačů|architektury počítačů]], architektury mikroprocesorů, [[Architektura signálových procesorů|architektury signálových]] a [[Architektura grafických procesorů|grafických procesorů]], [[Architektura mikrořadičů|architektury mikrořadičů]]. Principy činnosti významných funkčních bloků v jednotlivých architekturách. 
+2. [[Hodnocení výkonnosti počítačů|Hodnocení výkonnosti počítačů]], [[Amhdalův zákon|Amhdalův zákon]], výkonnostní rovnice procesoru. Srovnání systémů [[CISC|CISC]] a [[RISC|RISC]]. 
 3. Základy teorie dělitelnosti, základní pojmy (relace [[Dělitelnost#Definice Být dělitelem|býti dělitelem]] a její vlastnosti, [[Dělitelnost#Věta o dělení se zbytkem|věta o dělení se zbytkem]]), [[Euklidův algoritmus|eukleidův algoritmus]], využití. [[Řetězové zlomky|Řetězové zlomky]] (konstrukce, vlastnosti), řešení [[Kongruence|kongruencí]] 1. stupně a jejich soustav. 
 4. Elementární algebra – cyklická grupa, symetrická grupa. Polynomy nad tělesem (základní pojmy, operace s polynomy), ireducibilita nad R, C, Zp. Konečná tělesa. 
 5. Minimální kódy – základní pojmy (Kraftova nerovnost, nejkratší kód), [[Huffmanovo kódování|Huffmanova konstrukce]], [[Aritmetické kódování|aritmetické kódy]]. Adaptivní metody (Huffman). 
