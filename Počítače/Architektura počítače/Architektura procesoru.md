@@ -9,7 +9,7 @@ Procesor se skládá z:
 ![Model Procesoru](TUL-SZZ/assets/počítače/26_model_procesoru.png)
 *Model Procesoru*
 
-**Rozlišujeme 2 koncepce řadičů:**
+**Rozlišujeme 2 koncepce řadičů (CU):**
 - řadič je speciální sekvenční automat, který má čítač a dekodér (je dražší, ale rychlejší) – obvodový řadič (založen na kombinačních logických obvodech)
 - dekódování operačního znaku vykonává řídicí paměť, ve které jsou mikroprogramy uloženy – mikroprogramový řadič (založen na výběru z paměti ROM).
 

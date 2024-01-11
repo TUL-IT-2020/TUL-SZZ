@@ -1,6 +1,6 @@
-### SATA
+# SATA
 
-Serial ATA (SATA) označuje v informatice počítačovou sběrnici, která využívá datové rozhraní pro připojení velkokapacitních paměťových zařízení, jako jsou pevné a optické disky. Délká kabelu je maximálně 1 metr.Topologie je point to point a každé zařízení je připojeno přímo do řadiče. SATA je fullduplexní a poskytuje vyšší výkon díky vestavěnému řadiči DMA.
+Serial ATA (SATA) označuje v informatice počítačovou sběrnici, která využívá datové rozhraní pro připojení velkokapacitních paměťových zařízení, jako jsou pevné a optické disky. Délka kabelu je maximálně 1 metr. Topologie je point to point a každé zařízení je připojeno přímo do řadiče. SATA je fullduplexní a poskytuje vyšší výkon díky vestavěnému řadiči DMA.
 
 - <https://cs.wikipedia.org/wiki/SATA>
 
@@ -10,7 +10,7 @@ Serial ATA (SATA) označuje v informatice počítačovou sběrnici, která využ
 | 2.            | SATA 3 Gb/s   | 300 MB/s          | 3 GHz     |
 | 3.            | SATA 6 Gb/s   | 600 MB/s          | 6 GHz     |
 
-**Na dohled jsou další revize zohledňující nástup SSD a různých SSDlike mini uložišť, ktera dále navyšuje podporu a komunikační rychlosti.**
+**Na dohled jsou další revize zohledňující nástup SSD a různých SSDlike mini uložišť, která dále navyšuje podporu a komunikační rychlosti.**
 
 **Již v PATA** (tlustá 40 žil kšanda)
 

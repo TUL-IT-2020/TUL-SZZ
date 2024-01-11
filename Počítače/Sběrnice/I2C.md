@@ -1,4 +1,4 @@
-### I2C
+# I2C
 
 I2C je zkratka z celého názvu _Inter-Integrated Circuit_. Jedná se o sběrnici typu multimaster, v důsledku čehož se musí řešit arbitrace přístupu na sběrnici. Sběrnice má též zabudovaný mechanismus pro adresování připojených stanic (resp. připojených uzlů). Každá stanice připojená na sběrnici má přidělenu adresu o délce 7 či 10 bitů (slouží k jejímu výběru při komunikaci a při arbitraci). Sběrnice slouží primárně k připojování obvodů k mikrokontrolérům.
 

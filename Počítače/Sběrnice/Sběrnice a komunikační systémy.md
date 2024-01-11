@@ -24,21 +24,21 @@ Komunikační systémy pro tato odvětví by měly být:
 - podle uspořádání
 	- **sériové** (všechny uvedené)
 	- **paralelní** (dnes již velmi málo používané)
-	- **serioparalelní**
+	- **sérioparalelní**
 
 - podle směru přenosu
-	- **jednousměrné**
+	- **jednosměrné**
 	- **obousměrné**
 
 - podle umístění
-	- **intení**
+	- **interní**
 	- **externí**
 
 **Sériové sběrnice** jsou dnes používány téměř výlučně, důvody k postupnému ústupu paralelních sběrnic jsou v zásadě dva. Synchronizace přenosu jednotlivých bitů paralelně je při vyšších rychlostech a délkách vedení velmi složitá a narážíme zde na technologické limity (viz clock skew), proto může být sériová sběrnice na vyšších taktech paradoxně mnohem rychlejší. Vodiče pro sériovou komunikaci jsou podstatně tenčí a tedy praktičtější na dlouhé rozvody, to následně odráží na výsledné ceně použité kabeláže. Pro realizaci delších sběrnic se jedná o poměrně významný faktor. Pro sériové sběrnice je typická **arbitrace sběrnice** a **paketový systém komunikace**.
 
 ## Pomyslné rozdělení uvedených systémů
 
-Uvedená směs sběrnic je hodně různoroda a můžeme jí rozdělit do několika pomyslných skupin podle specifického použití. (moje neoficiální dělení)
+Uvedená směs sběrnic je hodně různorodá a můžeme jí rozdělit do několika pomyslných skupin podle specifického použití. (moje neoficiální dělení)
 
 - **Průmyslové** ([[CAN|CAN]], [[USART]], RS-485, RS-422, (průmyslový) [[Ethernet přehled|Ethernet]], [[RS-232|RS-232]])
 	- pracují na vzdálenost desítek metrů
