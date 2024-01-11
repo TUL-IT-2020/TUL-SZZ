@@ -1,6 +1,6 @@
-## Hazardy
+# Hazardy
 #příklad
-
+## Příklad
 slajd: 57
 Určete CPI proudově pracujícího procesoru, kde je dána četnost hazardů a způsobené pozastavení: 
 - RAW hazardy nastanou v 10 % instrukcí, průměrné pozastavení 2 takty
@@ -12,7 +12,7 @@ Vycházíme z předpokladu, že pro ideální proudově pracující procesor pla
 
 $CPI = 1 + 0,1*2 + 0,005*4 + 0,009*3 + 0,03*2 = 1,55$
 
-
+## Příklad
 slajd: 67
 1)
 $CPI = \frac{10}{6} = 1,66$
@@ -23,6 +23,7 @@ $E_K = \frac{S_K}{K} = \frac{2,4}{4} = 0,6 => 60\%$
 $S_a = \frac{t}{\frac{t}{k.m} + t_d} = \frac{100}{\frac{100}{4*3} + 5} = 7,5$
 $S_b = \frac{t*IPC}{\frac{t}{K}+t_d} = \frac{100*3}{\frac{100}{4}+5}=10$
 
+## Příklad
 slajd: 68
 $$
 S_K = \frac{1}{

@@ -10,12 +10,5 @@
 
 ![Výkonostní rovnice](26_vykonostni_rovnice.png)
 
-*Výkonostní rovnice*
 
-**Příklad**
-
-Počítač zpracovává program, který má 5 miliónů 1-CPI (jednotaktových instrukcí), 1 milión 2-CPI a 1 milión 3-CPI. Kmitočet hodinových taktů je 100 MHz. Jaká je jeho výkonnost v MIPS?
-
-![Příklad použití výkonostní rovnice](26_vykonostni_rovnice_priklad.png)
-
-*Příklad použití výkonostní rovnice*
+![[Výkonnostní rovnice příklad]]

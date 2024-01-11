@@ -1,7 +1,7 @@
 Tematické okruhy pro státní závěrečné zkoušky navazujícího magisterského studijního programu Informační technologie, specializace:
 # Výpočetní systémy 
 1. Základní [[Architektury počítačů|architektury počítačů]], architektury mikroprocesorů, [[Architektura signálových procesorů|architektury signálových]] a [[Architektura grafických procesorů|grafických procesorů]], [[Architektura mikrořadičů|architektury mikrořadičů]]. Principy činnosti významných funkčních bloků v jednotlivých architekturách. 
-2. [[Hodnocení výkonnosti počítačů|Hodnocení výkonnosti počítačů]], [[Amdahlův zákon|Amdahlův zákon]], výkonnostní rovnice procesoru. Srovnání systémů [[CISC|CISC]] a [[RISC|RISC]]. 
+2. [[Hodnocení výkonnosti počítačů|Hodnocení výkonnosti počítačů]], [[Amdahlův zákon|Amdahlův zákon]], [[Výkonnostní rovnice procesoru|výkonnostní rovnice procesoru]]. Srovnání systémů [[CISC|CISC]] a [[RISC|RISC]]. 
 3. Základy teorie dělitelnosti, základní pojmy (relace [[Dělitelnost#Definice Být dělitelem|býti dělitelem]] a její vlastnosti, [[Dělitelnost#Věta o dělení se zbytkem|věta o dělení se zbytkem]]), [[Euklidův algoritmus|eukleidův algoritmus]], využití. [[Řetězové zlomky|Řetězové zlomky]] (konstrukce, vlastnosti), řešení [[Kongruence|kongruencí]] 1. stupně a jejich soustav. 
 4. Elementární algebra – cyklická grupa, symetrická grupa. Polynomy nad tělesem (základní pojmy, operace s polynomy), ireducibilita nad R, C, Zp. Konečná tělesa. 
 5. Minimální kódy – základní pojmy (Kraftova nerovnost, nejkratší kód), [[Huffmanovo kódování|Huffmanova konstrukce]], [[Aritmetické kódování|aritmetické kódy]]. Adaptivní metody (Huffman). 
@@ -32,7 +32,7 @@ Tematické okruhy pro státní závěrečné zkoušky navazujícího magistersk�
 30. Prostředky návrhu systémů na čipu, architektury embedded procesorů, hierarchie paměti, cache, koherence, základní periferie embedded systémů. 
 31. Protokoly interních a externích sběrnic, způsoby popisu HW prvků, software pro embedded zařízení, HDL jazyky, syntéza hardware 
 32. Pravidla návrhu a struktura číslicových LTI filtrů s ohledem na implementaci v real- time aplikacích (v signálových procesorech). Implementace výpočtu konvoluce, korelace a FFT. 
-33. Způsoby připojení převodníků A/D, D/A, pamětí, snímačů a dalších periferií přes rozhraní I2C, SPI, UART a další. Vliv nastavení datového rozlišení a vzorkovací frekvence na zpracování číslicového signálu z hlediska funkčnosti implementace. 
+33. Způsoby připojení převodníků A/D, D/A, pamětí, snímačů a dalších periferií přes rozhraní [[I2C|I2C]], [[SPI|SPI]], [[USART|UART]] a další. Vliv nastavení datového rozlišení a vzorkovací frekvence na zpracování číslicového signálu z hlediska funkčnosti implementace. 
 34. Metody testování číslicových systémů: metoda zcitlivění cesty, testery využívající SAT solvery, náhodné testy. 
 35. Metody zabezpečení proti poruchám: bezpečnostní kódy, TMR. 
 36. Systémy odolné proti poruchám, zálohování systémů
