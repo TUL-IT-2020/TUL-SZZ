@@ -14,3 +14,18 @@ S_{cel} = \frac{1}{
 $$
 ### Řešení
 Z výpočtu je vidět, že systém bude zrychlen přibližně o 31,6 %.
+
+## Příklad
+
+| \    | $T_{old}$ | Zrychlení | $T_{new}$ |
+| --- | --------- | --------- | --------- |
+| $P_1$    | 0.11      | 1/1       | 0.11      |
+| $P_2$    | 0.18      | 1/5       | 0.036     |
+| $P_3$    | 0.23      | 1/20      | 0.0115    |
+| $P_4$    | 0.48      | 1/1.6     | 0.3       |
+| sum()    | 1         |           | 0.4575    |
+$$
+S = \frac{T_{old}}{T_{new}} = \frac{1}{0.4575} = 2.19
+$$
+### Řešení
+Zrychlení systému bude o $119\%$ .

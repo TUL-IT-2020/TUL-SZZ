@@ -21,3 +21,5 @@ $$
 - $OC_{FP}$ - počet operací v pohyblivé řádové čárce
 
 Výjimečně se užívají GIPS (BIPS), GFLOPS, TFLOPS, …
+
+![[Metriky výkonosti příklad]]

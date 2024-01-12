@@ -6,15 +6,6 @@ Amdahlův zákon je pravidlo používané v informatice k vyjádření maximáln
 - Při posuzování účinku paralelizace na výkon systému lze použít analytický vztah, který je podle svého autora Gene Amdahla nazýván zákonem Amdahlovým.
 - Předpokládejme, že určitý výpočet lze částečně paralelizovat. To znamená, že kromě části , kterou je nutno provést sériově na jednom procesoru (obvykle vstup a výstup dat, případně jejich předzpracování), lze zbytek výpočtu zadat několika procesorům, tak aby zpracování na nich probíhalo současně.
 
-Významný zákon informatiky. Popisuje výpočet výkonového zisku (zrychlení S) dosaženého vylepšením nějaké části počítače. 
-Zrychlení S je číslo, které udává kolikrát je rychlejší běh úlohy na počítači s vylepšením oproti běhu stejné úlohy na původním počítači.
-$$
-S = \frac{P_{NEW}}{P_{OLD}}
-$$
-- $P_{NEW}$ - výkon při využití zrychlení 
-- $P_{OLD}$ - výkon bez využití zrychlení
-
-
 ## Nevýhody
 
 - Zákon byl formulován v roce 1967
@@ -27,36 +18,54 @@ $$
 ![Amdáhlův zákon](TUL-SZZ/assets/počítače/26_amdahl.png)
 *Amdáhlův zákon*
 
-## Výpočet
-
-### Zrychlení
+## Výpočet zrychlení
+Významný zákon informatiky. Popisuje výpočet výkonového zisku (zrychlení S) dosaženého vylepšením nějaké části počítače. 
 Zrychlení **S** je číslo, které udává kolikrát je rychlejší běh úlohy na počítači s vylepšením oproti běhu stejné úlohy na původním počítači.
+$$
+S = \frac{P_{NEW}}{P_{OLD}}
+$$
+- $P_{NEW}$ - výkon při využití zrychlení 
+- $P_{OLD}$ - výkon bez využití zrychlení
 
-![Zrychlení S](26_zrychleni.png)
-*Zrychlení S*
+$$
+S = \frac{T_{OLD}}{T_{NEW}}
+$$
+- $T_{OLD}$ - doba výpočtu bez využití vylepšení
+- $T_{NEW}$ -  doba výpočtu při využití vylepšení
 
-**Definujeme poměry**
 
-![Definované poměry](26_pomery.png)
+### Definujeme poměry:
+
+![Definované poměry](TUL-SZZ/assets/počítače/26_pomery.png)
 *Definované poměry*
 
-### Doba výpočtu se skládá
+### Doba výpočtu se skládá:
+Doba výpočtu na nevylepšeném počítači:
+![Doba výpočtu](TUL-SZZ/assets/počítače/26_doba.png)
 
-![Doba výpočtu](26_doba.png)
-*Doba výpočtu*
+Doba výpočtu na vylepšeném počítači:
+$$
+T_{NEW} = T_{OLD} 
+\left( 
+(1-F_E) + \frac{F_E}{S_E}
+\right)
+$$
 
-### Doba výpočtu na vylepšeném počítači
-
-![Doba výpočtu](26_doba_vylepsena.png)
-*Doba výpočtu na vylepšeném počítači*
-
+### Příklad
 ![[Doba výpočtu na vylepšeném počítači příklad]]
 
-### Paralelní systém
+## Výpočet na paralelním systému
 
 Celkové zrychlení výpočtu multiprocesorového systému, který má **p** procesorů, a jehož část programu **fs** může být provedena pouze jediným procesorem (sériová, neparalelizovatelná část), resp. je-li **fp** poměr paralelizovatelné části výpočtu, je dáno:
-
-![Zrychlení multiprocesorového systému](26_amdahl_par.png)
-*Zrychlení multiprocesorového systému*
+$$
+S = \frac{1}{
+f_s + \frac{1-f_s}{p}
+}
+= \frac{1}{
+(1-f_p) + \frac{f_p}{p}
+}
+$$
+- $f_s + f_p = 1$
+- Zrychlení multiprocesorového systému
 
 ![[Paralelní systém příklad]]
