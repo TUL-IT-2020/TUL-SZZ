@@ -16,32 +16,10 @@ Větší okno, menší okno.
 | S[he se]lls sea shells on | "he se"        |
 | She sells se[a sh]ells on | "a sh"         |
 
-## LZ 78, LZW
-Autoři:
-- L - Lempel
-- Z - Ziv
-- W - Welch
+## LZ 78 
+LZ78 je slovníková kompresní metoda, kterou v roce 1978 publikovali Abraham Lempel a Ja'akov Ziv. Metoda je nástupcem LZ77, na rozdíl od které ale nemá pohyblivé okno, ale jen vyhledávací okno a slovník. Slovník obsahuje fragmenty nekomprimovaného souboru. Každý řetězec ve slovníku má svůj index (identifikátor). Kompresor hledá ve vyhledávacím okně nejdelší řetězec obsažený ve slovníku. Čte tedy vstupní tok symbol po symbolu až do okamžiku, kdy načte symbol, který způsobí neshodu. Značky produkované touto kompresní metodou mají tvar (index, symbol), kde index je ukazatel na řetězec ve slovníku a symbol je následující symbol, který způsobil neshodu. Každá taková značka udává nový řetězec, který se umístí do slovníku. Slovník je na počátku komprese prázdný. Dekodér buduje svůj slovník ve shodě s kodérem.
 
-Slovník budován průběžně.
-1. Do slovníku dáme znaky abecedy
+Variantou LZ78 je LZW.
 
-Zpráva: AABBAABAB
-
-| Slovník | kód |
-| ------- | --- |
-| A       | 1   |
-| B       | 2   |
-| AA      | 3   |
-| AB      | 4   |
-| BB      | 5   |
-| BA      | 6   |
-| AAB     | 7   |
-| BAB     | 8    |
-
-Kódovaná zpráva: 1122362
-
-Stačí přenést jen zdrojovou abecedy.
-Slovník obvykle končí na 4096 pozicích ($2^{12}$).
-
-## Příklady
-- [[LZW příklad]]
+## LZW (LZW84)
+![[LZW (Lempel-Ziv-Welchův algoritmus)]]
