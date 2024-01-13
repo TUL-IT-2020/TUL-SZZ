@@ -40,7 +40,7 @@ Komunikační systémy pro tato odvětví by měly být:
 
 Uvedená směs sběrnic je hodně různorodá a můžeme jí rozdělit do několika pomyslných skupin podle specifického použití. (moje neoficiální dělení)
 
-- **Průmyslové** ([[CAN|CAN]], [[USART]], RS-485, RS-422, (průmyslový) [[Ethernet přehled|Ethernet]], [[RS-232|RS-232]])
+- **Průmyslové** ([[CAN|CAN]], [[USART]], RS-485, RS-422, (průmyslový) [[Ethernet přehled|Ethernet]], [[RS-232|RS-232]], [[Modbus]])
 	- pracují na vzdálenost desítek metrů
 	- nejsou potřeba velké přenosové rychlosti
 	- odolné proti rušení (kompromis na úkor přenosové rychlosti)
@@ -59,4 +59,5 @@ Uvedená směs sběrnic je hodně různorodá a můžeme jí rozdělit do někol
 	- krátká až střední komunikační vzdálenost
 	- obvykle velké nároky na přenosovou rychlost
 
-[[Modbus]]
+-  **Počítačové historické** ([[IDE]], [[SCSI (Small Computer System Interface)|SCSI]], [[Historické počítačové sběrnice|...]])
+	- svého času významné, ale již nahrazené

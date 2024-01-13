@@ -29,6 +29,8 @@ Je v datech vzor?
 - RLE
 - Slovníkové
 
+### Huffmanovo kódování
+![[Huffmanovo kódování]]
 ### Aritmetické kódování
 ![[Aritmetické kódování]]
 
