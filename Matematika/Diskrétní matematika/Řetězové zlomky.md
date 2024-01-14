@@ -32,4 +32,14 @@ Pro hledání přibližných zlomků je vhodné sestavit tabulku přibližných 
 | qi | \\ | q0 | q1 | q2 | · · · | qn−1 | qn |
 | Pi | 1 | q0 | q_1q_0 + 1 | q2P1 + P0 | · · · | qn−1Pn−2 + Pn−3 | qnPn−1 + Pn−2 |
 | Qi | 0 | 1 | q_1q_0 + 1 | q2Q1 + Q0 | · · · | qn−1Qn−2 + Qn−3 | qnQn−1 + Qn−2 |
-Při určování hodnot se využívá již uvedených rekurentních vztahů.
+- $q_i$ získáme z Euklidova algoritmu.
+Při určování hodnot se využívá již uvedených rekurentních vztahů:
+   $$
+P_i = q_iP_{i-1}+P_{i-2}
+$$
+$$
+Q_i = q_iQ_{i-1}+Q_{i-2}
+$$
+
+## Příklady
+[[Řetězové zlomky příklady]]

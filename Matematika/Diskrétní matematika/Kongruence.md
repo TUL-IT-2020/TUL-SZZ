@@ -16,4 +16,9 @@ x ≡ (−1)^nP_{n−1}b \;\; mod(m)
 $$
 kde $P_{n−1}$ představuje čitatel předposledního řetězového zlomku rozvoje čísla $\frac{m}{a}$ v [[Řetězové zlomky|řetězový zlomek]].
 
+### Příklady
+[[Kongruence příklady]]
 ## Soustavy kongruencí prvního stupně
+
+### Příklady
+[[Soustavy kongruencí prvního stupně příklady]]

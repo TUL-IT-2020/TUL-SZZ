@@ -14,3 +14,8 @@ Hledaným největším společným dělitelem je číslo $r_n$. Tím je posledn�
 Algoritmus se sestává z konečného počtu kroků (triviální důsledek nerovností uvedených napravo: 0 < rn < rn−1... < r1 < b) 
 
 Zároveň platí: $NSD(a, b) = NSD(b, r_1) = NSD(r_1, r_2) = ... = NSD(r_{n−1}, r_n) = r_n$
+
+## Využití
+Výpočet:
+- [[Společný dělitel#Metody, jak nalézt NSD(a, b)|NSD(a,b)]]
+- [[Nejmenší společný násobek|NSN(a,b)]]

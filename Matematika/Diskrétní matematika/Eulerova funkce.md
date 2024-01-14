@@ -15,3 +15,5 @@ $$
 ... *
 \left( p_1^{\alpha_k}-p_k^{\alpha_k-1} \right)
 $$
+## Příklady
+[[Eulerova funkce příklad]]
