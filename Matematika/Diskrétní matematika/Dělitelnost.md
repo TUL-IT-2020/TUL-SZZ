@@ -36,3 +36,6 @@ $$
 
 Příklad: [[Převody soustav příklad]]
 
+## Počet dělitelů
+### Příklad
+[[Počet dělitelů příklad]]
