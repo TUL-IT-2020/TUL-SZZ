@@ -99,6 +99,8 @@ Délky:
 - $1,2,3,2*4$
 - $3*2,2*3$
 
+Problém s nejednoznačností řeší Huffmanova standardizovaná konstrukce.
+
 ## Problémy komprese H.K.
 - Nutnost přenášet kódovací tabulku.
 - Pracuje na znacích, ne dvojicích, slovech

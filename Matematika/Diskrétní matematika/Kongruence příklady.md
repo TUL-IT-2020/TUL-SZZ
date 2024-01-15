@@ -1,0 +1,109 @@
+#příklad
+# Kongruence (modulo) 
+Vzoreček:
+$$
+x \equiv (-1)^n*P_{n-1}*b(m)
+$$
+## Příklad
+$$185x \equiv 335 mod(435)$$
+### Postup
+Euklidův algoritmus pro: $a, m$
+
+|  | = |  | x | $q_i$ | + | $r_i$ |
+| ---- | ---- | ---- | ---- | ---- | ---- | ---- |
+| 435 |  | 185 |  | 2 |  | 65 |
+| 185 |  | 65 |  | 2 |  | 55 |
+| 65 |  | 55 |  | 1 |  | 10 |
+| 55 |  | 10 |  | 5 |  | 5 |
+| 10 |  | 5 |  | 2 |  | 0 |
+$NSD(a,m)=5$ ... řešení
+$37x \equiv 67 mod(87)$ ... a, m jsou nesoudělné -> 1 řešení
+
+Řetězový zlomek pro:
+$$\frac{m}{a}$$
+
+| i | -1 | 0 | 1 | 2 | 3 | 4 |
+| ---- | ---- | ---- | ---- | ---- | ---- | ---- |
+| $q_i$ | / | 2 | 2 | 1 | 5 | 2 |
+| $P_i$ | 1 | 2 | 5 | 7 | 40 | 87 |
+| $Q_i$ | 0 | 1 | 2 | 3 | 17 | 37 |
+Dosazení do vzorečku:
+$x \equiv (-1)^4*40*67(87) \equiv 2680(87) \equiv 70(87)$
+
+Pro vytvořeni posloupnosti všech $x$ stačí přičítat zkrácené modulo k našemu prvnímu řešení, dokud je hodnota menší než nezkrácené modulo.
+### Řešení
+$x \equiv 70, 157, 244, 331, 418 (425)$
+
+## Příklad
+$$3 756x \equiv 1 468 mod(680)$$
+### Postup
+Euklidův algoritmus pro: $a, m$
+
+|  | = |  | x | $q_i$ | + | $r_i$ |
+| ---- | ---- | ---- | ---- | ---- | ---- | ---- |
+| 680 |  | 3 756 |  | 0 |  | 680 |
+| 3 756 |  | 680 |  | 5 |  | 356 |
+| 680 |  | 356 |  | 1 |  | 324 |
+| 356 |  | 324 |  | 1 |  | 32 |
+| 324 |  | 32 |  | 10 |  | 4 |
+| 32 |  | 4 |  | 8 |  | 0 |
+$NSD(a,m) = 4$ ... řešení
+$939x \equiv 367 mod(170)$
+
+Řetězový zlomek pro:
+$$\frac{m}{a}$$
+
+| i | -1 | 0 | 1 | 2 | 3 | 4 | 5 |
+| ---- | ---- | ---- | ---- | ---- | ---- | ---- | ---- |
+| $q_i$ | / | 0 | 5 | 1 | 1 | 10 | 8 |
+| $P_i$ | 1 | 0 | 1 | 1 | 2 | 21 | 170 |
+| $Q_i$ | 0 | 1 | 5 | 6 | 11 | 116 | 939 |
+$89x \equiv 27 mod(170)$ ... Po zmodulování do základního tvaru. 
+
+$x \equiv (-1)^5 * 21*27(170)$
+$x \equiv -567(170)$
+$x \equiv 113(170)$
+### Řešení
+$x \equiv 113, 283, 453, 623 (680)$
+
+## Příklad
+$$
+996x \equiv - 396 mod(440)
+$$
+Soustavu vyřešte. Výsledek zapište v soustavě nejmenších nezáporných zbytků.
+Nalezněte nejmenší číslo větší než -1500, které dané kongruenci vyhovuje.
+
+### Postup
+Základní tvar:
+$116x \equiv 44 mod(440)$
+
+m/a:
+
+|  | = |  | x | $q_i$ | + | $r_i$ |
+| ---- | ---- | ---- | ---- | ---- | ---- | ---- |
+| 440 |  | 116 |  | 3 |  | 92 |
+| 116 |  | 92 |  | 1 |  | 24 |
+| 92 |  | 24 |  | 3 |  | 20 |
+| 24 |  | 20 |  | 1 |  | 4 |
+| 20 |  | 4 |  | 5 |  | 0 |
+$NSD(a,m) = 4$
+Má 4 řešení.
+$29x \equiv 11 mod(110)$
+
+Řetězový zlomek pro:
+$$\frac{m}{a}$$
+
+| i | -1 | 0 | 1 | 2 | 3 | 4 |
+| ---- | ---- | ---- | ---- | ---- | ---- | ---- |
+| $q_i$ | / | 3 | 1 | 3 | 1 | 5 |
+| $P_i$ | 1 | 3 | 4 | 15 | 19 | 110 |
+| $Q_i$ | 0 | 1 | 1 | 4 | 5 | 29 |
+
+$x \equiv (-1)^4*19*11(110) = 1*209(110)=99(110)$
+### Řešení
+$x \equiv \{99, 209, 319, 429\} (440)$
+$x = -1441$
+## Příklad
+$$988x \equiv - 616 mod(708)$$
+Soustavu vyřešte. Výsledek zapište v soustavě nejmenších nezáporných zbytků.
+Nalezněte nejmenší číslo větší než -2000, které dané kongruenci vyhovuje.

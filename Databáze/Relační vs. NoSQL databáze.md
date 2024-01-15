@@ -1,3 +1,5 @@
+#SQL 
+#NoSQL
 # Srovnání Relačních a NoSQL databází
 NoSQL se nesnaží nahradit relační DBS. 
 

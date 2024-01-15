@@ -37,5 +37,8 @@ $$
 Příklad: [[Převody soustav příklad]]
 
 ## Počet dělitelů
-### Příklad
-[[Počet dělitelů příklad]]
+
+Příklady: [[Počet dělitelů příklad]]
+
+## Společný dělitel
+![[Společný dělitel]]

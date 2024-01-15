@@ -8,7 +8,7 @@ Existence řešení: $NSD(a,b)|c$
 Počet řešení: 0 nebo $\infty$
 
 $$
-(x,y) = \left(x^n+y^n \right)+\left(x^h+y^h \right)
+(x,y) = \left(x_p+y_p \right)+\left(x_h+y_h \right)
 $$
 Partikulární + obecné řešení
 
@@ -110,3 +110,10 @@ $x_h=237t$
 ### Řešení
 $(x,y) = (-207, 297) + (237, 390)t$
 - $t \in Z$
+
+
+## Příklad
+Nechť:
+- a = 498
+- b = 318
+- c = 90

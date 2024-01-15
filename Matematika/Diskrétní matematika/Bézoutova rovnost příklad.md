@@ -26,7 +26,6 @@ $NSD(a,b) = 13 = 10959*(319) + 37999*(-92)$
 
 ## Příklad
 Pro a = 583, b = 231 vyjádřete $NSD(a, b)$ ve tvaru $ax_0 + by_0$.
-
 ### Postup
 Aplikací [[Euklidův algoritmus|Eukleidova algoritmu]] dostáváme:
 $583 = 231* 2+ 121$ (r1)
@@ -46,7 +45,6 @@ $NSD(583, 231) = 11 = 583 *2 + 231 *(-5)$
 
 ## Příklad
 Pro a = 13440, b = 19740 vyjádřete $NSD(a, b)$ ve tvaru $ax_0 + by_0$.
-
 ### Postup
 a = 13440 = 20 * 672
 b = 19740 = 20 * 987
@@ -70,7 +68,6 @@ $NSD(a,b) = 420 = ax_0+by_0 = a*(-22) + b*(15)$
 
 ## Příklad
 Pro a = 70705, b = 12530 vyjádřete $NSD(a, b)$ ve tvaru $ax_0 + by_0$, tedy Bezutovy rovnosti.
-
 ### Postup
 |  | = |  | x | $q_i$ | + | $r_i$ |
 | ---- | ---- | ---- | ---- | ---- | ---- | ---- |

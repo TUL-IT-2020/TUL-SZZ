@@ -1,3 +1,4 @@
+#SQL 
 # Relační model dat - RMD
 Založen na pevném matematickém základu roku 1970 panem E. F. Coddem. 
 

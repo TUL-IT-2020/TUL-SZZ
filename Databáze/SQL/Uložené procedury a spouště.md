@@ -1,3 +1,4 @@
+#SQL
 # Uložené procedury a spouště (od SQL3)
 **Trigger** (= spoušť) je procedura, která je automaticky spuštěna jako reakce na specifikovanou akci v databázi; trigger se vykoná, pokud nějakou hodnotu ve sloupci budeme přidávat, nebo modifikovat a nebo mazat; u všech tří akcí můžeme specifikovat, zdali se trigger vyvolá před vlastním příkazem, nebo až po vlastním příkazu >> **before triggery** a **after triggery**; lze kombinovat akce, při kterých se má trigger spustit - trigger reagující na UPDATE nebo DELETE 
 
