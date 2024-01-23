@@ -5,10 +5,10 @@ Tematické okruhy pro státní závěrečné zkoušky navazujícího magistersk�
 3. Základy teorie dělitelnosti, základní pojmy (relace [[Dělitelnost#Definice Být dělitelem|býti dělitelem]] a její vlastnosti, [[Dělitelnost#Věta o dělení se zbytkem|věta o dělení se zbytkem]]), [[Euklidův algoritmus|eukleidův algoritmus]], využití. [[Řetězové zlomky|Řetězové zlomky]] (konstrukce, vlastnosti), řešení [[Kongruence|kongruencí]] 1. stupně a jejich soustav. 
 4. Elementární algebra – cyklická grupa, symetrická grupa. Polynomy nad tělesem (základní pojmy, operace s polynomy), ireducibilita nad R, C, Zp. Konečná tělesa. 
 5. Minimální kódy – základní pojmy (Kraftova nerovnost, nejkratší kód), [[Huffmanovo kódování|Huffmanova konstrukce]], [[Aritmetické kódování|aritmetické kódy]]. Adaptivní metody (Huffman). 
-6. Deterministické a nedeterministické konečné automaty, význam, ekvivalence a ukázky konkrétních návrhů. 
-7. Regulární výrazy a rovnice, jejich význam a způsoby řešení. 
+6. Deterministické a nedeterministické [[Automaty|konečné automaty]], význam, ekvivalence a ukázky konkrétních návrhů. 
+7. [[RV - regulární výrazy|Regulární výrazy]] a rovnice, jejich význam a způsoby řešení. 
 8. Standardní uzávěrové vlastnosti na třídě regulárních jazyků, jejich využití. 
-9. [[Chomského hierarchie gramatik a jazyků|Chomského hierarchie gramatik a jazyků]], význam, návrh gramatiky pro jednoduchý konečný automat. 
+9. [[Chomského hierarchie gramatik a jazyků|Chomského hierarchie gramatik a jazyků]], význam, návrh [[Gramatika|gramatiky]] pro jednoduchý konečný automat. 
 10. Jazyk [[XML|XML]] – základní principy a pravidla. [[DTD|Definice jazyka]] a [[Schema|validace dokumentu]]. 
 11. Strom dokumentu, [[XPath|XPath]] a jeho základní konstrukce (cesta, krok, osa, podmínka). 
 12. Principy transformace pomocí [[XSLT|XSLT]], šablony, vytváření prvků a atributů, využívání hodnot z dokumentu. 

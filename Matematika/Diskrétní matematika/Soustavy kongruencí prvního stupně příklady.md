@@ -94,13 +94,13 @@ $c_2 \equiv 0 \left(40\right) \wedge c_2 \equiv 1 (9)$
 $c_3 \equiv 0 \left(72\right) \wedge c_3 \equiv 1 (5)$
 $c_4 \equiv 0 \left(45\right) \wedge c_4 \equiv 1 (8)$
 
-40t \equiv 1 (9)
-4t \equiv 1 (9)
+$40t \equiv 1 (9)$
+$4t \equiv 1 (9)$
 t = 7
 $7*40$
 
-72t \equiv 1 (5)
-2t \equiv 1 (5)
+$72t \equiv 1 (5)$
+$2t \equiv 1 (5)$
 t = 3
 $3*72$
 
