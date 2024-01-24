@@ -1,3 +1,4 @@
+#NoSQL 
 # Dokumentové databáze
 Na úrovni DB bez schématu. Podle [[CAP teorém|CAP]] jsou dokumentové databáze buď CP nebo AP. 
 Replikace typu master-slave. Horizontální škálování.

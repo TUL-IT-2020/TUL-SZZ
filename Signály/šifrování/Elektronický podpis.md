@@ -34,9 +34,6 @@ V reálném životě: občanka, pas, řidičák, ISIC, ...
 #### Certifikační autorita
 Revokace = zneplatnění certifikátu
 
-## Diffie - Hellmanova funkce
-![[Diffie - Hellmanova funkce]]
-
 ## Komunikace
 
 ### Anča píše Bolkovi

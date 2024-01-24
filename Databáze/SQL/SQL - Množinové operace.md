@@ -1,3 +1,4 @@
+#SQL
 # [Množinové operace](https://www.interval.cz/clanky/sql-skladani-dotazu/)
 - **sjednocení** - sjednocením množin A a B vznikne nová množina, která bude obsahovat všechny prvky z množiny A a také všechny prvky z množiny B
 - **kartézský součin** - je množina, označená A x B, která obsahuje všechny uspořádané dvojice, ve kterých je první položka prvkem množiny A a druhá položka je prvkem množiny B; kartézský součin obsahuje všechny takové kombinace těchto prvků

@@ -1,3 +1,4 @@
+#SQL
 # Návrhové anomálie
 **Aktualizacní anomálie (Codd):**
 

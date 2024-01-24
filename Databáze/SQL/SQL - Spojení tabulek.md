@@ -1,4 +1,5 @@
-#### Spojení tabulek
+#SQL
+# Spojení tabulek
 ![[SQL_joins.png]]
 **přirozené spojení**
 ``` sql

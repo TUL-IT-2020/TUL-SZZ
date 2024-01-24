@@ -1,4 +1,5 @@
-## Transakce
+#SQL
+# Transakce
 **transakce** = je série příkazů čtení či zápisu na databázových objektech; základní vlastností transakce je [[SQL - ACID|ACID]]. 
 
 - čtení - db objekt se přenese do paměti z HDD a následně je pak do proměnné programu
@@ -17,10 +18,10 @@ IF ERRORS<>0 ROLLBACK;
 
 Databáze je v konzistentním stavu, když splňuje všechny [[RMD - Relační model dat#Integrita databáze a integritní omezení|IO definované]] ve schématu databáze.
 
-### ACID
+## ACID
 ![[SQL - ACID]]
 
-### Typy konfliktů
+## Typy konfliktů
 - **WR konflikt** - čtení dat, která nebyla potvrzena (commit)
 - **RW konflikt** - neopakovatelné čtení dat; čteme 2x, ale po prvním čtení se data změní = výsledkem jsou dvě rozdílné sady dat
 - **WW konflikt** - přepsání nepotvrzených dat
@@ -39,7 +40,7 @@ Pravidla pro přidělování zámků transakcím:
 1. Pokud transakce chce číst (modifikovat) objekt db, nejprve musí požádat o sdílený (exklusivní) zámek.
 2. Transakce nemůže požádat o nový zámek, pokud již nějaký neuvolnila.
 
-### Stupně izolace
+## Stupně izolace
 - **READ UNCOMMITTED** - čtení záznamů, které ještě nejsou potvrzeny (commit); nevyužívají zámky a tím nedokážou zabránit jiné transakci v modifikaci dat které zrovna čte současná transakce; označují se také jako "dirty reads"
 - **READ COMMITTED** - čtení záznamů, které byly potvrzeny (commit); vylepšení oproti předchozímu "dirty reads"
 - **REPEATABLE READ** - čtení záznamů, které byly potvrzeny (commit) a zároveň jsou čtené záznamy zablokovány proti dalším modifikacím do skončení čtecí transakce 

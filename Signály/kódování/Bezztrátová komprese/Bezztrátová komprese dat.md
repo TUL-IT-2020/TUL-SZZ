@@ -14,31 +14,34 @@ flowchart LR
 	- Na kolik % se data zmenší
 - Limit: entropie $M$
 
-Kolmogorovská složitost:
-Délka nejkratšího programu který vypíše daný řetězec.
+## Kolmogorovská složitost:
+Délka nejkratšího programu který vypíše daný řetězec. 
+Tento přístup ke složitosti objektů (a tím také ke komprimaci dat) popsal v roce 1963 sovětský matematik Andrej Nikolajevič Kolmogorov.
 
-Např: abababababab... má menší složitost než: xc18;AHkQ9
+Např: `abababababab...` má menší složitost než: `xc18;AHkQ9`
 
 Je v datech vzor?
 - 010011000111 - nejspíše ano
 - 010011111000 - možná ne
 
-Přístupy komprese:
+## Přístupy komprese:
 - Statistické ([[Huffmanovo kódování|Huffmanovo kódování]])
 - RLE
 - Slovníkové
 
-## Aritmetické kódování
+### Huffmanovo kódování
+![[Huffmanovo kódování]]
+### Aritmetické kódování
 ![[Aritmetické kódování]]
 
-## RLE - run length encoding
-Počet opakování téhož znaku / fráze.
+### RLE - run length encoding
+![[RLE - run length encoding]]
 
-Zpráva: ABBBBAACCCA
-Zákodujeme: A4B2A3CA
-
-> Když nepomůže, neublíží.
->  - Otto Severýn
-
-## Slovníkové metody
+### Slovníkové metody
 ![[Slovníkové metody - LZ]]
+
+### BWT (Burrows-Wheelerova Transformace)
+![[BWT (Burrows-Wheelerova Transformace)]]
+
+### MTF (Move-To-Front)
+![[MTF (Move-To-Front)]]

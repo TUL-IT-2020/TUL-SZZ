@@ -1,3 +1,4 @@
+#NoSQL 
 # Sharding
 Databázový vzor pro horizontální [[Škálování|škálování]] na více serverů. 
 Záznamy se rozdělí na části (partitions, shards) umístěné na různých serverech. 

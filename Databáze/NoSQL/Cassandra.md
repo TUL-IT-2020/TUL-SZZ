@@ -1,3 +1,4 @@
+#NoSQL 
 # Apache Cassandra
 ## Úvod do Apache Cassandra
 NoSQL databáze stavějící na vlastnostech AP systém podle [[CAP teorém|CAP teorému]]. Open source distribuovaný databázový systém. 

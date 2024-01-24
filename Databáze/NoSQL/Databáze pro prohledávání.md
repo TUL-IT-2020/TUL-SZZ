@@ -1,3 +1,4 @@
+#NoSQL 
 # Databáze pro prohledávání
 [[NoSQL databáze|NoSQL]] [[Dokumentové databáze|dokumentové databáze]] zaměřené na vyhledávání obsahu. Využívají [[DBS - Indexování|indexování]]. 
 
