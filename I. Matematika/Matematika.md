@@ -1,4 +1,4 @@
-#### Matematika
+#Matematika
 
 1. Derivace, diferenciál a integrál (definice, výpočty, praktický význam).
 2. Soustava lineárních rovnic a metody jejich řešení.
