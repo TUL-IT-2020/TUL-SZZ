@@ -92,3 +92,53 @@ $x^{-1}=\rho\pi^{-1}\rho^{-1}$
 $x=\rho\pi\rho^{-1}$
 $x=$ (13)(2475)(17)(3456)(31)(5742) = (1276)(34)
 
+## Příklad
+Uvažujte symetrickou grupu $(S_7,•)$. 
+1) Ze vztahu $(\pi • x • \rho^{-1})^{-1}=\rho^{-1}\pi$, kde $\pi, \rho, x \in S_7$ vyjádřete x. Výraz maximálně zjednodušte (výsledný výraz musí obsahovat pouze symboly $\pi, \rho, \pi^{-1},\rho^{-1}$ a jejich součiny). 
+2) Spočtěte hodnotu x pro: 
+$\pi = (326)(1437)(2641)(537)$,
+$\rho = (31)(21)(75)(14)(61)$.
+Výsledek zapište ve tvaru součinu disjunktních cyklů!
+
+### Postup
+$(\pi • x • \rho^{-1})^{-1}=\rho^{-1}\pi$
+$\rho • x^{-1} • \pi^{-1}=\rho^{-1}\pi$
+$x^{-1}=\rho^{-2}\pi^{2}$
+$x=\pi^{-2}\rho^{2}$
+
+$\pi = (326)(1437)(2641)(537) = (365)(1)(247)$
+$\pi^{-1} = (1)(563)(742)$
+$\rho = (31)(21)(75)(14)(61) = (32461)(57)$
+
+$x=\pi^{-2}\rho^{2} = (563)(742)(563)(742)(32461)(57)(32461)(57) = (12)(3)(4765)$
+### Řešení
+$x=(12)(3)(4765)$
+
+## Příklad
+Uvažujte permutace $\pi, \rho, \in S_6$, kde:
+- $\pi = (13)(42)(65)$,
+- $\rho = (215)(3245)(364)(41)(52)$.
+1) Vypočtěte $\pi • \rho$, 
+2) $\rho^{-1}$, 
+3) Výraz $(\pi^{-1} • \rho^{-1})^{-1} • (\rho^{-1}\pi)^{-1}$ nejprve maximálně zjednodušte a následně ho vypočtěte, 
+4) Vypište všechny prvky podgrupy grupy $S_6$, která je generovaná permutací $\pi • \rho$. 
+
+Veškeré výsledky uvádějte ve tvaru součinu disjunktních cyklů.
+### Postup
+Zjednodušení:
+$\rho = (16)(24)(35)$
+
+$\pi • \rho = (13)(42)(65)(16)(24)(35) = (15)(2)(4)(36)$
+
+$(\pi • \rho)^2 = (15)(2)(4)(36)(15)(2)(4)(36) = (1)(2)(3)(4)(5)(6) = id$
+
+Úprava výrazu:
+$(\pi^{-1} • \rho^{-1})^{-1} • (\rho^{-1}\pi)^{-1}$
+$(\rho \pi) • (\pi^{-1}\rho)$
+$\rho \pi \pi^{-1} \rho$
+$\rho \rho$
+$\rho \rho = (16)(24)(35)(16)(24)(35) = (1)(2)(3)(4)(5)(6)$
+### Řešení
+$\pi • \rho = (15)(2)(4)(36)$
+$\rho^{-1} = (61)(42)(53)$
+$(\pi • \rho)^2 = id$
