@@ -13,7 +13,7 @@ $$
 Partikulární + obecné řešení
 
 Využití [[Bézoutova rovnost příklad|Bezoutovy rovnice]].
-Hledání partikůlárního řešení:
+Hledání partikulárního řešení:
 $ax+by=c \;/NSD(a,b)$
 $a_1x+b_1y=c_1$
 
