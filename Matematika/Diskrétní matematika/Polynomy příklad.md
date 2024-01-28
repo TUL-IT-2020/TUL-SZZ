@@ -1,5 +1,6 @@
 #příklad
 # Polynomy
+Kalkulačka online: [mathsolver](https://mathsolver.microsoft.com/cs)
 ## Příklad
 $$
 f(x) = 2x^6 + 5x^4 + 5x^3+x^2+ 3x + 4
@@ -134,3 +135,96 @@ $f(x) = g(x)*q_i + r_i$
 ### Řešení
 $NSD(f,g) = 1$
 $NSN(f,g) = f(x)g(x)$
+
+## Příklad
+Nechť $f(x), g(x) \in Z_7[x]$, kde: 
+- $f(x) = 3x^5 + 4x^4 + 3x^3 + 3x^2 + 4x + 3$
+- $g(x)= 5x^5 + 3x^4 + x^3 + 3x^2 + 4x + 4$
+1) Pomoci Eukleidova algoritmu určete $NSD(f(x),g(x))$,
+2) Určete stupeň $NSN(f(x),g(x))$.
+Výsledek zapište jako monický polynom.
+### Řešení
+$NSD(f(x),g(x)) = (x+1)$
+Stupeň $NSN(f(x),g(x))$ bude 9.
+
+## Příklad
+V $Z_3[x] / (x^3 + 2x^2 + 1)$ uvažujte polynomy:
+Uvažujte polynomy: 
+- $f(x) = 2x^2 + x + 2$, 
+- $g(x) = x^2 + 2$ 
+1) spočtete $f(x) + g(x)$,
+2) $f(x) • g(x)$.
+3) Dále pomocí Hornerova schématu určete podíl a zbytek při děleni polynomu $f(x)$ polynomem $x + 1$. Koeficienty polynomů uvádějte vždy v soustavě nejmenších nezáporných zbytků!
+
+### Postup
+$f(x) + g(x) = 2x^2 + x + 2 + x^2 + 2 = x + 1$
+
+$f(x) • g(x) = (2x^2 + x + 2) * (x^2 + 2) = 2x^4 + x^3 + 2x^2 + 4x^2 + 2x + 4=$
+$= 2x^4 + x^3 + 2x + 1=(x^3 + 2x^2 + 1)*(2x)+1$
+
+
+f(-1) = 
+
+| 2   | 2   | 1   | 2   |
+| --- | --- | --- | --- |
+|     | \   | 1    | 1    |
+|     | 2    | 2    | 0    |
+
+### Řešení
+$2x^2 + x + 2 = (x+1)(2x+2)$
+
+
+## Příklad
+Uvažujte polynomy $p(x), q(x) \in R[x]$, kde:
+- $p(x) = x^5 - 4x^4 + x^3 + 10x^2 - 4x - 8$, 
+- $q(x) = x^4 - 5x^2 + 4$. 
+1) Pomocí Hornerova schématu určete $p(-2), q(3)$, 
+2) Polynomy p(x), q(x) rozložte na součin kořenových činitelů (kořeny jsou celá čísla v absolutní hodnotě nepřevyšující 3),
+3) Určete $NSD(p(x), q(x))$,
+4) Určete $NSN(p(x), q(x))$. 
+### Postup
+
+Dosazení hodnot $p(-2), q(3)$:
+p(-2) = 
+
+| -2  | 1   | -4  | 1   | 10  | -4  | -8  |
+| --- | --- | --- | --- | --- | --- | --- |
+|     | /   | -2  | 12  | -26 | 32  | -38 |
+|     | 1   | -6  | 13  | -16 | 28  | -46 | 
+
+q(3) = 
+
+| 3   | 1   | 0   | -5  | 4   |
+| --- | --- | --- | --- | --- |
+|     | /   | 3    | 9    | 12    |
+|     | 1    | 3    | 4    | 16    |
+
+#### Hledání kořenů:
+| x | 0 | 1 | 2 | 3 | -1 | -2 | -3 |
+| ---- | ---- | ---- | ---- | ---- | ---- | ---- | ---- |
+| $q(x)$ | 4 | 0 | 0 | 16 | 0 | 0 |  |
+
+| 1 | 1 | 0 | -5 | 0 | 4 |
+| ---- | ---- | ---- | ---- | ---- | ---- |
+|  | / | 1 | 1 | -4 | -4 |
+| 2 | 1 | 1 | -4 | -4 | 0 |
+|  | / | 2 | 6 | 4 |  |
+| -1 | 1 | 3 | 2 | 0 |  |
+|  | / | -1 | -2 |  |  |
+| -2 | 1 | 2 | 0 |  |  |
+|  | / | -2 |  |  |  |
+|  | 1 | 0 |  |  |  |
+
+| x | 0 | 1 | 2 | 3 | -1 | -2 | -3 |
+| ---- | ---- | ---- | ---- | ---- | ---- | ---- | ---- |
+| $p(x)$ | -8 | -4 | 0 |  | 0 | -46 |  |
+
+
+### Řešení
+$q(x) = (x−2)(x−1)(x+1)(x+2)$
+$p(x) = (x+1)^2(x−2)^3$
+$NSD(p(x), q(x)) = (x+1)(x-2)$
+$NSN(p(x), q(x)) = (x+1)^2(x−2)^3(x−1)(x+2)$
+
+
+

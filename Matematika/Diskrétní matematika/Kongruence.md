@@ -10,7 +10,7 @@ kde:
 - a, b, m ∈ Z ∧ m ≥ 2.
 
 ### Věta: 
-nechť NSD(a, m) = 1, potom kongruence (1) má pro libovolné b právě jedno řešení (mod m). Toto řešení je tvaru: 
+Nechť NSD(a, m) = 1, potom kongruence (1) má pro libovolné b právě jedno řešení (mod m). Toto řešení je tvaru: 
 $$
 x ≡ (−1)^nP_{n−1}b \;\; mod(m)
 $$
