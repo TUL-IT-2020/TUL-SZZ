@@ -169,4 +169,5 @@ Mno v sešitě nám to vyšlo jinak...
 $\bar d = \frac{1}{49}(9*2+8*3+7*3+3*6*3+4*3+5*2*2)$
 $\bar d = \frac{149}{49} \approx 3$
 
-
+## Příklad kódujeme pomocí 4 znaků
+Popište Huffmanovu konstrukci nejkratšího kódu, jestliže kódujeme pomocí 4 znaků (nezapomeňte vysvětlit, jak určíme počet znaků redukovaných v prvním kroku). Dále nalezněte nejkratší binární kód abecedy {a, b, c, d, e, f, i}, kde pravděpodobnost výskytu samohlásky je dvakrát větší než výskyt souhlásky a spočtěte střední délku kódového slova.

@@ -104,6 +104,44 @@ $x \equiv (-1)^4*19*11(110) = 1*209(110)=99(110)$
 $x \equiv \{99, 209, 319, 429\} (440)$
 $x = -1441$
 ## Příklad
+$$186x \equiv 39 (mod 477)$$
+Nalezněte všechna řešení kongruence. Výsledek vyjádřete v soustavě nejmenších nezáporných zbytků modulo m.
+
+### Postup
+Podmínka existence řešení: $NSD(a,m) = 1?$
+
+| dělenec | = | dělitel | * | $q_i$ | + | $r_i$ |
+| ---- | ---- | ---- | ---- | ---- | ---- | ---- |
+| 477 |  | 186 |  | 2 |  | 105 |
+| 186 |  | 105 |  | 1 |  | 81 |
+| 105 |  | 81 |  | 1 |  | 24 |
+| 81 |  | 24 |  | 3 |  | 9 |
+| 24 |  | 9 |  | 2 |  | 6 |
+| 9 |  | 6 |  | 1 |  | 3 |
+| 6 |  | 3 |  | 2 |  | 0 |
+
+### Řešení
+Nemá řešení.
+
+## Příklad
+$$244x + 340 \equiv 0 (mod 452)$$
+Nalezněte řešení kongruence. Řešení zapište v soustavě nejmenších nezáporných zbytků původního modulu.
+### Postup
+Podmínka existence řešení: $NSD(a,m) = 1?$
+
+| dělenec | = | dělitel | * | $q_i$ | + | $r_i$ |
+| ---- | ---- | ---- | ---- | ---- | ---- | ---- |
+| 452 |  | 244 |  | 1 |  | 208 |
+| 244 |  | 208 |  | 1 |  | 36 |
+| 208 |  | 36 |  | 5 |  | 28 |
+| 36 |  | 28 |  | 1 |  | 8 |
+| 28 |  | 8 |  | 3 |  | 4 |
+| 8 |  | 4 |  | 2 |  | 0 |
+### Řešení
+Nemá řešení.
+
+## Příklad
 $$988x \equiv - 616 mod(708)$$
 Soustavu vyřešte. Výsledek zapište v soustavě nejmenších nezáporných zbytků.
 Nalezněte nejmenší číslo větší než -2000, které dané kongruenci vyhovuje.
+
