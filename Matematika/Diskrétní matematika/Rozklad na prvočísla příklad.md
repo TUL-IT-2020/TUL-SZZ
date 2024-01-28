@@ -25,3 +25,10 @@ $\varphi(b) = (2^3-2^2)(5^4-5^3)(7-1)(11-1)(13-1)=4*500*6*10*12=1 440 000$
 ### Řešení
 Nejvíce dělitelů má $c$.
 $\varphi(b) = 1 440 000$
+
+## Příklad
+Nechť:
+- m = 445 815 279,
+- n = 19 864 845. 
+1) Určete počet všech společných dělitelů čísel $\varphi(m)$ a $\varphi (n)$. 
+2) Vypište šest největších společných dělitelů.

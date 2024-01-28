@@ -112,3 +112,90 @@ $x\equiv 0*12+ 280*6 + 216*7 + 225*3(360) \equiv 267(360)$
 
 ### Řešení
 $x \equiv 267(360)$
+
+# Obecné soustavy
+## Příklad
+Vyřešte soustavu kongruencí $x \equiv 2(6),x \equiv 4(14),x \equiv 5 (15), x \equiv 10(20)$. Výsledek zapište v soustavě nejmenších nezáporných zbytků vhodného modulu.
+
+### Postup
+Převod soustavy kongruencí na nesoudělné moduly:
+
+| $x_i$ | $\equiv$ | $b_{old}$ | $(m_i)$ | - | rozklad modulu | $b_i$ | $(d_i)$ |
+| ---- | ---- | ---- | ---- | ---- | ---- | ---- | ---- |
+| x |  | 2 | (6) |  | 2*3 | 2 | (3) |
+| x |  | 4 | (14) |  | 2*7 | 4 | (7) |
+| x |  | 5 | (15) |  | 3*5 | 0 | (5) |
+| x |  | 10 | (20) |  | 4*5 | 2 | (4) |
+|  |  |  |  |  |  |  | 420 |
+Výpočet nového modulu:
+$M = NSN(6,14,15,20) = 2^2*3*5*7 = 420$
+
+Získání $c_i$:
+$M/d_i * c_i = b_i(d_i)$
+
+$140 c_1 \equiv 2(3)$
+$2 c_1 \equiv 2(3)$
+$c_1 = 1$
+
+$60 c_2 \equiv 4(7)$
+$4 c_2 \equiv 4(7)$
+$c_2 = 1$
+
+$84 c_3 \equiv 0(5)$
+$4 c_3 \equiv 0(5)$
+$c_3 = 0$
+
+$105 c_4 \equiv 2(4)$
+$1 c_4 \equiv 2(4)$
+$c_4 = 2$
+
+Výpočet výsledné kongruence:
+$x \equiv \sum^4_{i=1} M/d_i*c_i (M)$
+$x = 140*1 + 60*1 + 84*0 + 105*2(420) = 410(420)$
+### Řešení
+$x = 410(420)$
+
+## Příklad
+Uvažujte soustavu kongruencí $x \equiv 2 (10), x \equiv 4 (12), x \equiv 7(15),x \equiv 7 (9)$. 
+1) Nalezněte všechna celá čísla, která ji vyhovují. 
+2) Rozhodněte, zda existuje celé číslo větší než `92 222`, které vyhovuje dané soustavě. V kladném případě určete nejmenší takové číslo. Vždy používejte soustavu nejmenších nezáporných zbytků.
+### Postup
+Převod soustavy kongruencí na nesoudělné moduly:
+
+| $x_i$ | $\equiv$ | $b_{old}$ | $(m_i)$ | - | rozklad modulu | $b_i$ | $(d_i)$ |
+| ---- | ---- | ---- | ---- | ---- | ---- | ---- | ---- |
+| x |  | 2 | (10) |  | 2*5 | 0 | (1) |
+| x |  | 4 | (12) |  | 3*4 | 0 | (4) |
+| x |  | 7 | (15) |  | 3*5 | 2 | (5) |
+| x |  | 7 | (9) |  | 3*3 | 7 | (9) |
+|  |  |  |  |  |  |  | 180 |
+Výpočet nového modulu:
+$M = NSN(10,12,15,9) = 2^2*3^2*5 = 180$
+
+$M/d_i * c_i = b_i(d_i)$
+
+$180c_1 = 0(1)$
+$c_1 = 0$
+
+$45c_2 = 0(4)$
+$c_2= 0$
+
+$36c_3= 2(5)$
+$c_3 = 2$
+
+$20c_4= 7(9)$
+$2c_4 = 7(9)$
+$c_4 = 8$
+
+Výpočet výsledné kongruence:
+$x \equiv \sum^4_{i=1} M/d_i*c_i (M)$
+$x = 180*0 + 45*0 + 36*2 + 20*8 (180)= 232(180)=52(180)$
+
+Větší než `92 222`:
+$92 222 \equiv 62 (180)$
+$62-52 = 10$
+$x = 92 222 + 180 - 10 = 92392$
+### Řešení
+1) $x \equiv 52 (180)$
+2) Existuje jich nekonečně mnoho v rozestupu 180.
+Nejmenší takové číslo je: $x = 92392$
