@@ -1,6 +1,5 @@
 #příklad 
-# Největší společný dělitel 
-NSD
+# NSD - Největší společný dělitel 
 Aplikace [[Euklidův algoritmus|Eukleidova algoritmu]].
 Online kalkulačka: [hackmath NSD](https://www.hackmath.net/cz/kalkulacka/nejvetsi-spolecny-delitel).
 ## Příklad

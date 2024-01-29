@@ -1,6 +1,7 @@
 # Úvod do šifrování
 "Gantlemani cizí dopisy nečtou"
 
+- ale kdy chtěli: [www.dcode.fr](https://www.dcode.fr/tools-list)
 ## Kryptologie
 - Kryptografie - šifry
 - Kryptoanalýza - lámání šifer

@@ -1,5 +1,7 @@
 # Kongruence
 
+![[Redukovaná soustava zbytků mod m]]
+
 ## Kongruence prvního stupně
 
 Kongruence 1. stupně a jejich řešení. Obecně má kongruence prvního stupně tvar: 

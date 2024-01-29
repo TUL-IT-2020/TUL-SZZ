@@ -4,6 +4,7 @@ Vzoreček:
 $$
 x \equiv (-1)^n*P_{n-1}*b(m)
 $$
+Kalkulačka online:  [modular-equation-solver](https://www.dcode.fr/modular-equation-solver)
 ## Příklad
 $$185x \equiv 335 mod(435)$$
 ### Postup

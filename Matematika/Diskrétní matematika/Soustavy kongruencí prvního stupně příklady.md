@@ -199,3 +199,78 @@ $x = 92 222 + 180 - 10 = 92392$
 1) $x \equiv 52 (180)$
 2) Existuje jich nekonečně mnoho v rozestupu 180.
 Nejmenší takové číslo je: $x = 92392$
+
+## Příklad
+Nalezněte řešení následující soustavy kongruencí $x \equiv 9 (84), x \equiv 3 (90), x \equiv 18 (165)$.
+### Postup
+Převod soustavy kongruencí na nesoudělné moduly:
+
+| $x_i$ | $\equiv$ | $b_{old}$ | $(m_i)$ | - | rozklad modulu | $b_i$ | $(d_i)$ |
+| ---- | ---- | ---- | ---- | ---- | ---- | ---- | ---- |
+| x |  | 9 | (84) |  | $2^2*3*7$ | 9 | $(2^2*7)$ |
+| x |  | 3 | (90) |  | $2*3^2*5$ | 3 | $(3^2*5)$ |
+| x |  | 18 | (165) |  | $3*5*11$ | 7 | $(11)$ |
+|  |  |  |  |  |  |  | $13 860$ |
+Výpočet nového modulu:
+$M = NSN(84,90,165) = 2^2*3^2*5*7*11 = 13 860$
+
+495t = 9(28)
+19t = 9(28)
+t = 27
+
+308t = 3(45)
+38t = 3(45)
+t = 6
+
+1260t = 7(11)
+6t = 7(11)
+t = 3
+
+$x = 495*27 + 308*6 + 1260*3 (13860) =18993(13860)=5133(13860)$
+### Řešení
+$x = 5133(13860)$
+
+## Příklad
+Vyřešte soustavu kongruencí $22x \equiv 84 (15), 16x \equiv 42 (9), 17x \equiv 49 (10), 15x \equiv 21 (8)$. Výsledek zapište v soustavě nejmenších nezáporných zbytků odpovídajícího modulu.
+### Postup
+Úprava kongruencí do základního tvaru:
+- $22x \equiv 84 (15)$,
+- 7x = 9(15)
+- x = 12(15)
+
+- $16x \equiv 42 (9)$,
+- 7x = 6(9)
+- x = 6(9)
+
+- $17x \equiv 49 (10)$,
+- 7x = 9(10)
+- x = 7(10)
+
+- $15x \equiv 21 (8)$.
+- 7x = 5(8)
+- x = 3(8)
+
+Převod soustavy kongruencí na nesoudělné moduly:
+
+| $x_i$ | $\equiv$ | $b_{old}$ | $(m_i)$ | - | rozklad modulu | $b_i$ | $(d_i)$ |
+| ---- | ---- | ---- | ---- | ---- | ---- | ---- | ---- |
+| x |  | 12 | (15) |  | 3*5 | 0 | (1) |
+| x |  | 6 | (9) |  | 3^2 | 6 | (3^2) |
+| x |  | 7 | (10) |  | 2*5 | 2 | (5) |
+| x |  | 3 | (8) |  | 2^3 | 3 | (2^3) |
+|  |  |  |  |  |  |  | 360 |
+Výpočet nového modulu:
+$M = NSN(15,9,10,8) = 2^3*3^2*5 = 360$
+
+40t= 6(9)
+t = 6
+
+72t= 2(5)
+t = 1
+
+45t= 3(8)
+t = 7
+
+$x =40*6 + 72*1 + 45*7 (360) = 627(360)=267(360)$
+### Řešení
+$x = 267(360)$
