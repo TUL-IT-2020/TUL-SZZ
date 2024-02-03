@@ -166,6 +166,36 @@ $x = -1*50*28(113)=69$
 $x \equiv \{69,182,295,408\} (452)$
 
 ## Příklad
+Uvažujte kongruencí $468x \equiv 44 (mod 1060)$ 
+1) Nalezněte její řešeni (výsledek vyjádřete soustavě nejmenších nezáporných zbytků modulo 1060). 
+2) Nalezněte třetí největší záporné celé číslo vyhovující dané kongruenci.
+### Postup
+Podmínka existence řešení: $NSD(a,m) = 1?$
+
+| dělenec | = | dělitel | * | $q_i$ | + | $r_i$ |
+| ---- | ---- | ---- | ---- | ---- | ---- | ---- |
+| 1060 |  | 468 |  | 2 |  | 124 |
+| 468 |  | 124 |  | 3 |  | 96 |
+| 124 |  | 96 |  | 1 |  | 28 |
+| 96 |  | 28 |  | 3 |  | 12 |
+| 28 |  | 12 |  | 2 |  | 4 |
+| 12 |  | 4 |  | 3 |  | 0 |
+$NSD(a,m) = 4$ ... řešení
+$117x \equiv 11 (mod 265)$
+
+Řetězový zlomek:  $\frac{m}{a}$
+
+| i | -1 | 0 | 1 | 2 | 3 | 4 | 5 |
+| ---- | ---- | ---- | ---- | ---- | ---- | ---- | ---- |
+| $q_i$ | / | 2 | 3 | 1 | 3 | 2 | 3 |
+| $P_i$ | 1 | 2 | 7 | 9 | 34 | 77 | 265 |
+| $Q_i$ | 0 | 1 | 3 | 4 | 15 | 34 | 117 |
+$x = -1*77*11(265)=-847(265)=213(265)$
+### Řešení
+$x \equiv \{213, 478, 743, 1008\} (1060)$
+
+
+## Příklad
 $$988x \equiv - 616 mod(708)$$
 Soustavu vyřešte. Výsledek zapište v soustavě nejmenších nezáporných zbytků.
 Nalezněte nejmenší číslo větší než -2000, které dané kongruenci vyhovuje.

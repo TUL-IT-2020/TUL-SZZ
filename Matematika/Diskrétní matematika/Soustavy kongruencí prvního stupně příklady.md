@@ -113,6 +113,28 @@ $x\equiv 0*12+ 280*6 + 216*7 + 225*3(360) \equiv 267(360)$
 ### Řešení
 $x \equiv 267(360)$
 
+## Příklad
+
+Nalezněte řešení soustavy kongruencí $x \equiv 3 (mod 11); x \equiv 2 (mod 8); x \equiv 5 (mod 9)$. Výsledek vyjádřete v soustavě nejmenších nezáporných zbytků vhodného modulu.
+### Postup
+
+$M = NSN(11,8,9) = 2^3*3^2*11 = 792$
+
+72t = 3(11)
+6t = 3(11)
+t = 6
+
+99t = 2(8)
+3t = 2(8)
+t = 6
+
+88t = 5(9)
+7t = 5(9)
+t = 2
+
+$x = 72*6 + 99*6 + 88*2 (792)=1202(792)=410(792)$
+### Řešení
+$x =410(792)$
 # Obecné soustavy
 ## Příklad
 Vyřešte soustavu kongruencí $x \equiv 2(6),x \equiv 4(14),x \equiv 5 (15), x \equiv 10(20)$. Výsledek zapište v soustavě nejmenších nezáporných zbytků vhodného modulu.
