@@ -4,14 +4,14 @@
 
 ### Specializace: Inteligentní systémy
 
-![[Matematika]]
+![[1. Matematika]]
 
-![[Signály, zpracování informace]]
+![[2. Signály a zpracování informací]]
 
-![[Strojové učení a vytěžování dat]]
+![[3. Strojové učení a vytěžování dat]]
 
-![[Algoritmy a programování]]
+![[3. Algoritmy a programování]]
 
-![[Počítačové sítě a Internet]]
+![[4. Počítačové sítě a Internet]]
 
-![[Databázové systémy a technologie pro BigData]]
+![[5. Databázové systémy a technologie pro BigData]]

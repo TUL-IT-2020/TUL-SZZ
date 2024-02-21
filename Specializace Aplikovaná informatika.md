@@ -1,11 +1,11 @@
-![[Matematika]]
+![[1. Matematika]]
 
-![[Signály, zpracování informace]]
+![[2. Signály a zpracování informací]]
 
-![[Algoritmy a programování]]
+![[3. Algoritmy a programování]]
 
-![[Počítačové sítě a Internet]]
+![[4. Počítačové sítě a Internet]]
 
-![[Databázové systémy a technologie pro BigData]]
+![[5. Databázové systémy a technologie pro BigData]]
 
-![[Hardware a elektronika]]
+![[6. Hardware a elektronika]]
