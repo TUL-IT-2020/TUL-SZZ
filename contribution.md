@@ -1,5 +1,8 @@
 # Jak přispět
 
+1. Vytvoř si vlastní větev, ať nerozmrdáš **master**!
+2. Když děláte merge, tak konflikty vyřešte vždy na své větvi, nikoliv na **master**!
+
 ## Přidání poznámek a výpisků k otázkám
 
 Poznámky jsou vytvářeny podle metody Zettelkasten, která je popsána v [této](https://zettelkasten.de/posts/overview/) sérii článků. Výpisky jsou vytvářeny v programu [Obsidian](https://obsidian.md/), který poznámky ukládá ve formátu `.md`, ale na rozdíl třeba od [GitHubu](https://github.com), disponuje rozsáhlejším množstvím formátování textu a systému linků pro provázání jednotlivých poznámek, díky čemuž je vhodnější pro práci s velkým množstvím provázaných témat a poznámek, než například čistý [Markdown](https://en.wikipedia.org/wiki/Markdown).
@@ -14,6 +17,9 @@ Poznámky jsou vytvářeny podle metody Zettelkasten, která je popsána v [tét
 
 1. Zkontrolujte, zda již poznámka k danému tématu náhodou neexistuje. Pokud ano, stávající poznámku adekvátně rozšiřte.
 2. Poznámky jsou roztříděny podle předmětů a logických celků, nikoliv státnicových otázek. Přidej poznámku na správné místo.
+
+### Kam patří obrázky?
+Do `TUL-SZZ/assets/` a dále do adresáře odpovídajícího předmětu.
 
 ## Přidání nové studijní specializace
 
