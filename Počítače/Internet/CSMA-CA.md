@@ -1,5 +1,4 @@
 #CSMA/CA
-
 ## Carrier Sense Multiple Access with Collision Avoidance
 1. je-li médium volné po dobu DIFS, začne vysílat pokud protějšek nepotvrdí příjem, zahájí exp. čekání
 2. je-li obsazeno, počká na uvolnění a zahájí exp. čekání
