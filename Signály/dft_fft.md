@@ -1,6 +1,6 @@
 # 23. - DFT/FFT (radix-2)
 
-> vlastnosti a výpočetní složitost, linearní a kruhová konvoluce, rychlý výpočet lineární konvoluce pomocí FFT (metoda overlap-add, overlap-save).
+> [!abstract] vlastnosti a výpočetní složitost, linearní a kruhová konvoluce, rychlý výpočet lineární konvoluce pomocí FFT (metoda overlap-add, overlap-save).
 
 ## DFT a FFT
 

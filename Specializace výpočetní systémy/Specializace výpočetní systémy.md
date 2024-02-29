@@ -22,7 +22,7 @@ Tematické okruhy pro státní závěrečné zkoušky navazujícího magistersk�
 20. Rozdělení a architektury programovatelných zákaznických obvodů, význam a princip činnosti významných funkčních bloků v architektuře FPGA obvodů. 
 21. Metodika návrhu programovatelných zákaznických obvodů. Jazyky pro popis technických prostředků, úrovně jejich abstrakce. Charakteristické rysy jazyka VHDL. 
 22. Deterministické číslicové signály – popis v časové oblasti, popis ve frekvenční oblasti – DTFT/DFT spektrum, periodicita, krátkodobá spektrální analýza (STFT), vzorkování a vzorkovací teorém, blokové zpracování signálu. 
-23. LTI číslicové systémy – vlastnosti (linearita, kauzalita, BIBO stabilita), impulsní odezva (FIR/IIR), frekvenční charakteristika, přenosová funkce, lineární diferenční rovnice s konstantními koeficienty. 
+23. LTI číslicové systémy – vlastnosti ([[Linearita|linearita]], [[Kauzalita|kauzalita]], BIBO stabilita), impulsní odezva (FIR/IIR), frekvenční charakteristika, přenosová funkce, lineární diferenční rovnice s konstantními koeficienty. 
 24. Návrh číslicových filtrů – frekvenčně selektivní filtry, toleranční schéma, návrh frekvenčně selektivních FIR filtrů (metoda oken), typy IIR filtrů a jejich vlastnosti, nulovací (notch) filtr, porovnání vlastností FIR/IIR filtrů. 
 25. Pipeline pro 3d grafiku v reálném čase: struktura a datové toky, druhy a použití shaderů, komunikace programu na CPU s shadery. 
 26. Phongův osvětlovací model – jeden a více zdrojů světla, vlastnosti světel a materiálů, stínování. 
