@@ -15,7 +15,7 @@ Tedy v jaké rovině kmitají.
 ![[polarization.png]]Polarizaci značíme jako: $+$ vs $\times$ 
 ![[Polarized-photons-and-corresponding-bit-values-IV-Quantum-cryptography-possibilities-of.png]]
 ### Kvantová výměna klíčů po optickém kanálu
-![[kvantová komunikace.png]]
+![[kvantova_komunikace.png]]
 #### Anča
 
 | schéma | 1   | 0   |

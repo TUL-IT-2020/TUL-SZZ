@@ -111,8 +111,8 @@ Otisk původní zprávy ?= otisk zprávy
 
 Zpráva.zip -> ZIP-1 -> Zpráva
 
-> Dítě nesmíme nechat v kufru!
-> - Otto Severín
+> [!quote] Dítě nesmíme nechat v kufru!
+> \- Otto Severín
 
 ## Pojmy spojené s E.P.
 1. El. Podpis - nemá (příliš) význam

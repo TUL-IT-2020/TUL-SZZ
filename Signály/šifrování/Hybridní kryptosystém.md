@@ -1,5 +1,5 @@
 # Hybridní kryptosystém
-Asymetrická šifra je použita pro přenos jednorázového klíče symetrické šifry. 
+> [!tldr] Asymetrická šifra je použita pro přenos jednorázového klíče symetrické šifry. 
 
 Velikosti klíčů:
 

@@ -18,14 +18,15 @@ Terminologie: "šifra" vs. "kód"
 1) Pouze ze znalosti šifrované zprávy je těžké odvodit otevřený text.
 2) Ze znalosti šifrované a otevřené zprávy je těžké odvodit klíč. 
 
-- **Konfůze** - vztah mezi otevřenou a šifrovanou zprávou je co nejsložitější.
-- **Difůze** - informace z otevřeného textu je rozmělněna do celé šifrované zprávy.
+> [!important]
+>- **Konfůze** - vztah mezi otevřenou a šifrovanou zprávou je co nejsložitější.
+>- **Difůze** - informace z otevřeného textu je rozmělněna do celé šifrované zprávy.
 
 ## Kerckhoffův princip
 ![[Kerckhoffův princip]]
 
 ## Šifrovací algoritmy
-![[rozdělení šifer.jpg]]
+![[rozdeleni_sifer.jpg]]
 
 Šifry:
 - symetrické (klasické, jeden klíč pro šifrování a dešifrování)
@@ -36,32 +37,23 @@ Terminologie: "šifra" vs. "kód"
 	- proudové (pracují byte po bytu)
 - asymetrické(s veřejným klíčem)
 
-Symetrické
+> [!info] Symetrické
 Znalostí šifrovacího klíče je snadné odvodit dešifrovací klíč. 
 
-Proudové
+> [!info] Proudové
 Použití: když není jiná možnost (telekomunikace)
-Princip: 
-Generátor pseudonáhodných čísel. XOR operace na byte zprávy.
-Klíč: počáteční stav generátoru 
+
+> [!tip] Princip: 
+>Generátor pseudonáhodných čísel. XOR operace na byte zprávy.
+**Klíč**: počáteční stav generátoru 
 
 ## Vermanův kryptosystém
-(šifra jednorázovou tabulkou)
-100% bezpečnost (teoreticky)
-- Klíč je zcela náhodný.
-- Klíč je stejně dlouhý jako zpráva.
-- Klíč se použije jen jednou
-
-Problém:
-- získat opravdu náhodný klíč
-- spotřeba klíče
-- zaručení jedno použití
-- skladování klíče
+![[Vermanův kryptosystém]]
 
 ## Blokové symetrické šifry
-Princip šifrování: 
-- substituce
-- transpozice
+> [!info] Princip šifrování: 
+>- substituce
+>- transpozice
 
 proudové vs blokové 
 

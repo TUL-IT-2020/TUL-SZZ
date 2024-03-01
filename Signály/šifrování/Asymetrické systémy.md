@@ -1,5 +1,5 @@
 # Asymetrické systémy
-Základ matematické operace, které je obtížné otočit. 
+> [!tldr] Základ: matematické operace, které je obtížné otočit. 
 
 Příklad: RSA násobené/faktorizace
 $p_1, p_2$ jsou prvočísla
@@ -20,15 +20,17 @@ Co se zašifruje jedním klíčem z dvojice, rozšifruje se **POUZE** druhým.
 ![[public-key.png]]
 idea-instructions.com
 
-Alice posílá zprávu Bobovi, čím šifruje?
-- $A_s$ - lze rozšifrovat $A_v$
-- $A_v$ - lze rozšifrovat $A_s$
-- $B_s$ - lze rozšifrovat $B_v$
-- $B_v$ - lze rozšifrovat $B_s$
+> [!question] Alice posílá zprávu Bobovi, čím šifruje?
+>- $A_s$ - lze rozšifrovat $A_v$
+>- $A_v$ - lze rozšifrovat $A_s$
+>- $B_s$ - lze rozšifrovat $B_v$
+>- $B_v$ - lze rozšifrovat $B_s$
 
-=> zprávu šifrujeme **veřejným klíčem** protistrany !
+>[!success] 
+>=> zprávu šifrujeme **veřejným klíčem** protistrany !
 
-Problém: výkon, při obdobné bezpečnosti jsou Asymetrické šifry asi $10^4 - 10^5*$ pomalejší než symetrické šifry.
+> [!warning] Problém: 
+> Výkon, při obdobné bezpečnosti jsou Asymetrické šifry asi $10^4 - 10^5*$ pomalejší než symetrické šifry.
 
 Nejsou tedy vhodné pro velké objemy dat. Lze tedy použít pouze pro malé objemy dat. Používáme ji jako bezpečný kanál pro výměnu klíčů symetrických šifer.
 
@@ -39,7 +41,8 @@ Alice zašifruje zprávu $A_s$.
 
 Pokud chceme posílat velké sobory, tak můžeme podepisovat jen jejich [[Hashovací funkce|hashe]].
 
-Problém 2: Pravdivost veřejného klíče -> řeší [[Elektronický podpis#Certifikáty|certifikáty]]
+> [!warning] Problém 2: 
+> Pravdivost veřejného klíče -> řeší [[Elektronický podpis#Certifikáty|certifikáty]]
 
 ## Diffie - Hellmanova funkce
 ![[Diffie - Hellmanova funkce]]
