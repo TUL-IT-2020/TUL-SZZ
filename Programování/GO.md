@@ -1,12 +1,12 @@
 #CTC 
 # GO
-Stránky: 
-- [golang](https://golang.org/)
-- [go.dev](https://go.dev/)
-- [geting started](https://go.dev/doc/tutorial/getting-started)
-- [naming conventions](https://betterprogramming.pub/naming-conventions-in-go-short-but-descriptive-1fa7c6d2f32a)
-- https://go.dev/tour/moretypes/26
-- https://go.dev/doc/tutorial/create-module
+> [!example] Stránky: 
+>- [golang](https://golang.org/)
+>- [go.dev](https://go.dev/)
+>- [geting started](https://go.dev/doc/tutorial/getting-started)
+>- [naming conventions](https://betterprogramming.pub/naming-conventions-in-go-short-but-descriptive-1fa7c6d2f32a)
+>- https://go.dev/tour/moretypes/26
+>- https://go.dev/doc/tutorial/create-module
 ## Go Tour na vašem počítači
 ```Bash
 go tool tour
@@ -60,7 +60,8 @@ func swap(x, y string) (string, string) {
 ```
 
 ### Defer  
-- zpožděné vykonání
+> [!tldr] zpožděné vykonání
+
 Klíčové slovo defer v jazyce Go se používá k odložení vykonání funkce až do konce obsahující funkce. To je užitečné pro úklid, jako je zavírání souborů nebo odemykání mutexů, bez ohledu na to, jak se funkce ukončí.  
 
 ## Kanál  

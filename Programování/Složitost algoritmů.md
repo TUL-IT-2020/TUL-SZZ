@@ -21,7 +21,8 @@ Algoritmy lze porovnat pomocí:
 	- Velikost paměti využívané při výpočtu (prostorová)
 
 ## FLOPS
-FLOPS (Floating Point Operations Per Second) – oblíbená metrika výkonu počítačů.
+> [!tip] FLOPS (Floating Point Operations Per Second) 
+> – oblíbená metrika výkonu počítačů.
 
 ## Asymptotická složitost algoritmu 
 Každému algoritmu lze jednoznačně přiřadit rostoucí funkci zvanou asymptotická složitost, která charakterizuje počet operací algoritmu v závislosti na rostoucím rozsahu vstupních dat (čím pomaleji tato funkce roste, tím je algoritmus rychlejší). Skutečná složitost závisí na složitosti implementace daného problému a na počítači na kterém je prováděn (složitost se obecně nedá spočítat) – abychom tento problém vyřešili, začali se používat odhady složitosti – růst složitosti vzhledem ke zvětšujícím se vstupům -> asymptotická složitost.
@@ -37,7 +38,7 @@ Celkový počet elementárních operací, případně počet elementárních ope
 ### Řád funkce 
 Řád růstu funkce f je taková „co nejjednodušší“ funkce g, pro kterou platí, že f je asymptoticky ohraničená funkcí g z obou stran (až na konstantu). Řád funkce určíme tak, že zanedbáváme aditivní členy rostoucí pomaleji nebo stejně rychle a multiplikativní konstantu
 
-![[Složitost programu.png]]
+![[Slozitost_programu.png]]
 ## O-notace 
 Obvyklý zápis složitosti algoritmu:
 ⦁	O(1) – konstantní – indexování prvku v poli

@@ -1,14 +1,15 @@
 ## Git
-Rozumný vývoj v Gitu:
-Do main šahej jen přes pull request.
-Přidávání funkcionalit přes větve.
+> [!warning] Rozumný vývoj v Gitu:
+>- Do main šahej jen přes pull request.
+>- Přidávání funkcionalit přes větve.
 
 ### Oživit GitHub
 1. vytvoř .gitignore
 2. novou větev
 
-
+```bash
 git checkout -b "nazev vetve"
+```
 Vytvoř novou větev a přesuň se na ní.
 
 ### Rebase

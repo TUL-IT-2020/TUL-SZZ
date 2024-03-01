@@ -1,0 +1,2 @@
+# Comb sort
+Dalším vylepšením [[Bubble sort|BubbleSortu]]. Opět řeší problém zajíců a želv, ale jinak než ShakerSort. Zavádí snižující se přírůstek (skok), neporovnávají se tedy sousedi, ale prvky vzdálené o tento skok. Při každé iteraci se skok dekrementuje, až je degradován na prostý BS. Díky skoku jsou želvy přesunovány rychleji na správnou stranu. Základem je správná volba skoku. Empiricky dokázáno, že ideální je výpočet skoku jako postupné dělení pole číslem 4/3. Podobný princip využívá i varianta InserSortu – ShellSort.
