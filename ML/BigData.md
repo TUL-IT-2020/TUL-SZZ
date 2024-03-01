@@ -1,37 +1,37 @@
 # Big Data
 Datasety tak velké, že je nemožné/obtížné s nimi pracovat za pomoci tradičních nástrojů a DB (převážně relačních) v rozumném čase. 
 
-> „Soubory dat, jejichž velikost je mimo schopnosti zachycovat, spravovat a zpracovávat data běžně používanými softwarovými prostředky v rozumném čase.“
-> -  Gartner
+> [!quote] „Soubory dat, jejichž velikost je mimo schopnosti zachycovat, spravovat a zpracovávat data běžně používanými softwarovými prostředky v rozumném čase.“
+> \-  Gartner
 
 ### Charakteristiky Big Data
-3V big dat:
-- **Volume** (obsah): data nejsou pouze text, exponenciální nárůst objemu.
-- **Velocity** (rychlost): rychlost, kterou data přibývají, nebo rychlost zpracování dat.
-- **Variety** (různorodost): data nemají homogenní strukturu, počet forem stále roste.
+> [!check] 3V big dat:
+>- **Volume** (obsah): data nejsou pouze text, exponenciální nárůst objemu.
+>- **Velocity** (rychlost): rychlost, kterou data přibývají, nebo rychlost zpracování dat.
+>- **Variety** (různorodost): data nemají homogenní strukturu, počet forem stále roste.
 
-Další "Vé":
-- **Veracity** (věrohodnost): zaujatost, šum, abnormality v datech.
-- **Valence** (valence): propojovatelnost dat formou grafů (vnitřní podobnost).
-- **Value** (hodnota): jak z těchto dat získat nějakou hodnotu?
+ > [!info] Další "Vé":
+>- **Veracity** (věrohodnost): zaujatost, šum, abnormality v datech.
+>- **Valence** (valence): propojovatelnost dat formou grafů (vnitřní podobnost).
+>- **Value** (hodnota): jak z těchto dat získat nějakou hodnotu?
 
 ## Aplikace Big Data
-Analýza big data:
-- Kvalitnější modely
-- Odporučovací systémy
-- Cílený marketing
-- Pochopení potřeby zákazníka
-- analýza sentimentu
-- reklama závislá na poloze
-- medicína
-- big data měst
+> [!example] Analýza big data:
+>- Kvalitnější modely
+>- Odporučovací systémy
+>- Cílený marketing
+>- Pochopení potřeby zákazníka
+>- analýza sentimentu
+>- reklama závislá na poloze
+>- medicína
+>- big data měst
 
 
 Cílený marketing
 Využívají navštívených stránek, historie vyhledávání, objednávek, sociální média.
 Google adds
 
-Odporučovací systémy
+Doporučovací systémy
 Na základě předchozí aktivity uživatele. Netflix, Steam, Amazon, Sociální sítě (TikTok, Redit).
 Cílem je doporučení ideálního produktu.
 
@@ -63,10 +63,11 @@ Facebook, Twiter, Instagram, blogy, vyhledávání, textové zprávy, emaily.
 Většina dat je textových a nestrukturovaných. 
 
 Využití NErealčních databází. 
-NoSQL databáze: 
-- [[Apache Hadoop|hadoop]], 
-- [[Apache Spark|Spark]], 
-- [[Cassandra|Cassandra]].
+
+> [!example] NoSQL databáze: 
+>- [[Apache Hadoop|hadoop]], 
+>- [[Apache Spark|Spark]], 
+>- [[Cassandra|Cassandra]].
 
 ### Organizační data
 Důvěryhodná data: transakce, kreditní karty, bankovnictví, akcie, zdravotní záznamy, senzory,...
@@ -79,19 +80,22 @@ Data mou být:
 - nestrukturovaná.
 
 ### Strukturovaná data
-Informace uložené v definovaném datovém modelu. Umožnují snadný přístup a čtení. Snadno se analyzují. Uložené například v relačních databázích (relace, atributy). 
+> [!info] Strukturovaná data
+>Informace uložené v definovaném datovém modelu. Umožnují snadný přístup a čtení. Snadno se analyzují. Uložené například v relačních databázích (relace, atributy). 
 
 ### Nestrukturovaná data
-Data v nezpracované podobě, nemají žádný specifický formát. Obtížné na zpracování kvůli komplexnosti a složitosti. 
+> [!info] Nestrukturovaná data
+>Data v nezpracované podobě, nemají žádný specifický formát. Obtížné na zpracování kvůli komplexnosti a složitosti. 
 
-Různé podoby:
-- sociální media (příspěvky),
-- chaty,
-- satelitní snímky,
-- prezentace.
+> [!example] Různé podoby:
+>- sociální media (příspěvky),
+>- chaty,
+>- satelitní snímky,
+>- prezentace.
 
 ### Částečně strukturovaná data
-Například digitální fotografie a metadaty jako jsou například typu datum místo pořízení a ID zařízení. 
+> [!info] Částečně strukturovaná data
+>Například digitální fotografie a metadaty jako jsou například typu datum místo pořízení a ID zařízení. 
 
 ## Analýza velkých dat
 

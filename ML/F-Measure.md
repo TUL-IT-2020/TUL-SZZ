@@ -2,8 +2,9 @@
 # F-Measure
 Kombinace Precision (P) a Recall (R).
 
-**Precision** = Podíl navrácených výsledků, které jsou relevantní
-**Recall** = Podíl relevantních dokumentů, které jsou navráceny
+> [!important]
+>- **Precision** = Podíl navrácených výsledků, které jsou relevantní
+>- **Recall** = Podíl relevantních dokumentů, které jsou navráceny
 
 $𝑃𝑟𝑒𝑐𝑖𝑠𝑖𝑜𝑛 = \frac{𝑎}{𝑎 + c}$
 $𝑅𝑒𝑐𝑎𝑙𝑙 = \frac{𝑎} {𝑎 + b}$

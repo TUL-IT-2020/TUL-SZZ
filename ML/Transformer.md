@@ -8,10 +8,10 @@ Obsahuje důležité self-attention vrstvy. Zpracovává vstupní informaci a je
 $$
 Atention(Q,K,V) = Softmax\left( \frac{QK^T}{\sqrt{d_k}} \right)V
 $$
-[[Softmax]]
- $Q$ - query
- $K$ - key
- $V$ - value
+- [[Softmax|Softmax()]]
+- $Q$ - query
+- $K$ - key
+- $V$ - value
  
 ## Architektura modelu
 ![The-Transformer-model-architecture](https://upload.wikimedia.org/wikipedia/commons/8/8f/The-Transformer-model-architecture.png)

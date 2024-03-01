@@ -18,10 +18,7 @@ Euklidovská vzdálenost je z rodiny $L_p$ metrik nejpoužívanější. V příp
 $$
 𝑑(𝒙, 𝒛) = \sum^P_{𝑖=1} \lvert{𝑥_𝑖 − 𝑧_𝑖 \rvert}
 $$
-Manhattanská vzdálenost někdy také zvaná newyorská metrika, byla inspirována
-pravoúhlým systémem ulic na Manhattanu. V dvourozměrném pozorování, jde o vzdálenost dvou
-bodů v rovině měřenou po odvěsnách pravoúhlého trojúhelníku, zatímco euklidovská vzdálenost je
-měřená po přeponě.
+Manhattanská vzdálenost někdy také zvaná newyorská metrika, byla inspirována pravoúhlým systémem ulic na Manhattanu. V dvourozměrném pozorování, jde o vzdálenost dvou bodů v rovině měřenou po odvěsnách pravoúhlého trojúhelníku, zatímco euklidovská vzdálenost je měřená po přeponě.
 ![Manhatanovská metrika](http://home.ef.jcu.cz/~klufova/GIS/GIS1/_book/pictures/blokova_metrika.png)
 
 ## Šachovnicová vzdálenost
