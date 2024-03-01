@@ -1,18 +1,18 @@
 # Úvod do šifrování
-"Gantlemani cizí dopisy nečtou"
+"Gentlemani cizí dopisy nečtou"
 
 - ale kdy chtěli: [www.dcode.fr](https://www.dcode.fr/tools-list)
 ## Kryptologie
 - Kryptografie - šifry
 - Kryptoanalýza - lámání šifer
 
-"je obtížné ..." = na daný problém zle jít jen hrubou silou (vyzkoušet všechny možné klíče)
-- $10^9$ jader po dobu $10^9$ let na nekvantovém počítači
+> [!note] "je obtížné ..." 
+> Na daný problém zle jít jen hrubou silou (vyzkoušet všechny možné klíče)
+>- $10^9$ jader po dobu $10^9$ let na nekvantovém počítači
 
-Terminologie: "šifra" vs. "kód"
-
-- šifra = kryptografický kód
-- kódové slovo = slovo předem dohodnutého významu
+> [!warning] Terminologie: "šifra" vs. "kód"
+>- šifra = kryptografický kód
+>- kódové slovo = slovo předem dohodnutého významu
 
 ## Vlastnosti šifry
 1) Pouze ze znalosti šifrované zprávy je těžké odvodit otevřený text.

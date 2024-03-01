@@ -6,6 +6,7 @@ Nahrazení symbolů ze vstupního řetězce jejich indexy ze zásobníku.
 Zásobník s čísli (pořadí, ASCII…), i-tá pozice – kód i z pořadí, ASCII.
 Aktuálně kódovaný znak přesunut na počátek (dopředu).
 A až Z (26 čísel v zásobníku, + české znaky 42 písmen)
+
 Abeceda:
 
 | index | písmeno | index | písmeno |

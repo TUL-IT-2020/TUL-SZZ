@@ -3,17 +3,18 @@ Kompresní/dekompresní metoda, využití – přenos dat, GIF, TIFF, postscript
 (+) rychlá metoda
 (-) horší kompresní poměr (cca o 30% horší než nejlepší met.)
 
-Autoři:
-- L - Lempel
-- Z - Ziv
-- W - Welch
+> [!example] Autoři:
+>- L - Lempel
+>- Z - Ziv
+>- W - Welch
 
-Slovník – ukládají se opakující se znaky. Slovník budován průběžně.
-Pokud se vyskytne několik stejných posloupností znaků – nahrazení stejným
-číslem
+> [!info] Slovník 
+> Ukládají se opakující se znaky. Slovník budován průběžně.
+Pokud se vyskytne několik stejných posloupností znaků – nahrazení stejným číslem.
 Slovník se neukládá, ale je znovu vytvořen ze zakódovaného souboru. Stačí přenést jen zdrojovou abecedy.
 
-Slovník obvykle končí na 4096 pozicích ($2^{12}$).
+> [!note]
+>Slovník obvykle končí na 4096 pozicích ($2^{12}$).
 ## Příklad
 Aplikujte algoritmus LZW na zprávu nad abecedou A,B. Zpráva je AABBAABAB.
 

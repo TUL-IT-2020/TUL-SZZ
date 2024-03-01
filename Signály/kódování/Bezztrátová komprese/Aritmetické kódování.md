@@ -42,8 +42,8 @@ Výsledné číslo je například: 0,25 (číslo mezi 0,247 a 0,256 s nejmenší
 	- p(D) = $10^{-9}$
 	- Zpráva ADB ...., interval ($0.3-10^{-9}$; $0.3$)
 
-> Je to dobré, ale nikdo to nepoužívá.
->  - Otto Severýn
+> [!quote] Je to dobré, ale nikdo to nepoužívá.
+> \- Otto Severýn
 
 ## Příklady
 - [[Aritmetické kódování příklad]]

@@ -41,6 +41,7 @@ Př: 6 -> 110
 
 
 ## Použití
-- Rotační čidla 
-- přepínače
-- genetické algoritmy
+> [!example]
+>- Rotační čidla 
+>- přepínače
+>- genetické algoritmy
