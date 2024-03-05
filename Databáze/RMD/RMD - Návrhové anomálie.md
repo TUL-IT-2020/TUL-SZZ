@@ -2,9 +2,10 @@
 # Návrhové anomálie
 **Aktualizacní anomálie (Codd):**
 
-*Aktualizační anomálie je nechtěný vedlejší efekt operace nad databází, při kterém dojde ke ztrátě nebo nekonzistenci dat.*
+Aktualizační anomálie je nechtěný vedlejší efekt operace nad databází, při kterém dojde ke ztrátě nebo nekonzistenci dat.
 
-Relace: *PROGRAM_KINA(PK: JMENO_KINA, PK: JMENO_FILMU, ADRESA, DATUM, CAS)*
+> [!info] Relace: 
+*PROGRAM_KINA(PK: JMENO_KINA, PK: JMENO_FILMU, ADRESA, DATUM, CAS)*
 
 ## Aktualizační anomálie:
 - INSERT (chceme-li přidat nové kino s adresou, lze to jen když se tam hraje nejaký film)
@@ -12,7 +13,7 @@ Relace: *PROGRAM_KINA(PK: JMENO_KINA, PK: JMENO_FILMU, ADRESA, DATUM, CAS)*
 - DELETE (nehraje-li kino zrovna nic, ztrácíme jeho adresu)
 
 ## Podrobněji:
-![[RMD - tabulky studentů.PNG]]
+![[RMD-tabulky_studentu.png]]
 
 **Redundance dat** - uložené stejné data na více místech.
 

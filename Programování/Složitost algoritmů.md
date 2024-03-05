@@ -40,19 +40,20 @@ Celkový počet elementárních operací, případně počet elementárních ope
 
 ![[Slozitost_programu.png]]
 ## O-notace 
-Obvyklý zápis složitosti algoritmu:
-⦁	O(1) – konstantní – indexování prvku v poli
-⦁	O(logN) – logaritmická)
-⦁	O(log2N) – vyhledávání prvku v seřazeném poli metodou půlení intervalu
-⦁	O(N) – lineární – vyhledávání prvku v neseřazeném poli lineárním vyhledáváním
-⦁	O(N*logN) – lineárně-logaritmická – seřazení pole reálných čísel podle velikosti (Mergesort)
-⦁	O(N2) – kvadratická – DFT
-⦁	O(N3) – kubická
-⦁	O(NX) – polynomiální  
-⦁	O(2N) – exponenciální
-⦁	O(2N) – přesné řešení problému obchodního cestujícího
-⦁	O(N!) – faktoriálová
+> [!example] Obvyklý zápis složitosti algoritmu:
+>-	$O(1)$ – konstantní – indexování prvku v poli
+>-	$O(log(N))$ – logaritmická
+>-	$O(log_2(N))$ – vyhledávání prvku v seřazeném poli metodou půlení intervalu
+>-	$O(N)$ – lineární – vyhledávání prvku v neseřazeném poli lineárním vyhledáváním
+>-	$O(N*log(N))$ – lineárně-logaritmická – seřazení pole reálných čísel podle velikosti ([[Merge sort|Mergesort]])
+>-	$O(N^2)$ – kvadratická – DFT
+>-	$O(N^3)$ – kubická
+>- $O(N^X)$ – polynomiální  
+>- $O(2^N)$ – exponenciální
+>- $O(2^N)$ – přesné řešení problému obchodního cestujícího
+>- $O(N!)$ – faktoriálová
 
+> [!done] Porovnání složitostí:
 $$
 1 \ll log(n) \ll n \ll n*log(n) \ll n^k \ll k^n \ll n! \ll n^n
 $$

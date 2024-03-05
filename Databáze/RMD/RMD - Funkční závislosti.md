@@ -10,7 +10,7 @@ Postup datové analýzy s automatickým navržením struktury databáze je násl
 - vytvořím jednu obrovskou tabulku (relaci), obsahující všechny atributy
 - pomocí funkčních závislostí provedu dekompozici (rozbití) velké relace na menší, které vytvoří výsledné schéma databáze.
 
-Příklad:
+> [!note] Příklad:
 Atribut 'datum narození' je **funkčně závislý** na atributu 'rodné číslo'.
 Nemůže se stát, že u záznamů se stejnými rodnými čísly bude různé datum narození.
 
