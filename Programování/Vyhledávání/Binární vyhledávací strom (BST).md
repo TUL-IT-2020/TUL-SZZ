@@ -2,7 +2,7 @@
 
 Datová struktura založená na binárním [[Stromy|stromu]], v němž jsou jednotlivé prvky (uzly) uspořádány tak, aby v tomto stromu bylo možné rychle vyhledávat danou hodnotu.
 
-- Postaveno na principu binárního vyhledávání. (vyvážený BST strom má složitost vyhledávání O(log2(N))
+- Postaveno na principu binárního vyhledávání. (vyvážený BST strom má složitost vyhledávání $O(log_2(N))$
 - Jedná se o binární strom, každý uzel tedy má nanejvýš dva potomky − levého a pravého.
 - Každému uzlu je přiřazen určitý klíč. Podle hodnot těchto klíčů jsou uzly uspořádány.
 - Levý podstrom uzlu obsahuje pouze klíče menší než je klíč tohoto uzlu.
