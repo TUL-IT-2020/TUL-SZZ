@@ -17,5 +17,31 @@ H(e^{j\omega}) = \frac{Y(e^{j\omega})}{X(e^{j\omega})}
 $$
 
 $$
-H(e^{j\omega}) = \frac{1}{3}(1 + e^{-j\omega} + e^{-j2\omega})
+H(e^{j\omega})_{\omega=\pi/2} = \frac{1}{3}(1 + e^{-j\omega} + e^{-j2\omega})
 $$
+
+
+Magnituda:
+$$
+|H(e^{j\omega})| = \frac{-1}{3}
+$$
+
+Fáze:
+$$
+\phi(e^{j\omega}) = -\frac{\pi}{2}
+$$
+
+Zpoždění:
+$$
+\tau_p = \frac{\phi(\omega)}{\omega} = -\frac{-\pi/2}{\pi/2} = 1
+$$
+- $\omega = \pi/2$
+
+Zpoždění je 1 vzorek.
+
+### Vlastní fuknce (cos)
+$x[n] = cos(u \pi/2)$
+
+$y[n] = 1/3 \cdot (cos(u \pi/2)$
+
+$y[n] = 1/3  cos(\pi/2 (n-1))$
