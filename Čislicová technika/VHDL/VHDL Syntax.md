@@ -1,12 +1,12 @@
-## Syntax
+# Syntax
 > [!warning] Je vice verzí jazyka VHDL!
 >- VHDL
 >- VHDL 2008 (ten hezčí)
 
-### Entity
+## Entity
 Popis vstupů a výstupů černé skříňky.
 
-#### Generické návrhy
+### Generické návrhy
 generic
 Konstanty (při simulaci a syntéze konstantní)
 Kapitálkami, první "C_..."
@@ -52,11 +52,11 @@ port map(
 	addr => addr );
 ```
 
-#### Porty
+### Porty
 název : (in/out) typ (rozsah)
 
 
-### Architecture
+## Architecture
 Popis vnitřního chování obvodu. 
 - deklarační část (např. definice signálů)
 - příkazová část (uzavřeno do begin - end)
@@ -75,7 +75,7 @@ dráty
 signal nazev : typ (rozsah)
 
 
-### Aggregate
+## Aggregate
 Slučování vektorů: &
 ```VHDL
 architecture example of assignment_vec is 	
@@ -99,7 +99,7 @@ signal BYTE : bit_vector (7 downto 0);
 BYTE <= (7 => '1', 5 downto 1 => '1', 6 => B_BIT, others => '0');
 ```
 
-### When
+## When
 ```VHDL
 b <= "1000" when a = "00" else 
 	 "0100" when a = "01" else 
@@ -107,7 +107,7 @@ b <= "1000" when a = "00" else
 	 "0001" when a = "11";
 ```
 
-### Process
+## Process
 Citlivostní seznam na všechny relevantní parametry.
 `process(all)`
 
@@ -125,11 +125,11 @@ q = or v;
 
 q <= d(to_indeger(unsigned(sel)));
 
-#### Bloky if-else
+### Bloky if-else
 ![[priority encoder]]
 
-#### Case
+### Case
 ![[7-seg_decoder]]
 
-### Generate
+## Generate
 ![[AND of N inputs]]
