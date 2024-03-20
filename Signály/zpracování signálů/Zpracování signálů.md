@@ -33,3 +33,6 @@ Porovnaní signálu sám se sebou. Vzdálenost maxim určuje periodu.
 ## Aplikace
 ### TDOA
 ![[TDOA]]
+
+## A/D převod
+![[AD převod]]

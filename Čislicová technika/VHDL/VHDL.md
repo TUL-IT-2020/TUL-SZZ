@@ -6,5 +6,7 @@
 ## Syntaxe jazyka
 ![[VHDL Syntax]]
 
+## Aritmetika
+![[VHDL Aritmetika]]
 ## Procedury
 ## Funkce
