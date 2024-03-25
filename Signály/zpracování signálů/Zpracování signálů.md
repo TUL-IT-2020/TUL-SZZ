@@ -1,8 +1,20 @@
 # Zpracování signálů
 
 ## Co je to signál a jeho vlastnosti
+![[Signály]]
 
 ## Práce se signály
+
+### V čase:
+- posunutí
+	- $t+n$ - zpoždění (doleva)
+	- $t - n$ - předběhnutí (doprava)
+- převrácení 
+	- $y[t] = x[-t]$
+- převzorkování
+
+#### Příklad:
+![[Signály příklady#Jak bude vypadat signál?]]
 
 ### Konvoluce
 ![[Konvoluce příklad]]
@@ -23,6 +35,7 @@ Porovnaní signálu sám se sebou. Vzdálenost maxim určuje periodu.
 ![[SNR]]
 
 ## Sytémy
+[[Systémy]]
 
 ### Klasifikace systémů
 ![[Klasifikace systémů]]

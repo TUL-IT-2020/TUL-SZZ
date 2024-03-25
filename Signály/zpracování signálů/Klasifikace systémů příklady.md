@@ -18,3 +18,10 @@ $y[n] = nx[n]$
 
 $nx[n] != (n-n_0)x[n-n_0]$
 - nekauzální
+
+## Příklad
+$y[n] = log(x[n])$
+
+### Řešení
+Je kauzální. 
+V současném čase výstup závisí pouze na aktuálním vstupu. 

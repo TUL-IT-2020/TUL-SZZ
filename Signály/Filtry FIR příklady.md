@@ -19,7 +19,8 @@ $$
 $$
 H(e^{j\omega})_{\omega=\pi/2} = \frac{1}{3}(1 + e^{-j\omega} + e^{-j2\omega})
 $$
-
+- $1 -j -1 = -j$
+- $H = \frac{-j}{3}$
 
 Magnituda:
 $$
@@ -39,9 +40,9 @@ $$
 
 Zpoždění je 1 vzorek.
 
-### Vlastní fuknce (cos)
+### Vlastní funkce (cos)
 $x[n] = cos(u \pi/2)$
 
 $y[n] = 1/3 \cdot (cos(u \pi/2)$
 
-$y[n] = 1/3  cos(\pi/2 (n-1))$
+$y[n] = 1/3 \cdot cos(\pi/2 (n-1))$

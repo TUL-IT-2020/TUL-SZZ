@@ -1,6 +1,5 @@
 # Vzorkování
-## Příklad
-### Zadání
+## Zadání
 - $x(t) = sin(2\pi 70t)$
 - $F_s = 100Hz$
 
@@ -14,5 +13,5 @@ $= -sin(0.6\pi n)$
 $0.6 = \frac{2\pi *F}{100}$
 
 $100-70 = 30$
-### Řešení
+### Řešení:
 Aliasing: $30$Hz
