@@ -8,7 +8,7 @@ Jak na:
 - [Markdown](https://www.markdownguide.org)
 - [Obsidian](https://help.obsidian.md/Obsidian/Index)
 
-![[Conectome.png]]
+![[Conectome_21.3.2024.png]]
 ## Studijní obory a specializace:
 - [[Specializace inteligentní systémy|Inteligentní systémy - 2023]]
 - [[Specializace výpočetní systémy|Výpočetní systémy - 2025]]

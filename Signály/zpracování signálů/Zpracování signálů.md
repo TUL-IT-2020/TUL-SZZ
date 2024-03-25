@@ -36,3 +36,4 @@ Porovnaní signálu sám se sebou. Vzdálenost maxim určuje periodu.
 
 ## A/D převod
 ![[AD převod]]
+

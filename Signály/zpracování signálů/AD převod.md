@@ -46,3 +46,5 @@ $\omega = \Omega*T_s = 2\pi*F*T_S=\frac{2\pi*F}{T}$
 ### Poměr kvantování a šumu
 Každých 6 bitů se zvětší rozsah o 1dB.
 
+## Převzorkování
+![[Převzorkování]]
