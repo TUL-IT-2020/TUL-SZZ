@@ -33,3 +33,9 @@ $n = \frac{m+3}{2}$
 
 ## Příklady
 ![[Signály příklady|Signály příklady]]
+
+## Reálné signály
+Vlastnosti reálných signálů:
+- mají konečnou délku -> málo dat,
+- nestacionarita -> frekvenční složka času se mění v čase,
+- šum
