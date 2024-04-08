@@ -2,13 +2,7 @@
 Stojí nad BitBake.
 
 ```mermaid
-graph TD;
-
-	subgraph package
-		make_pkg["make/Cmake/ninja"]
-		src_pkg["src"]
-		config_pkg["config"]
-	end
+flowchart TD;
 	
 	subgraph OpenEmbedded
 		Toolchain
@@ -29,9 +23,10 @@ graph TD;
 		tools["nástroje"]
 		distro["referenční distro (Poky)"]
 	end
-	OpenEmbedded --> Yocto
+	BitBake --> Yocto
 
 	subgraph Image
+        direction LR
 		subgraph Bootloader
 			make_btldr["make"]
 			src_btldr["src"]
@@ -50,8 +45,22 @@ graph TD;
 			file_system
 			packages
 		end
+		Bootloader === DTC === Kernel === Rootfs
 	end
-	Toolchain --> Image	
+    Bootloader -- "recipe" --> BitBake
+    DTC -- "recipe" --> BitBake
+    Kernel -- "recipe" --> BitBake
+    Rootfs -- "recipe" --> BitBake
+
+	subgraph package
+        direction TB
+		make_pkg["make/Cmake/ninja"]
+		src_pkg["src"]
+		config_pkg["config"]
+	end
+
+	package --> packages
+    Toolchain --> Image
 ```
 ## Dokumentace
 
