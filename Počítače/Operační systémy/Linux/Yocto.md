@@ -89,6 +89,17 @@ See the [local.conf.sample](https://git.yoctoproject.org/poky/tree/meta-poky/co
 - _Packaging Format:_ Controlled by the [PACKAGE_CLASSES](https://docs.yoctoproject.org/ref-manual/variables.html#term-PACKAGE_CLASSES) variable.
 - _SDK Target Architecture:_ Controlled by the [SDKMACHINE](https://docs.yoctoproject.org/ref-manual/variables.html#term-SDKMACHINE) variable.
 - _Extra Image Packages:_ Controlled by the [EXTRA_IMAGE_FEATURES](https://docs.yoctoproject.org/ref-manual/variables.html#term-EXTRA_IMAGE_FEATURES) variable.
+
+Adresář: `conf/`
+
+local.conf
+- na jaký stroj se bude kompilovat?
+- ideálně vše podstatné přesunout do konfigurace našich vrstev.
+
+`IMAGE_INSTALL:append = " strace"`
+
+bblayers.conf
+- ze kterých vrstev se bude sestavovat
 ## Layers
 - [Managing Layers](https://docs.yoctoproject.org/dev-manual/layers.html#managing-layers)
 
@@ -107,4 +118,7 @@ VisualStudio Code rozšíření
 
 BitBake
 - Fatcher - stahování zdrojáků
+
+Build adresářů můžeme mít kolik chceme. Hodí se nám to pro tvorbu testovacích obrazů. 
+- čerpají pak ze společných meta-layers
 

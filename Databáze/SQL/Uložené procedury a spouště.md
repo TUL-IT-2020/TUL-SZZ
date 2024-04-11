@@ -1,10 +1,19 @@
 #SQL
 # Uložené procedury a spouště (od SQL3)
-**Trigger** (= spoušť) je procedura, která je automaticky spuštěna jako reakce na specifikovanou akci v databázi; trigger se vykoná, pokud nějakou hodnotu ve sloupci budeme přidávat, nebo modifikovat a nebo mazat; u všech tří akcí můžeme specifikovat, zdali se trigger vyvolá před vlastním příkazem, nebo až po vlastním příkazu >> **before triggery** a **after triggery**; lze kombinovat akce, při kterých se má trigger spustit - trigger reagující na UPDATE nebo DELETE 
+Ukládají se v databázi mezi ostatními scripty.
 
-Použití: 
-- validace vstupních dat 
-- automatické generování a doplňování dat pro nové řádky
+## Trigger
+Trigger (= spoušť) je procedura, která je automaticky spuštěna jako reakce na specifikovanou akci v databázi. Trigger se vykoná, pokud nějakou hodnotu ve sloupci budeme přidávat, nebo modifikovat a nebo mazat. U všech tří akcí můžeme specifikovat, zdali se trigger vyvolá před vlastním příkazem, nebo až po vlastním příkazu >> **before triggery** a **after triggery**; lze kombinovat akce, při kterých se má trigger spustit - trigger reagující na UPDATE nebo DELETE.
+
+> [!example] Typy:
+> - `BEFORE` - 
+> - `AFTER/FOR` - po vlastním příkazu,
+> - `INSTEAD_OF` - místo vykonání dotazu.
+ 
+
+> [!tip] Použití: 
+>- validace vstupních dat 
+>- automatické generování a doplňování dat pro nové řádky
 
 Šablona spouště:
 ```SQL
@@ -17,7 +26,7 @@ WHEN (podmínka)
 akce
 ```
 
-*Příklad triggeru - automaticky odstranit záznam pracovníka, jehož záznam v tabulce LIDÉ mažeme*
+Příklad triggeru - automaticky odstranit záznam pracovníka, jehož záznam v tabulce LIDÉ mažeme:
 ``` sql
 CREATE TRIGGER aktualizuj_platy
 ON lidé
@@ -27,14 +36,38 @@ AS
 	WHERE platy.osoba_id = lidé.id 
 ```
 
-**Uložená procedura**  je databázový objekt, který neobsahuje data, ale část programu, který se nad daty v databázi má vykonávat. Lze se k ní chovat stejně jako ke každému jinému objektu databáze (založit, upravovat a smazat) pomocí příkazů dotazovacího jazyka databáze. Uložené procedury jsou vykonávány přímo databázovým serverem. Je to vlastně jakýsi skript - přesněji řečeno dávka - která je uložena přímo v databázi. Procedury mohou obsahovat vstupní parametry, výstupní parametry a návratové hodnoty.
+## Procedury
+Uložená procedura  je databázový objekt, který neobsahuje data, ale část programu, který se nad daty v databázi má vykonávat. Lze se k ní chovat stejně jako ke každému jinému objektu databáze (založit, upravovat a smazat) pomocí příkazů dotazovacího jazyka databáze. Uložené procedury jsou vykonávány přímo databázovým serverem. Je to vlastně jakýsi skript - přesněji řečeno dávka - která je uložena přímo v databázi. Procedury mohou obsahovat vstupní parametry, výstupní parametry a návratové hodnoty.
 
-*Příklad uložené procedury - vytvoření procedury vracející string a její následné volání*
+Příklad uložené procedury - vytvoření procedury vracející string a její následné volání
 ``` sql
 CREATE PROCEDURE my_hello_world
 AS
 	SELECT 'Hello, World!';
 GO
 
-my_hello_world;
+EXECUTE my_hello_world;
+```
+
+Procedury umožňují mít parametry:
+``` sql
+CREATE PROCEDURE uv_SoucastkyNad
+@cena money
+AS
+	SELECT * FROM Soucastky WHERE cena > @cena;
+GO
+
+EXECUTE uv_SoucastkyNad 20;
+```
+
+## Pohledy
+Lze je použít v selectech. 
+
+``` sql
+CREATE VIEW uv_SoucastkyNad20
+AS
+	SELECT * FROM Soucastky WHERE cena > 20;
+GO
+
+EXECUTE uv_SoucastkyNad20;
 ```
