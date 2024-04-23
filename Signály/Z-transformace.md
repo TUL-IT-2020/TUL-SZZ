@@ -51,4 +51,4 @@ Matlab:
 	- `k` - čely po částečném dělení.
 
 ## Příklady
-![[Z-transformace příklad]]
+[[Z-transformace příklad]]
