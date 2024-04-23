@@ -2,6 +2,10 @@
 # Z-transformace
 Množina Fourierových transformací. 
 
+$$
+X(z) = \sum_{n=-\infty}^{\infty} x[n]z^{-n}
+$$
+
 > [!note] ROC - Region konvergnce
 >  0blast, kde má řada konečný součet (definiční obor $z$). 
 
