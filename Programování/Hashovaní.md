@@ -9,11 +9,11 @@ Sekvenční vyhledávání vyžaduje však při velkém objemu dat velké množs
 
 Na tomto principu jsou postaveny různé datové typy nebo databázové indexi, které pracují na principu klíč hodnota. Například tedy **asociační tabulka**, **hashmap** nebo **hashtable**, tyto struktury mohou být indexovány libovolným datovým typem.
 
-Platí tedy:
-- Rychlejší než lineární nebo binární vyhledávání, $O(1)$.
-- Je potřeba celý klíč.
-- Nejsou možné intervalové dotazy.
-- Nebezpečí kolize (dva klíče ukazují na stejná data).
+> [!example] Platí tedy:
+>- Rychlejší než lineární nebo binární vyhledávání, $O(1)$.
+>- Je potřeba celý klíč.
+>- Nejsou možné intervalové dotazy.
+>- Nebezpečí kolize (dva klíče ukazují na stejná data).
 
 ## Vyřešení kolizí
 Při reálných implementacích se kolizím nelze vyhnout. Praktičtější než hledat perfektní hašovací funkci (0 kolizí) je s výskytem kolizí počítat a implementovat jejich vhodné řešení.
@@ -22,15 +22,14 @@ Při reálných implementacích se kolizím nelze vyhnout. Praktičtější než
 Adresy v hašovací tabulce obsahují lineární seznamy. V případě kolize (stejná adresa) se prvek vloží na konec seznamu. V případě hledání sekvenčně procházíme konkrétní seznam.
 
 ### Otevřené hashování – Open Adress Hashing
--tabulka adres uložená do pole
--v případě kolize prohledáváme určitou metodou další prvky pole, dokud nenajdeme prázdnou pozici
--při vyhledávání postupujeme stejně – stejnou metodou procházíme, pokud nenajdeme volnou pozici znamená to, že prvek není indexován
+Tabulka adres uložená do pole. V případě kolize prohledáváme určitou metodou další prvky pole, dokud nenajdeme prázdnou pozici.
+Při vyhledávání postupujeme stejně – stejnou metodou procházíme, pokud nenajdeme volnou pozici znamená to, že prvek není indexován.
 
-Hledání volné pozice – probing – určení, zda pozice v tabulce obsahuje klíč shodný s hledaným klíčem
+Hledání volné pozice – probing – určení, zda pozice v tabulce obsahuje klíč shodný s hledaným klíčem:
 - search hit – klíč nalezen
 - search miss – pozice je prázdná, klíč nenalezen
 - jinak – na pozici je jiný klíč, hledej dál
 
-metody:
+#### Metody:
 1. Lineární prohledávání (linear probing) 
 2. Dvojí hešování (double hashing)

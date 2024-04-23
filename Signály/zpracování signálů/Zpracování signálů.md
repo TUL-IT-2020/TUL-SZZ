@@ -35,14 +35,8 @@ Porovnaní signálu sám se sebou. Vzdálenost maxim určuje periodu.
 ![[SNR]]
 
 ## Sytémy
-[[Systémy]]
+![[Systémy]]
 
-### Klasifikace systémů
-![[Klasifikace systémů]]
-
-
-## Filtrace signálů
-![[Filtrace]]
 ## Aplikace
 ### TDOA
 ![[TDOA]]
