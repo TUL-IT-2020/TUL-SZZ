@@ -1,4 +1,3 @@
-
 # Z-transformace
 Množina Fourierových transformací. 
 
@@ -50,5 +49,10 @@ Matlab:
 	- `p` - póly,
 	- `k` - čely po částečném dělení.
 
+## Inverzní systém
+$$
+G(z) = \frac{1}{H(z)}
+$$
+[[Z-transformace příklad inverzních filtrů]]
 ## Příklady
-![[Z-transformace příklad]]
+[[Z-transformace příklad]]

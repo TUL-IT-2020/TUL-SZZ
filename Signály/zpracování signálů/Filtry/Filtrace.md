@@ -29,6 +29,21 @@ Diferenční rovnice -> výstup z filtru
 $x[n] -> X(e^{j\omega})$
 $x[n-n_0] -> X(e^{j\omega})*e^{-j\omega n_0}$
 
+### V časové oblasti pomocí konvoluce:
+$$
+y[n] = \sum_{k=-\infty}^{\infty} h[k]x[n-k]
+$$
+
+### Ve [[Furierova transformace|frekvenční]] oblasti:
+$$
+Y(e^{j\omega}) = H(e^{j\omega})X(e^{j\omega})
+$$
+
+### V [[Z-transformace|Z]] oblasti:
+$$
+Y(z) = H(z)X(z)
+$$
+
 ## Typy filtrů
 - [[FIR - Finite Impulse Response]]
 - [[IIR - Infinite Impulse Response]]
@@ -38,7 +53,6 @@ Lze realizovat za pomoci konvoluce.
 - [[Filtry FIR příklady]]
 ### IIR
 - [[Filtry IIR příklady]]
-
 
 ## Inverzní filtr
 $$
