@@ -213,3 +213,164 @@ $$
 $$
 
 ...
+
+# Analytické řešení
+## Příklad
+$$
+y[n] = 3/4 y[n-1] - 1/8 y[n-2] + x[n]
+$$
+
+Počáteční podmínky:
+- $x[n] = \delta[n]$,
+- $y[-1] = -1$, 
+- $y[-2] = 1$
+
+$Z_1$:
+- $y[0] ->^{Z_1} Y(z)$
+- $y[n-1] -> Y(z)z^{-1}+(-1)$
+- $y[n-2] -> Y(z)z^{-2}-z^{-1}+1$
+
+### Postup
+$$
+Y(z) = 
+\frac{1}{3} (Y(z)z^{-1} - 1) 
+- \frac{1}{8} (Y(z)z^{-2} -z^{-1} + 1) 
++ 1
+$$
+
+$$
+Y(z) (1 - 3/4z^{-1} + 1/8z^{-2}) = 1/8z + 1/8z^{-1}
+$$
+
+$$
+Y(z) = \frac{1/8z + 1/8z^{-1}}{1 - 3/4z^{-1} + 1/8z^{-2}}
+$$
+
+Zpět do časové oblasti:
+```matlab
+b = [1/8 1/8];
+a = [1 -3/4 1/8];
+[r,p,k] = residuez(b,a)
+```
+
+### Řešení
+$y[n] = 3/4*1/2^n \mu[n] - 5/8*1/4^n \mu[n]$
+
+```matlab
+% analytické řešení
+b = [1];
+a = [1 -3/4 1/8];
+ic = [-1 1];
+
+N = 20;
+n = 0:N;
+x =  [1, zeros(1,N)];
+% počáteční podmínky
+flt_ic = filtic(b,a,ic);
+[y, Zf] = filter(b,a,x,flt_ic);
+
+figure;
+stem(n,y);
+hold on;
+
+% analytické řešení
+y2 = (3/4)*(1/2).^n - (5/8)*(1/4).^n;
+stem(n,y2);
+
+% porovnání:
+sum((y-y2').^2)
+```
+
+## Příklad
+$$
+H(z) = \frac{
+    4 - 7/4z^{-1} + 1/4z^{-2}
+}{  
+    1-3/4z^{-1} + 1/8z^{-2}
+}
+$$
+- $|z| > 1/2$
+
+- FIR/IIR?
+- Kauzalní?
+- Stabilní?
+
+### Postup:
+IIR, stabilní, kauzalní
+
+Póly:
+$$
+H(z) = \frac{
+    4 - 7/4z^{-1} + 1/4z^{-2}
+}{  
+    (1-1/2z^{-1})(1-1/4z^{-1})
+}
+$$
+
+Nuly:
+```matlab
+% nuly
+roots([4 -7/4 1/4])
+
+% poloměr kružnice
+abs(roots([4 -7/4 1/4])) 
+```
+
+- $\beta_1 = \beta_2 = 0,21+0,12$
+- $|\beta_1| = 0.25$ 
+
+$$
+G(z) = \frac
+{(1-1/2z^{-1})(-1/4z^{-1})}
+{(1-\beta_1 z^{-1})(1-\beta_2 z^{-1})}
+$$
+
+1) $|z| > 1/4$, inverzní, kauzalní, stabilní
+2) $|z| < 1/4$, neplatný, nekauzalní, nestabilní
+
+Filtr s minnimální fází - všechny nuly jsou unvitř jednotkové kružnice
+
+```matlab
+zplane(b,a)
+```
+
+
+$$
+h[n] = 2\delta[n] + 3*1/2^n\mu[n] - 1/4^n\mu[n]
+$$
+
+Frekvenční charakteristika:
+- $z = e^{j\omega}$
+$$
+H(e^{j\omega}) = \frac
+{4 - 7/4 e^{-j\omega} + 1/4 e^{-j2\omega}}
+{1-3/4 e^{-j\omega} + 1/8 e^{-j2\omega}}
+$$
+
+```matlab
+% frekvenční charakteristika
+freqz(b,a,1000)
+[h,w] = freqz(b,a,1000);
+figure;
+plot(w/pi, abs(h));
+```
+
+Kontrola dosazením nulové frakvence:
+$$
+H(e^{j0}) = \frac
+{4 - 7/4 + 1/4}
+{1-3/4 + 1/8}
+= \frac{20}{3}
+= 6,6...
+$$
+
+### Řešení:
+$$
+Y(e^{j\omega})(1-3/4 e^{-j\omega} + 1/8 e^{-j2\omega})
+= 
+X(e^{j\omega})(4 - 7/4 e^{-j\omega} + 1/4 e^{-j2\omega})
+$$
+
+$$
+y[n] - 3/4 y[n-1] + 1/8 y[n-2] = 4x[n] - 7/4 x[n-1] + 1/4 x[n-2]
+$$

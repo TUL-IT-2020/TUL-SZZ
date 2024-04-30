@@ -13,22 +13,29 @@ Urychlí vyhledávání, ale mohou dramaticky zpomalit vkládání (nutnost pře
 - [[Stromy|Stromy]]
 	- ISAM, statické,
 	- B+, dynamické,
+	- [[R-stromy]],
 - [[Hashovaní|Hash-mapy]]
 	- Statické, při kolizi -> lineární seznam/heap/setříděný seznam,
 	- Dynamické, 
 		- přehešování všech záznamů,
 		- víceúrovňová hash funkce,
 		- využití globální a lokální hloubky s dynamickým rozšířením.
-- Indexy s bitovou mapou
-	- přidání sloupce "one-hot-encoding"
+- Indexy s [[Bitová mapa|bitovou mapou]]
+	- přidání sloupce "one-hot-encoding".
 
+### Porovnání Indexů dle typu:
+
+| Operace | Stromy | Hash |
+| ------- | ------ | ---- |
+| =       | +      | +    |
+| >, <    | +      | -    |
 ## Druh indexu
 Neklastrovaný index (ukazatele indexu mají pointry do paměti)
 - můžeme mít více různých indexů nad jednou tabulkou.
 Klastronavý index (data v indexu jsou seřazena stejně jako v databázi)
 - výrazně rychlejší u dotazů na rozsah
 
-Porovnání indexů:
+### Porovnání indexů dle druhu:
 
 | operace        | cluster index | uncluster index |
 | -------------- | ------------- | --------------- |
