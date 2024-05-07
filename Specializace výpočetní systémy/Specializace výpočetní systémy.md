@@ -1,5 +1,7 @@
-Tematické okruhy pro státní závěrečné zkoušky navazujícího magisterského studijního programu Informační technologie, specializace:
-# Výpočetní systémy 
+# Tematické okruhy ke státní závěrečné zkoušce na FM TUL
+## Určeno pro studenty navazujícího magisterského studijního programu Informační technologie
+
+### Specializace: Výpočetní systémy 
 1. Základní [[Architektury počítačů|architektury počítačů]], architektury mikroprocesorů, [[Architektura signálových procesorů|architektury signálových]] a [[Architektura grafických procesorů|grafických procesorů]], [[Architektura mikrořadičů|architektury mikrořadičů]]. Principy činnosti významných funkčních bloků v jednotlivých architekturách. 
 2. [[Hodnocení výkonnosti počítačů|Hodnocení výkonnosti počítačů]], [[Amdahlův zákon|Amdahlův zákon]], [[Výkonnostní rovnice procesoru|výkonnostní rovnice procesoru]]. Srovnání systémů [[CISC|CISC]] a [[RISC|RISC]]. 
 3. Základy teorie dělitelnosti, základní pojmy (relace [[Dělitelnost#Definice Být dělitelem|býti dělitelem]] a její vlastnosti, [[Dělitelnost#Věta o dělení se zbytkem|věta o dělení se zbytkem]]), [[Euklidův algoritmus|eukleidův algoritmus]], využití. [[Řetězové zlomky|Řetězové zlomky]] (konstrukce, vlastnosti), řešení [[Kongruence|kongruencí]] 1. stupně a jejich soustav. 
