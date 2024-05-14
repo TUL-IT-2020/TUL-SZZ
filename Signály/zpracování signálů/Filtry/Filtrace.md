@@ -105,5 +105,88 @@ Když filtr propouští signál, tak mu nic nedělá.
 ## Decibely
 ![[Decibely]]
 
+## Toleranční schéma
+> [!info]
+> Přechodové pásmo - nechtěný parametr (mělo by být co nejužší)
+
+> [!tip]
+Vícepásmový filtr - ekvalizér
+(paralelní zapojení pásmových propustí)
+
+DTFT:
+Posunutí o necelé číslo:
+
+$x[n] -> X(e^{j\omega})$
+
+$x[n-n_0] -> X(e^{j\omega})*e^{-j\omega*n_0}$
+- $n_0 = 1,5$ 
+\sum_{n=-\infty}^{\infty} 
+x[n]*
+$$
+y[m] = \sum_{n=-\infty}^{\infty} 
+x[n]*sinc(n-m-n_0)
+$$
+- sinc interpolace
+$$
+\sum_{n=-\infty}^{\infty} 
+x[n]*y[n-m]
+$$
+- fractional delay
+
+
+## Návrh filtrů FIR
+
+- [[Notch filtr]]
+- [[Peeking filtr]]
+
+Použití filtrů:
+```matlab
+% filtr
+y = filter(h, 1, x);
+```
+
+```matlab
+% konvoluce
+y = conv(h, x, 'same');
+```
+
+Jak získáme $h$?
+
+### Metoda oken
+![[Návrh filtrů metodou oken]]
+
+### Metoda nejmenších čtverců
+![[Návrh filtrů metodou nejmenších čtverců]]
+
+### Filtr se stejnoměrným zvlněním
+![[Návrh filtrů se stejnoměrným zvlněním]]
+
+### Vzorkování frekvenční charakteristiky
+1. Navrozkujeme frekvenčni charakteristiku.
+2. Povolíme přechodové pásmo.
+3. Přidáme okénko.
+```
+[1 1 0.5 0 0 0 0]
+```
+
+Umožňuje navrhnout i pásmové filtry.
+
+## Návrh IIR
+> [!done] Výhody
+>- Významně menší řád filtrů.
+
+> [!warning] Riskujeme: 
+>- nestabilitu.
+>- nelineární fázi.
+
+> [!info] Navrhujeme pomocí:
+> Diskretizací analogového filtru.
+> - Laplaceova transformace (protějšek Z-transformace).
+
+Matlab:
+`filterDesigner`
+
+### Butterworthův filtr
+Má široké přechodové pásmo.
 
 
