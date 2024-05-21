@@ -106,6 +106,8 @@ Když filtr propouští signál, tak mu nic nedělá.
 ![[Decibely]]
 
 ## Toleranční schéma
+Pro frekvenční filtry.
+
 > [!info]
 > Přechodové pásmo - nechtěný parametr (mělo by být co nejužší)
 
@@ -139,7 +141,7 @@ $$
 - [[Notch filtr]]
 - [[Peeking filtr]]
 
-Použití filtrů:
+### Použití filtrů:
 ```matlab
 % filtr
 y = filter(h, 1, x);
@@ -183,10 +185,34 @@ Umožňuje navrhnout i pásmové filtry.
 > Diskretizací analogového filtru.
 > - Laplaceova transformace (protějšek Z-transformace).
 
-Matlab:
-`filterDesigner`
 
 ### Butterworthův filtr
 Má široké přechodové pásmo.
 
+### Návrh v Matlabu
+Matlab:
+`filterDesigner`
 
+- $(order+1)*2 =$ počet koeficientů
+
+Uložení navrženého filtru:
+file -> export ->
+
+Načtení exportovaného filtru do matlabu:
+`load('nazev_filtru.mat', 'b')`
+
+## Srovnání filtrů
+
+| FIR                                             | simple? | order                    | arbitrary magnitude | Determ. |
+| ----------------------------------------------- | ------- | ------------------------ | ------------------- | ------- |
+| [[Návrh filtrů metodou oken\|Window]]           | ✔       | $\uparrow$$\uparrow$     | ✘                   | ✔       |
+| [[Návrh filtrů metodou nejmenších čtverců\|LS]] | ~       | $\uparrow$               | ✔                   | ✘       |
+| [[Návrh filtrů se stejnoměrným zvlněním\|Eqr]]  | ~       | $\uparrow$               | ✔                   | ✔       |
+| **IIR**                                         | ~       | $\downarrow$$\downarrow$ |                     |         |
+| Butter                                          |         | $\downarrow$             | ✘                   | ✔       |
+| Eliptic                                         |         | $\downarrow$$\downarrow$ | ✘                   | ✔       |
+
+## Optimální filtry
+Využití trénovacích signálů.
+
+Target Cancellation Filters
