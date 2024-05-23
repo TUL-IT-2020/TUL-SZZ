@@ -1,7 +1,22 @@
-## Definice derivace
-Nechť f je funkce a x číslo. Limitu lim h→0 f(x + h) − f(x) h nazveme derivací funkce f má v bodě x a označíme ji symbolem f ′ (x). Obdobně nazýváme limitu lim h→0+ f(x + h) − f(x) h ,  resp. lim h→0− f(x + h) − f(x) h  derivací zprava (zleva) funkce f v bodě x. Označovat je budeme symbolem f ′ +(x), (resp. f ′ −(x)). Neexistuje-li první, (popř. druhá, popř. třetí) z těchto limit, říkáme, že funkce f nemá v bodě x derivaci, (popř. derivaci zprava, popř. derivaci zleva). Výše zmíněné limity mohou být vlastní nebo nevlastní, pak mluvíme o vlastní nebo nevlastní derivaci.
+#Derivace 
+### Definice derivace
+Derivace je matematická operace, která přiřazuje každému bodu funkce $f$ jinou funkci $f'$, která vyjadřuje okamžitou rychlost změny funkce $f$ v daném bodě. Derivace je tedy funkce, která vyjadřuje rychlost změny funkce $f$ v daném bodě. Derivace funkce $f$ v bodě $x_0$ se značí $f'(x_0)$ nebo $\frac{df}{dx}(x_0)$. 
 
-### Derivace některých běžně používaných funkcí
+### Praktický význam derivace
+Derivace funkce $f$ v bodě $x_0$ vyjadřuje okamžitou rychlost změny funkce $f$ v bodě $x_0$.
+
+Derivace funkce $f$ v bodě $x_0$ je rovna směrnici tečny funkce $f$ v bodě $x_0$.
+
+Derivace funkce $f$ v bodě $x_0$ je rovna okamžité rychlosti pohybu bodu na křivce $y = f(x)$ v bodě $x_0$.
+
+### Výpočet derivace
+Derivace funkce $f$ v bodě $x_0$ se vypočte jako limita podílu přírůstku funkce $f$ a přírůstku argumentu, kdy přírůstek argumentu směřuje k nule.
+
+$$
+f'(x_0) = \lim_{h \to 0} \frac{f(x_0 + h) - f(x_0)}{h}
+$$
+
+#### Derivace některých běžně používaných funkcí
 
 $$
 (x^n)' = n \cdot x^{n-1}, \quad n \in \mathbb{R}
@@ -54,7 +69,7 @@ $$
 $$
 (\mathrm{arccot} x)' = -\frac{1}{1+x^2}
 $$
-### Pravidla pro počítání s derivacemi
+#### Pravidla pro počítání s derivacemi
 
 $$
 (f \pm g)' = f' \pm g' \quad \text{(derivace součtu a rozdílu funkcí)} \\
@@ -76,7 +91,7 @@ $$
 \left(f^{-1}(x)\right)' = \frac{1}{f'(f^{-1}(x))} \quad \text{(derivace inverzní funkce)}
 $$
 
-### Příklady použití pravidel
+#### Příklady použití pravidel
 
 $$
 (𝑥^7)' = (𝑥^3 \cdot 𝑥^4)' = (𝑥^3)' \cdot 𝑥^4 + 𝑥^3 \cdot (𝑥^4)' = 3 \cdot 𝑥^2 \cdot 𝑥^4 + 𝑥^3 \cdot 4 \cdot 𝑥^3 = 3 \cdot 𝑥^6 + 4 \cdot 𝑥^6 = 7 \cdot 𝑥^6
@@ -113,13 +128,3 @@ $$
 $$
 (ln⁡𝑥)' = \frac{1}{e^{ln⁡𝑥}} = \frac{1}{𝑥}
 $$
-
-## Diferenciál
-
-### Geometrický význam diferenciálu: 
-Nahradíme-li přírůstek ∆f(a, h) = f(a + h) − f(a) diferenciálem f ′ (a)h, znamená to, že místo přírůstku na křivce y = f(x) bereme jen přírůstek na tečně y = f(a) + f ′ (a)(x − a). Tím se dopouštíme chyby, která je rovna funkci r(h)h. Přitom funkce r(h)h se pro malá a zmenšující se h blíží k nule rychleji než Celá obrazovka Začátek Strana 122 Vyhledávání J I Zpět Vpřed Zavřít Ukončit diferenciál (tedy pokud je různý od nuly). Tedy čím menší bude h, tím menší relativní chyby se dopustíme, nahradíme-li ∆f diferenciálem df. 
-
-##### Příklad
-Diferenciálu často používáme k přibližnému určení chyby, které se dopustíme, počítáme-li hodnotu nějaké veličiny z jiné veličiny, která byla změřena s určitou chybou. Naměříme-li např. že poloměr koule je x = 4 cm, a víme-li, že chyba měření je maximálně h = 0,1 mm, pak maximální chyba při výpočtu objemu $V (4) = \frac{4π}{3}*4^3 = \frac{256π}{3} cm^3 ≈ 268 cm^3$ je přibližně dána diferenciálem $V ′ (4) · 0, 01 = 4 · π · 4^2 · 0, 01 = 0, 64 · πcm^3 ≈ 2cm^3 .$
-
-## Integrál
