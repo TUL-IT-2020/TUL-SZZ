@@ -1,3 +1,4 @@
+# Sekvenční obvody
 **Sekvenční obvody** jsou elektronické obvody, které mají paměť a udržují informaci o předchozím stavu vstupů.
 
 # Klopné obvody #klopné_obvody
@@ -26,7 +27,7 @@ Každý přechod na nový stav čítače je synchronizován hodinovým signálem
 Přechody do nových stavů jsou řízeny vnitřními hodinovými signály a nemusí být synchronizovány s vnějším hodinovým signálem.
 # Návrh Automatů typu Mealy a Moore
 
-## Mealy #Mealy 
-Výstupy závisí pouze na současném stavu a jsou nezávislé na přítomnosti vstupů. Výstupy zůstávají konstantní během celého stavu.
-## Moore #Moore
-Výstupy závisí pouze na současném stavu a jsou nezávislé na přítomnosti vstupů. Výstupy zůstávají konstantní během celého stavu.
+## Mealy  
+![[Mealyho automat]]
+## Moore 
+![[Mooreův automat]]

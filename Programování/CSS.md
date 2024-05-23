@@ -1,4 +1,5 @@
-### CSS (Cascading Style Sheets) - Základní Koncepty:
+#CSS
+# CSS (Cascading Style Sheets) - Základní Koncepty:
 
 **1. Vlastnosti:**
 
@@ -16,23 +17,19 @@
 
 - **Kaskádování v CSS** označuje proces, kterým jsou určeny a aplikovány hodnoty vlastností na základě různých zdrojů a pravidel. Kaskádování umožňuje kombinovat styly definované na různých úrovních, například globálně, lokálně nebo v rámci jednotlivých prvků.
 
-### Blokový Model CSS:
+## Blokový Model CSS:
 
 **Blokový model CSS** se používá k definování a rozdělení prostoru, který prvek zabírá v dokumentu. Každý prvek v HTML dokumentu je obklopen tzv. blokovým rámcem, který se skládá z několika částí:
 
 1. **Content (Obsah):**
-    
     - Obsahuje samotný obsah elementu, například text nebo obrázek.
 2. **Padding (Vnitřní okraj):**
-    
     - Je to prostor mezi obsahem a vnějším okrajem (margin). Padding definuje vnitřní prostor uvnitř blokového rámu.
 3. **Border (Ohraničení):**
-    
     - Ohraničení kolem obsahu a vnitřního okraje. Má vlastnosti jako barva, tloušťka a styl.
 4. **Margin (Vnější okraj):**
-    
     - Je to prostor mezi vnějším okrajem a okolními prvky. Margin definuje vzdálenost mezi prvkem a jeho okolím.
-### Příklad:
+## Příklad:
 
 ```css
 /* CSS pro blokový model */

@@ -1,4 +1,5 @@
-# PHP (Hypertext Preprocessor) #PHP
+#PHP
+# PHP (Hypertext Preprocessor) 
 
 PHP je skriptovací programovací jazyk navržen pro vývoj webových aplikací. Název „PHP“ původně znamenal „Personal Home Page“, ale nyní se oficiálně označuje jako „PHP: Hypertext Preprocessor“. Jedná se o open-source jazyk, což znamená, že jeho zdrojový kód je volně dostupný pro úpravy a redistribuci.
 

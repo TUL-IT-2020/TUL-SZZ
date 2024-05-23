@@ -1,5 +1,10 @@
 #VHDL 
 # Aritmetika
+> [!info]
+>Něco o aritmetice z oboru číslicové techniky:
+>- [[Sčítačky]],
+>- [[Odečítání]],
+>- [[Násobička]].
 
 ## Délky výsledných vektorů
 

@@ -1,6 +1,4 @@
-
-## Maticová algebra #Maticová_algebra
-
+# Maticová algebra 
 Maticová algebra je odvětvím algebry, které se zabývá studiem matic a operací s nimi. Matice jsou uspořádané sestavy čísel, které lze používat k reprezentaci lineárních transformací a systémů lineárních rovnic.
 
 ****Operace s maticemi:**

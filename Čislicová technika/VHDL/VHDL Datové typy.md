@@ -1,4 +1,4 @@
-## Datové typy
+# Datové typy
 - Integer
 Implicitní celočíselný typ 
 Nepoužíváme pro porty nebo signály – pouze vnitřní proměnné (for, generate…)
@@ -13,7 +13,7 @@ ieee.numeric_std
 - unsigned(X downto Y)
 - signed(X downto Y)
 
-### Vectors
+## Vectors
 Aggregates are a grouping of values to form an array or record expression. The first form is called **positional association**, where the values are associated with elements from left to right:
 ```VHDL
 signal Z_BUS : bit_vector (3 downto 0);
@@ -29,7 +29,7 @@ Z_BUS(1) <= C_BIT;
 Z_BUS(0) <= D_BIT;
 ```
 
-### Atributy
+## Atributy
 K atributům je možné přistoupit pomocí zápisu apostrofu.
 
 - A'left(N) 	Levá mez pole A	
@@ -43,7 +43,7 @@ K atributům je možné přistoupit pomocí zápisu apostrofu.
 
 Příklad:  *x´left*  je levá mez jednorozměrného pole x.
 
-### Typová konverze:
+## Typová konverze:
 [fpgatutorial](https://fpgatutorial.com/vhdl-types-and-conversions/)
 Lze použít konverzní funkce:
 - std_logic_vector(unsigned/signed) – vrací std_logic_vector stejné délky
@@ -52,7 +52,7 @@ Lze použít konverzní funkce:
 
 ![[VHDL-peklo.gif]]
 
-### User defined types
+## User defined types
 - enumerate
 Výčtový datový typ. 
 ```VHDL

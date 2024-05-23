@@ -1,5 +1,4 @@
-
-## Základní pojmy
+# Základní pojmy
 **Teorie pravděpodobnosti** je matematická disciplína, jejíž logická struktura je budována axiomaticky. To znamená, že její základ tvoří několik tvrzení, která vyjadřují základní vlastnosti pravděpodobnosti a všechna další tvrzení jsou z nich odvozena deduktivně.
 - Př. Kolika způsoby jsme schopni …, kolik existuje kombinací … 
 - Výsledky úlohy jsou stejné, ať správně počítá Tonda nebo Jarda. 

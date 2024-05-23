@@ -1,4 +1,4 @@
-## Počítáme v binární soustavě
+# Počítáme v binární soustavě
 
 Příklad:
 
@@ -6,10 +6,9 @@ Příklad:
 | ------ | -------- | ------ | ----------- |
 | 1010   | 10       | -6     | 1,25        |
 | 0101   | 5        | 5      | 0,625       |
-| ---    | ---      | ---    | ---         |
 | 1111   | 15       | -1     | 1,875       |
 
-### Pro případ signed:
+## Pro případ signed:
 Pro výpočty v dvojkovém doplňku lze nahlížet na hodnotu nejvyššího bitu jako na "zápornou".
 
 | bits |     |     |     | Sum |

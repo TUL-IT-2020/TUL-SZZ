@@ -1,4 +1,8 @@
+#Mealy
 # Mealyho automat
+> [!info]
+>Výstupy závisí pouze na současném stavu a jsou nezávislé na přítomnosti vstupů. Výstupy zůstávají konstantní během celého stavu.
+
 KA s výstupní funkcí Mealyho typu popisujeme uspořádanou
 šesticí A = (Q, E, O, G, A, q), kde:
 - Q je konečná neprázdná množina stavů (stavový prostor),
