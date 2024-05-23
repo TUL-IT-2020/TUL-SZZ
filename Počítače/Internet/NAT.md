@@ -1,5 +1,4 @@
-#NAT 
-
+# NAT 
 - Network Address Translation, RFC 3022
 - mezi dvěma částmi sítě
 - mění IP adresy a porty v procházejících IP datagramech

@@ -1,6 +1,7 @@
 #MVD 
 # N-gramy 
-Sekvence N slov. Využívané k základnímu modelování jazyka. Aplikace např. na slovech, písmenech nebo fonémech.
+> [!summary]
+>Sekvence N slov. Využívané k základnímu modelování jazyka. Aplikace např. na slovech, písmenech nebo fonémech.
 
 ## Příklady:
 Rozdělení na N-gramy řetězce: *Metody vytěžování dat* 

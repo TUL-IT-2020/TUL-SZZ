@@ -13,11 +13,11 @@ Vše je modulo 2.
 1*1 = 1
 ```
 
-![[images_plus_krát.png]]
+![[images_plus_krat.png]]
 
 Lineární množina M
 $a,b \in M$ 
-$a+b \in M$
+$a+b \in M$a
 Součet kódových slov je kódové slovo. 0 je vždy kódové slovo.
 Kódy blokové.
 

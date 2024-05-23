@@ -1,5 +1,7 @@
+#SQL
 # Jazyk SQL
 
+> [!info] 
 > Jazyk SQL (DDL, DML, množinové operace), uložené procedury a spouště v SQL, transakce (ACID, typy konfliktů, stupně izolace).
 
 ## Jazyk SQL
@@ -223,23 +225,14 @@ ALTER TABLE example ADD column4 NUMBER(3) NOT NULL;
 DROP TABLE example;
 ```
 
-## Uložené procedury a spouště
-![[Uložené procedury a spouště (od SQL3)]]
+## Uložené procedury
+![[SQL - Procedury]]
+
+## Spouště
+![[SQL - Spouště]]
 
 ## Pohledy
-**Pohledy** (views) = virtuální tabulky. Slouží především pro dotazování. Umožňují značné zjednodušení zápisu dotazů (obdobně jako rozčlenění programu do procedur).
-
-``` sql
-CREATE VIEW Prazaci
-AS 
-	SELECT k_zamestnance, jmeno_z FROM Zamestnanci
-	WHERE Adresa LIKE ‘%Praha%’;
-
-SELECT k_zamestnance FROM Prazaci 
-WHERE Plat > 10000;
-
-DROP VIEW Prazaci;
-```
+![[SQL - Pohledy]]
 
 ## Transakce
 ![[SQL - Transakce]]

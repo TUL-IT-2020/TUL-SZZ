@@ -1,3 +1,4 @@
+#SQL
 # ACID
 - **Atomicity** - buď proběhnout všechny operace transakce nebo neproběhnou žádné; uživatel se nemusí starat o výsledek nekompletní transakce (rollback).
 - **Consistency** - transakce musí zachovávat konzistentní stav databáze; při spuštění transakce v db, která je v konzistentním stavu, ji tato transakce musí po svém ukončení opustit v konzistentním stavu; konzistenci musí zaručit uživatel; SŘBD se stará o to, aby to platilo i u paralelně pobíhajících transakcí.

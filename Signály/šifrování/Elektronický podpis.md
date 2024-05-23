@@ -34,9 +34,6 @@ V reálném životě: občanka, pas, řidičák, ISIC, ...
 #### Certifikační autorita
 Revokace = zneplatnění certifikátu
 
-## Diffie - Hellmanova funkce
-![[Diffie - Hellmanova funkce]]
-
 ## Komunikace
 
 ### Anča píše Bolkovi
@@ -114,8 +111,8 @@ Otisk původní zprávy ?= otisk zprávy
 
 Zpráva.zip -> ZIP-1 -> Zpráva
 
-> Dítě nesmíme nechat v kufru!
-> - Otto Severín
+> [!quote] Dítě nesmíme nechat v kufru!
+> \- Otto Severín
 
 ## Pojmy spojené s E.P.
 1. El. Podpis - nemá (příliš) význam

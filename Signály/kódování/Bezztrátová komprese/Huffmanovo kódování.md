@@ -1,4 +1,15 @@
-# Huffmanova konstrukce
+# Huffmanovo kódování
+Algoritmus navržen Davidem Huffmanem (1952)
+Využití prefixového kódu - kód žádného znaku není prefixem jiného znaku, neprefixový kód: Morseova abeceda: A (.-), M(--), J(.---)
+Proměnná délka kódových slov >>> „znaky“, které jsou nejvíce četné mají nejkratší délku a naopak: 111011011, A (0), E(10), G(11)
+
+(+) Výhody – rychlá komprese a dekomprese, nenáročné na paměť
+(-) Nevýhody – nutnost nalezených kódů, menší kompresní poměr
+## Algoritmus kódování:
+1. Zjištění četnosti jednotlivých „znaků“
+2. Vytvoření jednotlivých kódů na základě četností
+3. Nahrazení jednotlivými znaků v datovém souboru nalezenými kódy
+### Huffmanova konstrukce
 Zdrojová abeceda: A-E
 p(A) = 0.15
 p(B) = 0.1
@@ -60,7 +71,7 @@ $L_{AV} = 0.15 *2  + 0.1 *3 + 0.15 * 3 + 0,35 *2 + 0.25 *2 = 2.25$
 ## Nejednoznačnost H.K.
 Když vyjdou stejné pravděpodobnosti u určitých znaků.
 
-### 2. Příklad
+### 2. Příklady
 | Znak | Pravděpodobnost |
 | ---- | ---- |
 | A | 0,1 |
@@ -88,8 +99,14 @@ Délky:
 - $1,2,3,2*4$
 - $3*2,2*3$
 
+Problém s nejednoznačností řeší Huffmanova standardizovaná konstrukce.
+
 ## Problémy komprese H.K.
 - Nutnost přenášet kódovací tabulku.
 - Pracuje na znacích, ne dvojicích, slovech
 - statistický model pravděpodobnosti výskytu znaků
 - když nepomůže "neublíží"
+
+## Příklad
+[[Huffmanovo kódování příklad]]
+

@@ -1,3 +1,4 @@
+#NoSQL 
 # Apache Hadoop
 ## Důvod vzniku
 
@@ -6,5 +7,6 @@
 ## Komponenty
 
 ## HDFS
+
 
 ## YARN

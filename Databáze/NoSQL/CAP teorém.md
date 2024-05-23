@@ -1,3 +1,4 @@
+#NoSQL 
 # CAP teorém
 3 základní vlastnosti distribuovaných systémů. Systém může splňovat nejvýše 2 z nich najednou. 
 Slouží návrhářům k ujasnění priorit.

@@ -1,13 +1,12 @@
 # Operační systém
+> [!abstract] 
 > Operační systém, vysvětlení pojmu, typy, poskytované funkce. Správa procesů v operačním systému, vztah programu a procesu, životní cyklus procesu.
 
 ## Vysvětlení pojmu
 Operační systém je v informatice základní programové vybavení počítače, které je zavedeno do paměti počítače při jeho startu a zůstává v činnosti až do jeho vypnutí. Skládá se z jádra (kernel) a pomocných systémových nástrojů. Hlavním úkolem operačního systému je zajistit uživateli možnost ovládat počítač, vytvořit pro procesy stabilní aplikační rozhraní (API) a přidělovat jim systémové zdroje. Operační systém je velmi komplexní software, jehož vývoj je mnohem složitější a náročnější, než vývoj obyčejných programů.
 
 ## Typy operačních systémů
-Nejpoužívanějším druhem je OS určený pro pracovní stanice, druhou významnou skupinou 
-je skupina serverových OS. Máme ovšem i speciální OS určené třeba pro velmi výkonné 
-počítače anebo pro ruční počítače.
+Nejpoužívanějším druhem je OS určený pro pracovní stanice, druhou významnou skupinou je skupina serverových OS. Máme ovšem i speciální OS určené třeba pro velmi výkonné počítače anebo pro ruční počítače.
 
 ### OS pro počítače:
 
@@ -32,41 +31,43 @@ Firma Apple pro svoje počítače dodává svůj vlastní operační systém, kt
 #### Novell 
 Firma Novell v současnosti produkuje řadu pěti síťových operačních systémů. 
 Jedná se o, na DOSu založeném systému peer-to-peer, Personal NetWare:
-● maximální počet 1000 uzlů na jeden server
-● podpora globálních zdrojů, globálního pojmenování
-● podpora komprese souborů na disku
-● lepší prostředky bezpečnosti včetně auditingu síťových aktivit
-● rozšířené možnosti síťové správy
-● podpora odložení částí souborového systému (HCSS) na vysokokapacitních médiích
-● podpora migrace dat při přechodu z nižších verzí NetWare
+- maximální počet 1000 uzlů na jeden server
+- podpora globálních zdrojů, globálního pojmenování
+- podpora komprese souborů na disku
+- lepší prostředky bezpečnosti včetně auditingu síťových aktivit
+- rozšířené možnosti síťové správy
+- podpora odložení částí souborového systému (HCSS) na vysokokapacitních médiích
+- podpora migrace dat při přechodu z nižších verzí NetWare
 
 ### OS pro mobilní systémy:
-● Symbian OS - nejrozšířenější OS pro mobilní telefony, především Nokia.
-● Rim BlackBerry OS - OS mobilních zařízení Blackberry.
-● iPhone OS - systém mobilních telefonů iPhone a přehrávačů iPod Touch, založený na Mac OS X firmy Apple.
-● Windows Mobile - OS firmy Microsoft
-● Android - vyvinutý firmou Google, založený na Linuxu, nyní spravovaný Open Handset Alliance.
-● Linux - platformy založené na Linuxovském jádře.
-● Palm webOS - OS firmy Palm Inc.
-● bada - operační systém pro mobilní telefony firmy Samsung.
-● Maemo - platforma firmy Nokia založená na operačním systému Debian.
+- Symbian OS - nejrozšířenější OS pro mobilní telefony, především Nokia.
+- Rim BlackBerry OS - OS mobilních zařízení Blackberry.
+- iPhone OS - systém mobilních telefonů iPhone a přehrávačů iPod Touch, založený na Mac OS X firmy Apple.
+- Windows Mobile - OS firmy Microsoft
+- Android - vyvinutý firmou Google, založený na Linuxu, nyní spravovaný Open Handset Alliance.
+- Linux - platformy založené na Linuxovském jádře.
+- Palm webOS - OS firmy Palm Inc.
+- bada - operační systém pro mobilní telefony firmy Samsung.
+- Maemo - platforma firmy Nokia založená na operačním systému Debian.
 
 ### OS pro servery: 
-Wndows NT, Server 2003, Server 2008. Server 2011, UNIX (BSD, LINUX), např. distribuce: UBUNTU, FreeBSD, OpenBSD, Mandriva, atd.
+> [!note]
+>Wndows NT, Server 2003, Server 2008. 
+>Server 2011, UNIX (BSD, LINUX), např. distribuce: Ubuntu, FreeBSD, OpenBSD, Mandriva, atd.
 
-● **jednouživatelské jednoúlohové** (single-user single-task) např. CP/M, MS-DOS; s podporou operačního systému běží pouze jedna aplikace.
-● **jednouživatelské víceúlohové** (single-user multi-task) např. Windows 95, Windows 98; jeden uživatel může mít současně spuštěno více aplikací.
-● **víceuživatelské víceúlohové** (multi-user multi-task) např. UNIX, Linux; umožňují zpracovávat požadavky více uživatelů současně systémy s reálným časem (real time) – zejména pro řízení technologických proces.
+- **jednouživatelské jednoúlohové** (single-user single-task) např. CP/M, MS-DOS; s podporou operačního systému běží pouze jedna aplikace.
+- **jednouživatelské víceúlohové** (single-user multi-task) např. Windows 95, Windows 98; jeden uživatel může mít současně spuštěno více aplikací.
+- **víceuživatelské víceúlohové** (multi-user multi-task) např. UNIX, Linux; umožňují zpracovávat požadavky více uživatelů současně systémy s reálným časem (real time) – zejména pro řízení technologických proces.
 
 ## Typy jádra
 Operační systém se skládá z jádra a pomocných systémových nástrojů. Jádro je zavedeno do operační paměti při startu (bootování) počítače a je mu předáno řízení. U pokročilých operačních systémů jádro nikdy neztrácí kontrolu nad počítačem a po celou dobu jeho běhu koordinuje činnost ostatních běžících procesů. Označení kernel pochází z angličtiny, kde označuje jádro pecky, zrno nebo ztvrdlou dužinu ovoce. Hlavní úkol jádra spočívá v přidělovaní **paměti** a **času procesoru** (či procesorů) programům, ovládání zařízení počítače (pomocí ovladačů) a abstrakci funkcí (aby bylo např. možné načítat soubory z pevného disku a z jednotky CD-ROM stejným příkazem).
 
 Pro zajištění bezpečnosti operačního systému je nutné, aby procesor podporoval dva módy činnosti: omezený pro aplikace a privilegovaný (se speciálními strojovými instrukcemi) pro jádro. Privilegovanému módu se proto někdy říká kernel mód.
 
-Typy jader OS:
-● **monolitické jádro** – jádro je jedním funkčním celkem (Linux)
-● **mikrojádro** – jádro je velmi malé a všechny oddělitelné části pracují samostatně jako běžné procesy
-● **hybridní jádro** – kombinuje vlastnosti monolitického jádra i mikrojádra ([[Windows|Windows]])
+> [!info] Typy jader OS:
+>- **monolitické jádro** – jádro je jedním funkčním celkem (Linux)
+>- **mikrojádro** – jádro je velmi malé a všechny oddělitelné části pracují samostatně jako běžné procesy
+>- **hybridní jádro** – kombinuje vlastnosti monolitického jádra i mikrojádra ([[Windows|Windows]])
 
 ## Poskytované funkce operačním systémem
 Operační systém plní tři základní funkce:

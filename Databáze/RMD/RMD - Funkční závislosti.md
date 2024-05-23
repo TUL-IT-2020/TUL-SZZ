@@ -1,3 +1,4 @@
+#SQL
 # Funkční závislost
 Funkční závislost je v databázi vztah mezi atributy takový, že máme-li **atribut Y je funkčně závislý na atributu X píšeme X → Y**, pak se nemůže stát aby dva řádky mající stejnou hodnotu atributu X měly různou hodnotu Y.
 
@@ -9,7 +10,7 @@ Postup datové analýzy s automatickým navržením struktury databáze je násl
 - vytvořím jednu obrovskou tabulku (relaci), obsahující všechny atributy
 - pomocí funkčních závislostí provedu dekompozici (rozbití) velké relace na menší, které vytvoří výsledné schéma databáze.
 
-Příklad:
+> [!note] Příklad:
 Atribut 'datum narození' je **funkčně závislý** na atributu 'rodné číslo'.
 Nemůže se stát, že u záznamů se stejnými rodnými čísly bude různé datum narození.
 

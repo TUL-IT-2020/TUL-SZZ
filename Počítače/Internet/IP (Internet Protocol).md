@@ -1,5 +1,6 @@
-#IP
-Je datový protokol na síťové vrstvě a tvoří základní protokol dnešnímu internetu. Data se posílají po blocích (datagramy, pakety), putují sítí nezávisle, není zajištěna spolehlivost doručení (to se řeší o vrstvu výš např. TCP). Každé rozhraní má svoji IP adresu a v každém datagramu je IP příjemce i odesílatele. Na základě těchto adres probíhá směrování. 
+# IP
+> [!tldr]
+> Je datový protokol na síťové vrstvě a tvoří základní protokol dnešnímu internetu. Data se posílají po blocích (datagramy, pakety), putují sítí nezávisle, není zajištěna spolehlivost doručení (to se řeší o vrstvu výš např. TCP). Každé rozhraní má svoji IP adresu a v každém datagramu je IP příjemce i odesílatele. Na základě těchto adres probíhá směrování. 
 
 ## Verze IP: 
 ### IPv4 

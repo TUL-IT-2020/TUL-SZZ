@@ -1,3 +1,4 @@
+#SQL
 # Modelování relačního modelu pomocí UML
 **ER diagram** = **ERD** = vztahový model (entity relationship diagram), nebo E-R (entitně relační) model, používaný v softwarovém inženýrství i pro modelování databází; konceptuální zobrazení dat; obrázek je podobný vývojovému diagramu. 
 

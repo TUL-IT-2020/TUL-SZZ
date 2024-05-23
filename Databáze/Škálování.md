@@ -1,4 +1,4 @@
-## Škálování
+# Škálování
 Schopnost přidat vlastnosti, aby byly uspokojeny nové nároky uživatelů.
 
 - **vertikální škálování** - přidání zdrojů do již existujícího systému, aby se zvýšila jeho kapacita, průchodnost atd. (např. přidat procesor, paměť, ...)

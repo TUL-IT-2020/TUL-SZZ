@@ -1,12 +1,12 @@
 # Vážené poziční kódy
-Používá se například u:
- - čísla bankovních účtů, 
- - platebních karet, 
- - ISBN, 
- - rodné číslo.
+> [!tldr] 
+> Přidání kontrolní číslice
 
-Přidání kontrolní číslice
-
+> [!example] Používá se například u:
+> - čísla bankovních účtů, 
+ >- platebních karet, 
+ >- ISBN, 
+ >- rodné číslo.
 ## ISBN
 
 | ISBN-10                               |     |     |     |     |     |     |     |     |     |  kontrolní číslice   |

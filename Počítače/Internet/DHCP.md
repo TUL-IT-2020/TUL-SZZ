@@ -1,4 +1,4 @@
-## Dynamic Host Configuration Protocol #DHCP
+## Dynamic Host Configuration Protocol - #DHCP
 
 je síťový protokol, který umožňuje automatickou přidělování IP adres a dalších síťových konfigurací zařízením v počítačové síti. DHCP hraje klíčovou roli ve správě IP adres a minimalizuje ruční konfiguraci na každém zařízení v síti.
 

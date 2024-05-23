@@ -1,3 +1,4 @@
+#NoSQL 
 # ElasticSearch
 Distribuovaný open-source fulltext vyhledávač.
 Využití:

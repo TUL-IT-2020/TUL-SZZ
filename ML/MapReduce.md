@@ -2,22 +2,25 @@
 # MapReduce
 Model pro paralelní zpracování velkého množství dat. Minimalizuje potřebné úsilí programátora pro jednoduché úlohy paralelního zpracování dat. Programovací model pro distribuované paralelní výpočty. Původně od Google. Tvoří jej master-slave architektura.
 
-Základní myšlenka: *výpočet k datům, ne data k výpočtu*.
-Dvě fáze: *mapování a redukce*.
+> [!tldr]
+>**Základní myšlenka**: *výpočet k datům, ne data k výpočtu*.
+>**Dvě fáze**: *mapování a redukce*.
 
-Výhody: 
-- Skrývá před programátorem většinu low-level detailů (síť, úložiště),
-- Odolnost proti chybám, 
-- Automatické vyvažování zátěže,
-- Levnější na přesuny po síti, 
-- Méně náchylné na chyby při přesunu, 
-- Lepší škálovatelnost.
+>[!success] Výhody: 
+>- Skrývá před programátorem většinu low-level detailů (síť, úložiště),
+>- Odolnost proti chybám, 
+>- Automatické vyvažování zátěže,
+>- Levnější na přesuny po síti, 
+>- Méně náchylné na chyby při přesunu, 
+>- Lepší škálovatelnost.
 
 ## Mapovací funkce 
-Vstupem je seznam prvků, na které je aplikována transformace. Bezstavová [[funkcionální programování|funkce]] (například: převod stringů do upper case)
+> [!important]
+>Vstupem je seznam prvků, na které je aplikována transformace. Bezstavová [[funkcionální programování|funkce]] (například: převod stringů do upper case)
 
 ## Redukční funkce 
-Agreguje seznam hodnot, který jí je poskytnut, do menšího množství (například: jednoduchý součet). 
+> [!important] Redukční funkce
+>Agreguje seznam hodnot, který jí je poskytnut, do menšího množství (například: jednoduchý součet). 
 
 ## Postup výpočtu:
 1. **Rozdělení vstupu** - na jednotlivé části podle počtu mapperů,
@@ -27,11 +30,13 @@ Agreguje seznam hodnot, který jí je poskytnut, do menšího množství (např�
 
 ![[MapReduce.png]]
 
-## Využití
-- Analytické úlohy
-- Klasifikace
-- Data mining
-- Indexace a vyhledávání
-- Konkrétní příklady:
-	- Google – generování Google indexu
-	- [[Apache Hadoop|Apache Hadoop]] – spojení HDFS
+## Využití:
+> [!check] Využití:
+>- Analytické úlohy
+>- Klasifikace
+>- Data mining
+>- Indexace a vyhledávání
+
+>[!example] Konkrétní příklady:
+>- Google – generování Google indexu
+>- [[Apache Hadoop|Apache Hadoop]] – spojení HDFS

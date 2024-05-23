@@ -24,10 +24,10 @@ Metody a vytěžování dat -> Metody vytěžování dat
 - Moderní systémy je nepotřebují používat (viz Inverse Document Frequency)
 
 ## Stemming 
-Stemming (kořen slova) může redukovat token na slovo, které neodpovídá gramatice 
+Stemming (kořen slova) může redukovat token na slovo, které neodpovídá gramatice: 
 - people -> peopl 
 - V některých aplikacích nemusí vadit 
 
 ## Lematizace
-Lematizace převádí token do základního gramatického tvaru 
+Lematizace převádí token do základního gramatického tvaru: 
 - am, are, is -> be

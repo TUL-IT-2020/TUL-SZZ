@@ -1,3 +1,4 @@
+#NoSQL 
 # Apache Spark
 Framework pro distribuované výpočty (další je např. [[MapReduce|MapReduce]])
 

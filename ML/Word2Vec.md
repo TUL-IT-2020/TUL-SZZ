@@ -6,7 +6,7 @@ Využívá neuronovou síť s jednou skrytou vrstvou. Dva možné algoritmy:
 - Continuous bag of words (CBOW)
 	- Založen na predikci daného slova pomocí okolních slov
 
-Několi trénovacích metod:
+Několik trénovacích metod:
 - [[Softmax|Softmax]]
 - Hierarchical Softmax
 - Negative sampling
