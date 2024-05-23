@@ -11,6 +11,7 @@ Jak na:
 ![[Conectome_21.3.2024.png]]
 ## Studijní obory a specializace:
 - [[Specializace inteligentní systémy|Inteligentní systémy - 2023]]
+- [[Specializace Aplikovaná informatika|Specializace Aplikovaná informatika - 2024]]
 - [[Specializace výpočetní systémy|Výpočetní systémy - 2025]]
 
 ## Jak přispět
