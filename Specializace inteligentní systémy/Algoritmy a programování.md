@@ -1,0 +1,9 @@
+#### Algoritmy a programování
+
+18. Číselné soustavy a převody mezi nimi. Způsoby kódování čísel s pevnou a s pohyblivou řádovou tečkou. Kódování záporných čísel. 
+19. Jazyk [[C|C]]. [[C#Základní datové typy|Základní datové typy]] a [[C#Strukturovaný datový typ|strukturovaný datový typ]]. [[C#pole|Pole]] a [[C#Ukazatele (pointery)|ukazatele]], [[C#dynamická alokace pole|dynamická alokace]] [[Rozdělení paměti|paměti]]. 
+20. Algoritmy pro [[Vyhledávání|vyhledávání]] a [[Řadící algoritmy|řazení]], [[Složitost algoritmů|složitost algoritmů]]. 
+21. [[C#Rekurzivní funkce|Rekurze]] a její použití. Rekurzivní a nerekurzivní realizace [[Rekurze|vybraných algoritmů]]. Využití [[Rozdělení paměti#Zásobník|zásobníku programu]]. 
+22. [[Členění programu|Členění programu]] v jazyce vyšší úrovně. [[Členění programu#1. Metoda|Metody]], [[Členění programu#2. Funkce|funkce]], [[Členění programu#3. Procedura|procedury]], [[C#Makra|makra]]. [[Předávání parametrů|Parametry]] metod, procedur a funkcí a způsoby jejich předávání. Globální a lokální proměnné. 
+23. [[OOP|Objektově orientované programování]], význam a základní principy: zapouzdření, [[Dědičnost|dědičnost]] a polymorfismus, [[Dědičnost#Přístupová práva|správa přístupu]]... [[Dědičnost#Abstraktní třída|Abstraktní třídy]] a [[Dědičnost#Rozhraní (inteface)|rozhraní]]. [[OOP#Genericita|Genericita]] a její využití. 
+24. [[Operační systém|Operační systém]], [[Operační systém#Vysvětlení pojmu|vysvětlení pojmu]], [[Operační systém#Typy operačních systémů|typy]], [[Operační systém#Poskytované funkce operačním systémem|poskytované funkce]]. [[Operační systém#Správa procesů|Správa procesů]] v operačním systému, vztah [[Operační systém#Program, proces|programu a procesu]], [[Operační systém#Životní cyklus procesu|životní cyklus procesu]]. 
