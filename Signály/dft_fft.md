@@ -67,10 +67,9 @@ Vysledek konvoluce = $[1, 3, 6, 10, 9, 7, 4]$
 	- ![](kruh_konv_3.png)
 - Při vhodném doplnění nulami se však používá právě pro rychlý výpočet lineární konvoluce (výstup z FIR ﬁltru) pomocí DFT
 
-## Rychlý výpočet lineární konvoluce pomocí FFT
+## Rychlý výpočet lineární konvoluce pomocí [[FFT - Fast Fourier Transform|FFT]]
 
 Výpočet lin. konvoluce pomocí DFT:
-
 1. Doplnit sekvence $h[n]$ a $x[n]$ nulami na délku $N \geq N_{1} + N_{2} - 1$
 2. Výpočet N-bodové DFT signálů $h[n]$ a $x[n]$
 3. Vynásobení $Y[k]$ = $H[k]X[k]$

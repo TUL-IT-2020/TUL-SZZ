@@ -3,6 +3,9 @@
 ## Co je to signál a jeho vlastnosti
 ![[Signály]]
 
+## A/D převod
+![[AD převod]]
+
 ## Práce se signály
 
 ### V čase:
@@ -17,11 +20,12 @@
 ![[Signály příklady#Jak bude vypadat signál?]]
 
 ### Konvoluce
-![[Konvoluce příklad]]
-
+![[Konvoluce]]
 
 ### Korelace
 Počítá se stejně jako konvoluce jen se zaměněným znamínkem. 
+
+![[Korelace]]
 
 > [!tip] Autokorelace
 Porovnaní signálu sám se sebou. Vzdálenost maxim určuje periodu. 
@@ -40,7 +44,4 @@ Porovnaní signálu sám se sebou. Vzdálenost maxim určuje periodu.
 ## Aplikace
 ### TDOA
 ![[TDOA]]
-
-## A/D převod
-![[AD převod]]
 

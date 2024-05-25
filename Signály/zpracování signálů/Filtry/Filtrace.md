@@ -19,7 +19,7 @@ Například:
 - ve frekvenční oblasti 
 
 > [!tip]
-V časové oblasti: konvoluce, ve frekvenční násobení.
+V časové oblasti: [[Konvoluce|konvoluce]], ve frekvenční násobení.
 
 Diferenční rovnice -> výstup z filtru
 1. Numerická (Dosadíme za $n$, `filter`)
@@ -29,7 +29,17 @@ Diferenční rovnice -> výstup z filtru
 $x[n] -> X(e^{j\omega})$
 $x[n-n_0] -> X(e^{j\omega})*e^{-j\omega n_0}$
 
-### V časové oblasti pomocí konvoluce:
+>[!example]
+$X(e^{j\omega})$
+>- $\omega \in R [-]$ - [[Digitální frekvence|digitální frekvence]], $\omega \in (0, \pi)$
+>- $f \in R [Hz]$ - analogová frekvence
+>
+>$\omega = 2\pi*\frac{F}{F_s}$ 
+>- $\omega = \pi$
+>
+>$F = F_s/2$
+
+### V časové oblasti pomocí [[Konvoluce|konvoluce]]:
 $$
 y[n] = \sum_{k=-\infty}^{\infty} h[k]x[n-k]
 $$
@@ -146,6 +156,8 @@ $$
 % filtr
 y = filter(h, 1, x);
 ```
+- a - y
+- b - x
 
 ```matlab
 % konvoluce
@@ -164,7 +176,7 @@ Jak získáme $h$?
 ![[Návrh filtrů se stejnoměrným zvlněním]]
 
 ### Vzorkování frekvenční charakteristiky
-1. Navrozkujeme frekvenčni charakteristiku.
+1. Navrozkujeme frekvenční charakteristiku.
 2. Povolíme přechodové pásmo.
 3. Přidáme okénko.
 ```
@@ -185,7 +197,6 @@ Umožňuje navrhnout i pásmové filtry.
 > Diskretizací analogového filtru.
 > - Laplaceova transformace (protějšek Z-transformace).
 
-
 ### Butterworthův filtr
 Má široké přechodové pásmo.
 
@@ -193,6 +204,7 @@ Má široké přechodové pásmo.
 Matlab:
 `filterDesigner`
 
+Řád filtru:
 - $(order+1)*2 =$ počet koeficientů
 
 Uložení navrženého filtru:

@@ -1,15 +1,22 @@
 # Z-transformace
 Množina Fourierových transformací. 
-
+## Obecný předpis
 $$
 X(z) = \sum_{n=-\infty}^{\infty} x[n]z^{-n}
 $$
+
+$$
+X[z]=x[0]+x[1]z^{-1}+...x[N]z^{-N}
+$$
+Operátor $z^{-1}$ znamená zpoždění o 1 vzorek.
 
 > [!note] ROC - Region konvergnce
 >  0blast, kde má řada konečný součet (definiční obor $z$). 
 
 > [!warning]
 > Z - transformace existuje, když **jednotková kružnice** leží v regionu konvergence.
+
+Převádí časový popis číslicových signálů do komplexní roviny, kde lze snáze studovat chování systémů a jejich frekvenční charakteristiky.
 
 ## Typy řad:
 - levostranná, $(-\infty, -1)$

@@ -1,4 +1,5 @@
 # DTFT spektrum
+Furieorova transformace v diskrétním čase.
 ## Spektrogram
 3D graf, vzniklý spojením DFT za sebe.
 Okýnka se překrývají pro větší časové rozlišení.

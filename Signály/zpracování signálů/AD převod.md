@@ -1,5 +1,4 @@
 # A/D převod
-
 - vzorkování
 - kvantování
 
@@ -12,7 +11,6 @@ Vzorkovací frekvence:
 - $X_s(t)$ - vzorkovaný signál (sampled signal)
 - $t$ - čas, spojitý 
 
-
 ### V časové oblasti:
 1) Násobení hřebenovým pulzem:
 $$X_s(t) = X_a(t) * t_a(t)$$
@@ -22,7 +20,7 @@ $$x[n] = x_s(nT_s)$$
 ### Ve frekvenční oblasti:
 1) 
 $$X_s(\Omega) = 1/2\pi X_a(\Omega) * S_a(\Omega)$$
-2) F_S krát se zmenčí spektrum
+2) $F_S$ krát se zmenší spektrum
 
 $\omega = \Omega*T_s = 2\pi*F*T_S=\frac{2\pi*F}{T}$
 
@@ -41,6 +39,7 @@ $\omega = \Omega*T_s = 2\pi*F*T_S=\frac{2\pi*F}{T}$
 
 ### Příklady
 ![[Vzorkování příklady]]
+![[Aliasing příklady]]
 ## Kvantování
 
 ### Poměr kvantování a šumu

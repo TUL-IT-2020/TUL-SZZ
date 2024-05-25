@@ -1,4 +1,4 @@
-### TDOA
+# TDOA
 Hledání směru příchozího signálu za pomoci dvou mikrofonů.
 
 Signál dorazí na mikrofony v různém čase. 

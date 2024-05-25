@@ -19,7 +19,7 @@ Z pohledu instrukčního cyklu jsou architektury založeny většinou na vnitřn
 *Typické blokové schéma dsp*
 
 **Nejčastější algoritmy číslicového zpracování signálů:**
-- [[Konvoluce|konvoluce]]
+- [[Konvoluce v obraze|konvoluce]]
 - číslicová filtrace IIR, - diskrétní transformace
 - korelace
 - práce s maticemi

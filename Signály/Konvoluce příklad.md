@@ -1,4 +1,7 @@
 # Konvoluce
+$$
+x[x] = \delta[n+1]*x[-1]
+$$
 ## Příklad
 $x[n] = 2\delta[n+2] + \delta[n+1] + \delta[n-1] + 3\delta[n-2]$
 $h[n] = \delta[n-1] + \delta[n-2] + \delta[n-3]$

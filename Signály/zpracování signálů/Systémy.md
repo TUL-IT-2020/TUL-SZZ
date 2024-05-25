@@ -14,17 +14,7 @@
 ### Klasifikace systémů podrobněji
 ![[Klasifikace systémů]]
 ## LTI (Linear Time-Invariant)
-
-Jsou systémy s pěknými vlastnostmi:
-- Lineární
-- Časově nezávislé
-
-Díky tomu na nich platí:
-- Aditivita - Sčítání signálů
-- Homogenita - Násobení konstantou
-
-> [!warning] Důležité:
-> Nejdůležitější charakteristikou LTI systému je jeho impulzní odezva, protože konvolucí vstupu s impulzní odezvou můžeme získat výstup LTI systému.
+![[LTI (Linear Time Invariant) systémy]]
 ### Filtry
 ![[Filtrace]]
 
