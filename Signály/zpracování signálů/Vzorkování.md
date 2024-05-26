@@ -19,9 +19,7 @@ $$
 - jev, kdy se vznikají nové frekvence, které nejsou ve vzorkovaném signálu obsaženy
 ### Shannonův (Nyquistův) Vzorkovací teorém
 - Nemá li dojít při vzorkování analogových signálů ke ztrátě či ke zkreslení informace, musí být vzorkovací frekvence alespoň dvojnásobkem nejvyšší frekvence obsažené v signálu.
-### Příklady
-[[Aliasing příklady]]
 ## Převzorkování signálu
 ![[Převzorkování]]
 ## Příklady
-![[Vzorkování příklady]]
+![[Aliasing příklady]]

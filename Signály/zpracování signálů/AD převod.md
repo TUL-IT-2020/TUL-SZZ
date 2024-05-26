@@ -38,7 +38,6 @@ $\omega = \Omega*T_s = 2\pi*F*T_S=\frac{2\pi*F}{T}$
 > Řešení se dolní propustí na stupu A/D převodníku. A vzorkováním na výrazně vyšší frekvenci (oversampling).
 
 ### Příklady
-![[Vzorkování příklady]]
 ![[Aliasing příklady]]
 ## Kvantování
 

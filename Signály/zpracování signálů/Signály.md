@@ -41,34 +41,17 @@ Je nositel informace, co je informace závisí na konkrétní úloze. Signál je
 ### Výkon
 ![[Výkon]]
 ## Perioda
-$x[x] = sin(\pi/8 * n)$
-$2\pi = \pi/8 * N$
-$N = 16$
-
-Změna vzorkování:
-$x[n] = sin(1/8n)$
-$2\pi = 1/8*N$
-$N = 16\pi$
-
-V diskrétních čísel musí být perioda celočíselná a proto tento signál není periodická. 
-
 ### Periodické signály
-- opakují se po určité době
-- perioda $T$ (v sekundách)
-- frekvence $f = \frac{1}{T}$ (v Hz)
-
+Se opakují se po určité době.
+![[Analogová frekvence]]
 ### Harmonické signály
-- sinusovka $x(t) = A \sin(2 \pi f t + \varphi)$
-- amplituda $A$ (v jednotkách signálu)
-- frekvence $f$ (v Hz)
-- fáze $\varphi$ (v radiánech)
-- úhlová frekvence $\omega = 2 \pi f$ (v radiánech za sekundu)
-- to samé pro kosinusovku ta je jen posunutá o $\frac{\pi}{2}$ vůči sinusovce a symetrická vůči nule proto je více používaná
+![[Sinus]]
 
+To samé pro kosinusovku ta je jen posunutá o $\frac{\pi}{2}$ vůči sinusovce a symetrická vůči nule proto je více používaná.
+> [!tip] Kosinus
 $$
 x(t) =A \cos(\omega t + \varphi)
 $$
-
 #### Exponencionální tvar
 
 $$
@@ -79,11 +62,6 @@ $$
 
 ## Převzorkování signálů
 ![[Převzorkování]]
-
-$m = 2n - 3$
-Inverzní funkce:
-$n = \frac{m+3}{2}$
-
 ## Příklady
 ![[Signály příklady|Signály příklady]]
 

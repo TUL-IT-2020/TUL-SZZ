@@ -31,3 +31,5 @@ Kompromis mezi šířkou hlavního laloku a velikostí vedlejších laloků.
 >- Hamming
 >- Blackmann
 >- Kaiser - je parametrické
+
+[[Tabulka parametrů okénkovacích funkcí]]

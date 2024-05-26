@@ -1,11 +1,13 @@
 # Návrh filtrů FIR
 
-## Příklad DP:
-- $\omega_f = 0.2\pi$
-- $\omega_s = 0.3\pi$
-- $\delta_p = \delta_s = 0.01$
+Parameters of frequently used windows:
+![[Tabulka parametrů okénkovacích funkcí]]
 
-TODO: přepsat tabulku: Parameters of frequently used windows
+## Příklad DP:
+Dolní propust:
+- $\omega_p = 0.2\pi$ - propustná frekvence
+- $\omega_s = 0.3\pi$ - zádržná frekvence
+- $\delta_p = \delta_s = 0.01$ - tolerance v propustném a zádržném pásmu
 ### Postup
 Koukneme do tabulky:
 1) okémko vybereme: Hammingovo
@@ -15,8 +17,8 @@ Koukneme do tabulky:
 Matlab:
 ```matlab
 % DP
-wp = 0.2*pi;
-ws = 0.3*pi;
+wp = 0.2*pi; % omega pass
+ws = 0.3*pi; % omega stop
 wc = (ws + wp)/2;
 L = 81;
 N = L-1;
@@ -57,7 +59,7 @@ h = fir1(N, wc/pi, 'low', win);
 - `win` - okénkovací funkce
 
 ## Příklad HP:
-- $\omega_f = 0.8\pi$
+- $\omega_p = 0.8\pi$
 - $\omega_s = 0.7\pi$
 - $\delta_p = 0.001$
 - $\delta_s = 2*10^{-4}$

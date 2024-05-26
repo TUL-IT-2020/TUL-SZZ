@@ -26,10 +26,8 @@
 Počítá se stejně jako konvoluce jen se zaměněným znamínkem. 
 
 ![[Korelace]]
-
-> [!tip] Autokorelace
-Porovnaní signálu sám se sebou. Vzdálenost maxim určuje periodu. 
-
+### Autokorelace
+![[Autokorelace]]
 ## Analýza signálů
 ![[Energie]]
 
