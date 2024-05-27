@@ -1,4 +1,5 @@
 # Filtry IIR
+- [[Tabulka DTFT párů]]
 ## Příklad
 Filtr s nekonečnou impulsní odezvou:
 $$

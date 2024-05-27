@@ -1,7 +1,5 @@
 # Diskrétní Fourierova transformace - DFT
-- DFT je diskrétní verze Fourierovy transformace
-- diskrétní znamená, že se počítá pouze konečný(nespojitý) počet harmonických složek, tj. konečný počet koeficientů
-- DFT je výpočetně náročná, proto se používá algoritmus FFT (Fast Fourier Transform), který je výpočetně efektivnější
+DFT je diskrétní verze Fourierovy transformace. Diskrétní znamená, že se počítá pouze konečný(nespojitý) počet harmonických složek, tj. konečný počet koeficientů. DFT je výpočetně náročná, proto se používá algoritmus [[FFT - Fast Fourier Transform|FFT]] (Fast Fourier Transform), který je výpočetně efektivnější.
 
 ## Předpis
 > [!important]
@@ -18,7 +16,7 @@ $$
 	- $n$ - index vzorku
 	- $N$ - počet vzorků signálu
 
-- $\omega = \frac{2\pi}{N}k$ - digitální frekvence
+- $\omega = \frac{2\pi}{N}k$ - [[Digitální frekvence|digitální frekvence]]
 
 ## Složitost: 
 $O(N^2)$

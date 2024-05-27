@@ -1,17 +1,37 @@
 #příklad 
 # Signály
 ## Příklad
-
 $x[x] = sin(\pi/8 * n)$
+### Postup
 $2\pi = \pi/8 * N$
 $N = 16$
 
+### Řešení
+Signál je periodický.
+
 ### Změna vzorkování:
 $x[n] = sin(1/8n)$
+### Postup
 $2\pi = 1/8*N$
 $N = 16\pi$
 
+### Řešení
 V diskrétních čísel musí být perioda celočíselná a proto tento signál není periodická. 
+
+## Příklad
+Určete, zda jsou signály dané dále periodické. Jsou-li, určete délku jejich základní periody:
+1. $x[n] = sin(0.125\pi n)$
+2. $x[n] = sin(0.125n)$
+
+### Postup
+$2\pi = 0.125\pi n = 1/8 \pi n$
+$2*8 = n$
+$n = 16$
+- celé číslo, signál je periodický.
+
+$2\pi = 0.125\pi n = 1/8 n$
+$16\pi = n$
+- není celé číslo, signál nebude periodický.
 
 ## Příklad inverzní funkce:
 $m = 2n - 3$

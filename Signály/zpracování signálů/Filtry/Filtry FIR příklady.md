@@ -1,5 +1,7 @@
 # Filtry FIR
+- [[Tabulka DTFT párů]]
 ## Klouzavý průměr
+- [[Klouzavý průměr]]
 Pro 3 hodnoty:
 
 $$

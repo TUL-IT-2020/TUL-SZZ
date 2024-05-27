@@ -32,6 +32,31 @@ $$
 - je kauzální
 - není aditivní (+1)
 - není homogenní
+## Příklad
+Rozhodněte a zdůvodněte: 
+1. Je systém $𝑦[𝑛] = 𝑥[𝑛] + 𝑥[𝑛 −1]+𝑥[𝑛 −2]$ invariantní vůči posunu? 
+2. Je systém $𝑦[𝑛] = log(𝑥[𝑛])$ homogenní? 
+3. Je systém $𝑦[𝑛] = 𝑥[|𝑛|]$ kauzální?
+
+### Postup
+
+2.
+$\cdot$
+$c \cdot 𝑦[𝑛] ?= log(c\cdot 𝑥[𝑛])$
+
+[[log.gif]]
+
+$c \cdot 𝑦[𝑛] != log(c) + log(𝑥[𝑛])$
+
+3.
+n = -5
+$y[-5] = x[5]$
+Výstup závisí na budoucím vzorku.
+### Řešení
+1. Ano
+2. Ne
+3. Ne
+
 ## Příklad nekauzálního signálu:
 $y[n] = nx[n]$
 
