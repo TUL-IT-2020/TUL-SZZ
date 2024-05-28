@@ -22,11 +22,10 @@ $$
 $O(N^2)$
 
 ## Použití
-- DFT se používá pro analýzu diskrétních signálů
-- výsledkem je **frekvenční spektrum signálu**, které obsahuje informace o frekvencích a amplitudách harmonických složek signálu
+DFT se používá pro analýzu diskrétních signálů. Výsledkem je **frekvenční spektrum signálu**, které obsahuje informace o frekvencích a amplitudách harmonických složek signálu.
 
 ## FFT - Fast Fourier Transform
 ![[FFT - Fast Fourier Transform]]
 
 ## Příklady
-![[DTF příklady]]
+![[DFT příklady]]
