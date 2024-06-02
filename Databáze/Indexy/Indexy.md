@@ -4,7 +4,7 @@ Urychlí vyhledávání, ale mohou dramaticky zpomalit vkládání (nutnost pře
 
 > [!tip] 
 > Primární a cizí klíč jsou dobré kandidáty na vytvoření indexu.
-## Typy indexů
+## Druhy indexů
 - Stromy a vyhledávání nad nimi. 
 > [!warning]
 >- Záznamy jsou uložené až v listech! 
@@ -23,19 +23,20 @@ Urychlí vyhledávání, ale mohou dramaticky zpomalit vkládání (nutnost pře
 - Indexy s [[Bitová mapa|bitovou mapou]]
 	- přidání sloupce "one-hot-encoding".
 
-### Porovnání Indexů dle typu:
+### Porovnání Indexů dle druhu:
 
 | Operace | Stromy | Hash |
 | ------- | ------ | ---- |
 | =       | +      | +    |
 | >, <    | +      | -    |
-## Druh indexu
+## Typ indexu
 Neklastrovaný index (ukazatele indexu mají pointry do paměti)
 - můžeme mít více různých indexů nad jednou tabulkou.
 Klastronavý index (data v indexu jsou seřazena stejně jako v databázi)
 - výrazně rychlejší u dotazů na rozsah
 
-### Porovnání indexů dle druhu:
+![[Typ indexu]]
+### Porovnání indexů dle typu:
 
 | operace        | cluster index | uncluster index |
 | -------------- | ------------- | --------------- |
@@ -43,3 +44,6 @@ Klastronavý index (data v indexu jsou seřazena stejně jako v databázi)
 | INSERT, UPDATE | -             | +               |
 > [!tip] UNIQUE atribut
 > Urychluje vyhledávání, stačí nám najít jen první schodu v databázi.
+
+## Optimalizace databázových struktur podrobněji
+![[Optimalizace databázových struktur]]
