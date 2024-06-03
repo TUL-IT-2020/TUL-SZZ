@@ -15,6 +15,7 @@ Jak na:
 - [[Specializace Aplikovaná informatika|Specializace Aplikovaná informatika - 2024]]
 - [[Specializace výpočetní systémy|Výpočetní systémy - 2025]]
 
+[[Rady k prezentaci BP a DP]]
 ## Jak přispět
 [Návod jak přispět](./CONTRIBUTING.md)
 

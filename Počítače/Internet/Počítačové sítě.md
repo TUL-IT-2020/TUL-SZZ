@@ -35,7 +35,7 @@ Hlavní funkce poskytované fyzickou vrstvou jsou:
 Vrstva č. 3, anglicky network layer. Tato vrstva se stará o směrování v síti a síťové adresování. Poskytuje spojení mezi systémy, které spolu přímo nesousedí. Obsahuje funkce, které umožňují překlenout rozdílné vlastnosti technologií v přenosových sítích.
 
 Síťová vrstva poskytuje funkce k zajištění přenosu dat různé délky od zdroje k příjemci skrze jednu 
-případně několik vzájemně propojených sítí při zachování kvality služby, kterou požaduje přenosová vrstva. Síťová vrstva poskytuje směrovací funkce a také reportuje o problémech při doručování dat. Veškeré směrovače pracují na této vrstvě a posílají data do jiných sítí. Zde se již pracuje s hierarchickou strukturou adres. Nejznámější protokol pracující na 3. vrstvě je Internetový Protokol ([[Protokol IP (Internet Protocol)|IP]]). Jednotkou informace je paket.
+případně několik vzájemně propojených sítí při zachování kvality služby, kterou požaduje přenosová vrstva. Síťová vrstva poskytuje směrovací funkce a také reportuje o problémech při doručování dat. Veškeré směrovače pracují na této vrstvě a posílají data do jiných sítí. Zde se již pracuje s hierarchickou strukturou adres. Nejznámější protokol pracující na 3. vrstvě je Internetový Protokol ([[IP (Internet Protocol)|IP]]). Jednotkou informace je paket.
 
 ### Transportní vrstva
 Vrstva č. 4, anglicky transport layer. Tato vrstva zajišťuje přenos dat mezi koncovými uzly. Jejím účelem je poskytnout takovou kvalitu přenosu, jakou požadují vyšší vrstvy. Vrstva nabízí spojově (TCP) a nespojově orientované (UDP) protokoly.
@@ -52,7 +52,7 @@ aplikace (šifrování, konvertování, komprimace). Formát dat (datové strukt
 komunikujících systémech, navíc dochází k transformaci pro účel přenosu dat nižšími vrstvami. Mezi funkce patří např. převod kódů a abeced, modifikace grafického uspořádání, přizpůsobení pořadí bajtů apod. Vrstva se zabývá jen strukturou dat, ale ne jejich významem, který je znám jen vrstvě aplikační. Příklady protokolů: SMB (Samba).
 
 ### Aplikační vrstva
-Vrstva č. 7, anglicky application layer. Účelem vrstvy je poskytnout aplikacím přístup ke komunikačnímu systému a umožnit tak jejich spolupráci. Do této vrstvy se řadí například tyto služby a protokoly: FTP, DNS, DHCP, POP3,SMTP, SSH, Telnet, TFTP.
+Vrstva č. 7, anglicky application layer. Účelem vrstvy je poskytnout aplikacím přístup ke komunikačnímu systému a umožnit tak jejich spolupráci. Do této vrstvy se řadí například tyto služby a protokoly: FTP, [[DNS (Domain Name System)|DNS]], [[DHCP|DHCP]], POP3,SMTP, SSH, Telnet, TFTP.
 
 ## Charakteristika lokálních bezdrátových sítí
 Local Area Network (též LAN, lokální síť, místní síť) označuje počítačovou síť, která pokrývá malé geografické území (např. domácnosti, malé firmy). Přenosové rychlosti jsou vysoké, řádově Gb/s. Nejrozšířenějšími technologiemi v dnešních LAN sítích jsou Ethernet a Wi-Fi (nebo také WLAN), v minulosti byly používány např. ARCNET a Token Ring. 
@@ -80,4 +80,4 @@ Opačným protipólem k sítím LAN jsou sítě WAN, jejichž přenosovou kapaci
 - jednoduchost – Nižší režie než u TCP (není zde řazení, žádné sledování spojení atd.).
 
 ## DNS
-[[DNS (Domain Name System)]]
+![[DNS (Domain Name System)]]

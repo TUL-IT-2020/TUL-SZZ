@@ -1,8 +1,8 @@
 # Základní pojmy z architektury počítačů
 
-- Procesor
+- [[Architektura procesoru|Procesor]]
 - Mikroprocesor
-- Mikrořadič
+- [[Architektura mikrořadičů|Mikrořadič]]
 ## Procesor
 **Procesorem** se rozumí základní jednotka počítače, tj. logický automat pro zpracování informací, obsahující aritmetickou jednotku a řadič (počítač bez periferních zařízení a bez hlavní paměti), chování je definováno programem.
 

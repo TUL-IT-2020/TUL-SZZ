@@ -1,4 +1,4 @@
-### RFC – Request for Comments #RFC
+## RFC – Request for Comments #RFC
 základní dokumenty
 - identifikovány čísly, po vydání se nemění – místo změny se nahradí jiným RFC
 - přidělen stav
@@ -9,7 +9,7 @@ základní dokumenty
 	- historic: nahrazeno novějším
 	- draft – pracovní dokument, platnost ½ roku
 
-### IETF – Internet Engineering Task Force
+## IETF – Internet Engineering Task Force
 - velká komunita návrhářů, provozovatelů, výzkumníků...
 - účast dobrovolná
 - vyvíjí nové protokoly, služby,...

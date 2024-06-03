@@ -3,7 +3,8 @@ Normalizace se provádí za pomoci **normálních forem** (NF). Mezi ně patří
 
 ![http://programujte.com/galerie/2008/07/200807191347_formy.png](http://programujte.com/galerie/2008/07/200807191347_formy.png)
 
-Pozn.: Obecně lze říci, že u každé databáze není nutné aplikovat všechny zde uvedené NF. Vždy záleží na konkrétním uvážení. Nicméně z praktických důvodů se v mnoha případech provádí normalizace alespoň do 3NF.
+> [!note]
+> Obecně lze říci, že u každé databáze není nutné aplikovat všechny zde uvedené NF. Vždy záleží na konkrétním uvážení. Nicméně z praktických důvodů se v mnoha případech provádí normalizace alespoň do 3NF.
 
 5NF ∋ 4NF ∋ BCNF ∋ 3NF ∋ 2NF ∋ 1NF
 

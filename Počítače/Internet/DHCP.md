@@ -1,8 +1,8 @@
-## Dynamic Host Configuration Protocol - #DHCP
+# Dynamic Host Configuration Protocol - #DHCP
 
 je síťový protokol, který umožňuje automatickou přidělování IP adres a dalších síťových konfigurací zařízením v počítačové síti. DHCP hraje klíčovou roli ve správě IP adres a minimalizuje ruční konfiguraci na každém zařízení v síti.
 
-### Principy a Funkce DHCP:
+## Principy a Funkce DHCP:
 
 - poskytuje vše pro automatickou konfiguraci sítě:
 	- IP adresu
@@ -12,7 +12,7 @@ je síťový protokol, který umožňuje automatickou přidělování IP adres a
 	- případné další parametry...
 - základem DHCP server(y)
 
-### Postup Funkce DHCP:
+## Postup Funkce DHCP:
 
 1. **Discover (Objev):**
     - Klient vysílá broadcast zprávu (DHCP Discover) do sítě, hledá DHCP server.
@@ -23,6 +23,6 @@ je síťový protokol, který umožňuje automatickou přidělování IP adres a
 4. **Acknowledgment (Potvrzení):**
     - DHCP server potvrzuje vybranou nabídku pomocí broadcast zprávy (DHCP Acknowledgment). Klient tím získává přidělenou IP adresu a další konfigurační informace.
 
-### DHCP a Bezpečnost:
+## DHCP a Bezpečnost:
 
 DHCP je náchylný na potenciální hrozby, jako jsou neoprávněné DHCP servery nebo útoky typu "DHCP Spoofing." Pro zvýšení bezpečnosti se mohou používat různé mechanismy, jako jsou DHCP snooping nebo statická konfigurace na zařízeních, která nevyžadují dynamickou konfiguraci.
