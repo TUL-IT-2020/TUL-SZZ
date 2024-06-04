@@ -10,3 +10,5 @@ Normalizace je sada pravidel, jak postupovat při transformaci struktury entit a
 
 ## Normální formy
 ![[RMD - Normální formy]]
+## Bezztrátová dekompozice
+![[Bezztrátová dekompozice]]

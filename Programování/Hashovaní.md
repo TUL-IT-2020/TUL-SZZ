@@ -33,3 +33,43 @@ Hledání volné pozice – probing – určení, zda pozice v tabulce obsahuje 
 #### Metody:
 1. Lineární prohledávání (linear probing) 
 2. Dvojí hešování (double hashing)
+
+## Příklad
+Chceme rozdělit 16 čísel do 4 košů.
+
+Výpočet indexu koše
+Poslouží nám funkce modulo.
+Aby jsme rozdělili 16 čísel do 4 košů, tak potřebuje $mod_4()$.
+
+$mod_4(1) = 1$
+$mod_4(5) = 1$
+$mod_4(8) = 0$
+$mod_4(10) = 2$
+$mod_4(15) = 3$
+
+Čísla převedená do binární soustavy:
+
+| číslo | binárně | index sloupce | index koše |
+| ----- | ------- | ------------- | ---------- |
+| 1     | 0001    | 00            | 01         |
+| 5     | 0101    | 01            | 01         |
+| 8     | 1000    | 10            | 00         |
+| 10    | 1010    | 10            | 10         |
+| 15    | 1111    | 11            | 11         |
+> [!note]
+> Všimněte si že můžeme rozdělit binární hodnotu našich zvolených čísel na 2 a 2 bity. Výsledek bude stejný jako počítat $mod_4$.
+
+Výpočet rozměrů hash mapy:
+$2^4 = 16$
+$2^2*2^2 = 16$
+- $2$ - počet bitů adresy koše
+- 2 - počet bitů adresy sloupce
+
+Hash-mapa:
+
+| index prvku v řadku: | 0   | 1   | 2   | 3   | <- Koš |
+| -------------------- | --- | --- | --- | --- | ------ |
+| 0                    |     | 1   |     |     |        |
+| 1                    |     | 5   |     |     |        |
+| 2                    | 8   |     | 10  |     |        |
+| 3                    |     |     |     | 15  |        |

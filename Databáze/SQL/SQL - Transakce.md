@@ -7,13 +7,20 @@
 - db objekt - jednotky se kterými pracují programy
 
 *Příklad transakce*
-``` sql
+``` SQL
 START TRANSACTION;
  UPDATE Account SET amount=amount-200 WHERE account_number=1234;
  UPDATE Account SET amount=amount+200 WHERE account_number=2345;
 
 IF ERRORS=0 COMMIT;
 IF ERRORS<>0 ROLLBACK;
+```
+
+``` SQL
+TRANSACTION jméno_transakce 
+	WHENEVER {ERROR|podmínka} ROLLBACK 
+		příkazy 
+COMMIT END
 ```
 
 > [!tip] Postup modifikace dat v databázi:
@@ -64,5 +71,61 @@ U transakcí můžeme nastavit různé stupně izolace transakcí:
 - **REPEATABLE READ** - čtení záznamů, které byly potvrzeny (commit) a zároveň jsou čtené záznamy zablokovány proti dalším modifikacím do skončení čtecí transakce. 
 - **SERIALIZABLE** - čtení záznamů, které byly potvrzeny (commit) a zároveň jsou čtené záznamy zablokovány proti dalším modifikacím do skončení čtecí transakce; zároveň jiné transakce nemohou vkládat data, která by mohla ovlivnit současné čtení (že by se nově vkládaná data mohla objevit ve čtecí transakci); jedná se o nejvíce restriktivní stupeň izolace.
 
+```SQL
+SET TRANSACTION ISOLATION LEVEL { 
+	READ UNCOMMITTED | 
+	READ COMMITTED |
+	REPEATABLE READ |
+	SNAPSHOT |
+	SERIALIZABLE |
+}[ ; ]
+```
 ### Fantom
 #TODO
+
+## Příklad
+### Dirty read 
+![[Dirty Reads]]
+### Non-repeatable reads 
+Nastávají pokud dva dotazy v rámci jedné transakce vrací jiná data. Nastává tehdy pokud jiná transakce modifikuje data, která jsou čtena. 
+
+Transakce A začátek. 
+```SQL
+SELECT * FROM employee WHERE empno = '000090' 
+```
+Transakce B začátek. 
+```SQL
+UPDATE employee SET salary = 30100 WHERE empno='000090' 
+```
+
+> [!note]
+> Transakce B upravuje data, která jsou čtena transakcí A, předtím než je transakce A potvrzena. 
+
+Transakce A pokračuje.
+```SQL
+SELECT * FROM employee WHERE empno = '000090’‚ 
+```
+
+> [!warning]
+> V tuto chvíli dostává jiný výsledek.
+
+### Phantom Reads
+Nové záznamy odpovídající podmínkám dotazu se objevují během čtení transakcí. Records that appear in a set being read by another transaction. 
+
+Transakce A začátek. 
+```SQL
+SELECT * FROM employee WHERE salary > 30000 
+```
+Transakce B začátek. 
+```SQL
+INSERT INTO employee (empno, firstnme, midinit,lastname, job,salary) 
+VALUES ('000350', 'NICK‘,'A','GREEN','LEGAL’ ,COUNSEL',35000) 
+```
+
+> [!note]
+> Transacke B vkládá nový záznam, který odpovídá podmínce v dotazu transakce A.
+
+Transakce A pokračuje. 
+```SQL
+SELECT * FROM employee WHERE salary > 30000
+```

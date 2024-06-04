@@ -7,6 +7,6 @@
 ## Komponenty
 
 ## HDFS
-
+Distribuovaný systém souborů HDFS (Hadoop Distributed File System)
 
 ## YARN

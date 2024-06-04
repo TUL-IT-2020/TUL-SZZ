@@ -1,14 +1,17 @@
 #SQL
-# Příklad Dirty Reads
+# Dirty Reads
+Nastanou pokud transakce čte data, která byla modifikována jinou transakcí, která není potvrzena.
 
-Dirty read nastává, pokud transakce čte data, která byla modifikována jinou transakcí, která není potvrzena. Transakce B vidí data, která jsou upravena transakcí A. Tyto změny však nejsou potvrzeny.
-
-*Transakce A*
-``` sql
-UPDATE employee SET salary = 31650 WHERE emp_no = '000090'
+Transakce A začátek:
+```SQL
+UPDATE employee 
+SET salary = 31650 
+WHERE empno = '000090' 
 ```
-
-*Transakce B*
-``` sql
+Transakce B začátek:
+```SQL
 SELECT * FROM employee
 ```
+
+> [!note]
+> Transakce B vidí data, která jsou upravena transakcí A. Tyto změny nejsou potvrzeny.

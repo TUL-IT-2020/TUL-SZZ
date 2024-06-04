@@ -2,6 +2,9 @@
 # Funkční závislost
 Funkční závislost je v databázi vztah mezi atributy takový, že máme-li **atribut Y je funkčně závislý na atributu X píšeme X → Y**, pak se nemůže stát aby dva řádky mající stejnou hodnotu atributu X měly různou hodnotu Y.
 
+> [!warning]
+> Určujeme ze specifikace projektu, nikoliv z dat!
+
 Pomocí funkčních závislostí můžeme automaticky navrhnout schéma databáze a předejít problémům jako je **redundance**, **nekonzistence** databáze, zablokování při vkládání záznamů, apod.
 
 Postup datové analýzy s automatickým navržením struktury databáze je následující:

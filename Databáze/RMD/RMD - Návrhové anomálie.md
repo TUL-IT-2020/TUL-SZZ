@@ -1,6 +1,6 @@
 #SQL
 # Návrhové anomálie
-**Aktualizacní anomálie (Codd):**
+**Aktualizační anomálie (Codd):**
 
 Aktualizační anomálie je nechtěný vedlejší efekt operace nad databází, při kterém dojde ke ztrátě nebo nekonzistenci dat.
 

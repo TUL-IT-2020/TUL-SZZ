@@ -33,6 +33,13 @@ Nevýhody:
 
 ![[truth-of-cap-theorem-diagram.webp]]
 
+| Kategorie                                   | Popis                                                                                                                                                                 | Databáze                                                          |
+| ------------------------------------------- | --------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ----------------------------------------------------------------- |
+| Dokumentově orientované (Document Oriented) | Data jsou uloženave formě dokumentů. NapříkladFirstName="Arun", Address="St. Xavier's Road", Spouse=[{Name:"Kiran"}], Children=[{Name:"Rihit", Age:8}]                | CouchDB, Jackrabbit, MongoDB, OrientDB, SimpleDB, Terrastoreatd.. |
+| XML databáze (XML database)                 | Data uložena ve formátu XML                                                                                                                                           | BaseX, eXist, MarkLogic Server atd.                               |
+| Grafové databáze (Graphdatabases)           | Data uložena jako kolekce uzlů, kde každý uzel je analogií k objektu v objektovém modelu.Uzly jsou spojeny pomocí hran.                                               | AllegroGraph, DEX, Neo4j, FlockDB, Sones GraphDBatd.              |
+| Klíč-hodnota databáze(Key-valuestore)       | V případě klíč-hodnota uživatel ukládá data ve formátu bez schématu. Klíčmůže být řetězec, hashotisk, seznam, množina, setříděná množina a k němu je uložena hodnota. | Cassandra, Riak, Redis, memcached, BigTableatd.                   |
+
 ## Struktura dat
 - strukturovaná data
 - částečně strukturovaná data

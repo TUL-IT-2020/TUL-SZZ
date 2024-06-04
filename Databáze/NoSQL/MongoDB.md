@@ -24,6 +24,21 @@ Dokumenty ukládány ve formátu BSON. Mongo je CP podle [[CAP teorém|CAP]]. Ne
 
 ## Architektura
 
+### Základní datové typy
+
+| Datový typ  | Popis  |
+| ---- | ---- |
+| string  | Prázdny řetězecnebo kombinace znaků. 
+| integer | čísla. 
+| boolean  | True nebo False. 
+|double | Číslo s desetinou částí 
+|null | Jako v relačním modelu, ani nula ani prázdné, neznámá nebo neaplikovatelná hodnota 
+|array | Seznam hodnot 
+|object | Entita, kterou můžeme využít k programování(hodnota, proměnná, funkce nebo datová struktura) 
+|timestamp | 64 bit hodnota času unikátní v rámci jedné instance MongoDB. Prvních32 bitů ukládá počet sekund1 ledna 1970 Druhá polovina je ordinální číslo pro práci s danou sekundou 
+|Unikód | UTF-8 
+| IDobjektů | Každý objekt/dokument musí mít svoje unikátní ID. Uloženo jako 12 bitováhodnota    |
+
 ### Dokument
 Volné schéma
 Max velikost: 16MB
@@ -54,7 +69,6 @@ Join pomocí: lookup
 
 #### Pevné schéma
 Lze docílit pomocí validačního schématu.
-
 
 ## Ad-hoc dotazy
 Dotazy neznámé při návrhu databáze.
