@@ -1,17 +1,51 @@
 # Datové typy
+
+## Standardní skupiny datových typů
+Datové typy lze dělit (sdružovat) do skupin, z nichž nejdůležitější jsou: 
+- **Číselné** - např. integer, real, natural, positive, signed, unsigned; 
+- **Logické** - bit, boolean, std_logic, std_ulogic; 
+- **Znakové** - character, string; 
+- **Složené** - více elementů v jednom objektu (vector, array, record), zápis bitových polí: b”11001001”, X”C3F”, O”754”; 28 
+- **Fyzikální** - vyžadují připojení fyzikální jednotky (např. time);
+
+## Datové typy podrobněji
 - Integer
 Implicitní celočíselný typ 
-Nepoužíváme pro porty nebo signály – pouze vnitřní proměnné (for, generate…)
+Nepoužíváme pro porty nebo signály - pouze vnitřní proměnné (for, generate…)
 
-ieee.std_logic_1164
-	Používáme v entity:
-- std_logic – ‘U’, ‘X’, ‘0’, ‘1’, ’Z’, ‘W’, ‘L’, ‘H’, ‘-’
-- std_logic_vector(X downto Y) – array of std_logic.
+### `ieee.std_logic_1164`
+Používáme v entity:
+- std_logic - ‘U’, ‘X’, ‘0’, ‘1’, ’Z’, ‘W’, ‘L’, ‘H’, ‘-’
+- std_logic_vector(X downto Y) - array of std_logic.
 
-ieee.numeric_std
-	Užíváme v architecture:
+```VHDL
+TYPE std_ulogic IS (
+ ‘U’,-- neinicializováno (signál nebyl dosud buzen), implicitní
+ ‘X’,-- neznámá hodnota (vzniká při konfliktu ‘0’ a ‘1’)
+ ‘0’,-- log. 0 z tvrdého zdroje
+ ‘1’,-- log. 1 z tvrdého zdroje
+ ‘Z’,-- vysoká impedance
+ ‘W’,-- neznámá hodnota (vzniká při konfliktu H a L) 
+ ‘L’,-- log. 0 z měkkého zdroje
+ ‘H’,-- log. 1 z měkkého zdroje 
+ ‘-’ -- neurčená hodnota (don’t care), na hodnotě nezáleží.
+);
+```
+
+### `ieee.numeric_std`
+Užíváme v architektuře:
 - unsigned(X downto Y)
 - signed(X downto Y)
+
+## Hodiny
+```VHDL
+clk’event AND clk = ‘1’ -- náběžná hrana
+clk’event AND clk = ‘0’ -- sestupná hrana
+
+-- v knihovně IEEE 1164 existují fce:
+rising_edge(clk)
+falling_edge(clk)
+```
 
 ## Vectors
 Aggregates are a grouping of values to form an array or record expression. The first form is called **positional association**, where the values are associated with elements from left to right:
@@ -41,24 +75,25 @@ K atributům je možné přistoupit pomocí zápisu apostrofu.
 - A'length(N) 	Počet prvků pole A	
 	U jednorozměrných polí není třeba uvádět dimenzi N
 
-Příklad:  *x´left*  je levá mez jednorozměrného pole x.
+> [!example] Příklad:  
+> *x´left*  je levá mez jednorozměrného pole x.
 
 ## Typová konverze:
 [fpgatutorial](https://fpgatutorial.com/vhdl-types-and-conversions/)
 Lze použít konverzní funkce:
-- std_logic_vector(unsigned/signed) – vrací std_logic_vector stejné délky
-- unsigned(std_logic_vector) – vrací unsigned stejné délky
-- signed(std_logic_vector) – vrací signed stejné délky
+- std_logic_vector(unsigned/signed) - vrací std_logic_vector stejné délky
+- unsigned(std_logic_vector) - vrací unsigned stejné délky
+- signed(std_logic_vector) - vrací signed stejné délky
 
 ![[VHDL-peklo.gif]]
 
 ## User defined types
-- enumerate
+### enumerate
 Výčtový datový typ. 
 ```VHDL
 type my_enum is (S0, S1, S2);
 ```
-- record
+###  record
 Assignment to a whole record must be done using an aggregate. Positional or named association may be used
 ```VHDL
 type T_PACKET is record

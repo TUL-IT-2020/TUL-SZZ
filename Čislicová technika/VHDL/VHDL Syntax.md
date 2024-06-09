@@ -1,5 +1,5 @@
 # Syntax
-> [!warning] Je vice verzí jazyka VHDL!
+> [!warning] Je více verzí jazyka VHDL!
 >- VHDL
 >- VHDL 2008 (ten hezčí)
 
@@ -55,6 +55,12 @@ port map(
 ### Porty
 název : (in/out) typ (rozsah)
 
+### Datové objekty
+```VHDL
+CONSTANT jméno_konstanty : datový_typ := hodnota ;
+VARIABLE jméno_proměnné  : datový_typ [ := hodnota ] ;
+SIGNAL   jméno_signálu   : datový_typ [ := hodnota ] ;
+```
 
 ## Architecture
 Popis vnitřního chování obvodu. 
@@ -108,8 +114,29 @@ b <= "1000" when a = "00" else
 ```
 
 ## Process
-Citlivostní seznam na všechny relevantní parametry.
-`process(all)`
+### Syntaxe deklarace procesu
+```VHDL
+[name] : PROCESS [(clock, reset)] --seznam citlivých proměnných
+	-- deklarace procesu
+	VARIABLE [var_name] : [type];
+BEGIN
+	-- příkazy procesu
+END PROCESS [name];
+```
+
+> [!tip]
+> proměnné deklarované uvnitř procesu si zachovávají svoji hodnotu při dalším průchodu procesem (na rozdíl od funkcí a procedur, kde se vždy inicializují)
+
+### Citlivostní seznam hodnot
+Uvádí, na kterých signálech je sledována změna a případně spustí proces. Proto se zde uvádí jen hodiny a asynchronní signály.
+
+Standardní případy:
+- clock,
+- set/reset.
+
+> [!note] 
+> `process(all)` - Citlivostní seznam na všechny relevantní parametry.
+
 
 ```VHDL
 -- decoder
@@ -126,6 +153,22 @@ q = or v;
 q <= d(to_indeger(unsigned(sel)));
 
 ### Bloky if-else
+
+Syntaxe:
+```VHDL
+IF podmínka1 THEN 
+	{sekvence_příkazů1}
+[ELSIF podmínka2 THEN {sekvence_příkazů2}]
+[ELSE {sekvence_příkazů}]
+END IF ;
+```
+
+> [!note]
+> Lze používat pouze uvnitř procesu (sekvenční příkaz);
+
+> [!warning]
+> Má charakter prioritního přiřazení => může vést na složitější obvodové zapojení (volit raději CASE – WHEN);
+
 ![[priority encoder]]
 
 ### Case

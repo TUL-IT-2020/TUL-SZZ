@@ -1,4 +1,4 @@
-## Designové primitiva
+# Designové primitiva
 ### MUX
 ![[MUX 8 to 1]]
 
@@ -55,5 +55,15 @@ Conuter na clock s comparátorem a ovládat EN -> (clock enable).
 Přiřazuje se do promených na konci waitu.
 ![[counter_generic]]
 
-### Finate state machine
+## Finate state machine
+
+### Typy automatů
+- [[Mooreův automat]] (výstup závisí pouze na aktuálním stavu)
+- [[Mealyho automat]]
+
+Implementujeme za pomoci třech procesů:
+- aktualizace stavu na `next_state`,
+- přechodová funkce,
+- výstupní funkce.
+
 ![[FSM]]
