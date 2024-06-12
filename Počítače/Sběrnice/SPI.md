@@ -8,9 +8,7 @@ Sběrnice SPI (_Serial Peripheral Interface_) představuje jednu z forem sériov
 - 2 konfigurace(nezávislá, kaskádová)
 
 - <http://www.root.cz/clanky/externi-seriove-sbernice-spi-a-i2c/>
-
 - <https://cs.wikipedia.org/wiki/Serial_Peripheral_Interface>
-
 - <http://home.zcu.cz/~dudacek/NMS/Seriova_rozhrani.pdf>
 
 **Obvody:**

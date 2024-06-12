@@ -3,6 +3,8 @@
 - kvantování
 
 ![[Sampling-Analog-Signal-2.jpg]]
+
+[[AD převodníky]]
 ## Vzorkování
 Vzorkovací frekvence:
 - $F_s [Hz]$ - jednotkou Herz
