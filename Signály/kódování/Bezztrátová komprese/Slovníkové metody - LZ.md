@@ -1,4 +1,8 @@
 # Slovníkové metody - LZ
+Využívá slovník
+Na začátku obsahuje předpokládané znaky – ohodnoceny kódovací hodnotou
+Ve vstupní sekvenci hledáme existující slovníkový znak. Vytváříme nový záznam ve slovníku z existujícího znaku a dalšího znaku čtené sekvence. Překročíme-li binární délku kódu ve slovníku, rozšíříme slovník o jeden bit a zapisujeme o jeden bit víc. Příjemce obdrží pouze počáteční slovník a zprávu. Nový slovník rekonstruuje sám.
+
 Statický slovník - moc nefunguje.
 Dynamický slovník:
 - LZ77
