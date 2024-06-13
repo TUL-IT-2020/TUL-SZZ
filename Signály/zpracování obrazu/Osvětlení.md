@@ -102,3 +102,7 @@ Naprostá dominance
 
 ## Reflektory
 ![[Reflektory]]
+## LASER
+![[LASER]]
+## LIDAR
+![[LIDAR]]
