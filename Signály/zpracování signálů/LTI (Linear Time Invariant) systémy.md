@@ -20,29 +20,28 @@ $$
 - u diskrétních (číslicových) systémů jejich chování popisují diferenční rovnice s konst. koeficienty
 
 ### Odvození diferenční rovnice
-
-první derivaci u diskrétních systémů nahradíme rozdílem
+První derivaci u diskrétních systémů nahradíme rozdílem:
 $$
 x'(n) = {x(n) - x(n-1)}
 $$
 
-druhou derivaci
+Druhou derivaci:
 $$
 x''(n) = {x'(n) - x'(n-1)} = {x(n) - 2x(n-1) + x(n-2)}
 $$
 atd.
 
-Dosazedním do diferenciální rovnice dostaneme diferenční rovnici
+Dosazením do diferenciální rovnice dostaneme diferenční rovnici:
 $$
 A_0 y(n) + A_1 y(n-1) + ... + A_n y(n-N) = B_0 x(n) + B_1 x(n-1) + ... + B_m x(n-M)
 $$
 
-ta lze přepsat do podo
+Ta lze přepsat do podoby:
 $$
 y(n) = B'_0 x(n) + B'_1 x(n-1) + ... + B'_m x(n-M) - A'_1 y(n-1) - ... - A'_n y(n-N)
 $$
 
-je li $N=0$ a je systém nerekurzivní FIR(Finite Impulse Response) - systém s konečnou odezvou, v opačném případě je rekurzivní IIR(Infinite Impulse Response) - systém s nekonečnou impulstní. odezvou
+Je li $N=0$ a je systém nerekurzivní [[FIR - Finite Impulse Response|FIR(Finite Impulse Response)]] - systém s konečnou odezvou, v opačném případě je rekurzivní [[IIR - Infinite Impulse Response|IIR(Infinite Impulse Response)]] - systém s nekonečnou impulsní odezvou.
 
 ### Klíčové vlastnosti LTI systémů
 Chování libovolného LTI systému lze popsat pomocí odezvy na jednotkový impulz $h[n]$, tato operace se nazývá [[Konvoluce]].

@@ -14,12 +14,20 @@ Například:
 > [!tip] Filtry s lineární fází 
 > Neupravují signál, pouze jej posouvají v čase.
 ## Metody popisu filtru:
-- diferenční rovnicí
-- v časové oblasti
-- ve frekvenční oblasti 
+> [!warning] Metody popisu:
+>- diferenční rovnicí
+>- v časové oblasti
+>- ve frekvenční oblasti 
 
 > [!tip]
 V časové oblasti: [[Konvoluce|konvoluce]], ve frekvenční násobení.
+
+```mermaid
+stateDiagram 
+	direction LR
+	[*] --> System : x
+    System --> [*] : y
+```
 
 ### Diferenční rovnicí
 > [!important]
@@ -144,8 +152,9 @@ $x[n] -> X(e^{j\omega})$
 
 $x[n-n_0] -> X(e^{j\omega})*e^{-j\omega*n_0}$
 - $n_0 = 1,5$ 
-\sum_{n=-\infty}^{\infty} 
-x[n]*
+$\sum_{n=-\infty}^{\infty}$ 
+$x[n]*$
+
 $$
 y[m] = \sum_{n=-\infty}^{\infty} 
 x[n]*sinc(n-m-n_0)

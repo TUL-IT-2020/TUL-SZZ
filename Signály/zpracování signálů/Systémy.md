@@ -11,6 +11,7 @@
 >- Stabilita  - BIBO - Vstup i výstup jsou amplitudově omezené. 
 >- Časově invariantní - V čase se funkce filtru nemění.
 
+![[Stabilita]]
 ### Klasifikace systémů podrobněji
 ![[Klasifikace systémů]]
 ## LTI (Linear Time-Invariant)

@@ -31,7 +31,7 @@ $\omega = \Omega*T_s = 2\pi*F*T_S=\frac{2\pi*F}{T}$
 - $X(\Omega)$
 
 > [!warning] 
-> Aby se trojuhelníky nepřekrývaly, tak F_S musí být alespoň dvojnásobek nejvyšší frekvence.
+> Aby se trojuhelníky nepřekrývaly, tak $F_S$ musí být alespoň dvojnásobek nejvyšší frekvence.
 
 > [!info] Jinak vzniká aliasing. 
 > "Alias" - překrytí nižších frekvencí.

@@ -7,12 +7,11 @@ y[n] = 4\cdot x[n+1] + 2\cdot x[n] +1
 $$
 ### Postup:
 Homogenita:
-
 $4\cdot cx[n+1] + 2cx[n] +1 ?= c(4\cdot x[n+1] + 2x[n] +1)$
 $4\cdot cx[n+1] + 2cx[n] +1 ?= 4\cdot c\cdot x[n+1] + 2\cdot c\cdot x[n] + c$
 ### Řešení
-- je kauzální
-- stabilní (`[n+1]`)
+- není kauzální (`[n+1]`)
+- stabilní 
 - není aditivní (+1)
 - není homogenní
 ## Příklad
@@ -29,7 +28,7 @@ $$
 k * (6x[n+2] + 4x[n+1] + 2x[n] + 1) ?= 6(kx[n+2]) + 4(kx[n+1]) + 2(kx[n]) + 1
 $$
 ### Řešení
-- je kauzální
+- není kauzální
 - není aditivní (+1)
 - není homogenní
 ## Příklad
@@ -57,11 +56,22 @@ Výstup závisí na budoucím vzorku.
 2. Ne
 3. Ne
 
-## Příklad nekauzálního signálu:
+## Který z následujících systémů je homogenní:
+Rozhodněte a zdůvodněte, který z následujících systémů je homogenní:
+1) $y[n] = log(x[n])$
+2) 
+$$
+y[n] = 6x[n+2] + 4x[n+1] + 2x[n+1]
+$$
+3) 
+$$
+y[n] = 6x[n] + \frac{x[n+1]x[n-1]}{x[n]}
+$$
+## Příklad nestacionárního signálu:
 $y[n] = nx[n]$
 
 $nx[n] != (n-n_0)x[n-n_0]$
-- nekauzální
+- nestacionárního
 
 ## Příklad
 $y[n] = log(x[n])$

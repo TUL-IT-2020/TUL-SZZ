@@ -6,9 +6,7 @@ X(e^{j\omega}) = \sum_{n=-\infty}^{\infty} x[n]e^{-j\omega n}
 $$
 ![[DFT - Diskrétní Fourierova transformace]]
 ## Spektrální analýza
-Krátkodobá frekvenční analýza
-Aplikace Fourierovy transformace.
-Zobrazení z časové oblasti do frekvenční oblasti.
+Zobrazení z časové oblasti do frekvenční oblasti. Krátkodobá frekvenční analýza. Aplikace Fourierovy transformace. 
 
 ![[DTFT spektrum]]
 

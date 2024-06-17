@@ -1,4 +1,4 @@
-### Metoda oken
+# Metoda oken
 > [!info] IRT - Impulse Response Truncation
 
 Navrhujeme pásmovou propust s lineární fází (zpoždění poloviny řádu filtrů).
@@ -45,14 +45,8 @@ Okenkovací funkce nám omezí počet vzorků, které potřebujeme znát pro vyp
 
 Použití okénkovací funkce však způsobí změny ve frekvenční oblasti oproti ideálnímu filtru.
 
-> [!info]
->Hlavní laloky ovlivní:
->- Velikost přechodového pásma.
+## Okénkovací funkce
+![[Okénkovací funkce]]
 
-> [!info]
->Vedlejší laloky ovlivní:
->- Zvlnění v propustném pásmu,
->- Zvlnění v závěrném pásmu.
-
-Metoda oken:
+## Příklady na metodu oken:
 - [[Návrh filtrů FIR příklady]]

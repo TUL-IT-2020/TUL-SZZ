@@ -1,3 +1,4 @@
+#příklad 
 # Aliasing
 
 $$
@@ -7,8 +8,10 @@ $$
 - $F_s = 16kHz$
 - $F = 4kHz$
 
+Po dosazení do vzorce, získáme digitální frekvenci:
 $\omega = 1/2 \pi$
 
+Signál o frekvenci:
 - $F = -4kHz$
 
 $\omega = -1/2 \pi$
@@ -28,9 +31,13 @@ $= sin(1,4\pi n)$ - odečteme $2\pi$
 $= sin(-0.6\pi n)$
 $= -sin(0.6\pi n)$
 
-$0.6 = \frac{2\pi *F}{100}$
+Dosadíme do vzorce pro digitální frekvenci:
+- $0.6\pi = \frac{2\pi *F}{100}$
+Upravíme:
+- $F = 0.6*100/2 = 30$
 
-$100-70 = 30$
+Nebo:
+$70-100 = -30$
 ### Řešení:
 Aliasing: $30$Hz
 
