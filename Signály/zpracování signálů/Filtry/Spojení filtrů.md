@@ -1,8 +1,8 @@
 # Spojení filtrů
-
-- Sériové,
-- Paralelní, 
-- Zpětná vazba
+> [!example]
+>- Sériové,
+>- Paralelní, 
+>- Zpětná vazba.
 
 ## Sériové
 ```mermaid

@@ -12,7 +12,7 @@ $$
 
 ## Eulerova notace: 
 $$
-e^{j\omega_0n} = cos[\omega_0n] + j sin[\omega_0n]
+e^{j\omega_0n} = cos(\omega_0n) + j \; sin(\omega_0n)
 $$
 
 - $e^{j\pi} = 1$

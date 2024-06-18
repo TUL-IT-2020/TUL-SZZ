@@ -23,7 +23,7 @@ $$
 
 Funguje jen na signály u kterých známe všechny vzorky!
 
-Potřebujeme filtry, který reguje jen na omezený počet vzorků.
+Potřebujeme filtry, který reaguje jen na omezený počet vzorků.
 -> Ořízneme ocásky - okénkovací funkce.
 Nechceme IIR, ale FIR!
 -> Posuneme doleva o $n$-vzorků.

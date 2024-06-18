@@ -1,7 +1,8 @@
 # Filtry IIR
+Filtr s nekonečnou impulsní odezvou.
 - [[Tabulka DTFT párů]]
 ## Příklad
-Filtr s nekonečnou impulsní odezvou:
+Určete odezvu systému popsaného diferenční rovnicí:
 $$
 y[n] = x[n] + \frac{1}{2}y[n-1]
 $$
@@ -22,37 +23,6 @@ $$
 $$
 H(e^{j\omega}) = \frac{Y(e^{j\omega})}{X(e^{j\omega})} = \frac{1}{1 - \frac{1}{2}e^{-j\omega}}
 $$
-
-## Příklad
-Určete odezvu systému popsaného diferenční rovnicí:
-$$
-y[𝑛] = \frac{3}{4} 𝑦[𝑛 −1] -\frac{1}{8}𝑦[𝑛 −2] +x[n]
-$$
-Na vstupní signál $𝑥[𝑛] = 𝛿[𝑛]$, jsou-li počáteční podmínky:
-- $𝑦[−1] = −1$,
-- $𝑦[−2] = 1$.
-
-### Postup
-$x=(1)$
-
-$H(e^{j\omega}) = ?$
-
-$$
-Y(e^{j\omega}) = \frac{3}{4} Y(e^{j\omega})e^{-j\omega} -\frac{1}{8}Y(e^{j\omega})e^{-j2\omega} + X(e^{j\omega})
-$$
-$$
-Y(e^{j\omega}) - \frac{3}{4} Y(e^{j\omega})e^{-j\omega} +\frac{1}{8}Y(e^{j\omega})e^{-j2\omega} = X(e^{j\omega})
-$$
-$$
-Y(e^{j\omega})\left(1 - \frac{3}{4}e^{-j\omega} +\frac{1}{8}e^{-j2\omega} \right) = X(e^{j\omega})
-$$
-### Řešení
-$$
-H(e^{j\omega}) 
-= \frac{Y(e^{j\omega})}{X(e^{j\omega})}
-= \frac{1}{1 - \frac{3}{4}e^{-j\omega} +\frac{1}{8}e^{-j2\omega}}
-$$
-
 ## Příklad 
 
 $$
@@ -73,35 +43,6 @@ $$
 ### Řešení:
 $$
 H(e^{j\omega}) = \frac{Y(e^{j\omega})}{X(e^{j\omega})} = \frac{(1 - e^{-j2\omega})}{(1 - 1/4e^{-j\omega})}
-$$
-
-## Příklad
-Určete odezvu systému popsaného diferenční rovnicí:
-$$
-y[n] = \frac{3}{4} · y[n − 1] − \frac{1}{8} · y[n − 2] + x[n] − x[n − 1]
-$$
-Na vstupní signál $𝑥[𝑛] = 𝛿[𝑛]$, jsou-li počáteční podmínky:
-- $𝑦[−1] = 0$,
-- $𝑦[−2] = 0$.
-### Postup
-
-$H(e^{j\omega}) = ?$
-$$
-Y(e^{j\omega}) = \frac{3}{4} · Y(e^{j\omega})e^{-j\omega} − \frac{1}{8} · Y(e^{j\omega})e^{-j2\omega} + X(e^{j\omega}) − X(e^{j\omega})e^{-j\omega}
-$$
-$$
-Y(e^{j\omega}) - \frac{3}{4} · Y(e^{j\omega})e^{-j\omega} + \frac{1}{8} · Y(e^{j\omega})e^{-j2\omega} 
-=  X(e^{j\omega}) − X(e^{j\omega})e^{-j\omega}
-$$
-$$
-Y(e^{j\omega}) \left(1- \frac{3}{4}e^{-j\omega} + \frac{1}{8}e^{-j2\omega}\right) 
-=  X(e^{j\omega})\left(1 − e^{-j\omega}\right) 
-$$
-### Řešení
-$$
-H(e^{j\omega}) 
-= \frac{Y(e^{j\omega})}{X(e^{j\omega})}
-= \frac{1 − e^{-j\omega}}{1- \frac{3}{4}e^{-j\omega} + \frac{1}{8}e^{-j2\omega}} 
 $$
 
 ## Příklad

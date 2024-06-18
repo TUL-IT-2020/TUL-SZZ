@@ -47,9 +47,10 @@ x[n] = 0.5δ[n] + 1.5δ[n − 1] + 2.5δ[n − 3].
 $$
 - $N = 4, n = 0 . . . 3$
 
+### Postup:
 - $N = 4$
 - $k = 0$
-$X[0] = 0.5e^{-j2\pi0\cdot 0/4} + 1.5e^{-j1\pi2\cdot 0/4} + 2.5e^{-j2\pi3\cdot 0/4}$
+$X[0] = 0.5e^{-j2\pi0\cdot 0/4} + 1.5e^{-j2\pi2\cdot 0/4} + 2.5e^{-j2\pi3\cdot 0/4}$
 $X[0] = 0.5e^0 + 1.5e^0 + 2.5e^0 = 4,5$
 
 - $k = 1$
@@ -75,3 +76,40 @@ $$
 $$
 \omega_k = \frac{\pi k}{2}
 $$
+## Příklad
+Vypočtěte čtyřbodovou DTF (pro n = 0...3) signálu daného jako:
+$$
+x[n] = (n + 1)u[n] − 2\delta[n − 1]
+$$
+Určete, jakým frekvenčním $ω$ tyto čtyři vzorky odpovídají.
+
+### Postup:
+$x = (1, 2, 3, 4) - (0,-2,0,0)$
+$x = (1, 2-2, 3, 4)$
+Signál $x$:
+$x = (1, 0, 3, 4)$
+
+$\omega_k = 2\pi k/N$
+- $N = 4$
+
+k = 0
+$\omega_k = 2\pi 0/4 = 0$
+$X[0] = 1e^{-j2\pi 0/4\cdot0} + 0 + 3e^{-j2\pi 0/4 \cdot 2} + 4e^{-j2\pi 0/4 \cdot3}$
+$X[0] = 1 + 0 + 3 + 4 = 8$
+
+k = 1
+$\omega_k = 2\pi 1/4 = \pi/2$
+$X[1] = 1e^{-j2\pi 1/4\cdot0} + 0 + 3e^{-j2\pi 1/4 \cdot 2} + 4e^{-j2\pi 1/4 \cdot3}$
+$X[0] = 1 + 0 + 3*1 - 4j = 4-4j$
+
+k = 2
+$\omega_k = 2\pi 2/4 = \pi$
+$X[2] = 1e^{-j2\pi 2/4\cdot0} + 0 + 3e^{-j2\pi 2/4 \cdot 2} + 4e^{-j2\pi 2/4 \cdot3}$
+$X[0] = 1 + 0 + 3*-1 + 4 = 2$
+
+k = 3
+$\omega_k = 2\pi 3/4 = 3/2\pi$
+$X[3] = 1e^{-j2\pi 3/4\cdot0} + 0 + 3e^{-j2\pi 3/4 \cdot 2} + 4e^{-j2\pi 3/4 \cdot3}$
+$X[0] = 1 + 0 + 3 + 4j = 4+4j$
+
+Indexy: $k ∈ (0, 1, 2, 3)$, odpovídají frekvenci: $ω_k \in \{0, 1/2π, π, 3/2π \}$

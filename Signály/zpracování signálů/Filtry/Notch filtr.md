@@ -1,5 +1,5 @@
 # Notch filtr
-- Velmi úzký pásmový filtr (zadří jednu frekvenci)
+Velmi úzký pásmový filtr (zadrží jednu frekvenci).
 
 ## Postup
 - $F_s = 500 Hz$
@@ -13,7 +13,7 @@ $$
 $$
 H(z) = (1 -e^{-j\pi/5}z^{-1})(1 -e^{j\pi/5}z^{-1})
 $$
-Co nemsím dát za $z$ aby tam nebylo $\infty$?
+Co nesmím dát za $z$ aby tam nebylo $\infty$?
 - $|z| > 0$
 
 ```matlab
