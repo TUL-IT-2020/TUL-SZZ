@@ -9,7 +9,7 @@ $N = 16$
 ### Řešení
 Signál je periodický.
 
-### Změna vzorkování:
+## Změna vzorkování:
 $x[n] = sin(1/8n)$
 ### Postup
 $2\pi = 1/8*N$

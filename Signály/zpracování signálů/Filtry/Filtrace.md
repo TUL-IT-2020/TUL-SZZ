@@ -169,7 +169,7 @@ Jak získáme $h$?
 ![[Návrh filtrů se stejnoměrným zvlněním]]
 
 ### Vzorkování frekvenční charakteristiky
-1. Navrozkujeme frekvenční charakteristiku.
+1. Navzorkujeme frekvenční charakteristiku.
 2. Povolíme přechodové pásmo.
 3. Přidáme okénko.
 ```

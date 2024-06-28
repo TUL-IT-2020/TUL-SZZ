@@ -53,7 +53,7 @@ $$
 X = \lim_{N \to \infty} \frac{1}{N} \sum_{i=0}^{N-1} x[i]
 $$
 ### Energie
- ![[Energie]]
+![[Energie]]
 ### Výkon
 ![[Výkon]]
 ## Perioda

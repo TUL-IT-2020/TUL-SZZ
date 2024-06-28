@@ -11,7 +11,7 @@ $$
 Operátor $z^{-1}$ znamená zpoždění o 1 vzorek.
 
 > [!note] ROC - Region konvergnce
->  0blast, kde má řada konečný součet (definiční obor $z$). 
+>  Oblast, kde má řada konečný součet (definiční obor $z$). 
 
 > [!warning]
 > Z - transformace existuje, když **jednotková kružnice** leží v regionu konvergence.
@@ -30,7 +30,7 @@ x[n-k] \rightarrow z^{-k}X(z)
 $$
 
 ## Přenosová funkce
-Z obraz impulzní odezvy (transfer function).
+Z obrazu impulzní odezvy (transfer function).
 
 Frekvenční charakteristika $H(z)$:
 $$
