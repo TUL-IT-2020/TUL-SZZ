@@ -5,7 +5,7 @@
 1. Základní [[Architektury počítačů|architektury počítačů]], architektury mikroprocesorů, [[Architektura signálových procesorů|architektury signálových]] a [[Architektura grafických procesorů|grafických procesorů]], [[Architektura mikrořadičů|architektury mikrořadičů]]. Principy činnosti významných funkčních bloků v jednotlivých architekturách. 
 2. [[Hodnocení výkonnosti počítačů|Hodnocení výkonnosti počítačů]], [[Amdahlův zákon|Amdahlův zákon]], [[Výkonnostní rovnice procesoru|výkonnostní rovnice procesoru]]. Srovnání systémů [[CISC|CISC]] a [[RISC|RISC]]. 
 3. Základy teorie dělitelnosti, základní pojmy (relace [[Dělitelnost#Definice Být dělitelem|býti dělitelem]] a její vlastnosti, [[Dělitelnost#Věta o dělení se zbytkem|věta o dělení se zbytkem]]), [[Euklidův algoritmus|eukleidův algoritmus]], využití. [[Řetězové zlomky|Řetězové zlomky]] (konstrukce, vlastnosti), řešení [[Kongruence|kongruencí]] 1. stupně a jejich soustav. 
-4. Elementární algebra – cyklická grupa, symetrická grupa. [[Polynomy|Polynomy]] nad tělesem (základní pojmy, operace s polynomy), ireducibilita nad R, C, Zp. Konečná tělesa. 
+4. Elementární algebra – cyklická grupa, [[Symetrie objektů|symetrická grupa]]. [[Polynomy|Polynomy]] nad tělesem (základní pojmy, operace s polynomy), ireducibilita nad R, C, Zp. Konečná tělesa. 
 5. Minimální kódy – základní pojmy (Kraftova nerovnost, nejkratší kód), [[Huffmanovo kódování|Huffmanova konstrukce]], [[Aritmetické kódování|aritmetické kódy]]. Adaptivní metody (Huffman). 
 6. Deterministické a nedeterministické [[Automaty|konečné automaty]], význam, ekvivalence a ukázky konkrétních návrhů. 
 7. [[RV - regulární výrazy|Regulární výrazy]] a rovnice, jejich význam a způsoby řešení. 
@@ -29,7 +29,7 @@
 25. Pipeline pro 3d grafiku v reálném čase: struktura a datové toky, druhy a použití shaderů, komunikace programu na CPU s shadery. 
 26. Phongův osvětlovací model – jeden a více zdrojů světla, vlastnosti světel a materiálů, stínování. 
 27. (Ne)homogenní lineární rekurentní vztahy a jejich řešení (existence a jednoznačnosti řešení). Využití vytvořujících funkcí k jejich řešení. Rekurentní vztahy vybraných elementárních číselných posloupností. 
-28. Vytvořující funkce (obyčejné) – základní pojmy, operace s vytvořujícími funkcemi. Příklady vytvořujících funkcí elementárních číselných posloupností. Věžové polynomy. 
+28. Vytvořující funkce (obyčejné) – základní pojmy, operace s vytvořujícími funkcemi. Příklady vytvořujících funkcí elementárních číselných posloupností. [[Věžové polynomy|Věžové polynomy]]. 
 29. Problematika rozkladů, základní výsledky pro varianty – nerozlišitelné objekty do (ne)rozlišitelných tříd. Stirlingova čísla 1. a 2. druhu. 
 30. Prostředky návrhu systémů na čipu, architektury embedded procesorů, hierarchie paměti, cache, koherence, základní periferie embedded systémů. 
 31. Protokoly interních a externích sběrnic, způsoby popisu HW prvků, software pro embedded zařízení, HDL jazyky, syntéza hardware 

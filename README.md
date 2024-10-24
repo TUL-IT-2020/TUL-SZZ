@@ -1,6 +1,6 @@
 # TUL-SZZ
 ## Jak výpisky prohlížet?
-Poznámky jsou napsané pomocí programu [Obsidian](https://obsidian.md/), který poznámky ukládá ve formátu .md, ale na rozdíl třeba od [GitHubu](https://github.com), disponuje rozsáhlejším množstvím formátování textu a systému linků pro provázání jednotlivých poznámek, díky čemuž je vhodnější pro práci s velkým množstvím provázaných témat a poznámek, než například čistý [Markdown](https://en.wikipedia.org/wiki/Markdown). 
+Poznámky jsou napsané pomocí programu [Obsidian](https://obsidian.md/), který poznámky ukládá ve formátu `.md`, ale na rozdíl třeba od [GitHubu](https://github.com), disponuje rozsáhlejším množstvím formátování textu a systému linků pro provázání jednotlivých poznámek, díky čemuž je vhodnější pro práci s velkým množstvím provázaných témat a poznámek, než například čistý [Markdown](https://en.wikipedia.org/wiki/Markdown). 
 
 ![Obsidian](https://avatars.githubusercontent.com/u/65011256?s=200&v=4)
 
