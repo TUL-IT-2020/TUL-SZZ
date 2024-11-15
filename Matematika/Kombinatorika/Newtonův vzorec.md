@@ -38,3 +38,6 @@ nějaký další hegeš...
 $$
 = (-1)^k C^k_{n+k-1}
 $$
+
+## Příklady
+- [[Newtonův vzorec příklady]]

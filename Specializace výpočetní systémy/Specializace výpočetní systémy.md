@@ -29,8 +29,8 @@
 25. Pipeline pro 3d grafiku v reálném čase: struktura a datové toky, druhy a použití shaderů, komunikace programu na CPU s shadery. 
 26. Phongův osvětlovací model – jeden a více zdrojů světla, vlastnosti světel a materiálů, stínování. 
 27. (Ne)homogenní lineární rekurentní vztahy a jejich řešení (existence a jednoznačnosti řešení). Využití vytvořujících funkcí k jejich řešení. Rekurentní vztahy vybraných elementárních číselných posloupností. 
-28. Vytvořující funkce (obyčejné) – základní pojmy, operace s vytvořujícími funkcemi. Příklady vytvořujících funkcí elementárních číselných posloupností. [[Věžové polynomy|Věžové polynomy]]. 
-29. Problematika rozkladů, základní výsledky pro varianty – nerozlišitelné objekty do (ne)rozlišitelných tříd. Stirlingova čísla 1. a 2. druhu. 
+28. [[Vytvořující funkce|Vytvořující funkce]] (obyčejné) – základní pojmy, operace s vytvořujícími funkcemi. Příklady vytvořujících funkcí elementárních číselných posloupností. [[Věžové polynomy|Věžové polynomy]]. 
+29. Problematika [[Rozklady|rozkladů]], základní výsledky pro varianty – nerozlišitelné objekty do (ne)rozlišitelných tříd. Stirlingova čísla 1. a 2. druhu. 
 30. Prostředky návrhu systémů na čipu, architektury embedded procesorů, hierarchie paměti, cache, koherence, základní periferie embedded systémů. 
 31. Protokoly interních a externích sběrnic, způsoby popisu HW prvků, software pro embedded zařízení, HDL jazyky, syntéza hardware 
 32. Pravidla návrhu a struktura číslicových LTI filtrů s ohledem na implementaci v real- time aplikacích (v signálových procesorech). Implementace výpočtu konvoluce, korelace a FFT. 

@@ -25,3 +25,6 @@ P(n_1,n_2, ..., n_r)
 x_1^{n_1}*x_2^{n_2}*x_r^{n_r}
 = r^n
 $$
+
+## Příklady
+- [[Multinomická věta příklady]]
