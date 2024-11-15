@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Copyright 2017 mathsisfun.com -->
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="225.8" height="192.5" version="1.1">
+<defs>
+<marker id="id3" style="overflow:visible;" orient="auto">
+<path transform="matrix(-0.4,0,0,-0.4,-4,0)" style="fill:#fd3301; stroke:#fd3301; stroke-width:1pt;" d="M 0,0 5,-5 -12.5,0 5,5 Z"/>
+</marker>
+<linearGradient id="id1">
+<stop offset="0" style="stop-color:white; stop-opacity:0.26;"/>
+<stop offset="1" style="stop-color:white; stop-opacity:0;"/>
+</linearGradient>
+<radialGradient id="id2" r="31.0686" fx="1117.37" fy="914.699" cx="1117.4" cy="914.7" gradientTransform="matrix(1.48744,0,0,0.702841,-1988.39,147.734)" xlink:href="#id1" gradientUnits="userSpaceOnUse"/>
+</defs>
+<g transform="translate(-552.196,-472.79)">
+<g transform="matrix(1.09542,0,0,1.09542,434.989,-278.247)">
+<path style="fill:#748e6b; stroke:black; stroke-width:1px;" d="m 113,746.4 95.3,7.8 42.2,-24.9 z"/>
+<path style="fill:#3a8053; stroke:black; stroke-width:1px;" d="m 201.7,860 6.6,-105.8 42.2,-24.9 z"/>
+<ellipse cx="-326.4" cy="790.6" rx="46.2" ry="21.8" transform="matrix(0.925327,-0.379169,0.601566,0.798823,0,0)" style="color:black; overflow:visible; fill:url(#id2); stroke-width:7.29;"/>
+<path style="fill:#85563c; stroke:black; stroke-width:1px;" d="m 113,746.4 88.7,113.6 6.6,-105.8 -95.3,-7.8"/>
+</g>
+<text x="550.7" y="499.3" transform="scale(1.00233,0.997675)" style="font-family:Arial; font-size:20.1px; color:black; overflow:visible; fill:#fd3301; stroke-width:0.99;">vertex</text>
+<path style="color:black; marker-end:url(#id3); overflow:visible; fill:#fd3301; stroke:#fd3301; stroke-width:3.68;" d="M 579.1,505.7 560.7,530.9"/>
+<text x="635" y="488" transform="scale(1.00233,0.997675)" style="font-family:Arial; font-size:20.1px; color:black; overflow:visible; fill:#fd3301; stroke-width:0.99;">vertex</text>
+<text x="721.4" y="579" transform="scale(1.00233,0.997675)" style="font-family:Arial; font-size:20.1px; color:black; overflow:visible; fill:#fd3301; stroke-width:0.99;">vertex</text>
+<text x="706.9" y="643.9" transform="scale(1.00233,0.997675)" style="font-family:Arial; font-size:20.1px; color:black; overflow:visible; fill:#fd3301; stroke-width:0.99;">vertex</text>
+<path style="color:black; marker-end:url(#id3); overflow:visible; fill:#fd3301; stroke:#fd3301; stroke-width:3.68;" d="M 705.8,639.6 666.1,660.8"/>
+<path style="color:black; marker-end:url(#id3); overflow:visible; fill:#fd3301; stroke:#fd3301; stroke-width:3.68;" d="m 675,491.1 28,22.3"/>
+<path style="color:black; marker-end:url(#id3); overflow:visible; fill:#fd3301; stroke:#fd3301; stroke-width:3.68;" d="m 720.3,572.5 -46.2,-19.1"/>
+</g>
+</svg>
