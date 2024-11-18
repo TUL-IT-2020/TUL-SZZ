@@ -1,7 +1,7 @@
 # Bubble sort (bublinkové řazení, řazení záměnou)
 Název od „probublávání“ větších prvků/bublinek na konec (začátek) tříděné množiny.
 
-> [!info] [[Složitost algoritmů|Složitost]]:
+> [!info] [[TUL-SZZ/Programování/Složitost algoritmů|Složitost]]:
 >- nejhorší $O(N^2)$, 
 >- v krajním případě $\frac{(N^2 + N)}{2}$ kroků, 
 >- nejlepší $O(N)$ – již seřazená. 

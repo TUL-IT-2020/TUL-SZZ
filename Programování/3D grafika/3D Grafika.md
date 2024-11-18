@@ -5,6 +5,8 @@ ADRENO -> RADEON
 ## Zkratky
 - DSA - Direct State Access
 - VAO - Vertex Array Object
+- VBO - 
+- EBO - 
 - GLSL - OpenGL Shading Language
 - HLSL - High Level Shading Language
 
