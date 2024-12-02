@@ -26,5 +26,9 @@ Písemná
 - [[TUL-SZZ/Matematika/Kombinatorika/Permutace|Permutace]]
 - [[Polyova enumerační metoda]]
 [[Rozklady|Rozklady]]
-Teorie Grafů
+[[Rekurzivní algoritmy divide and conquer]]
+[[Složitost algoritmů]]
+[[Řadící algoritmy]]
+[[Úvod do teorie grafů]]
+
 

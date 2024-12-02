@@ -138,20 +138,32 @@ V tabulce seřazeno od nejrychlejší po nejnáročnější.
 
 [Video na youtube](https://www.youtube.com/watch?v=YX40hbAHx3s)
 
-1. Úlohy P (polynomial time)
-  - Úlohy řešitelné v polynomiálním čase $\mathcal{O}(f(n)) \subset \mathcal{O}(n^k)$
-  - Příklady:
-    - Násobení
-    - Řazení
+Typy úloh:
+- P,
+- NP,
+- NP-úplné
 
-2. Úlohy NP (non-deterministic polynomial time)
-  - Úlohy, jejichž *řešení lze ověřit v polynomiálním čase*
-  - Patří sem všechny úlohy z P, ale kromě toho i další, které už nepatří do P, např.:
-    - Faktorizace - rozklad na prvočísla (asymetrická kryptografie)
-    - Návrh desek plošných spojů
-    - Problém obchodního cestujícího
+![[P,NP,NPC.jpg]]
 
-3. Úlohy NP-úplné
-  - Jsou úlohy, které jsou NP, nejsou P a *lze na ně převést všechny ostatní NP úlohy*
-  - Pokud by se našlo řešení NP-úplné úlohy, které by bylo schopné řešit danou úlohu v polynomiálním čase, znamenalo by to, že $P = NP$ (všechny NP úlohy bychom dokázali vyřešit v polynomiálním čase)
-  - Konsenzus je, že $P \neq NP$, ale zatím to nebylo dokázáno (jedná se o jeden z [Millenium Prize Problems](https://en.wikipedia.org/wiki/Millennium_Prize_Problems))
+### 1. Úlohy P (polynomial time)
+> [!tip] Úlohy řešitelné v polynomiálním čase $\mathcal{O}(f(n)) \subset \mathcal{O}(n^k)$
+
+Například:
+- Násobení
+- Řazení
+
+### 2. Úlohy NP (non-deterministic polynomial time)
+> [!tip] Úlohy, jejichž řešení lze ověřit v polynomiálním čase.
+
+Patří sem všechny úlohy z P, ale kromě toho i další, které už nepatří do P, 
+
+Například:
+- Faktorizace - rozklad na prvočísla (asymetrická kryptografie)
+- Návrh desek plošných spojů
+- Problém obchodního cestujícího
+
+### 3. Úlohy NP-úplné
+Jsou úlohy, které jsou NP, nejsou P a *lze na ně převést všechny ostatní NP úlohy*.
+Pokud by se našlo řešení NP-úplné úlohy, které by bylo schopné řešit danou úlohu v polynomiálním čase, znamenalo by to, že $P = NP$ (všechny NP úlohy bychom dokázali vyřešit v polynomiálním čase)
+Konsenzus je, že $P \neq NP$, ale zatím to nebylo dokázáno (jedná se o jeden z [Millenium Prize Problems](https://en.wikipedia.org/wiki/Millennium_Prize_Problems))
+

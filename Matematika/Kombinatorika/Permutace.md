@@ -29,5 +29,9 @@ $|S_n| = n!$ ... počet prvků
 
 > [!note]
 > Lze použít k popisu symetrie objektů.
+
+## Generování permutací
+![[Generovaní permutací v lexikografickém pořadí]]
+
 ## Příklady 
 - [[Permutace příklad]]
