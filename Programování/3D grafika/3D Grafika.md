@@ -42,3 +42,7 @@ graph TD
 	V --> R
 	R --> F
 ```
+
+## Textury
+
+MIPMAP
