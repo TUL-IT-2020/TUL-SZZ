@@ -46,3 +46,22 @@ graph TD
 ## Textury
 
 MIPMAP
+
+## Vykreslovaná objektů podle hloubky
+![[Vykreslovaná objektů podle hloubky]]
+
+
+Jak zajistit aby se věci includovali jenom jednou?
+
+Na win:
+```C
+#pragma once
+```
+
+Platformě nezávislé:
+```C
+#ifnotdef _MY_HPP_
+#define _MY_HPP_
+#include <...>
+#endif
+```

@@ -51,7 +51,7 @@ $C_n$ - kružnice na $n$ vrcholech
 $K_n$
 - $n \in N^+$
 
-K_5 - nejmenší graf, který není rovinný
+$K_5$ - nejmenší graf, který není rovinný
 
 ## Bipartitní graf
 
@@ -82,36 +82,16 @@ $W_n$
 - Přidáme jeden vrchol a propojíme ho s každým vrcholem.
 
 ## Zadávání grafů
+![[Zadávání grafů]]
 
-1) Výčet vrcholů a výčet hran,
-2) Matice sousednosti,
-3) Matice incidence,
-4) Spojové seznamy,
-5) Nakreslení grafu.
+## Skóre grafu
+![[Skóre grafu]]
 
-### Matice sousednosti
-$$
-A = (a_{ij})^{|V|}_{i,j = 1}
-$$
+## Podgraf
+![[Podgraf]]
 
-- $A$ - matice VxV.
-- $a_{ij}$ - má hodnotu počtu hran spojujících daní vrcholy (i,j), běžně má hodnotu jedna.
+## Operace s grafy
+![[Operace s grafy]]
 
-Diagonála - určuje zda máme smyčky
-Symetrická - pokud není graf orientovaný
-
-### Matice incidence
-$$
-M = (m_{ij})^{|V|,|H|}_{i,j = 1}
-$$
-
-Obdélníková matice
-
-$m_{ij}$:
-- $1$ - $v_i \in k_j$
-- $0$ jinak
-
-### Spojové seznamy
-Každý vrchol má seznam svých sousedních vrcholů.
-
-
+## Souvislost grafů
+![[Souvislost grafů]]
