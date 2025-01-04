@@ -1,4 +1,4 @@
-### Číselné soustavy:
+## Číselné soustavy:
 
 1. **Dvojková soustava (binární):**
     - Používá pouze dvě číslice: 0 a 1.
@@ -31,6 +31,7 @@
 2. **Pohyblivá řádová tečka:**
     - Umožňuje variabilitu polohy desetinné tečky.
     - Typický formát pro reprezentaci racionálních čísel s proměnnou přesností.
+    - [[Float]]
 
 ### Kódování záporných čísel:
 
@@ -40,7 +41,6 @@
 2. **Doplňkový kód:**
     - Pro záporné číslo se invertují bity absolutní hodnoty.
     - K invertovaným bitům se přičte 1.
-3. **Dvoukomplementární kód:**
+    - [[Dvojkový doplněk]]
+1. **Dvoukomplementární kód:**
     - Podobný doplňkovému kódu, ale záporné číslo se získá invertováním bitů a následným přičtením 1.
-
-Tato podrobná rozepsaná odpověď by měla pokrýt klíčové body týkající se číselných soustav, převodů mezi nimi a kódování čísel včetně záporných čísel.

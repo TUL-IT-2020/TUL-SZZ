@@ -2,10 +2,22 @@
 > [!warning] Je více verzí jazyka VHDL!
 >- VHDL
 >- VHDL 2008 (ten hezčí)
+## Operátory výrazů
+logické			{and, or, nand, nor, xor, xnor, not}
+relační			{=, /=, <, >, =>, >=}
+posuv			{sll, srl, sla, sra, rol, ror}
+aritmetické			{+, -, \*, /, mod, rem}
+slučování polí 		{&}
+další			{\*\*, abs}	
 
 ## Entity
 Popis vstupů a výstupů černé skříňky.
-
+```VHDL
+entity entity_name is
+	[generic ({id : type [:= expression];)};]
+	[port ({id : [in|out|inout|buffer] [:= expression];)};]
+end entity [entity name];
+```
 ### Generické návrhy
 generic
 Konstanty (při simulaci a syntéze konstantní)
@@ -67,8 +79,17 @@ Popis vnitřního chování obvodu.
 - deklarační část (např. definice signálů)
 - příkazová část (uzavřeno do begin - end)
 
+```VHDL
+architecture architecture_name of entity_name is
+	[declaration & definition part]
+begin
+	[parallel commands]
+end architecture [architecture name]
+```
+
 Typy návrh:
-1. Strukturální
+1. RTL
+2. Strukturální
    Popisujeme kombinaci logických hradel kódem.
 2. Behaviorální
    Popisuje obvod dle jeho chování. Míra abstrakce nad jednotlivými hradly.
@@ -105,14 +126,31 @@ signal BYTE : bit_vector (7 downto 0);
 BYTE <= (7 => '1', 5 downto 1 => '1', 6 => B_BIT, others => '0');
 ```
 
-## When
-```VHDL
-b <= "1000" when a = "00" else 
-	 "0100" when a = "01" else 
-	 "0010" when a = "10" else 
-	 "0001" when a = "11";
-```
+## Paralelní příkazy
+> [!warning]
+Příkazy v těle architektury se vykonávají souběžně
 
+>[!info] Vykonání příkazu trvá nulovou dobu
+Simulační delta cyklus
+
+Přiřazení:
+- Nepodmíněné, 
+- podmíněné, 
+- výběrové přiřazení
+
+Strukturní:
+- Generující příkaz
+- Instance komponenty
+
+Umožňující sekvenční zpracování:
+- Process
+
+Simulační:
+- Assert, 
+- Report
+
+### Přiřazení
+![[WHDL - Přiřazení]]
 ## Process
 ### Syntaxe deklarace procesu
 ```VHDL
@@ -160,7 +198,7 @@ IF podmínka1 THEN
 	{sekvence_příkazů1}
 [ELSIF podmínka2 THEN {sekvence_příkazů2}]
 [ELSE {sekvence_příkazů}]
-END IF ;
+END IF;
 ```
 
 > [!note]
@@ -175,4 +213,32 @@ END IF ;
 ![[7-seg_decoder]]
 
 ## Generate
+HW struktury mají nějaký vzorec
+
+Generuje kód dle poskytnutého schéma
+- Booleovská podmínka
+- Schéma for (řídící proměnná má charakter konstanty)
+
+Nemá sekvenční charakter
+- Algoritmický popis struktury
+
+### If - vygeneruj / nevygeneruj
+```VHDL
+label: if condition generate
+    [declaration part (signals, procedures, functions)
+begin]
+     concurrent_expressions;
+end generate [label];
+```
+
+### For - udělej n\*krát
+```VHDL
+label: for control_variable in range generate
+    [declaration part (signals, procedures, functions)
+begin]
+	concurrent_expressions; 
+end generate [label];
+```
+
+
 ![[AND of N inputs]]
