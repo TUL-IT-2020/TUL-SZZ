@@ -1,6 +1,27 @@
 #ALD 
 # Složitost algoritmů
-V praxi je důležité umět mezi sebou porovnat algoritmy řešící stejný problém
+Rozdělení problémů:
+- řešitelné (solvable) 
+- neřešitelné (nonsolvable)
+
+Neřešitelné:
+- halting problém
+	- zastaví se Turingův stroj?
+
+Řešitelné úlohy:
+- snadno řešitelné (tractable)
+- obtížně řešitelné (intractable)
+
+Složitost algoritmů:
+- paměťová složitost
+- časová složitost
+
+Časová složitost:
+- Chování v nejhorším případě (worst case analysis)
+- Chování v průměrném čase (average case analysis)
+
+## Co nás zajímá?
+V praxi je důležité umět mezi sebou porovnat algoritmy řešící stejný problém.
 
 - Máme funkci $f(n)$ a snažíme se popsat její asymptotické chování.
 - Časová složitost se také označuje jako asymptotická složitost.
@@ -12,8 +33,37 @@ V praxi je důležité umět mezi sebou porovnat algoritmy řešící stejný pr
 - ![f: \mathbb{N} \rightarrow \mathbb{R}^+](https://latex.codecogs.com/svg.latex?f%3A%20%5Cmathbb%7BN%7D%20%5Crightarrow%20%5Cmathbb%7BR%7D%5E&plus;)
 - ![g: \mathbb{N} \rightarrow \mathbb{R}^+](https://latex.codecogs.com/svg.latex?g%3A%20%5Cmathbb%7BN%7D%20%5Crightarrow%20%5Cmathbb%7BR%7D%5E&plus;)
 
+### Rostou pomaleji
+$$
+O(g(n)) = 
+\{
+f(n) | \exists K > 0 \exists \; n_0 \; \forall n \ge n_0 \;
+f(n) \le Kg(n)
+\}
+$$
+Množina funkcí, které až na kladnou multiplikativní konstantu nerostou rychleji než $g(n)$.
 
-Algoritmy lze porovnat pomocí:
+### Rostou rychleji
+$$
+\Omega(g(n)) = 
+\{
+f(n) | \exists K > 0 \exists \; n_0 \; \forall n \ge n_0 \;
+Kg(n) \le f(n)
+\}
+$$
+Množina funkcí, které až na kladnou multiplikativní konstantu rostou alespoň tak rychle jako $g(n)$.
+
+### Rostou stejně rychle
+$$
+\theta(g(n)) = 
+\{
+f(n) | \exists K_1,K_2 > 0 \exists \; n_0 \; \forall n \ge n_0 \;
+K_1g(n) \le f(n) \le K_2g(n)
+\}
+$$
+Množina funkcí, které až na kladnou multiplikativní konstantu rostou rychle jako $g(n)$.
+
+### Algoritmy lze porovnat pomocí:
 - Časové složitosti
 	- Doba výpočtu daného algoritmu potřebná pro zpracování daného objemu dat.
 	- Složitost neměří v sekundách, ale počtem provedených operací, přičemž trvání jedné operace je bezrozměrná jednotka.
@@ -31,6 +81,11 @@ Složitost algoritmu A je řád růstu funkce f(N), která charakterizuje počet
 
 Rozdělení algoritmů do tříd složitostí, o kterých platí, že od určitého množství dat, je algoritmus vždy pomalejší/rychlejší.
 Obvykle místo asymptotické složitosti algoritmu říkáme pouze složitost algoritmu. V podstatě nás zajímá pouze nejdůležitější členy funkce (O notace konstanty a méně významné členy požere) (není důležité jak moc je lineární funkce nakloněná, protože ji kvadratická stejně jednou předežene).
+
+Správný zápis:
+$$
+f(n) \in 0(g(n))
+$$
 
 ### Počítání složitosti 
 Celkový počet elementárních operací, případně počet elementárních operací nad daty (elementární operace - aritmetické operace, porovnání dvou čísel, přesun čísla v paměti ...) nebo i počet porovnání – všechny tyto metody dávají obvykle tentýž výsledek. 
@@ -83,20 +138,32 @@ V tabulce seřazeno od nejrychlejší po nejnáročnější.
 
 [Video na youtube](https://www.youtube.com/watch?v=YX40hbAHx3s)
 
-1. Úlohy P (polynomial time)
-  - Úlohy řešitelné v polynomiálním čase $\mathcal{O}(f(n)) \subset \mathcal{O}(n^k)$
-  - Příklady:
-    - Násobení
-    - Řazení
+Typy úloh:
+- P,
+- NP,
+- NP-úplné
 
-2. Úlohy NP (non-deterministic polynomial time)
-  - Úlohy, jejichž *řešení lze ověřit v polynomiálním čase*
-  - Patří sem všechny úlohy z P, ale kromě toho i další, které už nepatří do P, např.:
-    - Faktorizace - rozklad na prvočísla (asymetrická kryptografie)
-    - Návrh desek plošných spojů
-    - Problém obchodního cestujícího
+![[P,NP,NPC.jpg]]
 
-3. Úlohy NP-úplné
-  - Jsou úlohy, které jsou NP, nejsou P a *lze na ně převést všechny ostatní NP úlohy*
-  - Pokud by se našlo řešení NP-úplné úlohy, které by bylo schopné řešit danou úlohu v polynomiálním čase, znamenalo by to, že $P = NP$ (všechny NP úlohy bychom dokázali vyřešit v polynomiálním čase)
-  - Konsenzus je, že $P \neq NP$, ale zatím to nebylo dokázáno (jedná se o jeden z [Millenium Prize Problems](https://en.wikipedia.org/wiki/Millennium_Prize_Problems))
+### 1. Úlohy P (polynomial time)
+> [!tip] Úlohy řešitelné v polynomiálním čase $\mathcal{O}(f(n)) \subset \mathcal{O}(n^k)$
+
+Například:
+- Násobení
+- Řazení
+
+### 2. Úlohy NP (non-deterministic polynomial time)
+> [!tip] Úlohy, jejichž řešení lze ověřit v polynomiálním čase.
+
+Patří sem všechny úlohy z P, ale kromě toho i další, které už nepatří do P, 
+
+Například:
+- Faktorizace - rozklad na prvočísla (asymetrická kryptografie)
+- Návrh desek plošných spojů
+- Problém obchodního cestujícího
+
+### 3. Úlohy NP-úplné
+Jsou úlohy, které jsou NP, nejsou P a *lze na ně převést všechny ostatní NP úlohy*.
+Pokud by se našlo řešení NP-úplné úlohy, které by bylo schopné řešit danou úlohu v polynomiálním čase, znamenalo by to, že $P = NP$ (všechny NP úlohy bychom dokázali vyřešit v polynomiálním čase)
+Konsenzus je, že $P \neq NP$, ale zatím to nebylo dokázáno (jedná se o jeden z [Millenium Prize Problems](https://en.wikipedia.org/wiki/Millennium_Prize_Problems))
+

@@ -43,3 +43,6 @@ $$
 Každou kombinace lze zakódovat do bitového řetězce s:
 - $(n-1)*0$
 - $k*1$
+
+## Generování kombinací
+![[Generování kombinací]]

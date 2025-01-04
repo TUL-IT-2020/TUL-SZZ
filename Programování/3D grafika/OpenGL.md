@@ -22,6 +22,11 @@ Knihovna pro povolování rozšíření na grafice.
 > [!warning] GLSL nemá pointery!
 > Pole musím mít pevně danou velikost.
 
+Problém s pointery řeší předávání parametrů do funkce:
+- `in`
+- `out`
+- `inout`
+
 > [!note] VRAM paměť přiřazené jednotlivým výpočetním jádrům grafické karty je značně omezená
 > Proměné definovat nejmenším možném kontextu jejich platnosti!
 
@@ -29,3 +34,5 @@ Knihovna pro povolování rozšíření na grafice.
 > - ručně transponovat všechny matice?
 > - Používejte: `GLM::MAT4`
 
+## Shaders
+![[Shaders]]

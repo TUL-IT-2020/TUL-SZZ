@@ -27,3 +27,6 @@ Sestavujeme slova nad abecedou.
 $\bar A ^k_n$ - počet variací k-té třídy z n prvků s opakováním
 
 - $0 \leq k,n$
+
+## Generování Variací
+![[Generování variací]]
