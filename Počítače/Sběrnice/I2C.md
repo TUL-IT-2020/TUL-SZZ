@@ -2,6 +2,8 @@
 
 I2C je zkratka z celého názvu _Inter-Integrated Circuit_. Jedná se o sběrnici typu multimaster, v důsledku čehož se musí řešit arbitrace přístupu na sběrnici. Sběrnice má též zabudovaný mechanismus pro adresování připojených stanic (resp. připojených uzlů). Každá stanice připojená na sběrnici má přidělenu adresu o délce 7 či 10 bitů (slouží k jejímu výběru při komunikaci a při arbitraci). Sběrnice slouží primárně k připojování obvodů k mikrokontrolérům.
 
+![[I2C logo.png]]
+
 **Fyzická vrstva:**
 Jednotlivé uzly na sběrnici jsou propojeny právě jedním datovým vodičem značeným SDA. I2C má v celku právě dva vodiče: datový vodič (značen SDA) a vodič s hodinovým signálem (značen SCL). Maximální přípustná frekvence hodinového signálu (SCL vodiče) je 100kHz nebo 400kHz (dle implementace).
 

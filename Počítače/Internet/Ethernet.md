@@ -5,6 +5,7 @@ Ještě před rokem 2000 se Ethernet stal dominantní technologií pro drátové
 
 Všechna zařízení splňující standardy IEEE 802.3 vyrobená po roce 1985 lze propojit do jedné sítě díky stejnému základnímu formátu rámce a MAC adres. Přitom však zařízení, která používají různé přenosové médium nebo nejsou schopna pracovat stejnou přenosovou rychlostí, nelze propojovat přímo, ale musí být připojena do různých segmentů sítě. Jednotlivé segmenty se propojují pomocí několika druhů aktivních prvků.
 
+[[Ethernet přehled]]
 ## Vývoj
 ### Experimentální Ethernet 
 Ethernet byl vyvinut v letech 1972–1975 v laboratořích PARC firmy Xerox. Název vychází ze slova éter, což měla být látka, která má umožňovat šíření elektromagnetického záření. První verze Ethernetu používaly pro šíření signálu koaxiální kabel, ke kterému mohlo být připojeno až několik desítek počítačů. Pořádek v síti, ve které kvůli použití signálu v základním pásmu s linkovým kódem Manchester může v každém okamžiku vysílat nejvýše jeden počítač, zajišťuje souhrn pravidel pro přístup k médiu nazývaným CSMA/CD. Experimentální verze sítě Ethernet pracovala s přenosovou rychlostí 2,94 Mbit/s.

@@ -16,7 +16,7 @@ Komunikační systémy pro tato odvětví by měly být:
 
 **Sběrnice** je skupina signálových vodičů, kterou lze rozdělit na skupiny řídicích, adresových a datových vodičů v případě paralelní sběrnice nebo sdílení dat a řízení na společném vodiči (nebo vodičích) u sériových sběrnic. Sběrnice má za účel zajistit přenos dat a řídicích povelů mezi dvěma a více elektronickými zařízeními. Přenos dat na sběrnici se řídí stanoveným protokolem.
 
-**Dělení sběrnic**:
+## Dělení sběrnic:
 - podle provozu
 	- **synchronní**
 	- **asynchronní**
@@ -34,11 +34,12 @@ Komunikační systémy pro tato odvětví by měly být:
 	- **interní**
 	- **externí**
 
-**Sériové sběrnice** jsou dnes používány téměř výlučně, důvody k postupnému ústupu paralelních sběrnic jsou v zásadě dva. Synchronizace přenosu jednotlivých bitů paralelně je při vyšších rychlostech a délkách vedení velmi složitá a narážíme zde na technologické limity (viz clock skew), proto může být sériová sběrnice na vyšších taktech paradoxně mnohem rychlejší. Vodiče pro sériovou komunikaci jsou podstatně tenčí a tedy praktičtější na dlouhé rozvody, to následně odráží na výsledné ceně použité kabeláže. Pro realizaci delších sběrnic se jedná o poměrně významný faktor. Pro sériové sběrnice je typická **arbitrace sběrnice** a **paketový systém komunikace**.
+## Sériové sběrnice
+Sériové sběrnice jsou dnes používány téměř výlučně, důvody k postupnému ústupu paralelních sběrnic jsou v zásadě dva. Synchronizace přenosu jednotlivých bitů paralelně je při vyšších rychlostech a délkách vedení velmi složitá a narážíme zde na technologické limity (viz clock skew), proto může být sériová sběrnice na vyšších taktech paradoxně mnohem rychlejší. Vodiče pro sériovou komunikaci jsou podstatně tenčí a tedy praktičtější na dlouhé rozvody, to následně odráží na výsledné ceně použité kabeláže. Pro realizaci delších sběrnic se jedná o poměrně významný faktor. Pro sériové sběrnice je typická **arbitrace sběrnice** a **paketový systém komunikace**.
 
 ## Pomyslné rozdělení uvedených systémů
 
-Uvedená směs sběrnic je hodně různorodá a můžeme jí rozdělit do několika pomyslných skupin podle specifického použití. (moje neoficiální dělení)
+Uvedená směs sběrnic je hodně různorodá a můžeme jí rozdělit do několika pomyslných skupin podle specifického použití.
 
 - **Průmyslové** ([[CAN|CAN]], [[USART]], RS-485, RS-422, (průmyslový) [[Ethernet přehled|Ethernet]], [[RS-232|RS-232]], [[Modbus]])
 	- pracují na vzdálenost desítek metrů
@@ -55,9 +56,15 @@ Uvedená směs sběrnic je hodně různorodá a můžeme jí rozdělit do někol
 	- nejsou potřeba velké přenosové rychlosti
 	- obvykle spojené na pevno (nemá konektor)
 
+- Embedded - FPGA (AMBA, Avalon, Wishbone)
+	- [[AXI]]
+
 - **Počítačové** ([[USB|USB]], [[PCI-e|PCI-e]], [[SATA|SATA]])
 	- krátká až střední komunikační vzdálenost
 	- obvykle velké nároky na přenosovou rychlost
 
 -  **Počítačové historické** ([[IDE]], [[SCSI (Small Computer System Interface)|SCSI]], [[Historické počítačové sběrnice|...]])
 	- svého času významné, ale již nahrazené
+
+## Termíny periferií
+![[Termíny periferií]]
