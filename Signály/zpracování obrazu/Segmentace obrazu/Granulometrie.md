@@ -1,0 +1,4 @@
+# Granulometrie
+Postupné prosívání sítem s rostoucí velikostí děr >>> vstup >>> hromada kamenů (granulí) o různých velikostech >>> kolik kamenů patří do jednotlivých tříd daných velikostí, výsledek >>> diskrétní funkce (granulometrické spektrum (křivka)) >>> velikost děr v sítu (nezávisle proměnná), počet kamenů příslušné velikosti (závisle proměnná), binární mat. morfologie >>> prosívání = opakované otevřením strukturním elementem s rostoucí velikostí.
+
+Granulometrie pro diskrétních binární obrazy >>> posloupnost otevření ψn, n ... přirozené číslo n ≥ 0, výsledek dalšího otevření v posloupnosti je menší než předchozí >>> nakonec nic nezbyde, krok prosívání charakterizuje míra m(X) na množině (obrazu) X (2D - počet pixelů, 3D – počet voxelů), rychlost prosívání charakterizuje granulometrické spektrum.

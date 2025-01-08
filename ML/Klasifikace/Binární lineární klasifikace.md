@@ -2,6 +2,7 @@
 # Binární lineární klasifikace
 Model perceptronu.
 
+![[Perceptron]]
 ## Regrese a Logistická regrese
 Modely jsou podobné, ale liší se použitím aktivační funkcí [[Sigmoid|sigmoid]] u logistické regrese, který vyjadřuje pravděpodobnost.
 
@@ -18,7 +19,7 @@ Trénování probíhá v iteracích
 ![[MLE - Maximum Likelihood Estimation]]
 
 #### SGD
-
+![[SGD - Metoda nejvyššího spádu]]
 ### Porovnání regrese a logistické regrese
 
 ![[Porovnání řešení s SGD.png]]

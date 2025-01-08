@@ -9,6 +9,7 @@
 ## One-hot encoding
 
 ## SGD
+- [[SGD - Metoda nejvyššího spádu]]
 ```
 Yp = SMAX(XT * 𝜃)
 𝜃t+1 = 𝜃t - 𝛼*X*(Yp - Y)

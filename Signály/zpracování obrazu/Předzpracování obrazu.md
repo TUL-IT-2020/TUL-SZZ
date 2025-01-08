@@ -2,28 +2,7 @@
 ## Transformace jasu
 ![[Transformace jasu]]
 ## Histogram obrazu
-Graf četnost zastoupení hodnot.
-u čb – x = intenzita hodnto pixelů
-u barevných histogramy kanálů
-
-![[Histogram.png]]
-
-Vyvážení histogramu
-Roztáhnutí četnosti do používaného rozsahu.
-Vypočítání distribuční funkce (Cummulative Distribution Function).
-Normalizace CDF do intervalu 0-MAX (255).
-
-Obraz s vyváženým histogramem nepřinese nové informace.
-
-## Vyvážení histogramu barevného obrazu
-> [!warning]
->Vyvážení R, G, B kanálů zvlášť nepřinese dobrý výsledek!
-> Posun tónu změní vyznění obrazu.
-
-Postup:
-1) Převod do [[Barevné prostory a modely#YUV, Y’UV, YIQ|YUV]].
-2) Vyvážení jasové složky
-3) Převod do RGB
+![[Histogram obrazu]]
 
 ## Černý bod
 Určení hranice, pro kterou považujeme bod za černý. Nastavení všech pixelů s menším jasem na 0. Pomocí úpravy histogramu.

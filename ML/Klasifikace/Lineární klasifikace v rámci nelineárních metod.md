@@ -8,7 +8,7 @@
 ## Umělé neuronové sítě
 Podle uspořádání neuronů a jejich vzájemného propojení existuje celá řada typů umělých neuronových sítí, 3 hlavní jsou: 
 - Konvoluční - Generátory příznaků, pro vícerozměrné signály.
-- Sítě typu vícevrstvý perceptron = Multi-Layer Perceptron (MLP). Základní typ pro klasifikaci, budeme se jimi dále zabývat. Obsahuje paralelní a sériová spojení neuronů.
+- Sítě typu vícevrstvý [[Perceptron|perceptron]] = [[Vícevrstvý perceptron|Multi-Layer Perceptron (MLP)]]. Základní typ pro klasifikaci, budeme se jimi dále zabývat. Obsahuje paralelní a sériová spojení neuronů.
 - Rekurentní - Nejobecnější typy, obsahuje navíc zpětnou vazbu.
 
 ### Aktivační funkce
@@ -16,4 +16,4 @@ Podle uspořádání neuronů a jejich vzájemného propojení existuje celá ř
 - [[ReLU|ReLU]]
 
 ### Zpětná propagace
-[[Zpětná propagace]]
+![[Zpětná propagace]]

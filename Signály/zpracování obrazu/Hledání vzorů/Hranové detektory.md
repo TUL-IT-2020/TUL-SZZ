@@ -12,6 +12,9 @@ Hrany jako průchody nulou druhé derivace obrazové funkce. Nevýhoda operátor
 ## Sobel & Prewitt
 ![[Prewittové operátor.PNG]]
 
+## LoG
+![[LoG]]
+
 ## Další
 ![[Další operátory.PNG]]
 

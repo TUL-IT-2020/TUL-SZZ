@@ -1,6 +1,7 @@
 #uzo 
 # Filtrace šumu
 ## Průměrování
+Nová hodnota jasu bodu (x,y) >>> aritmetický průměr původních jasů ve zvoleném okolí.
 ![noiseMean](https://user-images.githubusercontent.com/46580540/170126797-5fb00d81-fc9d-4bd7-b9d1-f40bca73eee5.png)
 
 ## Median
