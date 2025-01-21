@@ -1,14 +1,18 @@
 # Permutace
+- [[Permutace]]
+- [[Generovaní permutací v lexikografickém pořadí]]
 ## Bez opakování
-n různých prkvů.
+n různých prvků.
 
 Permutace řádu n je uspořádaná [[Entice|entice]].
 
-- $P(n)$ - počet permutací řádu n bez opakování na n prvkové množině.
-
+> [!tip] Počet permutací:
 $$
 P(n) = A^n_n = n!
 $$
+
+Kde:
+- $P(n)$ - počet permutací řádu n bez opakování na n prvkové množině.
 - $n \in N$
 
 Platí:
@@ -29,10 +33,15 @@ $$
 $$
 - $n_1*a_1$
 
+> [!tip] Počet permutací s opakováním
 $$
 P(n_1, ..., n_k) = \frac
 {(n_1+...+n_k)!}
 {n_1! * n_2! * ...* n_k!}
 $$
 
+> [!question] Proč?
 Počet všech kombinací písmen musíme zmenšit o počet prohození identických písmen.
+
+## Příklady
+- [[Permutace počet příklady]]

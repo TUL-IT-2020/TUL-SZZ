@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" 
+ "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg width="300" height="422" viewBox="0 0 300 422"
+    xmlns="http://www.w3.org/2000/svg" version="1.1"
+    xmlns:xlink="http://www.w3.org/1999/xlink" >
+  <title>Plot of Complex Conjugates </title>
+  <desc>Manually edited</desc>
+<g transform="translate(70,230)scale(1,1)" fill="none"
+    stroke="#000" stroke-width="3.0" stroke-linecap="butt">
+  <path d="M0,-170 v336 M-60,0 h220" />
+  <path fill="#000" d="M0,-178 l9,20 l-9,-4 l-9,4 z M166,0 l-20,9 l4,-9 l-4,-9 z" />
+  <path stroke-width="1.0" stroke-dasharray="8 4"
+    d="M0,-132 L88,-132 L88,132 L0,132" />
+  <path stroke-width="1.6"
+    d="M20,-30 A18,35 0 0,1 20,30" />
+  <g stroke="#78A8F0" stroke-width="4.0">
+    <path d="M88,132 L0,0 L88,-132" />
+    <circle cx="88" cy="-132" r="3" fill="#78A8F0" />
+    <circle cx="88" cy="132" r="3" fill="#78A8F0" />
+  </g>
+  <g style="fill:#000; stroke-width:0.25; font-size:22pt" >
+    <g font-family="URW Chancery L" >
+     <text x="0" y="-195" text-anchor="middle">Im</text>
+     <text x="180" y="7" text-anchor="start">Re</text>
+    </g>
+    <g font-family="serif" font-style="italic">
+     <g text-anchor="end">
+      <text x="-7" y="-126">y</text>
+      <text x="-7" y="138">&#8722;y</text>
+      <text x="-7" y="27" font-style="normal">0</text>
+      <text x="110" y="24">x</text>
+     </g>
+     <g text-anchor="middle">
+      <text x="38" y="-77">r</text>
+      <text x="38" y="95">r</text>
+      <text x="42" y="-13">&#966;</text> <!-- phi -->
+      <text x="42" y="27">&#966;</text>
+     </g>
+     <g text-anchor="start">
+      <text x="90" y="-144">z</text>
+      <text x="104" y="-144">=</text>
+      <text x="128" y="-144">x+iy</text>
+      <text x="90" y="164">z</text>
+      <text x="104" y="164">=</text>
+      <text x="128" y="164">x&#8722;iy</text>
+      <path stroke-width="2.3" d="M90,145 h14" />
+     </g>
+    </g>
+  </g>
+</g>
+<!-- vim:nowrap:sw=2:so=2:et:ai -->
+</svg>
+

@@ -5,7 +5,7 @@
 | n   | F_n | poznámka                                 |
 | --- | --- | ---------------------------------------- |
 | 0   | 0   | prázdný ostrov                           |
-| 1   | 1   | po měsící vysasdíme jeden pár králíků    |
+| 1   | 1   | po měsíci vysadíme jeden pár králíků     |
 | 2   | 1   | Za další měsíc králíci dospějou.         |
 | 3   | 2   | Druhý měsíc de jim narodí další králíci. |
 |     |     |                                          |

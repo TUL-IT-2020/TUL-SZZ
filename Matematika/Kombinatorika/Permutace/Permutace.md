@@ -12,13 +12,17 @@ Násobení disjunktních cyklů komutativní je.
 ## Zápis permutací
 ### Dvouřádkový zápis:
 $$
-\pi = TODO
+\pi = 
+\begin{pmatrix}
+1 & 2 & 3 & 4 \\
+3 & 1 & 4 & 2
+\end{pmatrix}
 $$
 ### Součin (disjunktních) cyklů
 Každou permutaci lze napsat ve tvaru součinu disjunktních cyklů a to jednoznačně, pokud nepřiklížíme k jejich pořadí.
 
 $$
-cyc\_str(\pi) = x_1^(\alpha_1)*...*x_n^(\alpha_n)
+cyc\_str(\pi) = x_1^{(\alpha_1)}*...*x_n^{(\alpha_n)}
 $$
 
 ## Co na to grupy

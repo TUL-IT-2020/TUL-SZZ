@@ -12,13 +12,13 @@ $(a_n)^\infty_{n=0}$
 Přirozená čísla
 $N = \{0,1,2,...\}$
 
-$N \sub Z \sub R$
+$N \subset Z \subset R$
 
 ![[Entice]]
 
 ## Definice posloupnosti
 1. Explicitní vztah ($a_n = 2n^2-3$)
-2. [[Posloupnost#Rekurentní vztahy|Rekurentní vztahy]]
+2. [[Rekurentní vztahy]]
 3. [[Vytvořující funkce|Vytvořující funkce]]
 
 ## Platí:
@@ -37,8 +37,8 @@ $$
 - $\alpha \in R(c)$
 - $\{a_n\}^\infty_{n=0}$
 $$
-\{a_n\}^\infty_{n=0} * \alpha = 
-\{\alpha*a_n \}^\infty_{n=0}
+\{a_n\}^\infty_{n=0} \times \alpha = 
+\{\alpha \times a_n \}^\infty_{n=0}
 $$
 
 ### Konvoluce
@@ -57,5 +57,6 @@ Je to Abelova [[Grupy|grupa]].
 - Lineární závislost/nezávislost
 - Báze, dimenze
 
+## Diference posloupnosti
 ![[Diference posloupnosti]]
 

@@ -1,4 +1,4 @@
-# Pascalův trojuhelník
+# Pascalův trojúhelník
 Zobecnění kombinačních čísel (binomické koef)
 
 #TODO doplnit:
@@ -19,7 +19,7 @@ Zobecnění kombinačních čísel (binomické koef)
 | 1   | 4   | 6   | 4   | 1   |     |
 | 1   | 5   | 10  | 10  | 5   | 1   |
 
-## Zobecněný Pascalův trojuhelník
+## Zobecněný Pascalův trojúhelník
 Zobecněná kombinační čísla.
 
 | 1   | -3  | 6   | -10 | 15  | -21 |
