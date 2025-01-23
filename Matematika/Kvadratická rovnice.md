@@ -1,7 +1,4 @@
 # Kvadratická rovnice
-- https://cs.wikipedia.org/wiki/Kvadratická_rovnice
-- https://www.umimematiku.cz/cviceni-reseni-kvadraticke-rovnice
-
 > [!important] Kvadratická rovnice
 $$
 ax^2+bx +c = 0
@@ -22,3 +19,8 @@ $$
 $$
 x_{1,2} = \frac{-b+-\sqrt{b^2-4ac}}{2a}
 $$
+## Příklady
+- https://www.umimematiku.cz/cviceni-reseni-kvadraticke-rovnice
+
+## Zdroje:
+- https://cs.wikipedia.org/wiki/Kvadratická_rovnice

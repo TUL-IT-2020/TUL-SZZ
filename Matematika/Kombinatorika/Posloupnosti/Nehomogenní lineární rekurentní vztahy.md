@@ -17,17 +17,16 @@ Platí:
 - Má nekonečně mnoho řešení pro libovolnou pravou stranu $p_n$.
 - S $k$ počátečních podmínek má NHLR právě jedno řešení.
 
-Obecné řešení NHLR
-je tvaru:
+> [!tip] Obecné řešení NHLR je tvaru:
 $$
-a_n = a_n^{(a)} + a_n^{b}
+a_n = a_n^{(h)} + a_n^{p}
 $$
-Kde:
-- $\{a_n^{k}\}$ je obecné řešení příslušného HLR
-- $\{a_n^{p}\}$ je partikulární řešení NHLR (částečné řešení, jedno konkretní, které vyhovuje NHLR)
+
+> [!example] Kde:
+- $\{a_n^{h}\}$ je obecné řešení příslušného HLR
+- $\{a_n^{p}\}$ je partikulární řešení NHLR (částečné řešení, jedno konkrétní, které vyhovuje NHLR)
 
 Postup:
-
 $$
 a_{a+k} = p_n - \frac{1}{C_k}\left(C_{k-1}a_{n+k-1}+...+C_0a_n \right)
 $$
@@ -39,7 +38,7 @@ $$
 C_k(a_{n+k}-a_{n+k}^p)+...+C_0(a_n-a_n^p) = 0
 $$
 $$a_n - a_n^p = a_n^p$$
-Závěr:
+> [!tip] Závěr:
 Vyřešit NHLR znamená umět nalézt příslušné partikulární řešení $a_n^p$.
 
 Myšlenka:
@@ -58,7 +57,7 @@ Postup:
 | $cos(\alpha n)$  | $A cos(\alpha n) + B \sin/(\alpha n)$                     |
 | $sin(\beta n)$   | $A cos(\beta n) + B \sin/(\beta n)$                       |
 
-Jestliže je pravá stana $p_n$ je lineární kombinací výrazů $p_n$ uvedených v tabulce, potom zkušební řešení je lineární kombinací příslušných tn z tabulky. 
+Jestliže je pravá strana $p_n$ je lineární kombinací výrazů $p_n$ uvedených v tabulce, potom zkušební řešení je lineární kombinací příslušných tn z tabulky. 
 
 Jestliže žádný ze sčítanců, zkušebního řešení není řešení příslušného HLR, potom:
 $$
@@ -72,8 +71,11 @@ $$
 
 kde s je nejmenší přirozené číslo takové, že žádný ze sčítanců $n^s*t_n$ již není řešením příslušného HLR.
 
-Funky note:
+> [!note] Funky note:
 $$
 \lim_{n->\infty} \frac{F_{n+1}}{F_n} = \frac{1+\sqrt{5}}{2}
 $$
 ... zlatý řez
+
+## Příklady
+- [[NHLR příklady]]

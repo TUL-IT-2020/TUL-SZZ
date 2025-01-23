@@ -5,6 +5,7 @@
 $$
 \sum_{i=1}^k a_i \leq n
 $$Odpovídá počtu řešení diofantické rovnice.
+- [[Diofantická rovnice příklad]]
 
 $$
 x_1 + x_2 + ... + x_k = n
@@ -12,7 +13,7 @@ $$
 - $\forall i (0 \leq) a_i \leq x_i \leq b_i$
 
 Komplikuje nám to horní mez.
-Řešíme pomocí: princip inkluze a exkluze
+Řešíme pomocí: princip [[Princip inkluze a exkluze (IE)|inkluze a exkluze]]
 
 1. Převedeme úlohu do standardizovaného tvaru.
 

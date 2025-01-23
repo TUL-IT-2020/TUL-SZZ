@@ -85,7 +85,7 @@ r^n, n^n, ..., n^{m-1}r^n
 $$
 
 ## Komplexně sdružené kořeny
-![[Komplexně sdružená čísla]]
+![[Komplexní čísla]]
 
 2 komplexně sdružené kořeny:
 $$

@@ -1,11 +1,4 @@
-# Komplexně sdružená čísla
-
-$$
-r_{1,2} = a \pm b_i
-$$
-
-![[Complex_conjugate_picture.svg]]
-
+# Komplexní čísla
 Algebraický tvar: 
 $$
 z = a + bi
@@ -22,9 +15,17 @@ $$z = r \angle \varphi$$
 - $b$ - imaginární část, 
 - $i$ - imaginární jednotka, 
 - $r$ - absolutní hodnota, 
-- $\varphi$ - argument
+- $\varphi$ - uhel
 
+## Komplexně sdružená čísla
+$$
+r_{1,2} = a \pm b_i
+$$
+
+![[Complex_conjugate_picture.svg]]
 ## Převody:
+- [[Goniometrie]]
+
 $a+b_i = r\cos \varphi + r\sin \varphi$
 
 $a+b_i = r(\cos \varphi + i \sin \varphi) = \arctan(\frac{b}{a})$
