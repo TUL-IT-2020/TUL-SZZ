@@ -48,14 +48,14 @@ Existuje vzájemně jednoznačný vztah mezi posloupností a její vytvořujíc�
 - $a_2 = \frac{dx^2}{2} f(0)$
 
 $$
-a_n = \frac{dx^n}{n!} f(0)$
+a_n = \frac{dx^n}{n!} f(0)
 $$
 ## Převod mezi tvary
 Otevřený <-> uzavřený tvar
 
 Geometrická posloupnost:
 $$
-{q^n}_{n=0}^\infty = \frac{1}{1-qx}
+\{q^n\}_{n=0}^\infty = \frac{1}{1-qx}
 $$
 Kombinační číslo (binomický koeficient):
 $$
@@ -63,8 +63,7 @@ $$
 $$
 - $n \in Z$
 
-TODO: napiš n nad k
-$C_n^k = \left(n k\right)$
+$C_n^k = \binom{n}{k}$
 
 $$
 \left\{\frac{q^n}{n!}\right\} = e^{qx}
@@ -78,7 +77,7 @@ $$
 Kde:
 - $P(x), Q(x)$ jsou polynomy.
 
-Rozklad na parciální zlomky.
+Rozklad na [[Parciální zlomky|parciální zlomky]].
 
 ## Manipulace s vytvořujícími funkcemi
 Posloupnosti:
@@ -136,10 +135,6 @@ f(x)
 $$
 A následně jeho rozvinutý tvar.
 
-Učitel by měl vždy říci žákům proč se danou věc učí. 
-Vyučuj s příběhem. 
-Příběh ve kterém je definovaný problém, který lze vyřešit aplikací daných znalostí.
-
 Obě strany vynásobíme: $x^{n+k}$
 $$
 C_ka_{n+k} * x^{n+k} + ... + c_0 a * x^{n+k} = p_n * x^{n+k}
@@ -163,3 +158,5 @@ Získáme uzavřený tvar.
 $$
 f(x) = ...
 $$
+## Příklady
+- [[Vytvořující funkce příklady]]

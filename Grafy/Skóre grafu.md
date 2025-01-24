@@ -15,7 +15,7 @@ $(d_1,d_2,...,d_n)$ ... grafová posloupnost, skóre grafu.
 
 $G = (V,H)$ je jednoduchý graf. Potom platí:
 - $\forall v \in V$ -> $0 \leq d(v) \leq |V-1|$
-- $\exists u,v \in V \; u \ne v \a d(u) = d(v)$
+- $\exists u,v \in V \; u \ne v \land d(u) = d(v)$
 
 > [!tip] V každém multigrafu je počet uzlů lichého stupně sudý. 
 (každá hrana je tvořena dvěma vrcholy...)

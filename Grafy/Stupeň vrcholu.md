@@ -1,12 +1,11 @@
-# Stupeň vrcholu
-Graf:
-$G = (V,H)$
-
+> [!tip] Stupeň vrcholu
 $$
-d(v) = |\{h|h \in H \a v \in h\}|
+d(v) = |\{h|h \in H \land v \in h\}|
 $$
+> [!example] Kde:
 - $d(v)$ - stupeň vrcholu $v$
 - $v \in V$ - v je vrchol
+- $G = (V,H)$ - Graf
 
 U orientovaných grafů:
 - $d_{in}(v)$

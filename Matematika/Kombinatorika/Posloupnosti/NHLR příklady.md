@@ -1,7 +1,7 @@
 # NHLR příklady
 
 ## Příklad
-Určete poslounpst $\{a_n\}^\infty_{n=0}$, pro kterou platí: 
+Určete posloupnost $\{a_n\}^\infty_{n=0}$, pro kterou platí: 
 součet druhé diference v bodě n a první diference v bodě n+1 je roven $2n+3$.
 - $a_0 = 6$
 - $a_1 = 3$
@@ -22,7 +22,7 @@ $$
 $$
 2n+3 = a_{n+2} -2a_{n+1} + a_n + a_{n+2} - a_{n+1}
 $$
-Uprava:
+Úprava:
 $$
 2a_{n+2} - 3a_{n+1} + a_n = 2n+3
 $$
@@ -32,7 +32,7 @@ $$
 2x^2 - 3x + 1 = 0
 $$
 
-Homogení řešení (pravá strana je nulová):
+Homogenní řešení (pravá strana je nulová):
 $$
 2x^2 - 3x + 1 = (x - 1)(2x - 1) = 0
 $$
@@ -258,3 +258,4 @@ $$a_n = 2n^2 + K_2 n + K_1$$
 $$
 a_n = 2_n^2+2
 $$
+

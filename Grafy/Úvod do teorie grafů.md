@@ -1,7 +1,9 @@
 # Úvod do teorie grafů
 
 Grafein - z latinského psát
-$$\gama \rho \alpha \varphi \epsilon \i \v$$
+$$
+\gamma \rho \alpha \varphi \epsilon \iota \nu
+$$
 ## Neorientovaný graf
 ![[Neorientovaný graf]]
 
@@ -59,9 +61,9 @@ $$
 G = (V_1 u V_2 , H)
 $$
 
-$V_1 a V_2 = \empty$
+$V_1 a V_2 = \emptyset$
 $\forall h \in H$
-$h a V_1 \ne \empty \; a \; h a V_1 \ne \empty$
+$h a V_1 \ne \emptyset \; a \; h a V_1 \ne \emptyset$
 
 $|H(K_n)| = C^2_n = \frac{n(k-1)}{2}$
 

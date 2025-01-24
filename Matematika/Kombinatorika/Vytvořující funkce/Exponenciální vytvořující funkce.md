@@ -23,3 +23,4 @@ $A^k_n$... variace k-té třídy z n prvků
 $$
 A_n^k = \frac{n!}{(n-k)!}
 $$
+
