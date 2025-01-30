@@ -1,3 +1,4 @@
+# Čtvercová síť
 Čtvercová síť, kde body mají nezáporné celočíselné souřadnice. 
 
 $[x,y]$ - souřadnice bodu

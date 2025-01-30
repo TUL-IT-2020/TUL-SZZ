@@ -22,3 +22,7 @@ Průniku všech doplňků podmnožin množiny $A_i$ je roven rozdílu množiny $
 $$
 \bigcap_{i=1}^n \bar{A_i} = A - \bigcup_{i=1}^n A_i
 $$
+
+![[venn4-2.png]]
+## Zdroje:
+- [wiki](https://cs.wikipedia.org/wiki/Princip_inkluze_a_exkluze)

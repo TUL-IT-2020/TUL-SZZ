@@ -60,7 +60,7 @@ Jsou řešením homogenní rovnice?
 
 Tak to vynásobíme $n$:
 $$
-a_n^(p) = A_n^2 + Bn
+a_n^{(p)} = A_n^2 + Bn
 $$
 
 Určíme konstanty $A,B$:

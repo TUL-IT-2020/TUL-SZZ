@@ -99,5 +99,10 @@ Na 2 posloupnosti:
 - $\sqrt{a^2 + b^2}(\cos n\varphi)$
 - $\sqrt{a^2 + b^2}(\sin n\varphi)$
 
+$x_{1,2} = re^{\pm j\varphi}$
+$$
+a_n^h​=K_1(​r)^ncos(n\varphi)+K_2(​r)^nsin(n\varphi).
+$$
+
 ## Příklad:
 - [[HLR příklady]]
