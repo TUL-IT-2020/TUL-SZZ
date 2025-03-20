@@ -35,6 +35,6 @@
 31. Protokoly interních a externích sběrnic, způsoby popisu HW prvků, software pro embedded zařízení, HDL jazyky, syntéza hardware 
 32. Pravidla návrhu a struktura číslicových LTI filtrů s ohledem na implementaci v real- time aplikacích (v signálových procesorech). Implementace výpočtu konvoluce, korelace a FFT. 
 33. Způsoby připojení převodníků A/D, D/A, pamětí, snímačů a dalších periferií přes rozhraní [[I2C|I2C]], [[SPI|SPI]], [[USART|UART]] a další. Vliv nastavení datového rozlišení a vzorkovací frekvence na zpracování číslicového signálu z hlediska funkčnosti implementace. 
-34. Metody testování číslicových systémů: metoda zcitlivění cesty, testery využívající SAT solvery, náhodné testy. 
+34. Metody [[Testování a verifikace|testování číslicových systémů]]: [[Intuitivní zcitlivění cesty|metoda zcitlivění cesty]], testery využívající SAT solvery, náhodné testy. 
 35. Metody zabezpečení proti poruchám: bezpečnostní kódy, TMR. 
-36. Systémy odolné proti poruchám, zálohování systémů
+36. Systémy odolné proti poruchám, zálohování systémů.
