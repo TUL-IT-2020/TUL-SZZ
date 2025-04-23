@@ -105,6 +105,9 @@ Pokud máme redundantní návrh, tak můžeme za běhu validovat zařízení že
 ### Boolovská diference
 ![[Boolovská diference]]
 
+### Generování testu pomocí SSBDD
+BDD - binární rozhodovací strom (diagram)
+SS - strukturně syntetizovaný
 ### IDDQ
 ![[IDDQ]]
 

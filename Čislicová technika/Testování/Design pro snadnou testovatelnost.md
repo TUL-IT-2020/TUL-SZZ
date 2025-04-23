@@ -14,18 +14,21 @@
 > [!tip] 
 > - Možnost zastavit hodiny.
 
-
 > [!tip] Přidáme: 
 >- Testovací body do obvodu (sledovací).
 >- Nastavovací body (pro nastavení citlivé cesty)
 
 Potřeba přístupu do všech registrů!
-Problém -> příliš mnoho pinů.
+> [!warning] Problém 
+> -> příliš mnoho pinů.
 
-Nahradilo se to posuvnými registry (máme přístup ke všem registrům).
+> [!Success] Nahradilo se to posuvnými registry -> [[Boundry Scan - JTAG|JTAG]]
+> - máme přístup ke všem registrům.
 
-Příliš mnoho registrů, dlouhá doba nahrávání do obvodu!
-Přidání generátoru testů přímo do čipu.
+> [!warning] Problém 
+>Příliš mnoho registrů, dlouhá doba nahrávání do obvodu!
+
+> [!Success] Přidání generátoru testů přímo do čipu.
 
 [[BIST]] -> Build-in Self-Test
 LSFR nám vygeneruje náhodné vstupu pro otestování.
@@ -37,9 +40,11 @@ Ad-Hoc metody:
 Strukturovaný návrh:
 - LSSD - scanovací návrh
 - RAS - random access scan - servisní přístup do registrů
-Boundry scan
+[[Boundry Scan - JTAG|Boundry scan]]
 - Možnost serializace všech registrů po posuvného registru.
 
-Při přepisu všech registrů v posuvném registru dochází k rapidnímu přenastavovaní vnitřní kombinační logiky -> velká spotřeba.
+> [!warning] Problém 
+> Při přepisu všech registrů v posuvném registru dochází k rapidnímu přenastavování vnitřní kombinační logiky -> velká spotřeba.
 
-Přidá se šedou registr a po nastavení vnitrní hodnoty do kýženého stavu se najednou všechny přepíšou. 
+> [!Success] Shadow register
+> Přidá se šedou registr a po nastavení vnitřní hodnoty do kýženého stavu se najednou všechny přepíšou. 

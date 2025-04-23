@@ -3,7 +3,7 @@
 - JTAG
 
 Původně určeno ke skenování vstupů a výstupů.
-Zapojuje smyčku na rozhraní všech dílčích obvodů. Tím je umožněno seriové skenování.
+Zapojuje smyčku na rozhraní všech dílčích obvodů. Tím je umožněno sériové skenování.
 
 Piny:
 - `TDI` - test data in
