@@ -1,7 +1,7 @@
 # Homogenní lineární rekurentní vztahy  
 
 > [!tip]
-Homogenní lineárním rekurentními vztahem řadu k s konstantními koeficienty rozumíme výraz:  
+Homogenní lineárním rekurentními vztahem řadu $k$ s konstantními koeficienty rozumíme výraz:  
 $$
 c_k a_{n+k} + c_{k-1} a_{n+k-1} + ... + c_0 a_n = 0  
 $$
@@ -9,10 +9,11 @@ $$
 - $c_i \in R (i= 0, ...,k)$ a zároveň 
 - $c_0,c_k$ není 0  
 
+Tedy nulová posloupnost je řešením rekurentního vztahu.
+
 > [!danger] HLR(\*)
 
-Řešením HLR(\*) rozumíme libovolnou posloupnost $a_n$ takovou ze pro každé....  
-HLR(\*) platí rovnost.  
+Řešením HLR(\*) rozumíme libovolnou posloupnost $a_n$ takovou že pro každé $n\in N$ po dosazení do HLR(\*) platí rovnost.  
 
 Takže je to soustava nekonečně mnoha rovnic.
 
@@ -48,7 +49,7 @@ je tedy také řešením HLR.
 > [!tip] Důsledek:
 Řešit HLR znamená nalézt $k$ lineárně nezávislých řešení. (báze, obecné řešení)
 
-Obecné řešení:
+## Obecné řešení:
 Lineární kombinace výše uvedených $k$ lineárně nezávislých řešení.
 
 
@@ -56,8 +57,8 @@ Lineární kombinace výše uvedených $k$ lineárně nezávislých řešení.
 Jak nalézt řešení HLR?
 (Jak nalézt bázi)
 
-## Charakteristický polynom HLR(\*):
-Převedeme všechny členy na levou stranu.
+### Charakteristický polynom HLR(\*):
+Převedeme všechny členy na levou stranu a členy $a_n$ nahradíme za $x^{k-n}$.
 $$
 C_kx^k + C_{k-1}x_{k-1} +...+C_{1}x_+C_0
 $$
@@ -66,7 +67,7 @@ Platí:
 Necht $r_1,...,r_l$ jsou všechny různé kořeny charakteristického polynomu HLR a $m_1,...,m_l$ jsou jejich násobnosti.
 
 $(m_1+m_2+...+m_l = k)$
-- $k$ je násobnost
+- $k$ je násobnost (počet kořenů)
 
 Potom obecné řešení HLR má tvar:
 
@@ -78,13 +79,13 @@ $$
 kde:
 - $K_1^{(1)}, ..., K_{m_l}^{(l)}$ jsou libovolné konstanty (celkem $k$ konstant)
 
-Poznámka:
+### Vícenásobné kořeny
 Kořen $r$ násobnosti $m$ vygeneruje $m$ lineárně nezávislých řešení: 
 $$
-r^n, n^n, ..., n^{m-1}r^n
+\{r^n\}^\infty_{n=0}, \{nr^n\}^\infty_{n=0}, ..., \{n^{m-1}r^n\}^\infty_{n=0}
 $$
 
-## Komplexně sdružené kořeny
+### Komplexně sdružené kořeny
 ![[Komplexní čísla]]
 
 2 komplexně sdružené kořeny:

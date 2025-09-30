@@ -1,8 +1,9 @@
 # Posloupnost
-Předpis který přiřadí přirozenému číslu jiné číslo:
+Funkce která přiřadí přirozenému číslu jiné číslo:
 $$
 a:N -> R (C/N/Z)
 $$
+Posloupnost má členy.
 
 $n -> a_n$
 

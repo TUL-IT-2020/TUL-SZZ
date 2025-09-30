@@ -9,17 +9,18 @@ $$
 - $C_i \in R$
 - $C_k*C_0 \neq 0$
 - $\exists n_0 \in N, p \neq 0$
-- $\{p_n\}_{n=0}^{infty}$ není identicky 0
+- $\{p_n\}_{n=0}^{infty}$ není identicky 0, posloupnost
 
 > [!danger] NHLR(\*\*)
 
+## Řešení
 Platí:
 - Má nekonečně mnoho řešení pro libovolnou pravou stranu $p_n$.
 - S $k$ počátečních podmínek má NHLR právě jedno řešení.
 
 > [!tip] Obecné řešení NHLR je tvaru:
 $$
-a_n = a_n^{(h)} + a_n^{p}
+a_n = a_n^{(h)} + a_n^{(p)}
 $$
 
 > [!example] Kde:
@@ -57,7 +58,7 @@ Postup:
 | $cos(\alpha n)$  | $A cos(\alpha n) + B \sin/(\alpha n)$                     |
 | $sin(\beta n)$   | $A cos(\beta n) + B \sin/(\beta n)$                       |
 
-Jestliže je pravá strana $p_n$ je lineární kombinací výrazů $p_n$ uvedených v tabulce, potom zkušební řešení je lineární kombinací příslušných tn z tabulky. 
+Jestliže je pravá strana $p_n$ je lineární kombinací výrazů $p_n$ uvedených v tabulce, potom zkušební řešení je lineární kombinací příslušných $t_n$ z tabulky. 
 
 Jestliže žádný ze sčítanců, zkušebního řešení není řešení příslušného HLR, potom:
 $$

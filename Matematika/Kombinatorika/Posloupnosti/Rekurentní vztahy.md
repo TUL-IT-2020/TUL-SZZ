@@ -3,6 +3,8 @@
 > [!note] Latinsky
 > rekurere - vraceti se
 
+Rekurentní vztah umožňuje vypočítat $a_n$ pomocí předchozích členů.
+
 Počáteční podmínky (analogie ukončovací podmínky u algoritmů)
 
 >[!tip] Definice:
@@ -23,7 +25,7 @@ kde:
 - nehomogenní 
 
 - lineární (funkce $F$ je lineární funkcí proměnných $(a_0, a_1,.., a_n)$)
-- nelineární
+- nelineární (předchozí členy například nesčítáme ale násobíme...)
 
 ### Příklady
 - [[Rekurentní vztahy příklady]]
