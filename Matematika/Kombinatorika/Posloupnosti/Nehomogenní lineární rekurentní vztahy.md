@@ -3,7 +3,7 @@
 > [!tip] Definice:
 Nehomogenním lineárním rekurentním vztahem řádu $k$ s konstantními koeficienty rozumíme výraz:
 $$
-C_ka_{n+k} + ... + c_0 a = p_n
+C_ka_{n+k} + C_{k-1}a_{n+k-1} + ... + c_0 a = p_n
 $$
 > [!example] Kde:
 - $C_i \in R$
@@ -24,7 +24,7 @@ a_n = a_n^{(h)} + a_n^{(p)}
 $$
 
 > [!example] Kde:
-- $\{a_n^{h}\}$ je obecné řešení příslušného HLR
+- $\{a_n^{h}\}$ je obecné řešení příslušného [[Homogenní lineární rekurentní vztahy|HLR]]
 - $\{a_n^{p}\}$ je partikulární řešení NHLR (částečné řešení, jedno konkrétní, které vyhovuje NHLR)
 
 Postup:

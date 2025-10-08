@@ -38,3 +38,6 @@ $(cos \varphi \pm i \sin \varphi)^n = \cos (n\varphi) \pm i \sin (n\varphi)$
 $$
 e^{in\varphi}=cos(n\varphi)+isin(n\varphi)
 $$
+
+## Důkaz Polární souřadnice na sin + cos
+![[Polární souřadnice na sin + cos]]

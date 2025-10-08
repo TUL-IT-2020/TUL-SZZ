@@ -97,7 +97,54 @@ $$
 $$
 a_n = 2 - 2n + n^2 + 4(\frac{1}{2})^n
 $$
+## Příklad
 
+$a_{n+2} - 3a_{n+1}+2a_n = 2^n$
+
+$a_0 = 0$
+$a_1 = 1$
+### Postup
+Char. polynom:
+$$
+x^2 - 3x +2 = 0
+$$
+$(x-1)(x-2)=0$
+
+$x_1 = 1$
+$x_2 = 2$
+
+$a_n^h = \alpha 1^n + \beta 2^n$
+
+Nelze použít:
+$a_n^p = konst * 2^n$
+
+Přenásobíme pravou stranu n:
+$a_n^p = \gamma n 2^n$
+
+Dosadíme zkušební řešení do zadání:
+$$
+\gamma(n+2)2^{n+2} - 3\gamma(n+1)2^{n+1} + 2\gamma n 2^n = 2^n
+$$
+
+$\gamma = \frac{1}{2}$
+
+Dosadíme gamu:
+$a_n^p = \frac{1}{2}n2^n$
+
+Obecné řešení:
+$$
+a_n = \alpha + \beta 2^n + \frac{1}{2}n2^n
+$$
+
+Dosadíme počáteční podmínky:
+$1 = \alpha + \beta + 0 = \alpha = - \beta$
+$1 = \alpha + 2\beta + 1/2 *1*2^1$
+
+$0 = \beta$
+$\alpha = 0$
+
+### Řešení
+$a_n = \frac{1}{2} n2^n$
 ## Příklad
 $$
 a_{n+2} - 2a_{n+1} + 4a_n = 3n+6

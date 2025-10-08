@@ -30,4 +30,4 @@ $$
 1 & 3 - \lambda \\
 \end{vmatrix} = (\lambda - 4)(\lambda - 2) = 0
 $$
-Odtud máme dvě vlastní čísla $ \lambda_1 = 4 $ a $ \lambda_2 = 2 $. Nyní můžeme najít odpovídající vlastní vektory pro každé z těchto čísel.
+Odtud máme dvě vlastní čísla $\lambda_1 = 4$ a $\lambda_2 = 2$. Nyní můžeme najít odpovídající vlastní vektory pro každé z těchto čísel.

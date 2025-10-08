@@ -100,10 +100,104 @@ Na 2 posloupnosti:
 - $\sqrt{a^2 + b^2}(\cos n\varphi)$
 - $\sqrt{a^2 + b^2}(\sin n\varphi)$
 
-$x_{1,2} = re^{\pm j\varphi}$
+$x_{1,2} = \rho e^{\pm j\varphi}$
 $$
 a_n^h​=K_1(​r)^ncos(n\varphi)+K_2(​r)^nsin(n\varphi).
 $$
+
+
+---
+#### Polární souřadnice na sin + cos
+$$
+a_{n+2} + p a_{n+1} + q a_{n} = 0 
+$$
+Char polynom:
+$$
+x^2 + px + q = 0
+$$
+
+$p^2 -4q < 0$ ... komplexně sdružené kořeny
+
+Převod do polárních souřadnic.
+
+$x_{1,2} =$ 
+
+$x_{1,2} = \rho e ^ {\pm i \theta}$
+
+![[Polární souřadnice na sin + cos]]
+řešení:
+$$
+(\rho e^{i\theta})^n = \rho^n e^{in\theta}
+$$
+
+
+#### Proč nakonec vypustíme $i$ ?
+$x_1, x_2$ kořeny charakteristického polynomu, komplexně sdružené.
+$$
+a_n = C_{1}x_1^n+C_{2}x_2^n
+$$
+Obecně $C_1$ i $C_2$ jsou komplexní čísla.
+
+Máme reální počáteční podmínky 
+-> $a_n$ musí být reálné,
+-> $a_n = \bar a_n$ (komplexně sdružené)
+
+$$
+a_n = C_{1}x_1^n+C_{2}x_2^n
+= \rho^n (
+C_1 e ^ {i \theta n}
++ C_2 e ^ {- i \theta n}
+)
+$$
+Komplexně sdružené
+$$
+\bar a_n = \rho^n (
+\bar C_1 e ^ {- i \theta n}
++ \bar C_2 e ^ { i \theta n}
+)
+$$
+
+$$
+C_1 e ^ {i \theta n}
++ C_2 e ^ {- i \theta n}
+=
+\bar C_1 e ^ {- i \theta n}
++ \bar C_2 e ^ { i \theta n}
+$$
+
+$$
+(C_1- \bar C_1) e ^ {i \theta n}
++ (C_2 - \bar C_2) e ^ {- i \theta n}
+= 0
+$$
+
+$e ^ {i \theta n}, e ^ {- i \theta n}$
+jsou nezávislé máme reálné počáteční podmínky.
+
+$C_2 = \bar C_1$
+
+$\theta \neq 0$
+$\theta \neq \pi$
+
+$$
+e ^ {i \theta n} = \cos(n\theta) + i \sin(n\theta)
+$$
+$$
+e ^ {- i \theta n} = \cos(n\theta) - i \sin(n\theta)
+$$
+Pak
+$$
+C_1 e ^ {i \theta n} + C_2 e ^ {-i \theta n} =
+cos(n\theta)(C_1+\bar C_1) + i \sin(n\theta)(C_1 - \bar C_1)
+$$
+$C_2$ jsme vyjádřili pomocí $\bar C_1$.
+
+>[!important]
+$$
+a_n = \rho^n(\alpha \cos(m\theta) + \beta sin(n\theta))
+$$
+Pro výpočty s reálnými počátečními podmínkami nemusíme počítač s $i$ ani při vyjádření n-tého členu rekurentní posloupnosti.
+- $\alpha$ ... 2x reálné části $C_1$
 
 ## Příklad:
 - [[HLR příklady]]
