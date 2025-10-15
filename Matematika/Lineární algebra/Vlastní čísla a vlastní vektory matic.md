@@ -9,7 +9,7 @@ Pro čtvercovou matici $A$ a nenulový vektor $\mathbf{v}$ platí, že $\lambda$
    - Charakteristický polynom $\det(A - \lambda I) = 0$ určuje vlastní čísla $\lambda$.
 
 2. **Nalezení vlastních vektorů:**
-   - Pro každé vlastní číslo $ \lambda $ řešíme soustavu rovnic $(A - \lambda I)\mathbf{v} = \mathbf{0}$, kde $\mathbf{v}$ jsou neznámé vlastní vektory.
+   - Pro každé vlastní číslo $\lambda$ řešíme soustavu rovnic $(A - \lambda I)\mathbf{v} = \mathbf{0}$, kde $\mathbf{v}$ jsou neznámé vlastní vektory.
 
 **Praktická interpretace:**
 - Vlastní čísla mohou reprezentovat změnu měřítka nebo faktory dilatace v lineární transformaci matice.

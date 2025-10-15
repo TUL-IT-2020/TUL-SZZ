@@ -78,7 +78,8 @@ r_l^n(K_1^{(l)} +K_2^{(l)}n+...K_{m_l}^{(l)}n^{m_l-1})
 $$
 kde:
 - $K_1^{(1)}, ..., K_{m_l}^{(l)}$ jsou libovolné konstanty (celkem $k$ konstant)
-
+### Soustava rekurencí
+![[Soustava rekurencí]]
 ### Vícenásobné kořeny
 Kořen $r$ násobnosti $m$ vygeneruje $m$ lineárně nezávislých řešení: 
 $$
