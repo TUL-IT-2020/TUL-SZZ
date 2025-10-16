@@ -230,3 +230,7 @@ x_n = \frac{\sqrt(5)}{5} \varphi^n \begin{pmatrix}1\\ \varphi\end{pmatrix}
 - \frac{\sqrt(5)}{5} \psi^n \begin{pmatrix}1\\ \psi\end{pmatrix}
 $$
 
+Odbočka [[zlatý řez]].
+
+## Příklady
+- [[Soustava rekurencí příklady]]
