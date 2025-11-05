@@ -13,12 +13,27 @@ Příklad:
 $$
 a_n = (\frac{2}{3})^n
 $$
-Geometrická posloupnost:
+[[Geometrická posloupnost|Geometrická]] posloupnost:
 $$
 f(x) = \sum_{n=0}^\infty x^n = \frac{3}{3-2x}
 $$
 
 ## f(x) může mít tvary:
+- otevřený
+- uzavřený
+
+Posloupnost:
+$$
+\{a_n\}_{n=0}^\infty
+$$
+$$
+A(x) = \sum a_n x^n
+$$
+### Základní operace s vytvářejícími funkcemi:
+- součet, násobek skalárem,
+- součin,
+- posun,
+- derivace,
 ### formální mocninná řada
 $$
 a_0 + a_1 x + a_2 x^2 + ... + a_n x^n + ...
@@ -27,6 +42,22 @@ Vidíme tvar jednotlivých členů posloupnost.
 
 ### uzavřený tvar vytvořující funkce
 Konečný výraz.
+
+### Otevřený tvar
+| posloupnost         | v.f.                      |
+| ------------------- | ------------------------- |
+| $1,1,1,1$           | $$\frac{1}{1-x}$$         |
+| $0,1,1,1$           | $$\frac{x}{1-x}$$         |
+| $r^n$, $r=konst$    | $\frac{1}{1-rx}$          |
+| $a_n = n$           | $\frac{x}{(1-x)^2}$       |
+| $a_n = n+1$         | $\frac{1}{(1-x)^2}$       |
+| $a_n = n^2$         | $\frac{x(1+x)}{(1-x)^3}$  |
+| $a_n = (-1)^n$      | $\frac{1}{(1+x)}$         |
+| $a_n = n(-1)^n$     | $\frac{-x}{(1+x)^2}$      |
+| $a_n = \binom{n}{k}$ | $\frac{x^k}{(1-x)^{k+1}}$ |
+| $a_n = 2^k$         | $\frac{1}{1-2x}$          |
+
+
 
 ## Postup řešení
 $$
@@ -93,7 +124,14 @@ Posloupnosti:
 | derivace                           | $f´(x)$                                                              | $\{(n+1) a_{n+1} \}_{n=0}^\infty$                                                    |
 | integrál                           | $\int_0^x f(t) dt$                                                   | $0, a_0, a_1/2, a_2/3,..., a_n / n+1,...$                                            |
 | konvoluce: násobení každý s každým | $f(x)g(x)$                                                           | $a_0 * b_0, a_0*b_1 + a_1*b_0, ...$<br>$$\{\sum_{i=0}^n a_i b_{n-i}\}_{n=0}^\infty$$ |
-|                                    |                                                                      |                                                                                      |
+
+
+| Vytvořující funkce  | Posloupnost                                |
+| ------------------- | ------------------------------------------ |
+| $\frac{1}{(1-x)}$   | $\sum_{n=0}^{\infty} x^n$                  |
+| $\frac{1}{(1+x)}$   | $\sum_{n=0}^{\infty} (-1)^n x^n$           |
+| $\frac{1}{(1-x)^2}$ | $\sum_{n \ge 1}^{\infty} n x^{n-1}$        |
+| $\frac{1}{(1+x)^2}$ | $\sum_{n=1}^{\infty} (-1)^n (n+1) x^{n-1}$ |
 
 Příklad:
 Určete uzavřený tvar posloupnosti: $a_n = n$
@@ -159,4 +197,5 @@ $$
 f(x) = ...
 $$
 ## Příklady
+- [[Příklad: Fibonnaci]]
 - [[Vytvořující funkce příklady]]
