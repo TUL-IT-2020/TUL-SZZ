@@ -153,6 +153,9 @@ $$
 ## Exponenciální vytvořující funkce
 ![[Exponenciální vytvořující funkce]]
 
+## Nelineární vytvořující funkce
+![[Nelineární vytvořující funkce]]
+
 ## Aplikace vytvořujících funkcí
 Řešení rekurentních vztahů metodou vytvořujících funkcí. 
 
