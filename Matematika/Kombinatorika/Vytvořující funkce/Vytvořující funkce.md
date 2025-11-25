@@ -200,5 +200,5 @@ $$
 f(x) = ...
 $$
 ## Příklady
-- [[Příklad: Fibonnaci]]
+- [[Příklad - Fibonnaci]]
 - [[Vytvořující funkce příklady]]
