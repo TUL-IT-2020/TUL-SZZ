@@ -1,9 +1,11 @@
 # Grupy
 Nechť G je neprázdná množina s operací ∗, o grupě mluvíme, pokud: 
-1) ∀a, b, c ∈ G : (a ∗ b) ∗ c = a ∗ (b ∗ c); asociativita
-2) ∃e ∈ G ∀a ∈ G : e ∗ a = a ; existence nulového prvku
-3) $∀a \in G ∃a \in G : \bar a ∗ a = e$; existence inverzního prvku
+1) $\forall a,b \in G$, $a∗b \in G$; uzavřenost
+2) ∀a, b, c ∈ G : (a ∗ b) ∗ c = a ∗ (b ∗ c); asociativita
+3) ∃e ∈ G ∀a ∈ G : e ∗ a = a ; existence nulového prvku
+4) $∀a \in G ∃a \in G : \bar a ∗ a = e$; existence inverzního prvku
 
+Uzavřenost, tzn. nelze operací z tělesa utéct. 
 ## Příklady
 [[Grupy příklady]]
 

@@ -10,12 +10,12 @@ $\pi \in S_n = cyc\_str(\pi)$
 > Výraz, který popisuje strukturu disjunktních cyklů permutace $\pi$.
 
 Kde:
-- $x_i$ - reprezentují cykly délky i
-- $\alpha_i$ - počet cyklů§ délky i
+- $x_i$ - reprezentují cykly délky $i$
+- $\alpha_i$ - počet cyklů délky $i$
 
-Permutační grupa: $G= (X,P) \sub (Sn, *)$
+Permutační grupa: $G= (X,P) \subset (Sn, *)$
 
-Každé $G=(X,P)$ lze přiřadid tzv. cycle-index polynomu:
+Každé $G=(X,P)$ lze přiřadit tzv. cycle-index polynomu:
 $$
 P_G(x_1, ..., x_n) = \frac{1}{|P|} \sum_{\pi \in P} cyc\_str(\pi)
 $$

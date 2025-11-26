@@ -13,7 +13,7 @@ Nakresli si:
 - 3 černé
 - Všechny černé
 
-$2^4 = 16$ ... obarvené, ale co na to symetrie?
+$2^4 = 16$ ... obarvení, ale co na to symetrie?
 
 Všechny symetrické obarvení považujeme za stejné:
 
