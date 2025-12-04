@@ -1,5 +1,30 @@
 #příklad 
 # Permutace 
+
+## Příklad
+$\pi =$ 
+1 2 3 4 5 6
+2 3 4 5 6 1
+
+### Řešení
+Rozklad na disjunktní cykly:
+(1 2 3 4 5 6)
+
+Transpozice:
+(1 2)(1 3)(1 4)(1 5)(1 6)
+
+## Příklad
+$\pi =$
+1 2 3 4 5 6 7
+3 7 4 1 6 2 5
+
+### Řešení
+
+Rozklad na disjunktní cykly:
+(1 3 4)(2 7 5 6)
+
+Transpozice:
+(1 3)(1 4) (2 7)(2 5)(2 6)
 ## Příklad
 $\pi =$
 1234
@@ -148,3 +173,4 @@ V symetrické grupě S, řešte rovnici $axb = ac$, kde:
 - a = (123)(54)(67), 
 - b = (325)(243)(547), 
 - c = (213)(352).
+
