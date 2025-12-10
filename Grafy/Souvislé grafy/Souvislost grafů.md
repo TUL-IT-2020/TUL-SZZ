@@ -12,6 +12,8 @@ $$
 
 - $u = v$ - uzavřený sled
 
+> [!note]
+> Vrcholy i hrany se mohou opakovat.
 ## Tah
 "Optimálnější způsob jak se dostat z u do v."
 Hrany se v tahu nesmí opakovat. 
@@ -21,6 +23,8 @@ Vrcholy se nesmí opakovat (takže ani hrany). Neobsahuje kružnice.
 
 - $u = v$ - kružnice
 
+> [!note] Kružnice
+Uzavřené sledy, tahy, cesty tvoří kružnici.
 ## Acyklický graf
 Neobsahuje kružnici jako svůj podgraf. 
 (les)
@@ -28,7 +32,7 @@ Neobsahuje kružnici jako svůj podgraf.
 $G = (V,H)$
 Na množině V definujeme relaci následovně:
 
-u ~ v -> existuje v G u-v cesta
+u ~ v $\rightarrow$ existuje v G u-v cesta
 
 Relace ekvivalence:
 - reflexivní,
@@ -61,7 +65,7 @@ Faktor, který je stromem. (obsahuje všechny vrcholy a minimální počet hran)
 Jsou vlastně stejné (třeba jinak pojmenované, nebo nakreslené).
 Identické grafy.
 
-$G_1 ~ G_2$ jsou isomorfní jestliže existuje zobrazení $f(v): V_1 -> V_2$, které je vzájemně jednoznačné, také že pro každé u,v \in V_1 platí, že:
+$G_1 ~ G_2$ jsou isomorfní jestliže existuje zobrazení $f(v): V_1 \rightarrow V_2$, které je vzájemně jednoznačné, také že pro každé $u,v \in V_1$ platí, že:
 $\{u,v\} \in H_1 <-> \{f(u),f(v)\} \in H_2$
 
 ## Rovinné grafy

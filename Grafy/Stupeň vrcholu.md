@@ -10,3 +10,10 @@ $$
 U orientovaných grafů:
 - $d_{in}(v)$
 - $d_{out}(v)$
+
+> [!note]
+Počet hran, které jsou s vrcholem incidentní.
+
+$d = 0$ - izolovaný vrchol/uzel
+
+Pokud je ve vrcholu smyčka: "d+2"

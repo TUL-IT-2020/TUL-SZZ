@@ -4,6 +4,7 @@ Grafein - z latinského psát
 $$
 \gamma \rho \alpha \varphi \epsilon \iota \nu
 $$
+
 ## Neorientovaný graf
 ![[Neorientovaný graf]]
 
@@ -13,10 +14,18 @@ $$
 $$
 h = \{v_i, v_j\}
 $$
-Hrana a vrcholy v_i a v_j jsou incidentní (tvoří hranu).
-v_i a v_j jsou sousední vrcholy.
+Hrana a vrcholy $v_i$ a $v_j$ jsou incidentní (tvoří hranu).
+$v_i$ a $v_j$ jsou sousední vrcholy.
 
+$$
+H \subseteq \binom{V}{2}
+$$
 
+Nebo:
+$$
+H \subseteq V * V
+$$
+Hrany jsou podmnožina kartézského součinu Vrcholů s Vrcholama.
 ### Smyčka
 
 Hrana, která vede ze stejného vrcholu zpátky do něj.
@@ -35,16 +44,18 @@ Graf, který neobsahuje paralelní hrany ani smyčky.
 ### Multigraf
 Graf který neobsahuje smyčka. Může obsahovat paralelní hrany.  
 
-## Síť
-Hranově ohodnocená síť.
-$$
-G = (V,H,c)
-$$
+### Pseudograf
+Nejobecnější varianta grafu:
 
-- c : H -> R^+ (R)
-Ohodnocení (kapacita) hran.
+Obsahuje:
+- paralelní hrany,
+- smyčky.
+## Ohodnocení grafu
+![[Ohodnocení grafu]]
 
 ## Kružnice
+
+
 
 $C_n$ - kružnice na $n$ vrcholech
 - $n \in N^+$
@@ -55,7 +66,18 @@ $K_n$
 
 $K_5$ - nejmenší graf, který není rovinný
 
-## Bipartitní graf
+Počet hran:
+$$
+|V| = n
+$$
+
+Počet vrcholů:
+$$
+|H| = \binom{n}{2}
+$$
+
+## Biparitní graf
+Dvě disjunktní množiny.
 
 $$
 G = (V_1 u V_2 , H)
@@ -67,9 +89,9 @@ $h a V_1 \ne \emptyset \; a \; h a V_1 \ne \emptyset$
 
 $|H(K_n)| = C^2_n = \frac{n(k-1)}{2}$
 
-### úplný bipartitní graf
+### úplný biparitní graf
 
-$K_{m,n}$ - úplný bipartitní graf na $m,n$ vrcholech
+$K_{m,n}$ - úplný biparitní graf na $m,n$ vrcholech
 - $m,n \in N^+$
 
 
