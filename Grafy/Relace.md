@@ -2,17 +2,19 @@
 
 ## Relace dosažitelnosti
 
-G=(V,H)
+$G=(V,H)$
 - $v, u \in V$
 
-u ~ v <=>
 
 > [!note]
-Pokud existuje cesta z u do v.
+u ~ v <=> pokud existuje cesta z u do v.
 
 Relace ekvivalence
-
 
 ## Komponenty grafu
 > [!tip]
 Ekvivalentní třídy nazýváme komponenty grafu.
+
+> [!note] Komponenta
+> Maximální souvislá část grafu.
+

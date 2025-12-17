@@ -1,7 +1,7 @@
 # Souvislost grafů
-$G = (V,H)$
-- $u, v \in V$
 
+## Souvislý graf
+![[Souvislý graf]]
 ## Sled
 Posloupnost vrcholů z $u$ do $v$, kde dvojice po sobě jdoucích vrcholů tvoří hranu.
 - $n$ - délka sledu
@@ -46,17 +46,12 @@ Komponenta je maximální co do počtu vrcholů souvislá část grafu.
 > [!note] Graf se nazývá souvislý, jestliže má právě jednu komponentu grafu.
 
 ### Strom
-Souvislý acyklický graf.
+![[Strom]]
 
-Komponenty acyklického grafu tvoří stromy.
-
-Následující tvrzení jsou ekvivalentní:
-- $G = (V,H)$ je strom (souvislý a acyklický),
-- G je acyklický a navíc $|V| = |H|+1$,
-- G je souvislý a navíc $|V| = |H|+1$.
-
+### Les
+![[Les]]
 ### Kostra grafu
-Faktor, který je stromem. (obsahuje všechny vrcholy a minimální počet hran)
+![[Kostra grafu]]
 
 ## Homeomorfismus grafů
 

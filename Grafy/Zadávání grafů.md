@@ -18,7 +18,7 @@ Každý vrchol má seznam svých sousedních vrcholů.
 
 ## Příklady:
 
-### Výčet vrcholů a hra:
+### Výčet vrcholů a hran:
 Vrcholy:
 V = {1,2,3,4}
 

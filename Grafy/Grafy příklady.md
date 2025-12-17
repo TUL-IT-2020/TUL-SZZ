@@ -123,3 +123,19 @@ Komunity:
 - Komunita 1: {A, B, C, D}
 - Komunita 2: {E, F, G}
 - Komunita 3: {H} (izolovaný uživatel)
+
+## Příklad - Havlův algoritmus
+
+Skóre grafu:
+(3, 3, 2, 2, 2)
+
+### Postup:
+
+| Odečítám: | | | | |
+|-----------|---|---|---|---|
+| 3       | 3 | 2 | 2 | 2 |
+| 2       | 2 | 1 | 1 |   |
+| 1       | 1 |   |   |   |
+| 0       |   |   |   |   |
+
+Graf je realizovatelný.
