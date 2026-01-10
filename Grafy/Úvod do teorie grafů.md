@@ -55,8 +55,6 @@ Obsahuje:
 
 ## Kružnice
 
-
-
 $C_n$ - kružnice na $n$ vrcholech
 - $n \in N^+$
 
@@ -83,9 +81,9 @@ $$
 G = (V_1 u V_2 , H)
 $$
 
-$V_1 a V_2 = \emptyset$
+$V_1 \land V_2 = \emptyset$
 $\forall h \in H$
-$h a V_1 \ne \emptyset \; a \; h a V_1 \ne \emptyset$
+$(h \land V_1 \ne \emptyset) \; \land \; (h \land V_1 \ne \emptyset)$
 
 $|H(K_n)| = C^2_n = \frac{n(k-1)}{2}$
 

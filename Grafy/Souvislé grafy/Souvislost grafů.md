@@ -25,6 +25,10 @@ Vrcholy se nesmí opakovat (takže ani hrany). Neobsahuje kružnice.
 
 > [!note] Kružnice
 Uzavřené sledy, tahy, cesty tvoří kružnici.
+
+### Dijkstraův algoritmus
+![[Dijkstraův algoritmus]]
+
 ## Acyklický graf
 Neobsahuje kružnici jako svůj podgraf. 
 (les)
@@ -58,6 +62,10 @@ Následující tvrzení jsou ekvivalentní:
 ### Kostra grafu
 Faktor, který je stromem. (obsahuje všechny vrcholy a minimální počet hran)
 
+### Kruskalův algoritmus
+
+![[Kruskalův algoritmus]]
+
 ## Homeomorfismus grafů
 
 Řekneme že grafy jsou homomorfní, jestliže existuje graf $G = (V,H)$ taková že $G_1$ i $G_2$ vzniknou z $G$ operacemi dělení hran.
@@ -71,5 +79,5 @@ $\{u,v\} \in H_1 <-> \{f(u),f(v)\} \in H_2$
 ## Rovinné grafy
 Je takové graf, pro které existuje nakreslení v rovině bez křížení hran.
 
-Kuratozli:
+> [!tip] Kuratozli:
 $G$ je rovinný právě tehdy, jestliže jako svůj podgraf neobsahuje graf homeomorfní s $K_{3,3}$ nebo $K_5$.
