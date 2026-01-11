@@ -13,14 +13,14 @@ $$
 
 > [!important] Řešení kvadratické rovnice:
 $$
-x_{1,2} = \frac{-b+-\sqrt{D}}{2a}
+x_{1,2} = \frac{-b\pm\sqrt{D}}{2a}
 $$
 
 $$
-x_{1,2} = \frac{-b+-\sqrt{b^2-4ac}}{2a}
+x_{1,2} = \frac{-b\pm\sqrt{b^2-4ac}}{2a}
 $$
 ## Příklady
 - https://www.umimematiku.cz/cviceni-reseni-kvadraticke-rovnice
 
 ## Zdroje:
-- https://cs.wikipedia.org/wiki/Kvadratická_rovnice
+- [wiki: Kvadratická_rovnice](https://cs.wikipedia.org/wiki/Kvadratická_rovnice)

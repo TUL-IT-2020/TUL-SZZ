@@ -64,13 +64,12 @@ C_kx^k + C_{k-1}x_{k-1} +...+C_{1}x_+C_0
 $$
 
 Platí:
-Necht $r_1,...,r_l$ jsou všechny různé kořeny charakteristického polynomu HLR a $m_1,...,m_l$ jsou jejich násobnosti.
+Nechť $r_1,...,r_l$ jsou všechny různé kořeny charakteristického polynomu HLR a $m_1,...,m_l$ jsou jejich násobnosti.
 
 $(m_1+m_2+...+m_l = k)$
 - $k$ je násobnost (počet kořenů)
 
 Potom obecné řešení HLR má tvar:
-
 $$
 a_n = r_1^n(K_1^{(1)} +K_2^{(1)}n+...K_{m_1}^{(1)}n^{m_1-1}) +
 ...+

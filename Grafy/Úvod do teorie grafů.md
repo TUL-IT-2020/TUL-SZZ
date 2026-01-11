@@ -116,16 +116,7 @@ $W_n$
 ![[Operace s grafy]]
 
 ## Doplněk grafu
-
-Původní graf:
-```text
-a -- b -- c
-```
-Doplněk:
-```text
-a  b  c
- \___/
-```
+![[Doplněk grafu]]
 
 ## Souvislost grafů
 ![[Souvislost grafů]]

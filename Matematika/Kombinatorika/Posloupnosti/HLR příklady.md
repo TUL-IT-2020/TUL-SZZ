@@ -23,18 +23,48 @@ $$
 $$
 r^n(r^2-r-1)=0
 $$
+Charakteristická rovnice:
+$$
+r^2-r-1=0
+$$
 
 Kvadratická rovnice:
-
 ...
 Kořeny:
 $$
 \frac{1+\sqrt{5}}{2};\frac{1-\sqrt{5}}{2}
 $$
-Počáteční podmínky:
+#### Obecné řešení
 $$
-F_n = K(\frac{1+\sqrt{5}}{2}) + L(\frac{1-\sqrt{5}}{2})
+F_n = K\left(\frac{1+\sqrt{5}}{2}\right)^n + L\left(\frac{1-\sqrt{5}}{2}\right)^n
 $$
+#### Partikulární řešení
+
+Dosadíme počáteční podmínky:
+- $F_0 = 0, n=0$
+- $F_1 = 1, n=1$
+
+$$
+F_n = K\left(\frac{1+\sqrt{5}}{2}\right)^0 + L\left(\frac{1-\sqrt{5}}{2}\right)^0
+$$
+$$
+F_0 = K*1 + L*1 = 0
+$$
+$K = -L$
+
+$$
+F_1​=Kr_1​+Lr_2​=1
+$$
+Dosadíme: $L=−K$
+$F_1​=Kr_1​-Kr_2​=1$
+$K(r_1 - r_2) = 1$
+$$
+r_1 - r_2 = \frac{1+\sqrt{5}}{2} - \frac{1-\sqrt{5}}{2} = \sqrt{5}
+$$
+
+$K = \frac{1}{\sqrt{5}}$
+$L = -\frac{1}{\sqrt{5}}$
+### Řešení
 $$
 F_n = \frac{1}{\sqrt{5}}
 \left[
@@ -42,10 +72,8 @@ F_n = \frac{1}{\sqrt{5}}
 \left(\frac{1+\sqrt{5}}{2}\right)
 \right]
 $$
-Done
 
 ## Příklad
-
 $$
 4 a_n + 4a_{n+1} + a_{n+2} = 0
 $$
@@ -299,7 +327,7 @@ $$
 \end{pmatrix}
 $$
 
-Obecné řešení:
+Partikulární řešení:
 $$
 a_n = 2 - 3(-2)^n + n(-2)^n
 $$

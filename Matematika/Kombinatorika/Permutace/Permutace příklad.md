@@ -174,3 +174,65 @@ V symetrické grupě S, řešte rovnici $axb = ac$, kde:
 - b = (325)(243)(547), 
 - c = (213)(352).
 
+## Příklad
+
+$\pi=$
+123456
+234561
+
+### Řešení
+
+(123456)
+
+Transpozice:
+(12)(13)(14)(15)(16)
+
+## Příklad
+
+$\pi=$
+123456
+462135
+### Řešení
+(14)(2653)
+
+Transpozice:
+(14)(26)(25)(23)
+
+## Příklad
+$\pi=$
+12345
+14352
+
+Uveďte, které prvky jsou pevné body.
+
+### Řešení
+(1)(245)
+
+(24)(25)
+
+1 - pevný bod
+
+## Příklad
+$\pi=$
+1234567
+3741625
+### Řešení
+(134)(2756)
+
+(13)(14)(27)(25)(26)
+
+## Příklad: Permutace 
+Je dána permutace $\pi \in S_8$ ve dvouřádkovém zápisu:
+$\pi=$
+12345678
+31254876
+
+1. Rozložte $\pi$ na součin disjunktních cyklů.
+2. Zapište $\pi$ jako součin transpozic (použijte standardní převod cyklu (a1 a2 ... ak) na transpozice (a1 ak)(a1 ak-1)...(a1 a2).
+
+### Řešení
+Rozklad na disjunktní cykly:
+(132)(45)(68)(7)
+
+Součin transpozic:
+(12)(13)(45)(68)
