@@ -44,14 +44,19 @@ $$
 a_n = C_1(1)^n + C_2(\frac{1}{2})^n
 $$
 
+$$
+a_n = C_1 + C_2(\frac{1}{2})^n
+$$
+
+
 
 Zkušební řešení:
 - $(2n+3)$
 $$
-t_n = A_n + B 
+t_n = An + B 
 $$
 
-- $A_n$
+- $An$
 - $B$
 
 Jsou řešením homogenní rovnice?
@@ -60,7 +65,7 @@ Jsou řešením homogenní rovnice?
 
 Tak to vynásobíme $n$:
 $$
-a_n^{(p)} = A_n^2 + Bn
+a_n^{(p)} = A{n^2} + Bn
 $$
 
 Určíme konstanty $A,B$:
@@ -74,7 +79,7 @@ $$
 ...
 
 $$
-a^p = n^2 -2
+a^p = n^2 -2n
 $$
 
 - $A = 1$

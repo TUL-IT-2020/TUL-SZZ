@@ -57,8 +57,6 @@ Konečný výraz.
 | $a_n = \binom{n}{k}$ | $\frac{x^k}{(1-x)^{k+1}}$ |
 | $a_n = 2^k$         | $\frac{1}{1-2x}$          |
 
-
-
 ## Postup řešení
 $$
 \{a_n\} ... f(x) = \sum a_n x^n
