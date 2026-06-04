@@ -15,7 +15,7 @@ Z pohledu instrukčního cyklu jsou architektury založeny většinou na vnitřn
 
 **Hlavní účelem je co nejrychleji zpracovat velké množství dat ideálně paralelně. (rychlá sčítačka a násobička, zdvojení výpočetní jednotek dle SIMD, zřetězení instrukcí, atd)**
 
-![Typické blokové schéma dsp](TUL-SZZ/assets/počítače/26_dsp.png)
+![Typické blokové schéma dsp](assets/počítače/26_dsp.png)
 *Typické blokové schéma dsp*
 
 **Nejčastější algoritmy číslicového zpracování signálů:**

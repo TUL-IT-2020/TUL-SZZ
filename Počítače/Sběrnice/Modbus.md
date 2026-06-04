@@ -21,7 +21,7 @@ Protokol Modbus definuje dva sériové vysílací režimy, Modbus RTU a Modbus A
 
 **Datagram**
 
-![MODBUS datagram](Materiály%20pro%20SZZ/tul-szz-it-nv/28_prumyslove_komunikacni_systemy/28_modbus_datagram.png)
+![MODBUS datagram](assets/počítače/sběrnice/28_modbus_datagram.png)
 
 _MODBUS datagram_
 

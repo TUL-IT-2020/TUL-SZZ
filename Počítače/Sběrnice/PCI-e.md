@@ -23,7 +23,7 @@ PCI Express **Link** reprezentuje komunikační kanál mezi dvěma zařízeními
 
 - Zajímavé a užitečné je, že i v konektoru ×16 je možné použít kartu, která má menší počet drah (×1, ×2 atd.). Taková karta bude pracovat, i když samozřejmě na nižší rychlosti.*
 
-![Struktura PCI-e](Materiály%20pro%20SZZ/tul-szz-it-nv/28_prumyslove_komunikacni_systemy/28_pcie.png)
+![Struktura PCI-e](assets/počítače/sběrnice/28_pcie.png)
 
 _Struktura PCI-e_
 

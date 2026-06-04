@@ -6,7 +6,7 @@ Procesor se skládá z:
 - **programového čítače** PC (Program Counter) – často se uvádí jako jeden registr RS nebo součást řadiče
 - **vnitřní sběrnice** - řeší spojení mezi bloky CPU (typy - datová, adresová, řídicí), od každého typu může být v architektuře i více sběrnic
 
-![Model Procesoru](TUL-SZZ/assets/počítače/26_model_procesoru.png)
+![Model Procesoru](assets/počítače/26_model_procesoru.png)
 *Model Procesoru*
 
 **Rozlišujeme 2 koncepce řadičů (CU):**

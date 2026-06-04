@@ -42,6 +42,6 @@ Každá stanice připojená na I2C má přidělenou 7 resp. 10 bitovou adresu. P
 
 Každý vysílaný byte a vyslaná adresa je následována vysláním jednoho bitu ACK. Vysílající stanice jej vysílá v úrovni H. Přijímající stanice potvrzuje přijetí tím, že v době vysílání ACK připojí SDA na úroveň L. Pokud vysílající stanice nedostane potvrzení příjmu, ukončí vysílání podmínkou STOP.
 
-![I2C](Materiály%20pro%20SZZ/tul-szz-it-nv/28_prumyslove_komunikacni_systemy/28_i2c.png)
+![I2C](assets/počítače/sběrnice/28_i2c.png)
 
 _Zapojení uzlů na sběrnici I2C_

@@ -14,7 +14,7 @@ Specifikace USB obsahuje čtyři základní typy datových přenosů:
 - **Přerušovací** (interrupt) přenosy slouží k včasnému a spolehlivému doručení dat, nejčastěji pro asynchronní události.
 - **Izochronní** (isochronous) přenosy zabírají předem smluvené množství přenosového pásma a mají předem dohodnuté zpoždění. Tento druh přenosů je také nazýván proudový přenos v reálném čase (streaming real-time transfer).
 
-![USB topologie](Materiály%20pro%20SZZ/tul-szz-it-nv/28_prumyslove_komunikacni_systemy/28_usb_topologie.png)
+![USB topologie](assets/počítače/sběrnice/28_usb_topologie.png)
 
 _USB topologie_
 
