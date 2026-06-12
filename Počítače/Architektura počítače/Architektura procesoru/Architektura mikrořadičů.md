@@ -1,7 +1,7 @@
 # Architektura mikrořadičů
 Mikrořadič je jednoobvodový (jednočipový, monolitický) μP (mikroprocesor doplněný paměťmi a periferiemi). Vyznačují se velkou spolehlivostí a kompaktností, proto jsou určeny především pro jednoúčelové aplikace do vestavěných systémů.
 
-![Blokové schéma mikrořadiče](TUL-SZZ/assets/počítače/26_mikroradic.png)
+![Blokové schéma mikrořadiče](assets/počítače/26_mikroradic.png)
 *Blokové schéma mikrořadiče*
 
 - RISC architektura (převážně jednocyklové instrukce, vyšší taktovací frekvence - např. 12 až 40 MHz)

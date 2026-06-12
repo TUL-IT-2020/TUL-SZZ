@@ -37,7 +37,7 @@ Charakteristické vlastnosti lze shrnout do následujících bodů:
 
 **Nevýhodou je možnost mylně interpretovat data jako program.**
 
-![[TUL-SZZ/assets/počítače/26_vonneumann.png]]
+![[assets/počítače/26_vonneumann.png]]
 *Von Neumannova koncepce*
 
 ## Harvardská koncepce
@@ -49,7 +49,7 @@ Základní principy (rozdíly vůči von Neumannově archit.):
 
 **Možnost rychlejšího zpracování většího objemu dat.**
 
-![[TUL-SZZ/assets/počítače/26_harvard.png]]
+![[assets/počítače/26_harvard.png]]
 *Harvardská koncepce*
 
 *Rychlé moderní procesory spojují obě architektury. Uvnitř procesoru je použita Harvardská architektura, kde se paměť cache dělí na paměť instrukcí a paměť pro data. Ovšem celý procesor se „z venku“ chová jako procesor s architekturou von Neumannovou, protože načítá data i program z hlavní paměti na jednou.*

@@ -15,7 +15,7 @@ Amdahlův zákon je pravidlo používané v informatice k vyjádření maximáln
 - S rostoucím počtem procesorů se nemění rozsah problému.
 - Nezvažuje vůbec dostupnost výpočetní síly
 
-![Amdáhlův zákon](TUL-SZZ/assets/počítače/26_amdahl.png)
+![Amdáhlův zákon](assets/počítače/26_amdahl.png)
 *Amdáhlův zákon*
 
 ## Výpočet zrychlení
@@ -36,12 +36,12 @@ $$
 
 ### Definujeme poměry:
 
-![Definované poměry](TUL-SZZ/assets/počítače/26_pomery.png)
+![Definované poměry](assets/počítače/26_pomery.png)
 *Definované poměry*
 
 ### Doba výpočtu se skládá:
 Doba výpočtu na nevylepšeném počítači:
-![Doba výpočtu](TUL-SZZ/assets/počítače/26_doba.png)
+![Doba výpočtu](assets/počítače/26_doba.png)
 
 Doba výpočtu na vylepšeném počítači:
 $$

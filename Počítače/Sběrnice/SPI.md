@@ -20,10 +20,10 @@ Sběrnice SPI (_Serial Peripheral Interface_) představuje jednu z forem sériov
 - CPU supervizory
 - RTC obvody
 
-![SPI více násobné](Materiály%20pro%20SZZ/tul-szz-it-nv/28_prumyslove_komunikacni_systemy/28_spi_vicenasobne.png)
+![SPI více násobné](assets/počítače/sběrnice/28_spi_vicenasobne.png)
 
 _Způsob komunikace s více zařízeními pomocí výběru uzlu signálem SSEL. Čím více existuje uzlů typu slave, tím větší množství pinů CSx je nutné použít. Vzhledem k tomu, že v danou chvíli může být vybrána jen jedna komunikující dvojice uzlů, lze mezi uzel typu master a ostatní uzly vložit demultiplexor pracující v režimu výběru „jedna z n"._
 
-![SPI zřetězení](Materiály%20pro%20SZZ/tul-szz-it-nv/28_prumyslove_komunikacni_systemy/28_spi_zretezeni.png)
+![SPI zřetězení](assets/počítače/sběrnice/28_spi_zretezeni.png)
 
 _Propojení zařízení do řetězu (daisy chain) vede ke snížení požadovaného počtu vodičů, ale také k prodloužení cesty (a tím i času) dat při jejich vysílání a příjmu. V případě, že jedno z připojených zařízení nebude funkční, celý řetězec se rozpadne._

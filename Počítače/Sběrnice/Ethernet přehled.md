@@ -36,6 +36,6 @@
 - **10GBASE-T** Ethernet s rychlostí 10 Gbit/s, nazývaný Ten Gigabit Ethernet (nebo také EFM – Ethernet on the first mile). Do vzdálenosti 55 metrů lze využít kabeláž kategorie 6\. Pro využití plné délky 100 je nutné použít kategorii 6a (augmented Category 6 – šířka pásma 500 MHz). Někteří výrobci prodávají kabely kategorie 7, které jsou označeny jako kompatibilní s 10GBASE-T. V současné době (rok 2007) je ve vývoji nestíněná varianta UTP kabeláže kategorie 6a.
 - **40GBASE** a **100GBASE** s rychlostí 40 a 100 Gbps by měl používat optická vlákna; měděné kabely do délky alespoň 10 metrů
 
-![Ethernetový rámec](Materiály%20pro%20SZZ/tul-szz-it-nv/28_prumyslove_komunikacni_systemy/28_ethernet_frame.png)
+![Ethernetový rámec](assets/počítače/sběrnice/28_ethernet_frame.png)
 
 _Ethernetový rámec_

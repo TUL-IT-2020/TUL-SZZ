@@ -60,7 +60,7 @@ Komunikace na sběrnici CAN probíhá tak, že každý uzel může za určitých
 - po přijetí 5 bitů stejné úrovně musí být přijat bit opačné úrovně a je vyjmut (odstraněn)
 - je-li přijat 6\. bit stejné úrovně, je indikována chyba
 
-![Typy CAN](Materiály%20pro%20SZZ/tul-szz-it-nv/28_prumyslove_komunikacni_systemy/28_typy_can.png)
+![Typy CAN](assets/počítače/sběrnice/28_typy_can.png)
 
 _Typy CAN_
 
